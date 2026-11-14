@@ -7,6 +7,14 @@
 
 > 이 페이지의 링크는 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.
 
+## 운영 방식 (현재)
+
+`deals.json` 은 **별도 스케줄러**가 갱신합니다. 저장소 연결 권한에 `workflows` / `secrets` / `pages` 권한이 없어
+워크플로 파일과 시크릿은 GitHub 웹에서 직접 1회 등록해야 합니다.
+
+- 워크플로 원본: `automation/update-deals.yml` → GitHub 웹에서 `.github/workflows/update-deals.yml` 로 복사하면 활성화
+- 필요한 Secrets: `COUPANG_ACCESS_KEY`, `COUPANG_SECRET_KEY` (Settings → Secrets and variables → Actions)
+
 ## 데이터 갱신
 
 `deals.json` 은 쿠팡 파트너스 오픈 API(`/v2/products/search`)로 수집해 GitHub Actions 가 자동 커밋합니다.
