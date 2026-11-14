@@ -1,0 +1,11 @@
+# 비밀값 — 절대 커밋 금지 (GitHub Actions Secrets 로만 등록)
+.env
+.env.*
+*.env
+
+# 로컬 메모/임시 파일
+__pycache__/
+*.pyc
+.DS_Store
+tmp_*
+*.log

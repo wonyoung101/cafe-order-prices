@@ -1,0 +1,15 @@
+{
+  "status": "pending_api_sync",
+  "updatedAt": "2026-11-14 15:10 KST",
+  "unlocksAt": "2026-11-16 00:00 KST",
+  "notice": "쿠팡 API 연동 대기 중 (2026-11-16 00:00 이후 자동 업데이트 예정)",
+  "note": "쿠팡 오픈 API 호출 제한(24시간 쿨다운) 해제 전까지 수집을 보류합니다. 실제 수집이 끝나면 이 파일의 deals 배열이 채워집니다.",
+  "watchlist": [
+    { "label": "멸균우유 1000ml 10개", "category": "우유·음료", "query": "멸균우유 1000ml 10개", "unitBasis": "100ml" },
+    { "label": "테이크아웃 아이스컵 16oz 1000개", "category": "컵·뚜껑", "query": "테이크아웃 아이스컵 16oz 1000개", "unitBasis": "개당" },
+    { "label": "모닌 시럽 1000ml", "category": "시럽·소스", "query": "모닌 시럽 1000ml", "unitBasis": "100ml" },
+    { "label": "카페 일회용 빨대 1000개", "category": "빨대·홀더", "query": "카페 일회용 빨대 1000개", "unitBasis": "개당" },
+    { "label": "카페 냅킨 대용량", "category": "매장소모품", "query": "카페 냅킨 대용량", "unitBasis": "개당" }
+  ],
+  "deals": []
+}

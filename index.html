@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="theme-color" content="#0f172a" />
+<title>카페발주 단가표 · 사장님 발주 단가 비교</title>
+<meta name="description" content="카페 사장님을 위한 발주 품목 박스 가격과 개당·100ml당 단가를 한눈에 비교하는 표입니다." />
+<style>
+  :root {
+    --bg: #f4f5f7;
+    --card: #ffffff;
+    --text: #0f172a;
+    --muted: #6b7280;
+    --line: #e6e8ec;
+    --accent: #0f766e;
+    --accent-soft: #ecfdf5;
+    --rocket: #2563eb;
+    --warn-bg: #fff8e6;
+    --warn-line: #f2d38a;
+    --warn-text: #7a5300;
+  }
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans KR", sans-serif;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  .app { max-width: 520px; margin: 0 auto; min-height: 100vh; background: #fff; padding-bottom: 56px; box-shadow: 0 0 0 1px rgba(15,23,42,.04); }
+
+  header { position: sticky; top: 0; z-index: 30; background: rgba(255,255,255,.97); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); padding: 14px 16px 10px; }
+  .top { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+  .brand { font-size: 19px; font-weight: 800; letter-spacing: -.03em; }
+  .brand .dot { color: var(--accent); }
+  .stamp { font-size: 11px; color: var(--muted); text-align: right; white-space: nowrap; }
+  .disclosure { margin-top: 8px; font-size: 10.5px; line-height: 1.45; color: #64748b; background: #f8fafc; border: 1px solid #eef1f5; padding: 6px 9px; border-radius: 8px; }
+  .search { margin-top: 10px; position: relative; }
+  .search input { width: 100%; padding: 11px 14px 11px 36px; border-radius: 12px; border: 1px solid var(--line); background: #f7f8fa; font-size: 14px; outline: none; color: var(--text); }
+  .search input:focus { border-color: var(--accent); background: #fff; }
+  .search .icon { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); font-size: 13px; color: #94a3b8; }
+
+  .chips { display: flex; gap: 7px; overflow-x: auto; padding: 10px 16px 2px; scrollbar-width: none; }
+  .chips::-webkit-scrollbar { display: none; }
+  .chip { flex: 0 0 auto; padding: 7px 13px; border-radius: 999px; border: 1px solid var(--line); background: #fff; font-size: 12.5px; font-weight: 700; color: #475569; cursor: pointer; }
+  .chip.active { background: #0f172a; color: #fff; border-color: #0f172a; }
+
+  .toolbar { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 10px 16px 0; }
+  .toggle { display: inline-flex; align-items: center; gap: 6px; font-size: 12.5px; font-weight: 700; color: #475569; background: #f7f8fa; border: 1px solid var(--line); border-radius: 999px; padding: 6px 11px; cursor: pointer; }
+  .toggle.on { background: var(--accent-soft); border-color: #a7f3d0; color: #0f766e; }
+  .toolbar select { font-size: 12.5px; font-weight: 700; color: #475569; background: #fff; border: 1px solid var(--line); border-radius: 10px; padding: 6px 8px; }
+
+  .banner { margin: 12px 16px 0; background: var(--warn-bg); border: 1px solid var(--warn-line); color: var(--warn-text); border-radius: 12px; padding: 11px 13px; font-size: 12.5px; line-height: 1.55; }
+  .banner b { display: block; font-size: 13px; margin-bottom: 2px; }
+  .banner .sub { color: #8a6a1f; font-size: 11.5px; }
+
+  .section-title { display: flex; align-items: baseline; justify-content: space-between; padding: 18px 16px 8px; }
+  .section-title h2 { margin: 0; font-size: 13.5px; font-weight: 800; letter-spacing: -.01em; }
+  .section-title .count { font-size: 11.5px; color: var(--muted); }
+
+  .watch { display: grid; gap: 8px; padding: 0 16px 4px; }
+  .watch-row { display: flex; align-items: center; gap: 10px; border: 1px dashed #d7dbe2; border-radius: 12px; padding: 10px 12px; background: #fcfcfd; }
+  .watch-row .num { flex: 0 0 22px; height: 22px; border-radius: 50%; background: #eef2f6; color: #64748b; font-size: 11.5px; font-weight: 800; display: flex; align-items: center; justify-content: center; }
+  .watch-row .name { flex: 1; font-size: 13px; font-weight: 650; }
+  .watch-row .tag { font-size: 10.5px; font-weight: 700; color: #64748b; background: #f1f5f9; border-radius: 999px; padding: 3px 8px; white-space: nowrap; }
+
+  .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 11px; padding: 4px 16px 8px; }
+  .card { display: flex; flex-direction: column; border: 1px solid var(--line); border-radius: 14px; overflow: hidden; background: #fff; text-decoration: none; color: inherit; }
+  .card .thumb { position: relative; aspect-ratio: 1/1; background: #f7f8fa; display: flex; align-items: center; justify-content: center; padding: 10px; }
+  .card .thumb img { max-width: 100%; max-height: 100%; object-fit: contain; }
+  .card .badge { position: absolute; top: 7px; left: 7px; font-size: 10px; font-weight: 800; padding: 3px 7px; border-radius: 999px; background: var(--rocket); color: #fff; }
+  .card .body { padding: 9px 10px 11px; display: flex; flex-direction: column; gap: 4px; flex: 1; }
+  .card .cat { font-size: 10.5px; font-weight: 700; color: var(--accent); }
+  .card .name { font-size: 12.5px; font-weight: 600; line-height: 1.35; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .card .box { margin-top: 6px; font-size: 15.5px; font-weight: 800; letter-spacing: -.01em; }
+  .card .box small { font-size: 10.5px; font-weight: 600; color: var(--muted); margin-left: 3px; }
+  .card .unit { font-size: 11.5px; font-weight: 800; color: var(--accent); background: var(--accent-soft); border-radius: 7px; padding: 3px 7px; align-self: flex-start; }
+
+  .empty { padding: 4px 16px 24px; }
+  .empty-box { border: 1px dashed #d7dbe2; border-radius: 14px; padding: 22px 16px; text-align: center; background: #fcfcfd; }
+  .empty-box .emoji { font-size: 22px; }
+  .empty-box p { margin: 8px 0 0; font-size: 12.5px; color: var(--muted); line-height: 1.6; }
+
+  footer { padding: 18px 16px 10px; border-top: 1px solid var(--line); margin-top: 12px; }
+  footer p { margin: 0 0 6px; font-size: 10.5px; color: #94a3b8; line-height: 1.55; }
+  footer .disclosure { margin-top: 10px; }
+</style>
+</head>
+<body>
+<div class="app">
+  <header>
+    <div class="top">
+      <div class="brand">카페발주 단가표<span class="dot">.</span></div>
+      <div class="stamp" id="stamp">불러오는 중…</div>
+    </div>
+    <div class="disclosure">
+      이 페이지의 링크는 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.
+    </div>
+    <div class="search">
+      <span class="icon">🔍</span>
+      <input id="q" type="search" placeholder="품목 검색 (예: 우유, 16oz 컵, 시럽)" autocomplete="off" />
+    </div>
+  </header>
+
+  <div class="chips" id="chips">
+    <button class="chip active" data-cat="전체">전체</button>
+    <button class="chip" data-cat="우유·음료">우유·음료</button>
+    <button class="chip" data-cat="컵·뚜껑">컵·뚜껑</button>
+    <button class="chip" data-cat="시럽·소스">시럽·소스</button>
+    <button class="chip" data-cat="빨대·홀더">빨대·홀더</button>
+    <button class="chip" data-cat="매장소모품">매장소모품</button>
+  </div>
+
+  <div class="toolbar">
+    <button class="toggle" id="rocketToggle" aria-pressed="false">🚀 로켓배송만</button>
+    <select id="sort" aria-label="정렬">
+      <option value="unit">개당 단가 낮은 순</option>
+      <option value="price">박스 가격 낮은 순</option>
+      <option value="name">이름 순</option>
+    </select>
+  </div>
+
+  <div id="bannerSlot"></div>
+
+  <div id="watchSlot"></div>
+
+  <div class="section-title">
+    <h2>발주 후보</h2>
+    <span class="count" id="resultCount"></span>
+  </div>
+
+  <main class="grid" id="grid"></main>
+  <div class="empty" id="empty" style="display:none">
+    <div class="empty-box">
+      <div class="emoji">🧾</div>
+      <p id="emptyText">표시할 품목이 아직 없습니다.</p>
+    </div>
+  </div>
+
+  <footer>
+    <p>· 박스 가격은 쿠팡 판매가 기준이며, <b>개당·100ml당 단가</b>는 박스 구성 수량으로 나눠 계산한 값입니다.</p>
+    <p>· 배송비·쿠폰·카드 할인은 반영되지 않으므로 실제 결제 금액과 다를 수 있습니다.</p>
+    <p>· 가격은 수집 시점 기준이며, 링크를 누르면 쿠팡 상품 페이지로 이동합니다.</p>
+    <div class="disclosure">
+      이 페이지의 링크는 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.
+    </div>
+  </footer>
+</div>
+
+<script>
+(function () {
+  var state = { cat: "전체", q: "", rocketOnly: false, sort: "unit", data: null };
+  var el = {
+    q: document.getElementById("q"),
+    chips: document.getElementById("chips"),
+    rocket: document.getElementById("rocketToggle"),
+    sort: document.getElementById("sort"),
+    banner: document.getElementById("bannerSlot"),
+    watch: document.getElementById("watchSlot"),
+    grid: document.getElementById("grid"),
+    empty: document.getElementById("empty"),
+    emptyText: document.getElementById("emptyText"),
+    count: document.getElementById("resultCount"),
+    stamp: document.getElementById("stamp")
+  };
+
+  function esc(s) {
+    return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+    });
+  }
+  function won(n) { return Number(n || 0).toLocaleString("ko-KR") + "원"; }
+
+  function renderBanner(d) {
+    if (!d) return;
+    if (d.status && d.status !== "ok") {
+      var unlocks = d.unlocksAt ? esc(d.unlocksAt) : "";
+      var msg = d.notice || "쿠팡 API 연동 대기 중";
+      el.banner.innerHTML =
+        '<div class="banner"><b>' + esc(msg) + '</b>' +
+        '<span class="sub">' +
+        (unlocks ? "해제 시각 " + unlocks + " · " : "") +
+        "가짜 가격 대신 실제 수집이 끝난 뒤 이 자리에 표시됩니다.</span></div>";
+    } else {
+      el.banner.innerHTML = "";
+    }
+  }
+
+  function renderWatch(d) {
+    var list = (d && d.watchlist) || [];
+    if (!list.length) { el.watch.innerHTML = ""; return; }
+    var rows = list.map(function (w, i) {
+      return '<div class="watch-row">' +
+        '<span class="num">' + (i + 1) + '</span>' +
+        '<span class="name">' + esc(w.label) + '</span>' +
+        '<span class="tag">' + esc(w.category || "") + '</span>' +
+        '</div>';
+    }).join("");
+    el.watch.innerHTML =
+      '<div class="section-title"><h2>수집 예정 품목</h2><span class="count">' + list.length + '종</span></div>' +
+      '<div class="watch">' + rows + '</div>';
+  }
+
+  function unitText(deal) {
+    if (!deal.unitPrice) return "";
+    return won(deal.unitPrice) + (deal.unitBasis ? " / " + deal.unitBasis : "");
+  }
+
+  function cardHTML(deal) {
+    var img = deal.productImage
+      ? '<img src="' + esc(deal.productImage) + '" alt="' + esc(deal.productName) + '" loading="lazy" referrerpolicy="no-referrer" />'
+      : '';
+    return '<a class="card" href="' + esc(deal.productUrl || "#") + '" target="_blank" rel="noopener sponsored">' +
+      '<div class="thumb">' +
+        (deal.isRocket ? '<span class="badge">🚀 로켓</span>' : '') +
+        img +
+      '</div>' +
+      '<div class="body">' +
+        '<div class="cat">' + esc(deal.category || "") + '</div>' +
+        '<div class="name">' + esc(deal.productName) + '</div>' +
+        '<div class="box">' + won(deal.productPrice) + '<small>박스가</small></div>' +
+        (unitText(deal) ? '<div class="unit">' + esc(unitText(deal)) + '</div>' : '') +
+      '</div></a>';
+  }
+
+  function render() {
+    var d = state.data || {};
+    var deals = (d.deals || []).slice();
+    var q = state.q.trim().toLowerCase();
+    deals = deals.filter(function (x) {
+      if (state.cat !== "전체" && (x.category || "") !== state.cat) return false;
+      if (state.rocketOnly && !x.isRocket) return false;
+      if (q && String(x.productName || "").toLowerCase().indexOf(q) === -1) return false;
+      return true;
+    });
+    if (state.sort === "unit") deals.sort(function (a, b) { return (a.unitPrice || 1e12) - (b.unitPrice || 1e12); });
+    else if (state.sort === "price") deals.sort(function (a, b) { return (a.productPrice || 0) - (b.productPrice || 0); });
+    else deals.sort(function (a, b) { return String(a.productName).localeCompare(String(b.productName), "ko"); });
+
+    el.grid.innerHTML = deals.map(cardHTML).join("");
+    el.count.textContent = deals.length ? deals.length + "개" : "";
+    if (!deals.length) {
+      el.empty.style.display = "";
+      var pending = d.status && d.status !== "ok";
+      el.emptyText.textContent = pending
+        ? "쿠팡 API 연동이 완료되면 실제 발주 후보가 여기에 표시됩니다. (현재는 수집 대기 상태)"
+        : "조건에 맞는 품목이 없습니다. 검색어나 카테고리를 바꿔 보세요.";
+    } else {
+      el.empty.style.display = "none";
+    }
+  }
+
+  function setStamp(d) {
+    if (d && d.updatedAt) {
+      el.stamp.textContent = (d.status === "ok" ? "업데이트 " : "기준 ") + d.updatedAt;
+    } else {
+      el.stamp.textContent = "오프라인";
+    }
+  }
+
+  el.chips.addEventListener("click", function (e) {
+    var btn = e.target.closest(".chip");
+    if (!btn) return;
+    Array.prototype.forEach.call(el.chips.querySelectorAll(".chip"), function (c) { c.classList.remove("active"); });
+    btn.classList.add("active");
+    state.cat = btn.dataset.cat;
+    render();
+  });
+  el.rocket.addEventListener("click", function () {
+    state.rocketOnly = !state.rocketOnly;
+    el.rocket.classList.toggle("on", state.rocketOnly);
+    el.rocket.setAttribute("aria-pressed", String(state.rocketOnly));
+    render();
+  });
+  el.sort.addEventListener("change", function () { state.sort = el.sort.value; render(); });
+  el.q.addEventListener("input", function () { state.q = el.q.value; render(); });
+
+  fetch("./deals.json?t=" + Date.now(), { cache: "no-store" })
+    .then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+    .then(function (d) {
+      state.data = d;
+      setStamp(d);
+      renderBanner(d);
+      renderWatch(d);
+      render();
+    })
+    .catch(function () {
+      state.data = { status: "offline", deals: [], watchlist: [] };
+      el.stamp.textContent = "데이터 없음";
+      render();
+    });
+})();
+</script>
+</body>
+</html>
