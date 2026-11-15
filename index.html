@@ -205,7 +205,8 @@
 
   function unitText(deal) {
     if (!deal.unitPrice) return "";
-    return won(deal.unitPrice) + (deal.unitBasis ? " / " + deal.unitBasis : "");
+    return won(deal.unitPrice) + (deal.unitBasis ? " / " + deal.unitBasis : "") +
+      (deal.packNote ? " · " + deal.packNote : "");
   }
 
   function cardHTML(deal) {

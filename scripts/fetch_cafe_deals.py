@@ -32,7 +32,7 @@ ROOT = Path(__file__).resolve().parent.parent
 OUT_PATH = ROOT / "deals.json"
 
 API_HOST = "https://api-gateway.coupang.com"
-API_PATH = "/v2/products/search"
+API_PATH = "/v2/providers/affiliate_open_api/apis/openapi/v1/products/search"
 TIMEOUT_SEC = 20
 SAFE_INTERVAL_SEC = 7        # 요청/요청 사이 최소 대기 (요구: 6초 이상)
 LIMIT = 10                   # 품목별 수집 후보 수
@@ -43,11 +43,11 @@ KST = timezone(timedelta(hours=9))
 
 # 카페 5대 품목
 TARGETS = [
-    {"label": "멸균우유 1000ml 10개",        "category": "우유·음료",   "query": "멸균우유 1000ml 10개",        "default_basis": "100ml"},
-    {"label": "테이크아웃 아이스컵 16oz",     "category": "컵·뚜껑",     "query": "테이크아웃 아이스컵 16oz 1000개", "default_basis": "개당"},
-    {"label": "모닌 시럽 1000ml",             "category": "시럽·소스",   "query": "모닌 시럽 1000ml",             "default_basis": "100ml"},
-    {"label": "카페 일회용 빨대",             "category": "빨대·홀더",   "query": "카페 일회용 빨대 1000개",      "default_basis": "개당"},
-    {"label": "카페 냅킨 대용량",             "category": "매장소모품",  "query": "카페 냅킨 대용량",             "default_basis": "개당"},
+    {"label": "멸균우유",                    "category": "우유·음료",   "query": "멸균우유",                    "default_basis": "100ml"},
+    {"label": "테이크아웃 아이스컵",          "category": "컵·뚜껑",     "query": "테이크아웃 아이스컵",          "default_basis": "개당"},
+    {"label": "모닌 시럽",                    "category": "시럽·소스",   "query": "모닌 시럽",                    "default_basis": "100ml"},
+    {"label": "일회용 빨대",                  "category": "빨대·홀더",   "query": "일회용 빨대",                  "default_basis": "개당"},
+    {"label": "카페 냅킨",                    "category": "매장소모품",  "query": "카페 냅킨",                    "default_basis": "개당"},
 ]
 
 BANNER_NOTICE = "쿠팡 API 연동 대기 중 (2026-11-16 00:00 이후 자동 업데이트 예정)"
@@ -91,7 +91,8 @@ def api_get(path: str, params: dict, access_key: str, secret_key: str) -> dict:
 
 # ---------------------------------------------------------------- 단가 계산
 ML_RE = re.compile(r"(\d+(?:\.\d+)?)\s*(ml|mL|ML|미리리터|리터|l|L)\b")
-COUNT_RE = re.compile(r"(\d+)\s*(개입|개|입|매|팩|병|박스|세트|롤|장)")
+COUNT_RE = re.compile(r"(\d+)\s*(개입|박스|세트|팩|병|봉|포|롤|장|매|개|입)")
+MAX_PLAUSIBLE_UNITS = 20000
 
 
 def _ml_value(token_value: str, token_unit: str) -> float:
@@ -99,25 +100,52 @@ def _ml_value(token_value: str, token_unit: str) -> float:
     return value * 1000 if token_unit.lower() in ("l", "리터") else value
 
 
+def _counts(name: str) -> list[int]:
+    """상품명에 적힌 수량 표기(개·개입·박스·세트…)를 모두 뽑는다."""
+    vals: list[int] = []
+    for m in COUNT_RE.finditer(name or ""):
+        v = int(m.group(1))
+        if 0 < v <= 100000:
+            vals.append(v)
+    return vals
+
+
+def _total_units(vals: list[int]) -> tuple[int | None, str | None]:
+    """박스 수 × 내부 수량처럼 여러 수량이 겹치면 곱해서 총 개수를 구한다."""
+    if not vals:
+        return None, None
+    total = 1
+    for v in vals:
+        total *= v
+    if total > MAX_PLAUSIBLE_UNITS:      # 박스×내부수량 곱셈이 비현실적이면 가장 큰 표기를 채택
+        vals = [max(vals)]
+        total = vals[0]
+    factors = [v for v in vals if v != 1] or [1]
+    if len(factors) == 1:
+        note = f"{factors[0]:,}개입"
+    else:
+        note = "×".join(f"{v:,}개" for v in factors)
+    return total, note
+
+
 def calc_unit_price(name: str, price: float, default_basis: str):
     """상품명에서 용량/수량을 읽어 (단가, 기준, 산출근거)를 돌려준다. 실패하면 (None, 기준, None)."""
     if not price or price <= 0:
         return None, default_basis, None
 
-    count_match = COUNT_RE.search(name or "")
-    count = float(count_match.group(1)) if count_match else None
+    units, pack = _total_units(_counts(name))
 
     if default_basis == "100ml":
         ml_match = ML_RE.search(name or "")
         if ml_match:
-            total_ml = _ml_value(ml_match.group(1), ml_match.group(2)) * (count or 1)
+            total_ml = _ml_value(ml_match.group(1), ml_match.group(2)) * (units or 1)
             if total_ml > 0:
-                basis = f"100ml×{count:g}" if count else "100ml"
-                return price / (total_ml / 100.0), "100ml당", basis
+                basis = f"100ml×{units}" if units else "100ml"
+                return price / (total_ml / 100.0), "100ml당", pack or basis
         return None, "100ml당", None
 
-    if count and count > 0:
-        return price / count, "개당", f"{count:g}개입"
+    if units and units > 0:
+        return price / units, "개당", pack
     return None, "개당", None
 
 
@@ -137,7 +165,15 @@ def collect(access_key: str, secret_key: str, sub_id: str) -> list[dict]:
         payload = api_get(API_PATH, params, access_key, secret_key)
         requests_made += 1
 
-        items = (payload or {}).get("data") or []
+        data_field = (payload or {}).get("data")
+        if isinstance(data_field, dict):
+            items = data_field.get("productData") or []
+        elif isinstance(data_field, list):
+            items = data_field
+        else:
+            items = []
+        if (payload or {}).get("rCode") not in ("0", 0):
+            print(f"  - API 오류 (rCode={payload.get('rCode')}, rMessage={payload.get('rMessage')})")
         if not items:
             print(f"  - 결과 없음 (rCode={payload.get('rCode')}, rMessage={payload.get('rMessage')})")
         for item in items:
