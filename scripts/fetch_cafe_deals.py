@@ -15,6 +15,7 @@
   python scripts/fetch_cafe_deals.py --dry-run           # 네트워크 없이 계획만 확인
   python scripts/fetch_cafe_deals.py --batch 1           # 1번째 묶음(기본 4개 카테고리)만 수집
   python scripts/fetch_cafe_deals.py --batch 2 --size 4  # 2번째 묶음
+  python scripts/fetch_cafe_deals.py --wave 2            # 2차 보강 키워드만 수집
   python scripts/fetch_cafe_deals.py --only 원두,파우더    # 카테고리 지정 수집
   python scripts/fetch_cafe_deals.py --max-requests 4     # 이번 실행 최대 호출 수
   python scripts/fetch_cafe_deals.py --assume-used 5      # 로그 밖에서 이미 쓴 호출 수 가산
@@ -43,7 +44,7 @@ USAGE_PATH = Path(__file__).resolve().parent / ".api_usage.json"
 API_HOST = "https://api-gateway.coupang.com"
 API_PATH = "/v2/providers/affiliate_open_api/apis/openapi/v1/products/search"
 TIMEOUT_SEC = 20
-SAFE_INTERVAL_SEC = 7        # 요청/요청 사이 최소 대기 (요구: 6초 이상)
+SAFE_INTERVAL_SEC = 8        # 요청/요청 사이 최소 대기 (요구: 8초 이상)
 LIMIT = 10                   # 품목별 수집 후보 수
 HOURLY_CAP = 9               # 최근 1시간 내 최대 호출 수 (상한 10회, 여유 1회)
 DEFAULT_BATCH_SIZE = 4       # --batch 묶음 크기 (4회 ≤ 시간당 9회)
@@ -81,9 +82,31 @@ TARGETS = [
     {"label": "테이크아웃 아이스컵",  "category": "컵·뚜껑",      "query": "테이크아웃 아이스컵",   "bases": ["개당"]},
     {"label": "일회용 빨대",         "category": "빨대·홀더",    "query": "일회용 빨대",         "bases": ["개당"]},
     {"label": "카페 냅킨",           "category": "매장소모품",   "query": "카페 냅킨",           "bases": ["개당"]},
+
+    # ---- 2차 보강 키워드 (wave=2) — 기존 1차 결과와 다른 상품군을 추가로 확보 ----
+    {"label": "오트밀크 아몬드브리즈", "category": "우유·대체유", "query": "오트밀크",           "bases": ["100ml"], "wave": 2},
+    {"label": "디카페인 원두",        "category": "원두",        "query": "디카페인 원두 1kg",   "bases": ["100g"], "wave": 2},
+    {"label": "초코 파우더",          "category": "파우더",       "query": "초코 파우더 1kg",     "bases": ["100g"], "wave": 2},
+    {"label": "자몽 에이드 베이스",     "category": "과일·베이스",  "query": "자몽 에이드 베이스",   "bases": ["100ml", "100g"], "wave": 2},
+    {"label": "얼그레이 티백 업소용",   "category": "티·탄산수",    "query": "얼그레이 티백 업소용",  "bases": ["개당"], "wave": 2},
+    {"label": "16oz 아이스컵 1000개",  "category": "컵·뚜껑",      "query": "16oz 아이스컵 1000개", "bases": ["개당"], "wave": 2},
+    {"label": "테이크아웃 컵홀더",      "category": "빨대·홀더",    "query": "테이크아웃 컵홀더",    "bases": ["개당"], "wave": 2},
+    {"label": "업소용 물티슈",         "category": "매장소모품",   "query": "업소용 물티슈",       "bases": ["개당"], "wave": 2},
 ]
 
 BANNER_NOTICE = "쿠팡 API 연동 대기 중 (2026-11-16 00:00 이후 자동 업데이트 예정)"
+
+# 검색 결과에 섞여 들어오는 카테고리 무관 상품(생수·감미료·개인용 텀블러 홀더 등)은 제외한다.
+EXCLUDE_KEYWORDS = [
+    "탐사 샘물",
+    "알룰로스",
+    "결로방지 컵홀더",
+]
+
+
+def is_excluded(name: str) -> bool:
+    text = (name or "").replace(" ", "").lower()
+    return any(k.replace(" ", "").lower() in text for k in EXCLUDE_KEYWORDS)
 
 
 # ---------------------------------------------------------------- 안전장치
@@ -275,6 +298,12 @@ def calc_unit_price(name: str, price: float, bases: list[str]):
 def select_targets(argv: list[str]) -> list[dict]:
     targets = list(TARGETS)
 
+    wave = _opt(argv, "--wave")
+    if wave:
+        targets = [t for t in targets if str(t.get("wave", 1)) == str(wave)]
+        if not targets:
+            print(f"[error] --wave={wave} 에 해당하는 키워드가 없습니다.", file=sys.stderr)
+
     only = _opt(argv, "--only")
     if only:
         wanted = {c.strip() for c in only.split(",") if c.strip()}
@@ -385,6 +414,8 @@ def merge_deals(previous: list[dict], fresh: list[dict]) -> list[dict]:
     merged: dict[str, dict] = {}
     order: list[str] = []
     for d in previous:
+        if is_excluded(d.get("productName", "")):
+            continue
         while d.get("category") in CATEGORY_ALIASES:
             d["category"] = CATEGORY_ALIASES[d["category"]]
         pid = str(d.get("productId") or "")
@@ -395,7 +426,7 @@ def merge_deals(previous: list[dict], fresh: list[dict]) -> list[dict]:
         merged[pid] = d
     for d in fresh:
         pid = str(d.get("productId") or "")
-        if not pid:
+        if not pid or is_excluded(d.get("productName", "")):
             continue
         if pid not in merged:
             order.append(pid)
@@ -448,6 +479,23 @@ def main(argv: list[str]) -> int:
         print(f"[dry-run] 요청 {len(targets)}회(이번 실행 상한 {max_requests}) · 간격 {SAFE_INTERVAL_SEC}초 · "
               f"병합={'아니오(교체)' if replace else '예'} · 키 설정됨={bool(access_key and secret_key)}")
         print("[dry-run] 네트워크 요청/파일 쓰기 없음.")
+        return 0
+
+    if "--prune-only" in argv:
+        previous = load_previous()
+        prev_deals = previous.get("deals") or []
+        kept = sort_deals(merge_deals(prev_deals, []))
+        write_json({
+            "status": "ok",
+            "updatedAt": previous.get("updatedAt") or kst_str(datetime.now(timezone.utc)),
+            "notice": "",
+            "watchlist": [],
+            "categories": CATEGORIES,
+            "count": len(kept),
+            "deals": kept,
+        })
+        print(f"[prune] 네트워크 요청 없이 deals.json 정리: {len(prev_deals)} → {len(kept)}건 "
+              f"(제외 키워드 {len(EXCLUDE_KEYWORDS)}종)")
         return 0
 
     if cooldown_active(now):

@@ -23,8 +23,8 @@
 | --- | --- |
 | 실행 시각 | 매일 07:00 KST (`cron: '0 22 * * *'`) + 수동 실행(`workflow_dispatch`) |
 | 수집 카테고리 | 우유·대체유, 원두, 시럽·소스, 파우더, 과일·베이스, 티·탄산수, 컵·뚜껑, 빨대·홀더, 매장소모품 (9개) |
-| 호출 한도 | 시간당 최대 9회(상한 10회) — `--batch`/`--only`로 4회씩 분할 수집 |
-| 요청 간격 | 7초 (`SAFE_INTERVAL_SEC`) |
+| 호출 한도 | 시간당 최대 9회(상한 10회) — `--batch`/`--only`/`--wave`로 4~8회씩 분할 수집 |
+| 요청 간격 | 8초 (`SAFE_INTERVAL_SEC`) |
 | 비밀값 | `COUPANG_ACCESS_KEY`, `COUPANG_SECRET_KEY` — GitHub Actions Secrets 에만 저장 |
 
 ### 쿨다운 안전장치
@@ -40,7 +40,9 @@
 ```bash
 python scripts/fetch_cafe_deals.py --dry-run      # 네트워크 없이 계획·안전장치만 확인
 python scripts/fetch_cafe_deals.py --batch 1      # 1~4번째 카테고리만 수집 (1회 4호출)
+python scripts/fetch_cafe_deals.py --wave 2 --max-requests 8  # 2차 보강 키워드 8개 수집
 python scripts/fetch_cafe_deals.py --only 원두,파우더  # 카테고리 지정 수집
+python scripts/fetch_cafe_deals.py --prune-only    # API 없이 기존 데이터 정리(중복·무관 상품 제거)
 python scripts/fetch_cafe_deals.py --assume-used 5   # 로그 밖에서 이미 쓴 호출 수 가산
 python -m http.server 8000                        # 사이트 미리보기 (http://localhost:8000)
 ```
