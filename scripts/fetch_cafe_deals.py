@@ -332,6 +332,16 @@ def _opt(argv: list[str], name: str) -> str | None:
     return None
 
 
+def rotate_targets(targets: list[dict], max_requests: int, now: datetime | None = None) -> list[dict]:
+    """하루 호출 상한(--max-requests)이 키워드 수보다 적을 때, 매번 같은 앞쪽 키워드만
+    갱신되지 않도록 날짜에 따라 시작 위치를 돌린다. 며칠 안에 모든 키워드가 한 번씩 갱신된다."""
+    if len(targets) <= max_requests:
+        return targets
+    start = ((now or datetime.now(timezone.utc)).toordinal() * max_requests) % len(targets)
+    rotated = targets[start:] + targets[:start]
+    return rotated[:max_requests]
+
+
 def collect(access_key: str, secret_key: str, sub_id: str, targets: list[dict],
             max_requests: int, assume_used: int = 0) -> tuple[list[dict], list[str]]:
     deals: list[dict] = []
@@ -462,6 +472,15 @@ def main(argv: list[str]) -> int:
         assume_used = int(_opt(argv, "--assume-used") or 0)
     except ValueError:
         assume_used = 0
+
+    # --batch/--only/--wave 로 범위를 직접 지정하지 않았고 상한이 키워드 수보다 적으면 순환 갱신
+    explicit_scope = any(a in ("--batch", "--only", "--wave")
+                         or a.startswith(("--batch=", "--only=", "--wave=")) for a in argv)
+    if not explicit_scope:
+        rotated = rotate_targets(targets, max_requests, now)
+        if rotated is not targets:
+            print("[info] 순환 갱신: " + " · ".join(f"{t['category']}/{t['query']}" for t in rotated))
+        targets = rotated
 
     print(f"[info] now={kst_str(now)}  unlock_at={UNLOCK_AT.astimezone(KST).strftime('%Y-%m-%d %H:%M KST')}")
 
