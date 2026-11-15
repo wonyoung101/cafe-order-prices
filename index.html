@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 <meta name="theme-color" content="#0f172a" />
 <title>카페발주 단가표 · 사장님 발주 단가 비교</title>
-<meta name="description" content="카페 사장님을 위한 발주 품목 박스 가격과 개당·100ml당 단가를 한눈에 비교하는 표입니다." />
+<meta name="description" content="카페 사장님을 위한 9개 카테고리 발주 품목의 상품 가격과 개당·100ml당·100g당 단가를 한눈에 비교하는 표입니다." />
 <style>
   :root {
     --bg: #f4f5f7;
@@ -100,15 +100,19 @@
     </div>
     <div class="search">
       <span class="icon">🔍</span>
-      <input id="q" type="search" placeholder="품목 검색 (예: 우유, 16oz 컵, 시럽)" autocomplete="off" />
+      <input id="q" type="search" placeholder="품목 검색 (예: 우유, 원두, 16oz 컵)" autocomplete="off" />
     </div>
   </header>
 
   <div class="chips" id="chips">
     <button class="chip active" data-cat="전체">전체</button>
-    <button class="chip" data-cat="우유·음료">우유·음료</button>
-    <button class="chip" data-cat="컵·뚜껑">컵·뚜껑</button>
+    <button class="chip" data-cat="우유·대체유">우유·대체유</button>
+    <button class="chip" data-cat="원두">원두</button>
     <button class="chip" data-cat="시럽·소스">시럽·소스</button>
+    <button class="chip" data-cat="파우더">파우더</button>
+    <button class="chip" data-cat="과일·베이스">과일·베이스</button>
+    <button class="chip" data-cat="티·탄산수">티·탄산수</button>
+    <button class="chip" data-cat="컵·뚜껑">컵·뚜껑</button>
     <button class="chip" data-cat="빨대·홀더">빨대·홀더</button>
     <button class="chip" data-cat="매장소모품">매장소모품</button>
   </div>
@@ -116,7 +120,7 @@
   <div class="toolbar">
     <button class="toggle" id="rocketToggle" aria-pressed="false">🚀 로켓배송만</button>
     <select id="sort" aria-label="정렬">
-      <option value="unit">개당 단가 낮은 순</option>
+      <option value="unit">단가 낮은 순 (개당·100ml·100g)</option>
       <option value="price">박스 가격 낮은 순</option>
       <option value="name">이름 순</option>
     </select>
@@ -140,7 +144,7 @@
   </div>
 
   <footer>
-    <p>· 박스 가격은 쿠팡 판매가 기준이며, <b>개당·100ml당 단가</b>는 박스 구성 수량으로 나눠 계산한 값입니다.</p>
+    <p>· 상품가는 쿠팡 판매가 기준이며, <b>개당 · 100ml당 · 100g당 단가</b>는 상품명에 적힌 박스 구성 수량·용량으로 나눠 계산한 값입니다.</p>
     <p>· 배송비·쿠폰·카드 할인은 반영되지 않으므로 실제 결제 금액과 다를 수 있습니다.</p>
     <p>· 가격은 수집 시점 기준이며, 링크를 누르면 쿠팡 상품 페이지로 이동합니다.</p>
     <div class="disclosure">

@@ -1,6 +1,6 @@
 # 카페발주 단가표
 
-카페 사장님이 발주 품목의 **박스 가격**과 **개당 · 100ml당 단가**를 한 화면에서 비교하는 모바일 웹 페이지입니다.
+카페 사장님이 발주 품목의 **상품 가격**과 **개당 · 100ml당 · 100g당 단가**를 9개 카테고리로 비교하는 모바일 웹 페이지입니다.
 
 - 공개 주소: https://wonyoung101.github.io/cafe-order-prices/
 - 정적 사이트: `index.html` + `deals.json` (별도 서버 없음)
@@ -22,7 +22,8 @@
 | 항목 | 값 |
 | --- | --- |
 | 실행 시각 | 매일 07:00 KST (`cron: '0 22 * * *'`) + 수동 실행(`workflow_dispatch`) |
-| 수집 품목 | 멸균우유 1000ml, 테이크아웃 아이스컵 16oz, 모닌 시럽 1000ml, 카페 일회용 빨대, 카페 냅킨 |
+| 수집 카테고리 | 우유·대체유, 원두, 시럽·소스, 파우더, 과일·베이스, 티·탄산수, 컵·뚜껑, 빨대·홀더, 매장소모품 (9개) |
+| 호출 한도 | 시간당 최대 9회(상한 10회) — `--batch`/`--only`로 4회씩 분할 수집 |
 | 요청 간격 | 7초 (`SAFE_INTERVAL_SEC`) |
 | 비밀값 | `COUPANG_ACCESS_KEY`, `COUPANG_SECRET_KEY` — GitHub Actions Secrets 에만 저장 |
 
@@ -37,6 +38,12 @@
 ## 로컬 확인
 
 ```bash
-python scripts/fetch_cafe_deals.py --dry-run   # 네트워크 없이 계획·안전장치만 확인
-python -m http.server 8000                     # 사이트 미리보기 (http://localhost:8000)
+python scripts/fetch_cafe_deals.py --dry-run      # 네트워크 없이 계획·안전장치만 확인
+python scripts/fetch_cafe_deals.py --batch 1      # 1~4번째 카테고리만 수집 (1회 4호출)
+python scripts/fetch_cafe_deals.py --only 원두,파우더  # 카테고리 지정 수집
+python scripts/fetch_cafe_deals.py --assume-used 5   # 로그 밖에서 이미 쓴 호출 수 가산
+python -m http.server 8000                        # 사이트 미리보기 (http://localhost:8000)
 ```
+
+수집 결과는 `productId` 기준으로 기존 `deals.json` 과 병합됩니다(`--replace` 로 전체 교체).
+호출 시각은 `scripts/.api_usage.json` 에 기록되어 최근 1시간 9회를 넘으면 자동 중단합니다.

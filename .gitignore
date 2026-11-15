@@ -12,3 +12,6 @@ tmp_*
 
 # 로컬 전용 (GitHub 연결 권한상 워크플로 파일은 push 불가) — 원본은 automation/update-deals.yml
 .github/
+
+# 쿠팡 API 호출 사용기록 (로컬 전용)
+scripts/.api_usage.json
