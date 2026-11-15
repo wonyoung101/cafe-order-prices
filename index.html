@@ -189,6 +189,7 @@
   }
 
   function renderWatch(d) {
+    if (d && d.status === "ok") { el.watch.innerHTML = ""; return; }
     var list = (d && d.watchlist) || [];
     if (!list.length) { el.watch.innerHTML = ""; return; }
     var rows = list.map(function (w, i) {
@@ -221,7 +222,7 @@
       '<div class="body">' +
         '<div class="cat">' + esc(deal.category || "") + '</div>' +
         '<div class="name">' + esc(deal.productName) + '</div>' +
-        '<div class="box">' + won(deal.productPrice) + '<small>박스가</small></div>' +
+        '<div class="box">' + won(deal.productPrice) + '<small>상품가</small></div>' +
         (unitText(deal) ? '<div class="unit">' + esc(unitText(deal)) + '</div>' : '') +
       '</div></a>';
   }
