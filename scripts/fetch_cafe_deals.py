@@ -2,8 +2,13 @@
 """카페 발주 단가표 · 쿠팡 파트너스 상품 수집 스크립트
 
 - 환경변수 COUPANG_ACCESS_KEY / COUPANG_SECRET_KEY 로 HMAC 서명 요청을 보냅니다.
-- 카페 9개 카테고리(우유·대체유 / 원두 / 시럽·소스 / 파우더 / 과일·베이스 / 티·탄산수 /
-  컵·뚜껑 / 빨대·홀더 / 매장소모품)를 조회해 `deals.json` 을 갱신합니다.
+- 카페 12개 카테고리(우유·대체유 / 원두 / 시럽·소스 / 파우더 / 과일·베이스 / 당류·토핑 /
+  크림·연유 / 베이킹 재료 / 티·탄산수 / 컵·뚜껑 / 빨대·홀더 / 매장소모품)를 조회해
+  `deals.json` 을 갱신합니다.
+- **노출 필터(필수)**: `isRocket == True` 이고 `unitPrice`(단가)가 계산된 상품만
+  `deals.json` 에 남깁니다. 비로켓 상품과 상품명에 용량·수량이 없어 단가를 낼 수 없는
+  상품은 수집·병합·`--recompute`/`--prune-only` 모든 경로에서 제외됩니다.
+  (`data/price_history.json` 의 기존 관측 이력은 지우지 않고 그대로 보존합니다.)
 - 요청 간 최소 7초(SAFE_INTERVAL_SEC) 대기하고, 시간당 호출 한도(HOURLY_CAP)를
   로컬 사용기록(scripts/.api_usage.json)으로 지켜 스스로를 제한합니다.
 - 결과는 productId 기준으로 기존 `deals.json` 과 병합(중복 제거)합니다.
@@ -11,7 +16,7 @@
   네트워크 요청을 전혀 보내지 않고 즉시 정상 종료(exit 0)합니다.
 
 사용법:
-  python scripts/fetch_cafe_deals.py                     # 9개 카테고리 전체 수집(병합)
+  python scripts/fetch_cafe_deals.py                     # 12개 카테고리 전체 수집(병합)
   python scripts/fetch_cafe_deals.py --dry-run           # 네트워크 없이 계획만 확인
   python scripts/fetch_cafe_deals.py --batch 1           # 1번째 묶음(기본 4개 카테고리)만 수집
   python scripts/fetch_cafe_deals.py --batch 2 --size 4  # 2번째 묶음
@@ -20,8 +25,8 @@
   python scripts/fetch_cafe_deals.py --max-requests 4     # 이번 실행 최대 호출 수
   python scripts/fetch_cafe_deals.py --assume-used 5      # 로그 밖에서 이미 쓴 호출 수 가산
   python scripts/fetch_cafe_deals.py --replace            # 병합 대신 전체 교체
-  python scripts/fetch_cafe_deals.py --prune-only         # API 0회 · 무관 상품 정리 + 평균가/할인율 재계산
-  python scripts/fetch_cafe_deals.py --recompute          # API 0회 · 가격 이력만으로 평균가/할인율 재계산
+  python scripts/fetch_cafe_deals.py --prune-only         # API 0회 · 필터 적용 + 무관 상품 정리 + 평균가/할인율 재계산
+  python scripts/fetch_cafe_deals.py --recompute          # API 0회 · 필터 적용 + 가격 이력만으로 평균가/할인율 재계산
 
 가격 이력:
   수집한 상품 가격을 `data/price_history.json` 에 상품별로 누적해 두고, 그 평균(avgPrice)과
@@ -77,6 +82,9 @@ CATEGORIES = [
     "시럽·소스",
     "파우더",
     "과일·베이스",
+    "당류·토핑",
+    "크림·연유",
+    "베이킹 재료",
     "티·탄산수",
     "컵·뚜껑",
     "빨대·홀더",
@@ -86,7 +94,7 @@ CATEGORIES = [
 # 예전 카테고리명 → 새 카테고리명 (deals.json 마이그레이션)
 CATEGORY_ALIASES = {"우유·음료": "우유·대체유"}
 
-# 카페 9개 카테고리 수집 키워드
+# 카페 12개 카테고리 수집 키워드
 #   bases: 상품명에서 확인할 단가 기준 후보(앞에서부터 우선). 100ml → 100g → 개당 순 자동 선택.
 TARGETS = [
     {"label": "멸균우유",           "category": "우유·대체유",  "query": "멸균우유",           "bases": ["100ml"]},
@@ -98,6 +106,14 @@ TARGETS = [
     {"label": "테이크아웃 아이스컵",  "category": "컵·뚜껑",      "query": "테이크아웃 아이스컵",   "bases": ["개당"]},
     {"label": "일회용 빨대",         "category": "빨대·홀더",    "query": "일회용 빨대",         "bases": ["개당"]},
     {"label": "카페 냅킨",           "category": "매장소모품",   "query": "카페 냅킨",           "bases": ["개당"]},
+
+    # ---- 신규 3개 카테고리 (당류·토핑 / 크림·연유 / 베이킹 재료) ----
+    {"label": "카페 시럽·설탕",       "category": "당류·토핑",    "query": "카페 시럽 설탕 사탕수수원당", "bases": ["100g", "100ml"]},
+    {"label": "타피오카펄·토핑",       "category": "당류·토핑",    "query": "타피오카펄 휘핑크림 토핑", "bases": ["100g", "100ml", "개당"]},
+    {"label": "연유 업소용",         "category": "크림·연유",    "query": "연유 업소용 대용량",    "bases": ["100g", "100ml"]},
+    {"label": "생크림·휘핑크림 1L",   "category": "크림·연유",    "query": "생크림 휘핑크림 1L",   "bases": ["100ml", "100g"]},
+    {"label": "냉동 크루아상 생지",     "category": "베이킹 재료",  "query": "냉동 크루아상 생지",    "bases": ["개당", "100g"]},
+    {"label": "베이킹 버터·박력분",    "category": "베이킹 재료",  "query": "베이킹 버터 박력분 대용량", "bases": ["100g", "개당"]},
 
     # ---- 2차 보강 키워드 (wave=2) — 기존 1차 결과와 다른 상품군을 추가로 확보 ----
     {"label": "오트밀크 아몬드브리즈", "category": "우유·대체유", "query": "오트밀크",           "bases": ["100ml"], "wave": 2},
@@ -123,6 +139,16 @@ EXCLUDE_KEYWORDS = [
 def is_excluded(name: str) -> bool:
     text = (name or "").replace(" ", "").lower()
     return any(k.replace(" ", "").lower() in text for k in EXCLUDE_KEYWORDS)
+
+
+def passes_listing_filter(deal: dict) -> bool:
+    """사이트에 실을 수 있는 상품인지 — **로켓배송이면서 단가가 계산된 상품만** 남긴다.
+
+    비로켓 상품과, 상품명에 용량·수량이 없어 `unitPrice` 를 낼 수 없는 상품은
+    수집·병합·재계산 어느 경로에서도 `deals.json` 에 넣지 않는다.
+    (가격 이력 `data/price_history.json` 의 기존 관측은 지우지 않고 그대로 둔다.)
+    """
+    return deal.get("isRocket") is True and deal.get("unitPrice") is not None
 
 
 # ---------------------------------------------------------------- 안전장치
@@ -516,18 +542,24 @@ def apply_price_stats(deals: list[dict], hist: dict) -> int:
     return discounted
 
 
-def refresh_from_history(prev_payload: dict, prune: bool) -> tuple[dict, int, int]:
-    """API 호출 없이 이력만으로 deals.json 의 평균가·할인율을 다시 계산한다."""
+def refresh_from_history(prev_payload: dict, prune: bool) -> tuple[dict, int, int, int]:
+    """API 호출 없이 이력만으로 deals.json 을 다시 계산한다.
+
+    `--recompute`/`--prune-only` 모두 로켓배송+단가 확인 필터를 거치므로
+    이전 `deals.json` 에 있던 비로켓·단가 미산출 상품은 여기서 빠진다.
+    이력 파일은 그대로 유지한다(관측값 보존).
+    """
     hist = load_history()
     restored = reconcile_from_previous(hist, prev_payload)
     finalize_history(hist)
-    deals = (prev_payload or {}).get("deals") or []
+    prev_deals = (prev_payload or {}).get("deals") or []
+    deals = merge_deals(prev_deals, [])
     if prune:
-        deals = merge_deals(deals, [])
-    deals = sort_deals(deals) if prune else deals
+        deals = sort_deals(deals)
+    dropped = len(prev_deals) - len(deals)
     discounted = apply_price_stats(deals, hist)
     save_history(hist)
-    return deals, discounted, restored
+    return deals, discounted, restored, dropped
 
 
 def _opt(argv: list[str], name: str) -> str | None:
@@ -627,11 +659,14 @@ def load_previous() -> dict:
 
 
 def merge_deals(previous: list[dict], fresh: list[dict]) -> list[dict]:
-    """productId 기준 중복 제거 병합. 새 수집 결과가 같은 상품이면 최신 값으로 갱신한다."""
+    """productId 기준 중복 제거 병합. 새 수집 결과가 같은 상품이면 최신 값으로 갱신한다.
+
+    로켓배송이 아니거나 단가(`unitPrice`)가 계산되지 않은 상품은 여기서 걸러진다.
+    """
     merged: dict[str, dict] = {}
     order: list[str] = []
     for d in previous:
-        if is_excluded(d.get("productName", "")):
+        if is_excluded(d.get("productName", "")) or not passes_listing_filter(d):
             continue
         while d.get("category") in CATEGORY_ALIASES:
             d["category"] = CATEGORY_ALIASES[d["category"]]
@@ -643,7 +678,7 @@ def merge_deals(previous: list[dict], fresh: list[dict]) -> list[dict]:
         merged[pid] = d
     for d in fresh:
         pid = str(d.get("productId") or "")
-        if not pid or is_excluded(d.get("productName", "")):
+        if not pid or is_excluded(d.get("productName", "")) or not passes_listing_filter(d):
             continue
         if pid not in merged:
             order.append(pid)
@@ -711,7 +746,7 @@ def main(argv: list[str]) -> int:
         previous = load_previous()
         prev_deals = previous.get("deals") or []
         prune = "--prune-only" in argv
-        deals, discounted, restored = refresh_from_history(previous, prune)
+        deals, discounted, restored, dropped = refresh_from_history(previous, prune)
         write_json({
             "status": "ok",
             "updatedAt": previous.get("updatedAt") or kst_str(datetime.now(timezone.utc)),
@@ -726,8 +761,8 @@ def main(argv: list[str]) -> int:
         label = "prune" if prune else "recompute"
         print(f"[{label}] 네트워크 요청 없이 갱신: {len(prev_deals)} → {len(deals)}건 · "
               f"할인 배지 {discounted}건 · 이전 deals.json 복원 {restored}건")
-        if prune:
-            print(f"       (제외 키워드 {len(EXCLUDE_KEYWORDS)}종 적용)")
+        print(f"       (로켓배송 + 단가 확인 필터로 {dropped}건 제외 · 제외 키워드 {len(EXCLUDE_KEYWORDS)}종 "
+              f"· 가격 이력 {len(load_history().get('products') or {})}개 상품 보존)")
         return 0
 
     if cooldown_active(now):
@@ -760,7 +795,9 @@ def main(argv: list[str]) -> int:
 
     previous = load_previous()
     prev_deals = previous.get("deals") or []
-    merged = sort_deals(deals if replace else merge_deals(prev_deals, deals))
+    merged = sort_deals(merge_deals([] if replace else prev_deals, deals))
+    print(f"[filter] 수집 후보 {len(deals)}건 중 로켓배송+단가 확인 {len(merged)}건만 반영 "
+          f"(비로켓·단가 미산출 {len(deals) - sum(1 for d in deals if passes_listing_filter(d))}건 제외)")
 
     # 수집 결과를 가격 이력에 기록하고, 누적 평균가·할인율을 계산해 함께 저장한다.
     updated_at = kst_str(datetime.now(timezone.utc))
@@ -783,7 +820,7 @@ def main(argv: list[str]) -> int:
         "deals": merged,
     })
     print(f"[done] 총 {len(merged)}개 상품으로 deals.json 갱신 "
-          f"(이전 {len(prev_deals)} + 신규/갱신 {len(deals)} · 병합 {'교체' if replace else '적용'})")
+          f"(이전 {len(prev_deals)} + 신규/필터 통과 {len(deals)} · 병합 {'교체' if replace else '적용'})")
     print(f"[history] 관측 {recorded}건 기록 · 이력 상품 {len(hist.get('products') or {})}개 · "
           f"평균 대비 할인 {discounted}건")
     if failed:

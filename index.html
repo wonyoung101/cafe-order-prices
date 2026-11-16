@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 <meta name="theme-color" content="#0f172a" />
 <title>카페발주 단가표 · 사장님 발주 단가 비교</title>
-<meta name="description" content="카페 사장님을 위한 9개 카테고리 발주 품목의 상품 가격과 개당·100ml당·100g당 단가를 한눈에 비교하고, 당일 시간대별·최근 30일 가격 추이까지 확인하는 표입니다." />
+<meta name="description" content="카페 사장님을 위한 12개 카테고리 발주 품목 중 로켓배송이면서 단가를 계산할 수 있는 상품의 가격과 개당·100ml당·100g당 단가를 한눈에 비교하고, 당일 시간대별·최근 30일 가격 추이까지 확인하는 표입니다." />
 <style>
   :root {
     --bg: #f4f5f7;
@@ -44,14 +44,16 @@
   .search input:focus { border-color: var(--accent); background: #fff; }
   .search .icon { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); font-size: 13px; color: #94a3b8; }
 
-  .chips { display: flex; flex-wrap: wrap; gap: 7px; padding: 10px 16px 2px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; padding: 10px 16px 2px; }
   .chips::-webkit-scrollbar { display: none; }
-  .chip { flex: 0 0 auto; padding: 7px 13px; border-radius: 999px; border: 1px solid var(--line); background: #fff; font-size: 12.5px; font-weight: 700; color: #475569; cursor: pointer; }
+  .chip { flex: 0 0 auto; padding: 6px 11px; border-radius: 999px; border: 1px solid var(--line); background: #fff; font-size: 12px; font-weight: 700; color: #475569; cursor: pointer; letter-spacing: -.01em; }
   .chip.active { background: #0f172a; color: #fff; border-color: #0f172a; }
 
-  .toolbar { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 10px 16px 0; }
-  .toggle { display: inline-flex; align-items: center; gap: 6px; font-size: 12.5px; font-weight: 700; color: #475569; background: #f7f8fa; border: 1px solid var(--line); border-radius: 999px; padding: 6px 11px; cursor: pointer; }
-  .toggle.on { background: var(--accent-soft); border-color: #a7f3d0; color: #0f766e; }
+  .toolbar { display: flex; align-items: center; justify-content: space-between; gap: 8px; flex-wrap: wrap; padding: 12px 16px 0; }
+  .scope { display: inline-flex; align-items: center; gap: 5px; font-size: 11.5px; font-weight: 800; color: #1d4ed8; background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 999px; padding: 5px 10px; letter-spacing: -.01em; }
+  .scope .n { font-weight: 700; color: #3b82f6; }
+  .scope-note { margin: 7px 16px 0; font-size: 10.5px; color: #94a3b8; line-height: 1.5; }
+  .scope-note b { color: #64748b; }
   .toolbar select { font-size: 12.5px; font-weight: 700; color: #475569; background: #fff; border: 1px solid var(--line); border-radius: 10px; padding: 6px 8px; }
 
   .banner { margin: 12px 16px 0; background: var(--warn-bg); border: 1px solid var(--warn-line); color: var(--warn-text); border-radius: 12px; padding: 11px 13px; font-size: 12.5px; line-height: 1.55; }
@@ -207,6 +209,9 @@
     <button class="chip" data-cat="시럽·소스">시럽·소스</button>
     <button class="chip" data-cat="파우더">파우더</button>
     <button class="chip" data-cat="과일·베이스">과일·베이스</button>
+    <button class="chip" data-cat="당류·토핑">당류·토핑</button>
+    <button class="chip" data-cat="크림·연유">크림·연유</button>
+    <button class="chip" data-cat="베이킹 재료">베이킹 재료</button>
     <button class="chip" data-cat="티·탄산수">티·탄산수</button>
     <button class="chip" data-cat="컵·뚜껑">컵·뚜껑</button>
     <button class="chip" data-cat="빨대·홀더">빨대·홀더</button>
@@ -214,7 +219,7 @@
   </div>
 
   <div class="toolbar">
-    <button class="toggle" id="rocketToggle" aria-pressed="false">🚀 로켓배송만</button>
+    <span class="scope" id="scopeBadge">🚀 로켓배송 · 단가 확인 품목만</span>
     <select id="sort" aria-label="정렬">
       <option value="unit">단가 낮은 순 (개당·100ml·100g)</option>
       <option value="discount">할인율 높은 순</option>
@@ -222,6 +227,8 @@
       <option value="name">이름 순</option>
     </select>
   </div>
+
+  <p class="scope-note" id="scopeNote">상품명에 용량·수량이 적혀 <b>단가를 계산할 수 있는 로켓배송 품목</b>만 담았습니다.</p>
 
   <div id="bannerSlot"></div>
 
@@ -241,7 +248,8 @@
   </div>
 
   <footer>
-    <p>· 상품가는 쿠팡 판매가 기준이며, <b>개당 · 100ml당 · 100g당 단가</b>는 상품명에 적힌 박스 구성 수량·용량으로 나눠 계산한 값입니다.</p>
+    <p>· 상품가는 쿠팡 판매가 기준이며, <b>개당 · 100ml당 · 100g당 단가</b>는 상품명에 적힌 박스 구성 수량·용량으로 나눠 계산한 값입니다. 그래서 <b>단가를 낼 수 없는 품목은 싣지 않습니다</b>.</p>
+    <p>· <b>로켓배송 상품만</b> 담습니다. 상품명에 용량·수량이 없어 단가 계산이 안 되는 상품과 비로켓 상품은 목록에서 빠지며, 가격 기록은 다음 수집을 위해 내부에 계속 보관합니다.</p>
     <p>· 배송비·쿠폰·카드 할인은 반영되지 않으므로 실제 결제 금액과 다를 수 있습니다.</p>
     <p>· <b>상품 카드를 누르면</b> <b>당일 추이</b>(오늘 시간대별)와 <b>30일 추이</b>(일별)를 탭으로 나눠 확인할 수 있습니다. 구매는 모달 안의 <b>쿠팡에서 최저가 확인 / 발주하기</b> 버튼으로 이동합니다.</p>
     <p>· 가격 배지: <b>평균 대비 N%↓</b> 누적 평균보다 낮음 · <b>평균 대비 +N%↑</b> 누적 평균보다 높음 · <b>평균가 유지</b> 평균과 같은 가격 · <b>추적 1일차</b> 관측 1회. 모든 배지는 실제로 수집된 가격 기록으로만 계산하며, 0%·가짜 정가는 표시하지 않습니다.</p>
@@ -270,11 +278,11 @@
 
 <script>
 (function () {
-  var state = { cat: "전체", q: "", rocketOnly: false, sort: "unit", data: null, byId: {}, lastFocus: null };
+  var state = { cat: "전체", q: "", sort: "unit", data: null, byId: {}, lastFocus: null };
   var el = {
     q: document.getElementById("q"),
     chips: document.getElementById("chips"),
-    rocket: document.getElementById("rocketToggle"),
+    scope: document.getElementById("scopeBadge"),
     sort: document.getElementById("sort"),
     banner: document.getElementById("bannerSlot"),
     watch: document.getElementById("watchSlot"),
@@ -302,6 +310,13 @@
   }
   function won(n) { return Number(n || 0).toLocaleString("ko-KR") + "원"; }
   function num(n) { return Number(n || 0).toLocaleString("ko-KR"); }
+
+  // 사이트에 실리는 품목의 조건 — 로켓배송이면서 단가가 계산된 상품만.
+  // (deals.json 은 스크립트가 이미 이 조건으로 추려서 내려주지만, 캐시된 예전 파일이
+  //  섞여 들어와도 화면이 조건 밖 품목을 노출하지 않도록 한 번 더 확인한다.)
+  function passesFilter(x) {
+    return !!x && x.isRocket === true && x.unitPrice != null;
+  }
 
   function renderBanner(d) {
     if (!d) return;
@@ -398,13 +413,19 @@
       '</button>';
   }
 
+  function renderScope(d) {
+    var all = (d && d.deals) || [];
+    var hidden = all.filter(function (x) { return !passesFilter(x); }).length;
+    el.scope.innerHTML = "🚀 로켓배송 · 단가 확인 품목만" +
+      (hidden > 0 ? ' <span class="n">· 조건 밖 ' + hidden + '건 숨김</span>' : "");
+  }
+
   function render() {
     var d = state.data || {};
-    var deals = (d.deals || []).slice();
+    var all = (d.deals || []);
     var q = state.q.trim().toLowerCase();
-    deals = deals.filter(function (x) {
+    var deals = all.filter(passesFilter).filter(function (x) {
       if (state.cat !== "전체" && (x.category || "") !== state.cat) return false;
-      if (state.rocketOnly && !x.isRocket) return false;
       if (q && String(x.productName || "").toLowerCase().indexOf(q) === -1) return false;
       return true;
     });
@@ -423,9 +444,16 @@
     if (!deals.length) {
       el.empty.style.display = "";
       var pending = d.status && d.status !== "ok";
-      el.emptyText.textContent = pending
-        ? "쿠팡 API 연동이 완료되면 실제 발주 후보가 여기에 표시됩니다. (현재는 수집 대기 상태)"
-        : "조건에 맞는 품목이 없습니다. 검색어나 카테고리를 바꿔 보세요.";
+      var catTotal = all.filter(function (x) { return (x.category || "") === state.cat; }).length;
+      if (pending) {
+        el.emptyText.textContent = "쿠팡 API 연동이 완료되면 실제 발주 후보가 여기에 표시됩니다. (현재는 수집 대기 상태)";
+      } else if (state.cat !== "전체" && catTotal === 0) {
+        el.emptyText.textContent = "‘" + state.cat + "’ 카테고리는 아직 조건에 맞는 수집 상품이 없습니다. 다음 자동 수집에서 로켓배송·단가 확인 품목으로 채워집니다.";
+      } else if (q) {
+        el.emptyText.textContent = "‘" + state.q.trim() + "’ 검색 결과가 없습니다. 다른 검색어로 찾아보세요.";
+      } else {
+        el.emptyText.textContent = "조건에 맞는 품목이 없습니다. 검색어나 카테고리를 바꿔 보세요.";
+      }
     } else {
       el.empty.style.display = "none";
     }
@@ -855,12 +883,6 @@
     state.cat = btn.dataset.cat;
     render();
   });
-  el.rocket.addEventListener("click", function () {
-    state.rocketOnly = !state.rocketOnly;
-    el.rocket.classList.toggle("on", state.rocketOnly);
-    el.rocket.setAttribute("aria-pressed", String(state.rocketOnly));
-    render();
-  });
   el.sort.addEventListener("change", function () { state.sort = el.sort.value; render(); });
   el.q.addEventListener("input", function () { state.q = el.q.value; render(); });
 
@@ -893,11 +915,13 @@
       setStamp(d);
       renderBanner(d);
       renderWatch(d);
+      renderScope(d);
       render();
     })
     .catch(function () {
       state.data = { status: "offline", deals: [], watchlist: [] };
       el.stamp.textContent = "데이터 없음";
+      renderScope(null);
       render();
     });
 })();
