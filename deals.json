@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "updatedAt": "2026-11-16 07:02 KST",
-  "statsAt": "2026-11-16 14:32 KST",
+  "statsAt": "2026-11-16 14:39 KST",
   "notice": "",
   "watchlist": [],
   "categories": [
@@ -37,7 +37,13 @@
       "avgPrice": 21200,
       "minPrice": 21200,
       "priceCount": 1,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 07:02 KST",
+          21200
+        ]
+      ]
     },
     {
       "productId": "4975075206",
@@ -55,7 +61,25 @@
       "avgPrice": 17968,
       "minPrice": 17300,
       "priceCount": 4,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:12 KST",
+          17300
+        ],
+        [
+          "2026-11-16 00:51 KST",
+          17300
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          17300
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          19970
+        ]
+      ]
     },
     {
       "productId": "7677418520",
@@ -73,7 +97,13 @@
       "avgPrice": 8800,
       "minPrice": 8800,
       "priceCount": 1,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 07:02 KST",
+          8800
+        ]
+      ]
     },
     {
       "productId": "332850485",
@@ -91,7 +121,25 @@
       "avgPrice": 30000,
       "minPrice": 30000,
       "priceCount": 4,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:12 KST",
+          30000
+        ],
+        [
+          "2026-11-16 00:51 KST",
+          30000
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          30000
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          30000
+        ]
+      ]
     },
     {
       "productId": "4884130139",
@@ -109,7 +157,13 @@
       "avgPrice": 28600,
       "minPrice": 28600,
       "priceCount": 1,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 07:02 KST",
+          28600
+        ]
+      ]
     },
     {
       "productId": "7193817761",
@@ -127,7 +181,25 @@
       "avgPrice": 44100,
       "minPrice": 44100,
       "priceCount": 4,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:12 KST",
+          44100
+        ],
+        [
+          "2026-11-16 00:51 KST",
+          44100
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          44100
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          44100
+        ]
+      ]
     },
     {
       "productId": "6355737116",
@@ -145,7 +217,17 @@
       "avgPrice": 14680,
       "minPrice": 14680,
       "priceCount": 2,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          14680
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          14680
+        ]
+      ]
     },
     {
       "productId": "6344075508",
@@ -163,7 +245,17 @@
       "avgPrice": 13440,
       "minPrice": 13440,
       "priceCount": 2,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          13440
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          13440
+        ]
+      ]
     },
     {
       "productId": "8258949462",
@@ -181,7 +273,17 @@
       "avgPrice": 13440,
       "minPrice": 13440,
       "priceCount": 2,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          13440
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          13440
+        ]
+      ]
     },
     {
       "productId": "7060182058",
@@ -199,7 +301,13 @@
       "avgPrice": 25300,
       "minPrice": 25300,
       "priceCount": 1,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 07:02 KST",
+          25300
+        ]
+      ]
     },
     {
       "productId": "8832698072",
@@ -217,7 +325,17 @@
       "avgPrice": 7400,
       "minPrice": 7400,
       "priceCount": 2,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          7400
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          7400
+        ]
+      ]
     },
     {
       "productId": "6436856710",
@@ -235,7 +353,25 @@
       "avgPrice": 16090,
       "minPrice": 16090,
       "priceCount": 4,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:12 KST",
+          16090
+        ],
+        [
+          "2026-11-16 00:51 KST",
+          16090
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          16090
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          16090
+        ]
+      ]
     },
     {
       "productId": "9536213705",
@@ -253,7 +389,25 @@
       "avgPrice": 18468,
       "minPrice": 15550,
       "priceCount": 4,
-      "discountRate": 16
+      "discountRate": 16,
+      "priceHistory": [
+        [
+          "2026-11-16 00:12 KST",
+          19440
+        ],
+        [
+          "2026-11-16 00:51 KST",
+          19440
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          19440
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          15550
+        ]
+      ]
     },
     {
       "productId": "119465439",
@@ -271,7 +425,25 @@
       "avgPrice": 23000,
       "minPrice": 23000,
       "priceCount": 4,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:12 KST",
+          23000
+        ],
+        [
+          "2026-11-16 00:51 KST",
+          23000
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          23000
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          23000
+        ]
+      ]
     },
     {
       "productId": "8157287216",
@@ -289,7 +461,17 @@
       "avgPrice": 7160,
       "minPrice": 7160,
       "priceCount": 2,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          7160
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          7160
+        ]
+      ]
     },
     {
       "productId": "8157268957",
@@ -307,7 +489,17 @@
       "avgPrice": 4480,
       "minPrice": 4480,
       "priceCount": 2,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          4480
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          4480
+        ]
+      ]
     },
     {
       "productId": "6330671687",
@@ -325,7 +517,17 @@
       "avgPrice": 14150,
       "minPrice": 14150,
       "priceCount": 2,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          14150
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          14150
+        ]
+      ]
     },
     {
       "productId": "112882627",
@@ -343,7 +545,13 @@
       "avgPrice": 12900,
       "minPrice": 12900,
       "priceCount": 1,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 07:02 KST",
+          12900
+        ]
+      ]
     },
     {
       "productId": "9702656117",
@@ -361,7 +569,21 @@
       "avgPrice": 12960,
       "minPrice": 12960,
       "priceCount": 3,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:51 KST",
+          12960
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          12960
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          12960
+        ]
+      ]
     },
     {
       "productId": "9618453633",
@@ -379,7 +601,13 @@
       "avgPrice": 178480,
       "minPrice": 178480,
       "priceCount": 1,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 07:02 KST",
+          178480
+        ]
+      ]
     },
     {
       "productId": "9267059189",
@@ -397,7 +625,21 @@
       "avgPrice": 71540,
       "minPrice": 71540,
       "priceCount": 3,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:51 KST",
+          71540
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          71540
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          71540
+        ]
+      ]
     },
     {
       "productId": "9784494565",
@@ -415,7 +657,17 @@
       "avgPrice": 23990,
       "minPrice": 23990,
       "priceCount": 2,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          23990
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          23990
+        ]
+      ]
     },
     {
       "productId": "9388090271",
@@ -433,7 +685,17 @@
       "avgPrice": 25870,
       "minPrice": 25870,
       "priceCount": 2,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          25870
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          25870
+        ]
+      ]
     },
     {
       "productId": "8360433211",
@@ -451,7 +713,13 @@
       "avgPrice": 26800,
       "minPrice": 26800,
       "priceCount": 1,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 07:02 KST",
+          26800
+        ]
+      ]
     },
     {
       "productId": "8431586361",
@@ -469,7 +737,17 @@
       "avgPrice": 29880,
       "minPrice": 29880,
       "priceCount": 2,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          29880
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          29880
+        ]
+      ]
     },
     {
       "productId": "9609327067",
@@ -487,7 +765,17 @@
       "avgPrice": 29900,
       "minPrice": 29900,
       "priceCount": 2,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          29900
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          29900
+        ]
+      ]
     },
     {
       "productId": "9595365819",
@@ -505,7 +793,21 @@
       "avgPrice": 170000,
       "minPrice": 170000,
       "priceCount": 3,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:51 KST",
+          170000
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          170000
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          170000
+        ]
+      ]
     },
     {
       "productId": "9463147601",
@@ -523,7 +825,21 @@
       "avgPrice": 204500,
       "minPrice": 204500,
       "priceCount": 3,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:51 KST",
+          204500
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          204500
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          204500
+        ]
+      ]
     },
     {
       "productId": "9735820423",
@@ -541,7 +857,17 @@
       "avgPrice": 41500,
       "minPrice": 41500,
       "priceCount": 2,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          41500
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          41500
+        ]
+      ]
     },
     {
       "productId": "9743200071",
@@ -559,7 +885,17 @@
       "avgPrice": 44000,
       "minPrice": 44000,
       "priceCount": 2,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          44000
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          44000
+        ]
+      ]
     },
     {
       "productId": "9474695948",
@@ -577,7 +913,21 @@
       "avgPrice": 16900,
       "minPrice": 16900,
       "priceCount": 3,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:51 KST",
+          16900
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          16900
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          16900
+        ]
+      ]
     },
     {
       "productId": "9385909448",
@@ -595,7 +945,21 @@
       "avgPrice": 21700,
       "minPrice": 21700,
       "priceCount": 3,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:51 KST",
+          21700
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          21700
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          21700
+        ]
+      ]
     },
     {
       "productId": "7396556857",
@@ -613,7 +977,21 @@
       "avgPrice": 32850,
       "minPrice": 32850,
       "priceCount": 3,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:51 KST",
+          32850
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          32850
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          32850
+        ]
+      ]
     },
     {
       "productId": "9210933178",
@@ -631,7 +1009,21 @@
       "avgPrice": 24900,
       "minPrice": 24900,
       "priceCount": 3,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:51 KST",
+          24900
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          24900
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          24900
+        ]
+      ]
     },
     {
       "productId": "9683606713",
@@ -649,7 +1041,17 @@
       "avgPrice": 25890,
       "minPrice": 25890,
       "priceCount": 2,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          25890
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          25890
+        ]
+      ]
     },
     {
       "productId": "7481340380",
@@ -667,7 +1069,17 @@
       "avgPrice": 34920,
       "minPrice": 34920,
       "priceCount": 2,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          34920
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          34920
+        ]
+      ]
     },
     {
       "productId": "9773952674",
@@ -685,7 +1097,17 @@
       "avgPrice": 28700,
       "minPrice": 28700,
       "priceCount": 2,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          28700
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          28700
+        ]
+      ]
     },
     {
       "productId": "9444853494",
@@ -703,7 +1125,13 @@
       "avgPrice": 15690,
       "minPrice": 15690,
       "priceCount": 1,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 07:02 KST",
+          15690
+        ]
+      ]
     },
     {
       "productId": "9304259432",
@@ -721,7 +1149,25 @@
       "avgPrice": 14500,
       "minPrice": 14500,
       "priceCount": 4,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:12 KST",
+          14500
+        ],
+        [
+          "2026-11-16 00:51 KST",
+          14500
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          14500
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          14500
+        ]
+      ]
     },
     {
       "productId": "7249644933",
@@ -739,7 +1185,25 @@
       "avgPrice": 17000,
       "minPrice": 17000,
       "priceCount": 4,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:12 KST",
+          17000
+        ],
+        [
+          "2026-11-16 00:51 KST",
+          17000
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          17000
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          17000
+        ]
+      ]
     },
     {
       "productId": "2442336",
@@ -757,7 +1221,25 @@
       "avgPrice": 17000,
       "minPrice": 17000,
       "priceCount": 4,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:12 KST",
+          17000
+        ],
+        [
+          "2026-11-16 00:51 KST",
+          17000
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          17000
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          17000
+        ]
+      ]
     },
     {
       "productId": "7737842216",
@@ -775,7 +1257,13 @@
       "avgPrice": 17000,
       "minPrice": 17000,
       "priceCount": 1,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 07:02 KST",
+          17000
+        ]
+      ]
     },
     {
       "productId": "2442301",
@@ -793,7 +1281,25 @@
       "avgPrice": 4240,
       "minPrice": 4240,
       "priceCount": 4,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:12 KST",
+          4240
+        ],
+        [
+          "2026-11-16 00:51 KST",
+          4240
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          4240
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          4240
+        ]
+      ]
     },
     {
       "productId": "6714056882",
@@ -811,7 +1317,25 @@
       "avgPrice": 5320,
       "minPrice": 5320,
       "priceCount": 4,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:12 KST",
+          5320
+        ],
+        [
+          "2026-11-16 00:51 KST",
+          5320
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          5320
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          5320
+        ]
+      ]
     },
     {
       "productId": "2442312",
@@ -829,7 +1353,25 @@
       "avgPrice": 5940,
       "minPrice": 5940,
       "priceCount": 4,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:12 KST",
+          5940
+        ],
+        [
+          "2026-11-16 00:51 KST",
+          5940
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          5940
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          5940
+        ]
+      ]
     },
     {
       "productId": "9715193260",
@@ -847,7 +1389,25 @@
       "avgPrice": 8300,
       "minPrice": 8300,
       "priceCount": 4,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:12 KST",
+          8300
+        ],
+        [
+          "2026-11-16 00:51 KST",
+          8300
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          8300
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          8300
+        ]
+      ]
     },
     {
       "productId": "2453129",
@@ -865,7 +1425,25 @@
       "avgPrice": 15900,
       "minPrice": 15900,
       "priceCount": 4,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:12 KST",
+          15900
+        ],
+        [
+          "2026-11-16 00:51 KST",
+          15900
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          15900
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          15900
+        ]
+      ]
     },
     {
       "productId": "7742533243",
@@ -883,7 +1461,13 @@
       "avgPrice": 5320,
       "minPrice": 5320,
       "priceCount": 1,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 07:02 KST",
+          5320
+        ]
+      ]
     },
     {
       "productId": "5244230314",
@@ -901,7 +1485,21 @@
       "avgPrice": 90000,
       "minPrice": 90000,
       "priceCount": 3,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:51 KST",
+          90000
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          90000
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          90000
+        ]
+      ]
     },
     {
       "productId": "7677876919",
@@ -919,7 +1517,17 @@
       "avgPrice": 22440,
       "minPrice": 22440,
       "priceCount": 2,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          22440
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          22440
+        ]
+      ]
     },
     {
       "productId": "9724211869",
@@ -937,7 +1545,21 @@
       "avgPrice": 23280,
       "minPrice": 23280,
       "priceCount": 3,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:51 KST",
+          23280
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          23280
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          23280
+        ]
+      ]
     },
     {
       "productId": "9699325439",
@@ -955,7 +1577,17 @@
       "avgPrice": 11650,
       "minPrice": 11650,
       "priceCount": 2,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          11650
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          11650
+        ]
+      ]
     },
     {
       "productId": "8449685207",
@@ -973,7 +1605,17 @@
       "avgPrice": 12000,
       "minPrice": 12000,
       "priceCount": 2,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          12000
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          12000
+        ]
+      ]
     },
     {
       "productId": "198372945",
@@ -991,7 +1633,21 @@
       "avgPrice": 25500,
       "minPrice": 25500,
       "priceCount": 3,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:51 KST",
+          25500
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          25500
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          25500
+        ]
+      ]
     },
     {
       "productId": "7214066444",
@@ -1009,7 +1665,21 @@
       "avgPrice": 14000,
       "minPrice": 14000,
       "priceCount": 3,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:51 KST",
+          14000
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          14000
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          14000
+        ]
+      ]
     },
     {
       "productId": "9699325435",
@@ -1027,7 +1697,21 @@
       "avgPrice": 14750,
       "minPrice": 14750,
       "priceCount": 3,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:51 KST",
+          14750
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          14750
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          14750
+        ]
+      ]
     },
     {
       "productId": "8581185653",
@@ -1045,7 +1729,21 @@
       "avgPrice": 9300,
       "minPrice": 9300,
       "priceCount": 3,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:51 KST",
+          9300
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          9300
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          9300
+        ]
+      ]
     },
     {
       "productId": "9807901953",
@@ -1063,7 +1761,21 @@
       "avgPrice": 34900,
       "minPrice": 34900,
       "priceCount": 3,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:51 KST",
+          34900
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          34900
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          34900
+        ]
+      ]
     },
     {
       "productId": "9813568963",
@@ -1081,7 +1793,21 @@
       "avgPrice": 98000,
       "minPrice": 98000,
       "priceCount": 3,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:51 KST",
+          98000
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          98000
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          98000
+        ]
+      ]
     },
     {
       "productId": "9819730901",
@@ -1099,7 +1825,21 @@
       "avgPrice": 25620,
       "minPrice": 25620,
       "priceCount": 3,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:51 KST",
+          25620
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          25620
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          25620
+        ]
+      ]
     },
     {
       "productId": "9792838748",
@@ -1117,7 +1857,21 @@
       "avgPrice": 26500,
       "minPrice": 26500,
       "priceCount": 3,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:51 KST",
+          26500
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          26500
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          26500
+        ]
+      ]
     },
     {
       "productId": "9770220113",
@@ -1135,7 +1889,17 @@
       "avgPrice": 21500,
       "minPrice": 21500,
       "priceCount": 2,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          21500
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          21500
+        ]
+      ]
     },
     {
       "productId": "7026029061",
@@ -1153,7 +1917,17 @@
       "avgPrice": 10540,
       "minPrice": 10540,
       "priceCount": 2,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          10540
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          10540
+        ]
+      ]
     },
     {
       "productId": "108084889",
@@ -1171,7 +1945,17 @@
       "avgPrice": 14500,
       "minPrice": 14500,
       "priceCount": 2,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          14500
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          14500
+        ]
+      ]
     },
     {
       "productId": "7544081580",
@@ -1189,7 +1973,17 @@
       "avgPrice": 7690,
       "minPrice": 7690,
       "priceCount": 2,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          7690
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          7690
+        ]
+      ]
     },
     {
       "productId": "5684713",
@@ -1207,7 +2001,17 @@
       "avgPrice": 5890,
       "minPrice": 5890,
       "priceCount": 2,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          5890
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          5890
+        ]
+      ]
     },
     {
       "productId": "9783030770",
@@ -1225,7 +2029,21 @@
       "avgPrice": 4200,
       "minPrice": 4200,
       "priceCount": 3,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:51 KST",
+          4200
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          4200
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          4200
+        ]
+      ]
     },
     {
       "productId": "309613200",
@@ -1243,7 +2061,21 @@
       "avgPrice": 21100,
       "minPrice": 21100,
       "priceCount": 3,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:51 KST",
+          21100
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          21100
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          21100
+        ]
+      ]
     },
     {
       "productId": "4682969537",
@@ -1261,7 +2093,21 @@
       "avgPrice": 65770,
       "minPrice": 65770,
       "priceCount": 3,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:51 KST",
+          65770
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          65770
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          65770
+        ]
+      ]
     },
     {
       "productId": "6400580429",
@@ -1279,7 +2125,17 @@
       "avgPrice": 33630,
       "minPrice": 33630,
       "priceCount": 2,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          33630
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          33630
+        ]
+      ]
     },
     {
       "productId": "9792257236",
@@ -1297,7 +2153,21 @@
       "avgPrice": 9900,
       "minPrice": 9900,
       "priceCount": 3,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:51 KST",
+          9900
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          9900
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          9900
+        ]
+      ]
     },
     {
       "productId": "7398456407",
@@ -1315,7 +2185,17 @@
       "avgPrice": 38000,
       "minPrice": 38000,
       "priceCount": 2,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          38000
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          38000
+        ]
+      ]
     },
     {
       "productId": "6400586680",
@@ -1333,7 +2213,21 @@
       "avgPrice": 60750,
       "minPrice": 60750,
       "priceCount": 3,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:51 KST",
+          60750
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          60750
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          60750
+        ]
+      ]
     },
     {
       "productId": "9755119817",
@@ -1351,7 +2245,17 @@
       "avgPrice": 21600,
       "minPrice": 21600,
       "priceCount": 2,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          21600
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          21600
+        ]
+      ]
     },
     {
       "productId": "6514157775",
@@ -1369,7 +2273,17 @@
       "avgPrice": 13000,
       "minPrice": 13000,
       "priceCount": 2,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          13000
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          13000
+        ]
+      ]
     },
     {
       "productId": "7969070285",
@@ -1387,7 +2301,17 @@
       "avgPrice": 20400,
       "minPrice": 20400,
       "priceCount": 2,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          20400
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          20400
+        ]
+      ]
     },
     {
       "productId": "9325794097",
@@ -1405,7 +2329,17 @@
       "avgPrice": 31900,
       "minPrice": 31900,
       "priceCount": 2,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          31900
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          31900
+        ]
+      ]
     },
     {
       "productId": "5410875158",
@@ -1423,7 +2357,21 @@
       "avgPrice": 16000,
       "minPrice": 16000,
       "priceCount": 3,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:51 KST",
+          16000
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          16000
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          16000
+        ]
+      ]
     },
     {
       "productId": "9767510145",
@@ -1441,7 +2389,21 @@
       "avgPrice": 17300,
       "minPrice": 17300,
       "priceCount": 3,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:51 KST",
+          17300
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          17300
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          17300
+        ]
+      ]
     },
     {
       "productId": "8326609932",
@@ -1459,7 +2421,21 @@
       "avgPrice": 21200,
       "minPrice": 21200,
       "priceCount": 3,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:51 KST",
+          21200
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          21200
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          21200
+        ]
+      ]
     },
     {
       "productId": "7302732646",
@@ -1477,7 +2453,21 @@
       "avgPrice": 24000,
       "minPrice": 24000,
       "priceCount": 3,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:51 KST",
+          24000
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          24000
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          24000
+        ]
+      ]
     },
     {
       "productId": "9821900115",
@@ -1495,7 +2485,21 @@
       "avgPrice": 264900,
       "minPrice": 264900,
       "priceCount": 3,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:51 KST",
+          264900
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          264900
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          264900
+        ]
+      ]
     },
     {
       "productId": "184626075",
@@ -1513,7 +2517,17 @@
       "avgPrice": 10950,
       "minPrice": 10950,
       "priceCount": 2,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          10950
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          10950
+        ]
+      ]
     },
     {
       "productId": "6402665992",
@@ -1531,7 +2545,17 @@
       "avgPrice": 13680,
       "minPrice": 13660,
       "priceCount": 2,
-      "discountRate": 0
+      "discountRate": 0,
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          13700
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          13660
+        ]
+      ]
     },
     {
       "productId": "8691432112",
@@ -1549,7 +2573,17 @@
       "avgPrice": 37400,
       "minPrice": 37400,
       "priceCount": 2,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          37400
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          37400
+        ]
+      ]
     },
     {
       "productId": "7510870490",
@@ -1567,7 +2601,17 @@
       "avgPrice": 22500,
       "minPrice": 22500,
       "priceCount": 2,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          22500
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          22500
+        ]
+      ]
     },
     {
       "productId": "5524793096",
@@ -1585,7 +2629,13 @@
       "avgPrice": 18590,
       "minPrice": 18590,
       "priceCount": 1,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 07:02 KST",
+          18590
+        ]
+      ]
     },
     {
       "productId": "6360071707",
@@ -1603,7 +2653,21 @@
       "avgPrice": 15900,
       "minPrice": 15900,
       "priceCount": 3,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:51 KST",
+          15900
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          15900
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          15900
+        ]
+      ]
     },
     {
       "productId": "9513790612",
@@ -1621,7 +2685,21 @@
       "avgPrice": 19900,
       "minPrice": 19900,
       "priceCount": 3,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:51 KST",
+          19900
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          19900
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          19900
+        ]
+      ]
     },
     {
       "productId": "8060571285",
@@ -1639,7 +2717,21 @@
       "avgPrice": 10900,
       "minPrice": 10900,
       "priceCount": 3,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:51 KST",
+          10900
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          10900
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          10900
+        ]
+      ]
     },
     {
       "productId": "9003699506",
@@ -1657,7 +2749,17 @@
       "avgPrice": 27960,
       "minPrice": 27960,
       "priceCount": 2,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          27960
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          27960
+        ]
+      ]
     },
     {
       "productId": "7591172760",
@@ -1675,7 +2777,17 @@
       "avgPrice": 12990,
       "minPrice": 12990,
       "priceCount": 2,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          12990
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          12990
+        ]
+      ]
     },
     {
       "productId": "8574818708",
@@ -1693,7 +2805,21 @@
       "avgPrice": 14900,
       "minPrice": 14900,
       "priceCount": 3,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:51 KST",
+          14900
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          14900
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          14900
+        ]
+      ]
     },
     {
       "productId": "198053",
@@ -1711,7 +2837,21 @@
       "avgPrice": 19180,
       "minPrice": 19180,
       "priceCount": 3,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:51 KST",
+          19180
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          19180
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          19180
+        ]
+      ]
     },
     {
       "productId": "8401739453",
@@ -1729,7 +2869,21 @@
       "avgPrice": 15480,
       "minPrice": 15480,
       "priceCount": 3,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:51 KST",
+          15480
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          15480
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          15480
+        ]
+      ]
     },
     {
       "productId": "8209182187",
@@ -1747,7 +2901,21 @@
       "avgPrice": 13490,
       "minPrice": 13490,
       "priceCount": 3,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:51 KST",
+          13490
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          13490
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          13490
+        ]
+      ]
     },
     {
       "productId": "9798270713",
@@ -1765,7 +2933,17 @@
       "avgPrice": 15450,
       "minPrice": 15450,
       "priceCount": 2,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          15450
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          15450
+        ]
+      ]
     },
     {
       "productId": "6279051956",
@@ -1783,7 +2961,17 @@
       "avgPrice": 9350,
       "minPrice": 9350,
       "priceCount": 2,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          9350
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          9350
+        ]
+      ]
     },
     {
       "productId": "6603842219",
@@ -1801,7 +2989,17 @@
       "avgPrice": 66000,
       "minPrice": 66000,
       "priceCount": 2,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          66000
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          66000
+        ]
+      ]
     },
     {
       "productId": "8749464267",
@@ -1819,7 +3017,17 @@
       "avgPrice": 33700,
       "minPrice": 33700,
       "priceCount": 2,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          33700
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          33700
+        ]
+      ]
     },
     {
       "productId": "9670065098",
@@ -1837,7 +3045,17 @@
       "avgPrice": 36250,
       "minPrice": 36250,
       "priceCount": 2,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          36250
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          36250
+        ]
+      ]
     },
     {
       "productId": "8631440572",
@@ -1855,7 +3073,25 @@
       "avgPrice": 44170,
       "minPrice": 44170,
       "priceCount": 4,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:12 KST",
+          44170
+        ],
+        [
+          "2026-11-16 00:51 KST",
+          44170
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          44170
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          44170
+        ]
+      ]
     },
     {
       "productId": "9628116651",
@@ -1873,7 +3109,17 @@
       "avgPrice": 46900,
       "minPrice": 46900,
       "priceCount": 2,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          46900
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          46900
+        ]
+      ]
     },
     {
       "productId": "8887691390",
@@ -1891,7 +3137,25 @@
       "avgPrice": 48510,
       "minPrice": 48510,
       "priceCount": 4,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:12 KST",
+          48510
+        ],
+        [
+          "2026-11-16 00:51 KST",
+          48510
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          48510
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          48510
+        ]
+      ]
     },
     {
       "productId": "8356008135",
@@ -1909,7 +3173,25 @@
       "avgPrice": 49400,
       "minPrice": 49400,
       "priceCount": 4,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:12 KST",
+          49400
+        ],
+        [
+          "2026-11-16 00:51 KST",
+          49400
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          49400
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          49400
+        ]
+      ]
     },
     {
       "productId": "9422933215",
@@ -1927,7 +3209,25 @@
       "avgPrice": 49900,
       "minPrice": 49900,
       "priceCount": 4,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:12 KST",
+          49900
+        ],
+        [
+          "2026-11-16 00:51 KST",
+          49900
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          49900
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          49900
+        ]
+      ]
     },
     {
       "productId": "9680367581",
@@ -1945,7 +3245,17 @@
       "avgPrice": 49900,
       "minPrice": 49900,
       "priceCount": 2,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          49900
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          49900
+        ]
+      ]
     },
     {
       "productId": "8533799631",
@@ -1963,7 +3273,17 @@
       "avgPrice": 49900,
       "minPrice": 49900,
       "priceCount": 2,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          49900
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          49900
+        ]
+      ]
     },
     {
       "productId": "9593823253",
@@ -1981,7 +3301,13 @@
       "avgPrice": 50380,
       "minPrice": 50380,
       "priceCount": 1,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 07:02 KST",
+          50380
+        ]
+      ]
     },
     {
       "productId": "7396301992",
@@ -1999,7 +3325,17 @@
       "avgPrice": 50700,
       "minPrice": 48400,
       "priceCount": 2,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          48400
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          53000
+        ]
+      ]
     },
     {
       "productId": "9680373211",
@@ -2017,7 +3353,17 @@
       "avgPrice": 58900,
       "minPrice": 58900,
       "priceCount": 2,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          58900
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          58900
+        ]
+      ]
     },
     {
       "productId": "9523711554",
@@ -2035,7 +3381,17 @@
       "avgPrice": 67900,
       "minPrice": 67900,
       "priceCount": 2,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          67900
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          67900
+        ]
+      ]
     },
     {
       "productId": "9683639291",
@@ -2053,7 +3409,25 @@
       "avgPrice": 8980,
       "minPrice": 8980,
       "priceCount": 4,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:12 KST",
+          8980
+        ],
+        [
+          "2026-11-16 00:51 KST",
+          8980
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          8980
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          8980
+        ]
+      ]
     },
     {
       "productId": "9593716376",
@@ -2071,7 +3445,25 @@
       "avgPrice": 47960,
       "minPrice": 47960,
       "priceCount": 4,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:12 KST",
+          47960
+        ],
+        [
+          "2026-11-16 00:51 KST",
+          47960
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          47960
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          47960
+        ]
+      ]
     },
     {
       "productId": "9538536228",
@@ -2089,7 +3481,17 @@
       "avgPrice": 105750,
       "minPrice": 105750,
       "priceCount": 2,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          105750
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          105750
+        ]
+      ]
     },
     {
       "productId": "9552873620",
@@ -2107,7 +3509,25 @@
       "avgPrice": 26460,
       "minPrice": 26460,
       "priceCount": 4,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:12 KST",
+          26460
+        ],
+        [
+          "2026-11-16 00:51 KST",
+          26460
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          26460
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          26460
+        ]
+      ]
     },
     {
       "productId": "1720383899",
@@ -2125,7 +3545,25 @@
       "avgPrice": 9990,
       "minPrice": 9990,
       "priceCount": 4,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:12 KST",
+          9990
+        ],
+        [
+          "2026-11-16 00:51 KST",
+          9990
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          9990
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          9990
+        ]
+      ]
     },
     {
       "productId": "9743039714",
@@ -2143,7 +3581,25 @@
       "avgPrice": 11400,
       "minPrice": 11400,
       "priceCount": 4,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:12 KST",
+          11400
+        ],
+        [
+          "2026-11-16 00:51 KST",
+          11400
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          11400
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          11400
+        ]
+      ]
     },
     {
       "productId": "9742978885",
@@ -2161,7 +3617,25 @@
       "avgPrice": 11900,
       "minPrice": 11900,
       "priceCount": 4,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:12 KST",
+          11900
+        ],
+        [
+          "2026-11-16 00:51 KST",
+          11900
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          11900
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          11900
+        ]
+      ]
     },
     {
       "productId": "6393757205",
@@ -2179,7 +3653,25 @@
       "avgPrice": 8340,
       "minPrice": 8340,
       "priceCount": 4,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:12 KST",
+          8340
+        ],
+        [
+          "2026-11-16 00:51 KST",
+          8340
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          8340
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          8340
+        ]
+      ]
     },
     {
       "productId": "5542110692",
@@ -2197,7 +3689,25 @@
       "avgPrice": 9970,
       "minPrice": 9970,
       "priceCount": 4,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:12 KST",
+          9970
+        ],
+        [
+          "2026-11-16 00:51 KST",
+          9970
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          9970
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          9970
+        ]
+      ]
     },
     {
       "productId": "9784284588",
@@ -2215,7 +3725,17 @@
       "avgPrice": 9900,
       "minPrice": 9900,
       "priceCount": 2,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          9900
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          9900
+        ]
+      ]
     },
     {
       "productId": "26145737",
@@ -2233,7 +3753,17 @@
       "avgPrice": 12900,
       "minPrice": 12900,
       "priceCount": 2,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          12900
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          12900
+        ]
+      ]
     },
     {
       "productId": "76902",
@@ -2251,7 +3781,17 @@
       "avgPrice": 14900,
       "minPrice": 14900,
       "priceCount": 2,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          14900
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          14900
+        ]
+      ]
     },
     {
       "productId": "9628021737",
@@ -2269,7 +3809,25 @@
       "avgPrice": 790,
       "minPrice": 790,
       "priceCount": 4,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:12 KST",
+          790
+        ],
+        [
+          "2026-11-16 00:51 KST",
+          790
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          790
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          790
+        ]
+      ]
     },
     {
       "productId": "2273239739",
@@ -2287,7 +3845,25 @@
       "avgPrice": 12570,
       "minPrice": 12570,
       "priceCount": 4,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:12 KST",
+          12570
+        ],
+        [
+          "2026-11-16 00:51 KST",
+          12570
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          12570
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          12570
+        ]
+      ]
     },
     {
       "productId": "5540305703",
@@ -2305,7 +3881,17 @@
       "avgPrice": 26400,
       "minPrice": 26400,
       "priceCount": 2,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          26400
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          26400
+        ]
+      ]
     },
     {
       "productId": "6922591746",
@@ -2323,7 +3909,17 @@
       "avgPrice": 27000,
       "minPrice": 27000,
       "priceCount": 2,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          27000
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          27000
+        ]
+      ]
     },
     {
       "productId": "8810869296",
@@ -2341,7 +3937,13 @@
       "avgPrice": 27400,
       "minPrice": 27400,
       "priceCount": 1,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 07:02 KST",
+          27400
+        ]
+      ]
     },
     {
       "productId": "8493592299",
@@ -2359,7 +3961,13 @@
       "avgPrice": 29100,
       "minPrice": 29100,
       "priceCount": 1,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 07:02 KST",
+          29100
+        ]
+      ]
     },
     {
       "productId": "8420892270",
@@ -2377,7 +3985,17 @@
       "avgPrice": 29700,
       "minPrice": 29700,
       "priceCount": 2,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          29700
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          29700
+        ]
+      ]
     },
     {
       "productId": "9609711847",
@@ -2395,7 +4013,25 @@
       "avgPrice": 6800,
       "minPrice": 6800,
       "priceCount": 4,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:12 KST",
+          6800
+        ],
+        [
+          "2026-11-16 00:51 KST",
+          6800
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          6800
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          6800
+        ]
+      ]
     },
     {
       "productId": "9278918364",
@@ -2413,7 +4049,25 @@
       "avgPrice": 2930,
       "minPrice": 2930,
       "priceCount": 4,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:12 KST",
+          2930
+        ],
+        [
+          "2026-11-16 00:51 KST",
+          2930
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          2930
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          2930
+        ]
+      ]
     },
     {
       "productId": "7773849708",
@@ -2431,7 +4085,25 @@
       "avgPrice": 4300,
       "minPrice": 4300,
       "priceCount": 4,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:12 KST",
+          4300
+        ],
+        [
+          "2026-11-16 00:51 KST",
+          4300
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          4300
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          4300
+        ]
+      ]
     },
     {
       "productId": "7395570583",
@@ -2449,7 +4121,25 @@
       "avgPrice": 5300,
       "minPrice": 5300,
       "priceCount": 4,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:12 KST",
+          5300
+        ],
+        [
+          "2026-11-16 00:51 KST",
+          5300
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          5300
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          5300
+        ]
+      ]
     },
     {
       "productId": "7105099367",
@@ -2467,7 +4157,25 @@
       "avgPrice": 5930,
       "minPrice": 5930,
       "priceCount": 4,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:12 KST",
+          5930
+        ],
+        [
+          "2026-11-16 00:51 KST",
+          5930
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          5930
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          5930
+        ]
+      ]
     },
     {
       "productId": "7773849677",
@@ -2485,7 +4193,25 @@
       "avgPrice": 6990,
       "minPrice": 6990,
       "priceCount": 4,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:12 KST",
+          6990
+        ],
+        [
+          "2026-11-16 00:51 KST",
+          6990
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          6990
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          6990
+        ]
+      ]
     },
     {
       "productId": "8605970169",
@@ -2503,7 +4229,17 @@
       "avgPrice": 5490,
       "minPrice": 5490,
       "priceCount": 2,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          5490
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          5490
+        ]
+      ]
     },
     {
       "productId": "1542252723",
@@ -2521,7 +4257,17 @@
       "avgPrice": 13200,
       "minPrice": 13200,
       "priceCount": 2,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          13200
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          13200
+        ]
+      ]
     },
     {
       "productId": "7876924802",
@@ -2539,7 +4285,17 @@
       "avgPrice": 14970,
       "minPrice": 14970,
       "priceCount": 2,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          14970
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          14970
+        ]
+      ]
     },
     {
       "productId": "8436480488",
@@ -2557,7 +4313,25 @@
       "avgPrice": 31670,
       "minPrice": 31670,
       "priceCount": 4,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:12 KST",
+          31670
+        ],
+        [
+          "2026-11-16 00:51 KST",
+          31670
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          31670
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          31670
+        ]
+      ]
     },
     {
       "productId": "1951259803",
@@ -2575,7 +4349,25 @@
       "avgPrice": 58800,
       "minPrice": 58800,
       "priceCount": 4,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:12 KST",
+          58800
+        ],
+        [
+          "2026-11-16 00:51 KST",
+          58800
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          58800
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          58800
+        ]
+      ]
     },
     {
       "productId": "7983859170",
@@ -2593,7 +4385,25 @@
       "avgPrice": 104050,
       "minPrice": 104050,
       "priceCount": 4,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:12 KST",
+          104050
+        ],
+        [
+          "2026-11-16 00:51 KST",
+          104050
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          104050
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          104050
+        ]
+      ]
     },
     {
       "productId": "7597856296",
@@ -2611,7 +4421,17 @@
       "avgPrice": 15890,
       "minPrice": 15890,
       "priceCount": 2,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          15890
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          15890
+        ]
+      ]
     },
     {
       "productId": "9409800834",
@@ -2629,7 +4449,13 @@
       "avgPrice": 33500,
       "minPrice": 33500,
       "priceCount": 1,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 07:02 KST",
+          33500
+        ]
+      ]
     },
     {
       "productId": "8715053766",
@@ -2647,7 +4473,17 @@
       "avgPrice": 32490,
       "minPrice": 32490,
       "priceCount": 2,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          32490
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          32490
+        ]
+      ]
     },
     {
       "productId": "9452530356",
@@ -2665,7 +4501,17 @@
       "avgPrice": 29900,
       "minPrice": 29900,
       "priceCount": 2,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          29900
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          29900
+        ]
+      ]
     },
     {
       "productId": "9061598364",
@@ -2683,7 +4529,17 @@
       "avgPrice": 31900,
       "minPrice": 31900,
       "priceCount": 2,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          31900
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          31900
+        ]
+      ]
     },
     {
       "productId": "2347991107",
@@ -2701,7 +4557,25 @@
       "avgPrice": 7110,
       "minPrice": 7110,
       "priceCount": 4,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:12 KST",
+          7110
+        ],
+        [
+          "2026-11-16 00:51 KST",
+          7110
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          7110
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          7110
+        ]
+      ]
     },
     {
       "productId": "6843862783",
@@ -2719,7 +4593,25 @@
       "avgPrice": 16230,
       "minPrice": 16230,
       "priceCount": 4,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:12 KST",
+          16230
+        ],
+        [
+          "2026-11-16 00:51 KST",
+          16230
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          16230
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          16230
+        ]
+      ]
     },
     {
       "productId": "8798984745",
@@ -2737,7 +4629,25 @@
       "avgPrice": 36000,
       "minPrice": 36000,
       "priceCount": 4,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 00:12 KST",
+          36000
+        ],
+        [
+          "2026-11-16 00:51 KST",
+          36000
+        ],
+        [
+          "2026-11-16 02:07 KST",
+          36000
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          36000
+        ]
+      ]
     },
     {
       "productId": "8995638881",
@@ -2755,7 +4665,17 @@
       "avgPrice": 15920,
       "minPrice": 15920,
       "priceCount": 2,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          15920
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          15920
+        ]
+      ]
     },
     {
       "productId": "7278866396",
@@ -2773,7 +4693,17 @@
       "avgPrice": 8690,
       "minPrice": 8690,
       "priceCount": 2,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          8690
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          8690
+        ]
+      ]
     },
     {
       "productId": "7565793302",
@@ -2791,7 +4721,17 @@
       "avgPrice": 26780,
       "minPrice": 26780,
       "priceCount": 2,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          26780
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          26780
+        ]
+      ]
     },
     {
       "productId": "8974546869",
@@ -2809,7 +4749,17 @@
       "avgPrice": 25110,
       "minPrice": 25110,
       "priceCount": 2,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          25110
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          25110
+        ]
+      ]
     },
     {
       "productId": "7613632287",
@@ -2827,7 +4777,17 @@
       "avgPrice": 14840,
       "minPrice": 14840,
       "priceCount": 2,
-      "discountRate": null
+      "discountRate": null,
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          14840
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          14840
+        ]
+      ]
     }
   ]
 }

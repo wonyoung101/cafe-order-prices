@@ -47,6 +47,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 OUT_PATH = ROOT / "deals.json"
 HISTORY_PATH = ROOT / "data" / "price_history.json"
+HISTORY_INLINE_MAX = 120     # deals.json 상품 안에 함께 남기는 관측 개수 상한
 USAGE_PATH = Path(__file__).resolve().parent / ".api_usage.json"
 
 API_HOST = "https://api-gateway.coupang.com"
@@ -371,19 +372,29 @@ def add_observation(hist: dict, deal: dict, at: str, source: str) -> bool:
 
 
 def reconcile_from_previous(hist: dict, prev_payload: dict) -> int:
-    """이전 `deals.json` 의 수집 시각·가격을 이력에 되살린다.
+    """이전 `deals.json` 에서 관측 가격을 이력으로 복원한다.
 
-    워크플로가 `data/price_history.json` 을 커밋하지 못한 경우에도 다음 실행에서
-    이력이 비지 않도록 하는 자기 치유 장치입니다(추정값 없음, 실제 기록만).
+    각 상품이 가진 `priceHistory`(관측 목록)를 활용하므로, 워크플로가
+    `data/price_history.json` 을 커밋하지 못해도 이력이 계속 누적됩니다
+    (추정값 없음, 실제 기록만).
     """
-    at = (prev_payload or {}).get("updatedAt") or ""
+    at_default = (prev_payload or {}).get("updatedAt") or ""
     deals = (prev_payload or {}).get("deals") or []
-    if not at or not deals:
+    if not deals:
         return 0
     restored = 0
     for d in deals:
-        if add_observation(hist, d, at, "이전 deals.json 복원"):
-            restored += 1
+        pairs = d.get("priceHistory")
+        if isinstance(pairs, list) and pairs:
+            for pair in pairs:
+                if not isinstance(pair, (list, tuple)) or len(pair) < 2 or not pair[1]:
+                    continue
+                probe = dict(d, productPrice=pair[1])
+                if add_observation(hist, probe, str(pair[0] or ""), "이전 deals.json 이력"):
+                    restored += 1
+        elif at_default and d.get("productPrice"):
+            if add_observation(hist, d, at_default, "이전 deals.json 복원"):
+                restored += 1
     return restored
 
 
@@ -423,6 +434,14 @@ def apply_price_stats(deals: list[dict], hist: dict) -> int:
                 discounted += 1
         else:
             d["discountRate"] = None
+        # 관측 목록을 상품 안에도 함께 남긴다 — 워크플로가 price_history.json 을
+        # 커밋하지 못해도 이력이 deals.json 과 함께 누적되게 하는 안전장치.
+        obs = entry.get("observations") or []
+        if obs:
+            d["priceHistory"] = [[o.get("at"), o["price"]]
+                                 for o in obs[-HISTORY_INLINE_MAX:] if o.get("price")]
+        else:
+            d.pop("priceHistory", None)
     return discounted
 
 

@@ -33,9 +33,10 @@
 `data/price_history.json` 에 상품(`productId`)별 관측 가격을 쌓고, 그 평균과 비교해 할인율을 계산합니다.
 
 - 관측 1건 = 그 수집 시각에 확인된 해당 상품의 `productPrice`. **보간·추정값은 넣지 않습니다.**
-- `deals.json` 각 상품에 `avgPrice`(누적 평균가), `minPrice`(최저 관측가), `priceCount`(관측 횟수), `discountRate`(평균 대비 하락률)를 함께 저장합니다.
+- `deals.json` 각 상품에 `avgPrice`(누적 평균가), `minPrice`(최저 관측가), `priceCount`(관측 횟수), `discountRate`(평균 대비 하락률), `priceHistory`(관측 시각·가격 목록, 최근 120개)를 함께 저장합니다.
 - `discountRate` = 관측 2회 이상이고 현재가가 누적 평균보다 낮을 때 `round((avgPrice - productPrice) / avgPrice * 100)`, 그 외에는 `null`.
 - 사이트는 `discountRate >= 1` 인 상품에만 `평균 대비 N%↓` 배지와 기준 평균가를 표시합니다(0%·가짜 정가 표시 없음).
+- 관측 목록은 `deals.json` 에도 남기므로, 자동 갱신 워크플로가 `data/price_history.json` 을 커밋하지 못해도 다음 실행이 이력을 복원해 계속 누적합니다. (워크플로 `git add` 에 `data/price_history.json` 을 더하면 더 깔끔합니다 — 연결 권한상 워크플로 파일은 GitHub 웹에서 수정)
 - 초기 이력은 저장소 커밋의 실제 `deals.json` 스냅샷에서 시드했습니다: `python scripts/seed_price_history.py`
 
 ### 쿨다운 안전장치

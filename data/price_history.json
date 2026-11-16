@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16 14:32 KST",
+  "updatedAt": "2026-11-16 14:39 KST",
   "source": "git snapshots",
   "products": {
     "8436480488": {
@@ -14,17 +14,17 @@
         {
           "at": "2026-11-16 00:51 KST",
           "price": 31670,
-          "source": "deals.json@e7b70fd"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 02:07 KST",
           "price": 31670,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 31670,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 4,
@@ -46,17 +46,17 @@
         {
           "at": "2026-11-16 00:51 KST",
           "price": 58800,
-          "source": "deals.json@e7b70fd"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 02:07 KST",
           "price": 58800,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 58800,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 4,
@@ -78,17 +78,17 @@
         {
           "at": "2026-11-16 00:51 KST",
           "price": 104050,
-          "source": "deals.json@e7b70fd"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 02:07 KST",
           "price": 104050,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 104050,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 4,
@@ -110,17 +110,17 @@
         {
           "at": "2026-11-16 00:51 KST",
           "price": 8340,
-          "source": "deals.json@e7b70fd"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 02:07 KST",
           "price": 8340,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 8340,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 4,
@@ -142,17 +142,17 @@
         {
           "at": "2026-11-16 00:51 KST",
           "price": 9970,
-          "source": "deals.json@e7b70fd"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 02:07 KST",
           "price": 9970,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 9970,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 4,
@@ -174,17 +174,17 @@
         {
           "at": "2026-11-16 00:51 KST",
           "price": 790,
-          "source": "deals.json@e7b70fd"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 02:07 KST",
           "price": 790,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 790,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 4,
@@ -206,17 +206,17 @@
         {
           "at": "2026-11-16 00:51 KST",
           "price": 12570,
-          "source": "deals.json@e7b70fd"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 02:07 KST",
           "price": 12570,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 12570,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 4,
@@ -238,17 +238,17 @@
         {
           "at": "2026-11-16 00:51 KST",
           "price": 44170,
-          "source": "deals.json@e7b70fd"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 02:07 KST",
           "price": 44170,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 44170,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 4,
@@ -270,17 +270,17 @@
         {
           "at": "2026-11-16 00:51 KST",
           "price": 48510,
-          "source": "deals.json@e7b70fd"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 02:07 KST",
           "price": 48510,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 48510,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 4,
@@ -302,17 +302,17 @@
         {
           "at": "2026-11-16 00:51 KST",
           "price": 49400,
-          "source": "deals.json@e7b70fd"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 02:07 KST",
           "price": 49400,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 49400,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 4,
@@ -334,17 +334,17 @@
         {
           "at": "2026-11-16 00:51 KST",
           "price": 49900,
-          "source": "deals.json@e7b70fd"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 02:07 KST",
           "price": 49900,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 49900,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 4,
@@ -366,17 +366,17 @@
         {
           "at": "2026-11-16 00:51 KST",
           "price": 6800,
-          "source": "deals.json@e7b70fd"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 02:07 KST",
           "price": 6800,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 6800,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 4,
@@ -398,17 +398,17 @@
         {
           "at": "2026-11-16 00:51 KST",
           "price": 8980,
-          "source": "deals.json@e7b70fd"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 02:07 KST",
           "price": 8980,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 8980,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 4,
@@ -430,17 +430,17 @@
         {
           "at": "2026-11-16 00:51 KST",
           "price": 47960,
-          "source": "deals.json@e7b70fd"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 02:07 KST",
           "price": 47960,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 47960,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 4,
@@ -462,17 +462,17 @@
         {
           "at": "2026-11-16 00:51 KST",
           "price": 30000,
-          "source": "deals.json@e7b70fd"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 02:07 KST",
           "price": 30000,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 30000,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 4,
@@ -494,17 +494,17 @@
         {
           "at": "2026-11-16 00:51 KST",
           "price": 26460,
-          "source": "deals.json@e7b70fd"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 02:07 KST",
           "price": 26460,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 26460,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 4,
@@ -526,17 +526,17 @@
         {
           "at": "2026-11-16 00:51 KST",
           "price": 44100,
-          "source": "deals.json@e7b70fd"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 02:07 KST",
           "price": 44100,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 44100,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 4,
@@ -558,17 +558,17 @@
         {
           "at": "2026-11-16 00:51 KST",
           "price": 14500,
-          "source": "deals.json@e7b70fd"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 02:07 KST",
           "price": 14500,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 14500,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 4,
@@ -590,17 +590,17 @@
         {
           "at": "2026-11-16 00:51 KST",
           "price": 17000,
-          "source": "deals.json@e7b70fd"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 02:07 KST",
           "price": 17000,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 17000,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 4,
@@ -622,17 +622,17 @@
         {
           "at": "2026-11-16 00:51 KST",
           "price": 17000,
-          "source": "deals.json@e7b70fd"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 02:07 KST",
           "price": 17000,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 17000,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 4,
@@ -654,17 +654,17 @@
         {
           "at": "2026-11-16 00:51 KST",
           "price": 2930,
-          "source": "deals.json@e7b70fd"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 02:07 KST",
           "price": 2930,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 2930,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 4,
@@ -686,17 +686,17 @@
         {
           "at": "2026-11-16 00:51 KST",
           "price": 4240,
-          "source": "deals.json@e7b70fd"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 02:07 KST",
           "price": 4240,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 4240,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 4,
@@ -718,17 +718,17 @@
         {
           "at": "2026-11-16 00:51 KST",
           "price": 4300,
-          "source": "deals.json@e7b70fd"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 02:07 KST",
           "price": 4300,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 4300,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 4,
@@ -750,17 +750,17 @@
         {
           "at": "2026-11-16 00:51 KST",
           "price": 5300,
-          "source": "deals.json@e7b70fd"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 02:07 KST",
           "price": 5300,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 5300,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 4,
@@ -782,17 +782,17 @@
         {
           "at": "2026-11-16 00:51 KST",
           "price": 5320,
-          "source": "deals.json@e7b70fd"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 02:07 KST",
           "price": 5320,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 5320,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 4,
@@ -814,17 +814,17 @@
         {
           "at": "2026-11-16 00:51 KST",
           "price": 5930,
-          "source": "deals.json@e7b70fd"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 02:07 KST",
           "price": 5930,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 5930,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 4,
@@ -846,17 +846,17 @@
         {
           "at": "2026-11-16 00:51 KST",
           "price": 5940,
-          "source": "deals.json@e7b70fd"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 02:07 KST",
           "price": 5940,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 5940,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 4,
@@ -878,17 +878,17 @@
         {
           "at": "2026-11-16 00:51 KST",
           "price": 6990,
-          "source": "deals.json@e7b70fd"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 02:07 KST",
           "price": 6990,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 6990,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 4,
@@ -910,17 +910,17 @@
         {
           "at": "2026-11-16 00:51 KST",
           "price": 7110,
-          "source": "deals.json@e7b70fd"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 02:07 KST",
           "price": 7110,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 7110,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 4,
@@ -942,17 +942,17 @@
         {
           "at": "2026-11-16 00:51 KST",
           "price": 8300,
-          "source": "deals.json@e7b70fd"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 02:07 KST",
           "price": 8300,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 8300,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 4,
@@ -974,17 +974,17 @@
         {
           "at": "2026-11-16 00:51 KST",
           "price": 9990,
-          "source": "deals.json@e7b70fd"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 02:07 KST",
           "price": 9990,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 9990,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 4,
@@ -1006,17 +1006,17 @@
         {
           "at": "2026-11-16 00:51 KST",
           "price": 11400,
-          "source": "deals.json@e7b70fd"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 02:07 KST",
           "price": 11400,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 11400,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 4,
@@ -1038,17 +1038,17 @@
         {
           "at": "2026-11-16 00:51 KST",
           "price": 11900,
-          "source": "deals.json@e7b70fd"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 02:07 KST",
           "price": 11900,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 11900,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 4,
@@ -1070,17 +1070,17 @@
         {
           "at": "2026-11-16 00:51 KST",
           "price": 15900,
-          "source": "deals.json@e7b70fd"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 02:07 KST",
           "price": 15900,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 15900,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 4,
@@ -1102,17 +1102,17 @@
         {
           "at": "2026-11-16 00:51 KST",
           "price": 16090,
-          "source": "deals.json@e7b70fd"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 02:07 KST",
           "price": 16090,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 16090,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 4,
@@ -1134,17 +1134,17 @@
         {
           "at": "2026-11-16 00:51 KST",
           "price": 16230,
-          "source": "deals.json@e7b70fd"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 02:07 KST",
           "price": 16230,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 16230,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 4,
@@ -1166,17 +1166,17 @@
         {
           "at": "2026-11-16 00:51 KST",
           "price": 17300,
-          "source": "deals.json@e7b70fd"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 02:07 KST",
           "price": 17300,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 19970,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 4,
@@ -1198,17 +1198,17 @@
         {
           "at": "2026-11-16 00:51 KST",
           "price": 19440,
-          "source": "deals.json@e7b70fd"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 02:07 KST",
           "price": 19440,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 15550,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 4,
@@ -1230,17 +1230,17 @@
         {
           "at": "2026-11-16 00:51 KST",
           "price": 23000,
-          "source": "deals.json@e7b70fd"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 02:07 KST",
           "price": 23000,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 23000,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 4,
@@ -1262,17 +1262,17 @@
         {
           "at": "2026-11-16 00:51 KST",
           "price": 36000,
-          "source": "deals.json@e7b70fd"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 02:07 KST",
           "price": 36000,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 36000,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 4,
@@ -1294,12 +1294,12 @@
         {
           "at": "2026-11-16 02:07 KST",
           "price": 12960,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 12960,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 3,
@@ -1321,12 +1321,12 @@
         {
           "at": "2026-11-16 02:07 KST",
           "price": 71540,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 71540,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 3,
@@ -1348,12 +1348,12 @@
         {
           "at": "2026-11-16 02:07 KST",
           "price": 170000,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 170000,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 3,
@@ -1375,12 +1375,12 @@
         {
           "at": "2026-11-16 02:07 KST",
           "price": 204500,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 204500,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 3,
@@ -1402,12 +1402,12 @@
         {
           "at": "2026-11-16 02:07 KST",
           "price": 16900,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 16900,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 3,
@@ -1429,12 +1429,12 @@
         {
           "at": "2026-11-16 02:07 KST",
           "price": 21700,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 21700,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 3,
@@ -1456,12 +1456,12 @@
         {
           "at": "2026-11-16 02:07 KST",
           "price": 32850,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 32850,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 3,
@@ -1483,12 +1483,12 @@
         {
           "at": "2026-11-16 02:07 KST",
           "price": 24900,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 24900,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 3,
@@ -1510,12 +1510,12 @@
         {
           "at": "2026-11-16 02:07 KST",
           "price": 90000,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 90000,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 3,
@@ -1537,12 +1537,12 @@
         {
           "at": "2026-11-16 02:07 KST",
           "price": 23280,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 23280,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 3,
@@ -1564,12 +1564,12 @@
         {
           "at": "2026-11-16 02:07 KST",
           "price": 25500,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 25500,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 3,
@@ -1591,12 +1591,12 @@
         {
           "at": "2026-11-16 02:07 KST",
           "price": 14000,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 14000,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 3,
@@ -1618,12 +1618,12 @@
         {
           "at": "2026-11-16 02:07 KST",
           "price": 14750,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 14750,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 3,
@@ -1645,12 +1645,12 @@
         {
           "at": "2026-11-16 02:07 KST",
           "price": 9300,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 9300,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 3,
@@ -1672,12 +1672,12 @@
         {
           "at": "2026-11-16 02:07 KST",
           "price": 34900,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 34900,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 3,
@@ -1699,12 +1699,12 @@
         {
           "at": "2026-11-16 02:07 KST",
           "price": 98000,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 98000,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 3,
@@ -1726,12 +1726,12 @@
         {
           "at": "2026-11-16 02:07 KST",
           "price": 25620,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 25620,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 3,
@@ -1753,12 +1753,12 @@
         {
           "at": "2026-11-16 02:07 KST",
           "price": 26500,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 26500,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 3,
@@ -1780,12 +1780,12 @@
         {
           "at": "2026-11-16 02:07 KST",
           "price": 65770,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 65770,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 3,
@@ -1807,12 +1807,12 @@
         {
           "at": "2026-11-16 02:07 KST",
           "price": 4200,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 4200,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 3,
@@ -1834,12 +1834,12 @@
         {
           "at": "2026-11-16 02:07 KST",
           "price": 21100,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 21100,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 3,
@@ -1861,12 +1861,12 @@
         {
           "at": "2026-11-16 02:07 KST",
           "price": 9900,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 9900,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 3,
@@ -1888,12 +1888,12 @@
         {
           "at": "2026-11-16 02:07 KST",
           "price": 60750,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 60750,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 3,
@@ -1915,12 +1915,12 @@
         {
           "at": "2026-11-16 02:07 KST",
           "price": 16000,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 16000,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 3,
@@ -1942,12 +1942,12 @@
         {
           "at": "2026-11-16 02:07 KST",
           "price": 17300,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 17300,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 3,
@@ -1969,12 +1969,12 @@
         {
           "at": "2026-11-16 02:07 KST",
           "price": 21200,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 21200,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 3,
@@ -1996,12 +1996,12 @@
         {
           "at": "2026-11-16 02:07 KST",
           "price": 24000,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 24000,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 3,
@@ -2023,12 +2023,12 @@
         {
           "at": "2026-11-16 02:07 KST",
           "price": 264900,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 264900,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 3,
@@ -2050,12 +2050,12 @@
         {
           "at": "2026-11-16 02:07 KST",
           "price": 15900,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 15900,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 3,
@@ -2077,12 +2077,12 @@
         {
           "at": "2026-11-16 02:07 KST",
           "price": 19900,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 19900,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 3,
@@ -2104,12 +2104,12 @@
         {
           "at": "2026-11-16 02:07 KST",
           "price": 10900,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 10900,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 3,
@@ -2131,12 +2131,12 @@
         {
           "at": "2026-11-16 02:07 KST",
           "price": 14900,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 14900,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 3,
@@ -2158,12 +2158,12 @@
         {
           "at": "2026-11-16 02:07 KST",
           "price": 19180,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 19180,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 3,
@@ -2185,12 +2185,12 @@
         {
           "at": "2026-11-16 02:07 KST",
           "price": 15480,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 15480,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 3,
@@ -2212,12 +2212,12 @@
         {
           "at": "2026-11-16 02:07 KST",
           "price": 13490,
-          "source": "deals.json@f26fccf"
+          "source": "이전 deals.json 이력"
         },
         {
           "at": "2026-11-16 07:02 KST",
           "price": 13490,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 3,
@@ -2239,7 +2239,7 @@
         {
           "at": "2026-11-16 07:02 KST",
           "price": 14680,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 2,
@@ -2261,7 +2261,7 @@
         {
           "at": "2026-11-16 07:02 KST",
           "price": 13440,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 2,
@@ -2283,7 +2283,7 @@
         {
           "at": "2026-11-16 07:02 KST",
           "price": 13440,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 2,
@@ -2305,7 +2305,7 @@
         {
           "at": "2026-11-16 07:02 KST",
           "price": 7400,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 2,
@@ -2327,7 +2327,7 @@
         {
           "at": "2026-11-16 07:02 KST",
           "price": 7160,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 2,
@@ -2349,7 +2349,7 @@
         {
           "at": "2026-11-16 07:02 KST",
           "price": 4480,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 2,
@@ -2371,7 +2371,7 @@
         {
           "at": "2026-11-16 07:02 KST",
           "price": 14150,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 2,
@@ -2393,7 +2393,7 @@
         {
           "at": "2026-11-16 07:02 KST",
           "price": 23990,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 2,
@@ -2415,7 +2415,7 @@
         {
           "at": "2026-11-16 07:02 KST",
           "price": 25870,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 2,
@@ -2437,7 +2437,7 @@
         {
           "at": "2026-11-16 07:02 KST",
           "price": 29880,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 2,
@@ -2459,7 +2459,7 @@
         {
           "at": "2026-11-16 07:02 KST",
           "price": 29900,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 2,
@@ -2481,7 +2481,7 @@
         {
           "at": "2026-11-16 07:02 KST",
           "price": 41500,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 2,
@@ -2503,7 +2503,7 @@
         {
           "at": "2026-11-16 07:02 KST",
           "price": 44000,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 2,
@@ -2525,7 +2525,7 @@
         {
           "at": "2026-11-16 07:02 KST",
           "price": 25890,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 2,
@@ -2547,7 +2547,7 @@
         {
           "at": "2026-11-16 07:02 KST",
           "price": 34920,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 2,
@@ -2569,7 +2569,7 @@
         {
           "at": "2026-11-16 07:02 KST",
           "price": 28700,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 2,
@@ -2591,7 +2591,7 @@
         {
           "at": "2026-11-16 07:02 KST",
           "price": 22440,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 2,
@@ -2613,7 +2613,7 @@
         {
           "at": "2026-11-16 07:02 KST",
           "price": 11650,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 2,
@@ -2635,7 +2635,7 @@
         {
           "at": "2026-11-16 07:02 KST",
           "price": 12000,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 2,
@@ -2657,7 +2657,7 @@
         {
           "at": "2026-11-16 07:02 KST",
           "price": 21500,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 2,
@@ -2679,7 +2679,7 @@
         {
           "at": "2026-11-16 07:02 KST",
           "price": 10540,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 2,
@@ -2701,7 +2701,7 @@
         {
           "at": "2026-11-16 07:02 KST",
           "price": 14500,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 2,
@@ -2723,7 +2723,7 @@
         {
           "at": "2026-11-16 07:02 KST",
           "price": 7690,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 2,
@@ -2745,7 +2745,7 @@
         {
           "at": "2026-11-16 07:02 KST",
           "price": 5890,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 2,
@@ -2767,7 +2767,7 @@
         {
           "at": "2026-11-16 07:02 KST",
           "price": 33630,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 2,
@@ -2789,7 +2789,7 @@
         {
           "at": "2026-11-16 07:02 KST",
           "price": 38000,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 2,
@@ -2811,7 +2811,7 @@
         {
           "at": "2026-11-16 07:02 KST",
           "price": 21600,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 2,
@@ -2833,7 +2833,7 @@
         {
           "at": "2026-11-16 07:02 KST",
           "price": 13000,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 2,
@@ -2855,7 +2855,7 @@
         {
           "at": "2026-11-16 07:02 KST",
           "price": 20400,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 2,
@@ -2877,7 +2877,7 @@
         {
           "at": "2026-11-16 07:02 KST",
           "price": 31900,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 2,
@@ -2899,7 +2899,7 @@
         {
           "at": "2026-11-16 07:02 KST",
           "price": 10950,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 2,
@@ -2921,7 +2921,7 @@
         {
           "at": "2026-11-16 07:02 KST",
           "price": 13660,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 2,
@@ -2943,7 +2943,7 @@
         {
           "at": "2026-11-16 07:02 KST",
           "price": 37400,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 2,
@@ -2965,7 +2965,7 @@
         {
           "at": "2026-11-16 07:02 KST",
           "price": 22500,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 2,
@@ -2987,7 +2987,7 @@
         {
           "at": "2026-11-16 07:02 KST",
           "price": 27960,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 2,
@@ -3009,7 +3009,7 @@
         {
           "at": "2026-11-16 07:02 KST",
           "price": 12990,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 2,
@@ -3031,7 +3031,7 @@
         {
           "at": "2026-11-16 07:02 KST",
           "price": 15450,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 2,
@@ -3053,7 +3053,7 @@
         {
           "at": "2026-11-16 07:02 KST",
           "price": 9350,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 2,
@@ -3075,7 +3075,7 @@
         {
           "at": "2026-11-16 07:02 KST",
           "price": 66000,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 2,
@@ -3097,7 +3097,7 @@
         {
           "at": "2026-11-16 07:02 KST",
           "price": 33700,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 2,
@@ -3119,7 +3119,7 @@
         {
           "at": "2026-11-16 07:02 KST",
           "price": 36250,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 2,
@@ -3141,7 +3141,7 @@
         {
           "at": "2026-11-16 07:02 KST",
           "price": 46900,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 2,
@@ -3163,7 +3163,7 @@
         {
           "at": "2026-11-16 07:02 KST",
           "price": 53000,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 2,
@@ -3185,7 +3185,7 @@
         {
           "at": "2026-11-16 07:02 KST",
           "price": 49900,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 2,
@@ -3207,7 +3207,7 @@
         {
           "at": "2026-11-16 07:02 KST",
           "price": 49900,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 2,
@@ -3229,7 +3229,7 @@
         {
           "at": "2026-11-16 07:02 KST",
           "price": 58900,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 2,
@@ -3251,7 +3251,7 @@
         {
           "at": "2026-11-16 07:02 KST",
           "price": 67900,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 2,
@@ -3273,7 +3273,7 @@
         {
           "at": "2026-11-16 07:02 KST",
           "price": 105750,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 2,
@@ -3295,7 +3295,7 @@
         {
           "at": "2026-11-16 07:02 KST",
           "price": 9900,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 2,
@@ -3317,7 +3317,7 @@
         {
           "at": "2026-11-16 07:02 KST",
           "price": 12900,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 2,
@@ -3339,7 +3339,7 @@
         {
           "at": "2026-11-16 07:02 KST",
           "price": 14900,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 2,
@@ -3361,7 +3361,7 @@
         {
           "at": "2026-11-16 07:02 KST",
           "price": 26400,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 2,
@@ -3383,7 +3383,7 @@
         {
           "at": "2026-11-16 07:02 KST",
           "price": 27000,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 2,
@@ -3405,7 +3405,7 @@
         {
           "at": "2026-11-16 07:02 KST",
           "price": 29700,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 2,
@@ -3427,7 +3427,7 @@
         {
           "at": "2026-11-16 07:02 KST",
           "price": 5490,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 2,
@@ -3449,7 +3449,7 @@
         {
           "at": "2026-11-16 07:02 KST",
           "price": 13200,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 2,
@@ -3471,7 +3471,7 @@
         {
           "at": "2026-11-16 07:02 KST",
           "price": 14970,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 2,
@@ -3493,7 +3493,7 @@
         {
           "at": "2026-11-16 07:02 KST",
           "price": 15890,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 2,
@@ -3515,7 +3515,7 @@
         {
           "at": "2026-11-16 07:02 KST",
           "price": 32490,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 2,
@@ -3537,7 +3537,7 @@
         {
           "at": "2026-11-16 07:02 KST",
           "price": 29900,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 2,
@@ -3559,7 +3559,7 @@
         {
           "at": "2026-11-16 07:02 KST",
           "price": 31900,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 2,
@@ -3581,7 +3581,7 @@
         {
           "at": "2026-11-16 07:02 KST",
           "price": 15920,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 2,
@@ -3603,7 +3603,7 @@
         {
           "at": "2026-11-16 07:02 KST",
           "price": 8690,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 2,
@@ -3625,7 +3625,7 @@
         {
           "at": "2026-11-16 07:02 KST",
           "price": 26780,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 2,
@@ -3647,7 +3647,7 @@
         {
           "at": "2026-11-16 07:02 KST",
           "price": 25110,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 2,
@@ -3669,7 +3669,7 @@
         {
           "at": "2026-11-16 07:02 KST",
           "price": 14840,
-          "source": "deals.json@9b03795"
+          "source": "이전 deals.json 이력"
         }
       ],
       "priceCount": 2,

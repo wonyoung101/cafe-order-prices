@@ -16,7 +16,7 @@
 
 - 배지 표시 **1건**. 이력이 오늘 하루치(4회 관측)뿐이라 그렇고, 매일 07:00 갱신이 쌓이면 배지 대상이 자연히 늘어납니다. **표시되지 않는 상품에는 0%·가짜 정가를 넣지 않았습니다.**
 - 변경 파일: `data/price_history.json`(신규) · `scripts/seed_price_history.py`(신규) · `scripts/fetch_cafe_deals.py`(`--recompute`·이력 기록·통계 계산) · `index.html`(배지·평균가·정렬) · `automation/update-deals.yml`(`data/price_history.json` 도 커밋) · `README.md`
-- 주의: 실제 동작 중인 `.github/workflows/update-deals.yml` 은 연결 권한상 푸시할 수 없어, `git add` 에 `data/price_history.json` 을 더하는 한 줄은 GitHub 웹에서 반영해야 합니다. 반영 전에도 스크립트가 이전 `deals.json` 에서 관측을 복원하므로 이력이 유실되지는 않습니다.
+- 주의: 실제 동작 중인 `.github/workflows/update-deals.yml` 은 연결 권한상 읽기·푸시가 모두 안 돼(API 404), `git add` 에 `data/price_history.json` 을 더하는 한 줄은 GitHub 웹에서 반영해야 합니다. 대신 각 상품의 관측 목록을 `deals.json` 의 `priceHistory` 에도 남기도록 해서, 워크플로가 그 파일을 커밋하지 않아도 다음 실행이 이력을 복원해 계속 누적합니다(모의 시험: 이력을 1회분만 남김 → 256건 복원·관측 412건 유지).
 
 ## 2026-11-16 07:02 KST — 일일 정기 갱신 (141 → 156개 상품)
 
