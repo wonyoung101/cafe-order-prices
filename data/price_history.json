@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17 03:14 KST",
+  "updatedAt": "2026-11-17 04:15 KST",
   "source": "git snapshots",
   "products": {
     "8436480488": {
@@ -349,14 +349,19 @@
           "at": "2026-11-16 15:15 KST",
           "price": 44170,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 04:15 KST",
+          "price": 44170,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 5,
+      "priceCount": 6,
       "avgPrice": 44170,
       "minPrice": 44170,
       "maxPrice": 44170,
       "lastPrice": 44170,
-      "lastAt": "2026-11-16 15:15 KST",
+      "lastAt": "2026-11-17 04:15 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -365,9 +370,17 @@
           44170,
           44170,
           5
+        ],
+        [
+          "2026-11-17",
+          44170,
+          44170,
+          44170,
+          44170,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "8887691390": {
       "productName": "KP 92파이 16온스 490ml 아이스컵 국산형 투명 PET 1박스 1000개",
@@ -466,7 +479,7 @@
       "uniqueDays": 1
     },
     "9422933215": {
-      "productName": "아이팩피앤디 92파이 16온스 PET 아이스컵 국산 투명, 1박스, 1000개, 470ml",
+      "productName": "아이팩피앤디 98파이 14온스 PET 아이스컵 국산 투명, 1박스, 1000개, 430ml",
       "category": "컵·뚜껑",
       "observations": [
         {
@@ -493,14 +506,19 @@
           "at": "2026-11-16 15:15 KST",
           "price": 49900,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 04:15 KST",
+          "price": 44500,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 5,
-      "avgPrice": 49900,
-      "minPrice": 49900,
+      "priceCount": 6,
+      "avgPrice": 49000,
+      "minPrice": 44500,
       "maxPrice": 49900,
-      "lastPrice": 49900,
-      "lastAt": "2026-11-16 15:15 KST",
+      "lastPrice": 44500,
+      "lastAt": "2026-11-17 04:15 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -509,9 +527,17 @@
           49900,
           49900,
           5
+        ],
+        [
+          "2026-11-17",
+          44500,
+          44500,
+          44500,
+          44500,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "9609711847": {
       "productName": "그린버블스 국내산 생분해 옥수수빨대 개별포장 21cm 그린, 1개, 100개",
@@ -2337,14 +2363,19 @@
           "at": "2026-11-16 15:15 KST",
           "price": 14750,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 04:15 KST",
+          "price": 14750,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 4,
+      "priceCount": 5,
       "avgPrice": 14750,
       "minPrice": 14750,
       "maxPrice": 14750,
       "lastPrice": 14750,
-      "lastAt": "2026-11-16 15:15 KST",
+      "lastAt": "2026-11-17 04:15 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -2353,9 +2384,17 @@
           14750,
           14750,
           4
+        ],
+        [
+          "2026-11-17",
+          14750,
+          14750,
+          14750,
+          14750,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "8581185653": {
       "productName": "카페57 말차 파우더, 500g, 1개, 1개입",
@@ -7043,14 +7082,19 @@
           "at": "2026-11-16 20:04 KST",
           "price": 9230,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 04:15 KST",
+          "price": 9230,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 3,
+      "priceCount": 4,
       "avgPrice": 9230,
       "minPrice": 9230,
       "maxPrice": 9230,
       "lastPrice": 9230,
-      "lastAt": "2026-11-16 20:04 KST",
+      "lastAt": "2026-11-17 04:15 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -7059,9 +7103,17 @@
           9230,
           9230,
           3
+        ],
+        [
+          "2026-11-17",
+          9230,
+          9230,
+          9230,
+          9230,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "9265153304": {
       "productName": "태국 무가당 카네이션 쿠킹 앤 베이커리 연유, 1kg",
@@ -8869,21 +8921,26 @@
       "uniqueDays": 1
     },
     "6451597933": {
-      "productName": "맘앤팩 나무스틱, 1개, 1000개",
+      "productName": "엠엔피 나무스틱, 500개, 1개",
       "category": "빨대·홀더",
       "observations": [
         {
           "at": "2026-11-16 23:08 KST",
           "price": 17100,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 04:15 KST",
+          "price": 10210,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
-      "avgPrice": 17100,
-      "minPrice": 17100,
+      "priceCount": 2,
+      "avgPrice": 13655,
+      "minPrice": 10210,
       "maxPrice": 17100,
-      "lastPrice": 17100,
-      "lastAt": "2026-11-16 23:08 KST",
+      "lastPrice": 10210,
+      "lastAt": "2026-11-17 04:15 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -8892,9 +8949,17 @@
           17100,
           17100,
           1
+        ],
+        [
+          "2026-11-17",
+          10210,
+          10210,
+          10210,
+          10210,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "9721134093": {
       "productName": "카바나커피 케냐 키암부 AA 원두, 1kg, 1개, 홀빈(분쇄X)",
@@ -9688,14 +9753,19 @@
           "at": "2026-11-17 02:12 KST",
           "price": 10000,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 04:15 KST",
+          "price": 10000,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 10000,
       "minPrice": 10000,
       "maxPrice": 10000,
       "lastPrice": 10000,
-      "lastAt": "2026-11-17 02:12 KST",
+      "lastAt": "2026-11-17 04:15 KST",
       "dailyHistory": [
         [
           "2026-11-17",
@@ -9703,7 +9773,7 @@
           10000,
           10000,
           10000,
-          1
+          2
         ]
       ],
       "uniqueDays": 1
@@ -10515,6 +10585,342 @@
           20500,
           20500,
           20500,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "6297288729": {
+      "productName": "소다미 매실원액, 1L, 1개",
+      "category": "과일·베이스",
+      "observations": [
+        {
+          "at": "2026-11-17 04:15 KST",
+          "price": 10900,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 10900,
+      "minPrice": 10900,
+      "maxPrice": 10900,
+      "lastPrice": 10900,
+      "lastAt": "2026-11-17 04:15 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          10900,
+          10900,
+          10900,
+          10900,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9798263291": {
+      "productName": "물 한방울 안 넣은 하동 황제 황매실청 특허 유산균 함유, 1개, 1L",
+      "category": "과일·베이스",
+      "observations": [
+        {
+          "at": "2026-11-17 04:15 KST",
+          "price": 15340,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 15340,
+      "minPrice": 15340,
+      "maxPrice": 15340,
+      "lastPrice": 15340,
+      "lastAt": "2026-11-17 04:15 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          15340,
+          15340,
+          15340,
+          15340,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7912881648": {
+      "productName": "자연한입 매실청, 1개, 860ml",
+      "category": "과일·베이스",
+      "observations": [
+        {
+          "at": "2026-11-17 04:15 KST",
+          "price": 9960,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 9960,
+      "minPrice": 9960,
+      "maxPrice": 9960,
+      "lastPrice": 9960,
+      "lastAt": "2026-11-17 04:15 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          9960,
+          9960,
+          9960,
+          9960,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8721977523": {
+      "productName": "황매실청 하동 지리산 황매담 숙성 발효액 3년숙성, 1개, 1L",
+      "category": "과일·베이스",
+      "observations": [
+        {
+          "at": "2026-11-17 04:15 KST",
+          "price": 15900,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 15900,
+      "minPrice": 15900,
+      "maxPrice": 15900,
+      "lastPrice": 15900,
+      "lastAt": "2026-11-17 04:15 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          15900,
+          15900,
+          15900,
+          15900,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8315272207": {
+      "productName": "리스코 식품용 니트릴장갑 라텍스 요리용 두꺼운 파우더프리 청소용 200매, 블랙, M, 1개",
+      "category": "매장소모품",
+      "observations": [
+        {
+          "at": "2026-11-17 04:15 KST",
+          "price": 26060,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 26060,
+      "minPrice": 26060,
+      "maxPrice": 26060,
+      "lastPrice": 26060,
+      "lastAt": "2026-11-17 04:15 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          26060,
+          26060,
+          26060,
+          26060,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "5485317400": {
+      "productName": "코멧 라텍스장갑 100매입",
+      "category": "매장소모품",
+      "observations": [
+        {
+          "at": "2026-11-17 04:15 KST",
+          "price": 8990,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 8990,
+      "minPrice": 8990,
+      "maxPrice": 8990,
+      "lastPrice": 8990,
+      "lastAt": "2026-11-17 04:15 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          8990,
+          8990,
+          8990,
+          8990,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "4802874770": {
+      "productName": "프리미엄 뉴바닐라 파우더, 1kg, 1개입, 1개",
+      "category": "파우더",
+      "observations": [
+        {
+          "at": "2026-11-17 04:15 KST",
+          "price": 16800,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 16800,
+      "minPrice": 16800,
+      "maxPrice": 16800,
+      "lastPrice": 16800,
+      "lastAt": "2026-11-17 04:15 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          16800,
+          16800,
+          16800,
+          16800,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8243792497": {
+      "productName": "카일스 바닐라 파우더, 1kg, 1개, 1개입",
+      "category": "파우더",
+      "observations": [
+        {
+          "at": "2026-11-17 04:15 KST",
+          "price": 14490,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 14490,
+      "minPrice": 14490,
+      "maxPrice": 14490,
+      "lastPrice": 14490,
+      "lastAt": "2026-11-17 04:15 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          14490,
+          14490,
+          14490,
+          14490,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8705718500": {
+      "productName": "CONA 프리미엄 바닐라 파우더, 1kg, 1개입, 1개",
+      "category": "파우더",
+      "observations": [
+        {
+          "at": "2026-11-17 04:15 KST",
+          "price": 14900,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 14900,
+      "minPrice": 14900,
+      "maxPrice": 14900,
+      "lastPrice": 14900,
+      "lastAt": "2026-11-17 04:15 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          14900,
+          14900,
+          14900,
+          14900,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9183716207": {
+      "productName": "[로켓프레시] 끼리 크림치즈 베이킹 블럭, 200g, 1개입, 2개",
+      "category": "베이킹 재료",
+      "observations": [
+        {
+          "at": "2026-11-17 04:15 KST",
+          "price": 13600,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 13600,
+      "minPrice": 13600,
+      "maxPrice": 13600,
+      "lastPrice": 13600,
+      "lastAt": "2026-11-17 04:15 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          13600,
+          13600,
+          13600,
+          13600,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9678956572": {
+      "productName": "르시랑스 인도네시아 만델링 원두커피 홀빈 분쇄안함, 1kg, 1개",
+      "category": "원두",
+      "observations": [
+        {
+          "at": "2026-11-17 04:15 KST",
+          "price": 25190,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 25190,
+      "minPrice": 25190,
+      "maxPrice": 25190,
+      "lastPrice": 25190,
+      "lastAt": "2026-11-17 04:15 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          25190,
+          25190,
+          25190,
+          25190,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8289381774": {
+      "productName": "헬리빈 인도네시아 만델링 G1 원두커피, 1개, 1kg, 홀빈(분쇄안함)",
+      "category": "원두",
+      "observations": [
+        {
+          "at": "2026-11-17 04:15 KST",
+          "price": 31700,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 31700,
+      "minPrice": 31700,
+      "maxPrice": 31700,
+      "lastPrice": 31700,
+      "lastAt": "2026-11-17 04:15 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          31700,
+          31700,
+          31700,
+          31700,
           1
         ]
       ],
