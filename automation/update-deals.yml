@@ -48,12 +48,12 @@ jobs:
       - name: 변경분 커밋
         if: steps.gate.outputs.skip != 'true'
         run: |
-          if [ -z "$(git status --porcelain deals.json)" ]; then
+          if [ -z "$(git status --porcelain deals.json data/price_history.json)" ]; then
             echo "변경 없음"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add deals.json
+          git add deals.json data/price_history.json
           git commit -m "chore: 카페 단가표 자동 갱신 ($(TZ=Asia/Seoul date +'%Y-%m-%d %H:%M KST'))"
           git push

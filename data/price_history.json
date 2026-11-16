@@ -1,0 +1,3938 @@
+{
+  "updatedAt": "2026-11-16 14:32 KST",
+  "source": "git snapshots",
+  "products": {
+    "8436480488": {
+      "productName": "진양제지 칵테일냅킨/카페냅킨 8000매 *화이트,브라운 선택, 1박스, 화이트",
+      "category": "매장소모품",
+      "observations": [
+        {
+          "at": "2026-11-16 00:12 KST",
+          "price": 31670,
+          "source": "deals.json@56e0530"
+        },
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 31670,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 31670,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 31670,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 4,
+      "avgPrice": 31670,
+      "minPrice": 31670,
+      "maxPrice": 31670,
+      "lastPrice": 31670,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "1951259803": {
+      "productName": "냅킨공장 칵테일 무지 냅킨, Brown, 4개, 3000개입",
+      "category": "매장소모품",
+      "observations": [
+        {
+          "at": "2026-11-16 00:12 KST",
+          "price": 58800,
+          "source": "deals.json@56e0530"
+        },
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 58800,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 58800,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 58800,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 4,
+      "avgPrice": 58800,
+      "minPrice": 58800,
+      "maxPrice": 58800,
+      "lastPrice": 58800,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "7983859170": {
+      "productName": "냅킨공장 칵테일감사 튤립 냅킨, 화이트, 5개, 3000개",
+      "category": "매장소모품",
+      "observations": [
+        {
+          "at": "2026-11-16 00:12 KST",
+          "price": 104050,
+          "source": "deals.json@56e0530"
+        },
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 104050,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 104050,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 104050,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 4,
+      "avgPrice": 104050,
+      "minPrice": 104050,
+      "maxPrice": 104050,
+      "lastPrice": 104050,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "6393757205": {
+      "productName": "음료 주름 빨대 5mm x 24cm, 1세트, 1000개",
+      "category": "빨대·홀더",
+      "observations": [
+        {
+          "at": "2026-11-16 00:12 KST",
+          "price": 8340,
+          "source": "deals.json@56e0530"
+        },
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 8340,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 8340,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 8340,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 4,
+      "avgPrice": 8340,
+      "minPrice": 8340,
+      "maxPrice": 8340,
+      "lastPrice": 8340,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "5542110692": {
+      "productName": "네이처컨테이너 벌크포장 커피스틱 블랙 15cm, 1000개입, 1개",
+      "category": "빨대·홀더",
+      "observations": [
+        {
+          "at": "2026-11-16 00:12 KST",
+          "price": 9970,
+          "source": "deals.json@56e0530"
+        },
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 9970,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 9970,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 9970,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 4,
+      "avgPrice": 9970,
+      "minPrice": 9970,
+      "maxPrice": 9970,
+      "lastPrice": 9970,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "9628021737": {
+      "productName": "SR 자바라 일회용 투명 빨대, 1세트, 45개입",
+      "category": "빨대·홀더",
+      "observations": [
+        {
+          "at": "2026-11-16 00:12 KST",
+          "price": 790,
+          "source": "deals.json@56e0530"
+        },
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 790,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 790,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 790,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 4,
+      "avgPrice": 790,
+      "minPrice": 790,
+      "maxPrice": 790,
+      "lastPrice": 790,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "2273239739": {
+      "productName": "네이처컨테이너 일회용 벤티빨대 개별포장 25cm 블랙 스트로우, 1개, 500개입",
+      "category": "빨대·홀더",
+      "observations": [
+        {
+          "at": "2026-11-16 00:12 KST",
+          "price": 12570,
+          "source": "deals.json@56e0530"
+        },
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 12570,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 12570,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 12570,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 4,
+      "avgPrice": 12570,
+      "minPrice": 12570,
+      "maxPrice": 12570,
+      "lastPrice": 12570,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "8631440572": {
+      "productName": "아이팩피앤디 92파이 14온스 PET 아이스컵 국산 투명, 1박스, 420ml, 1000개",
+      "category": "컵·뚜껑",
+      "observations": [
+        {
+          "at": "2026-11-16 00:12 KST",
+          "price": 44170,
+          "source": "deals.json@56e0530"
+        },
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 44170,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 44170,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 44170,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 4,
+      "avgPrice": 44170,
+      "minPrice": 44170,
+      "maxPrice": 44170,
+      "lastPrice": 44170,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "8887691390": {
+      "productName": "KP 92파이 16온스 490ml 아이스컵 국산형 투명 PET 1박스 1000개",
+      "category": "컵·뚜껑",
+      "observations": [
+        {
+          "at": "2026-11-16 00:12 KST",
+          "price": 48510,
+          "source": "deals.json@56e0530"
+        },
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 48510,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 48510,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 48510,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 4,
+      "avgPrice": 48510,
+      "minPrice": 48510,
+      "maxPrice": 48510,
+      "lastPrice": 48510,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "8356008135": {
+      "productName": "92파이 16온스 일회용 아이스컵 PET 투명 480ml 1박스 1000개",
+      "category": "컵·뚜껑",
+      "observations": [
+        {
+          "at": "2026-11-16 00:12 KST",
+          "price": 49400,
+          "source": "deals.json@56e0530"
+        },
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 49400,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 49400,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 49400,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 4,
+      "avgPrice": 49400,
+      "minPrice": 49400,
+      "maxPrice": 49400,
+      "lastPrice": 49400,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "9422933215": {
+      "productName": "아이팩피앤디 92파이 16온스 PET 아이스컵 국산 투명, 1박스, 1000개, 470ml",
+      "category": "컵·뚜껑",
+      "observations": [
+        {
+          "at": "2026-11-16 00:12 KST",
+          "price": 49900,
+          "source": "deals.json@56e0530"
+        },
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 49900,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 49900,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 49900,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 4,
+      "avgPrice": 49900,
+      "minPrice": 49900,
+      "maxPrice": 49900,
+      "lastPrice": 49900,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "9609711847": {
+      "productName": "그린버블스 국내산 생분해 옥수수빨대 개별포장 21cm 그린, 1개, 100개",
+      "category": "빨대·홀더",
+      "observations": [
+        {
+          "at": "2026-11-16 00:12 KST",
+          "price": 6800,
+          "source": "deals.json@56e0530"
+        },
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 6800,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 6800,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 6800,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 4,
+      "avgPrice": 6800,
+      "minPrice": 6800,
+      "maxPrice": 6800,
+      "lastPrice": 6800,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "9683639291": {
+      "productName": "아이팩피앤디 92파이 16온스 PET 아이스컵, 1박스, 100개, 470ml",
+      "category": "컵·뚜껑",
+      "observations": [
+        {
+          "at": "2026-11-16 00:12 KST",
+          "price": 8980,
+          "source": "deals.json@56e0530"
+        },
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 8980,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 8980,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 8980,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 4,
+      "avgPrice": 8980,
+      "minPrice": 8980,
+      "maxPrice": 8980,
+      "lastPrice": 8980,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "9593716376": {
+      "productName": "아이팩피앤디 107파이 32온스 PET 아이스컵 국산 투명, 1박스, 500개입, 1L",
+      "category": "컵·뚜껑",
+      "observations": [
+        {
+          "at": "2026-11-16 00:12 KST",
+          "price": 47960,
+          "source": "deals.json@56e0530"
+        },
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 47960,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 47960,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 47960,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 4,
+      "avgPrice": 47960,
+      "minPrice": 47960,
+      "maxPrice": 47960,
+      "lastPrice": 47960,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "332850485": {
+      "productName": "데이리스타 밀쉬 멸균우유, 1L, 12개",
+      "category": "우유·대체유",
+      "observations": [
+        {
+          "at": "2026-11-16 00:12 KST",
+          "price": 30000,
+          "source": "deals.json@56e0530"
+        },
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 30000,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 30000,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 30000,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 4,
+      "avgPrice": 30000,
+      "minPrice": 30000,
+      "maxPrice": 30000,
+      "lastPrice": 30000,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "9552873620": {
+      "productName": "[98파이 아이스컵+롱톨리드]에코윌 일회용 테이크아웃 플라스틱PET컵 뚜껑포함, 100개, 720ml, 1세트",
+      "category": "컵·뚜껑",
+      "observations": [
+        {
+          "at": "2026-11-16 00:12 KST",
+          "price": 26460,
+          "source": "deals.json@56e0530"
+        },
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 26460,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 26460,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 26460,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 4,
+      "avgPrice": 26460,
+      "minPrice": 26460,
+      "maxPrice": 26460,
+      "lastPrice": 26460,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "7193817761": {
+      "productName": "데이리스타 밀쉬 저지방 멸균우유, 1L, 12개",
+      "category": "우유·대체유",
+      "observations": [
+        {
+          "at": "2026-11-16 00:12 KST",
+          "price": 44100,
+          "source": "deals.json@56e0530"
+        },
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 44100,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 44100,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 44100,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 4,
+      "avgPrice": 44100,
+      "minPrice": 44100,
+      "maxPrice": 44100,
+      "lastPrice": 44100,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "9304259432": {
+      "productName": "모닌 시럽 모음 (카페시럽), 1L, 1개",
+      "category": "시럽·소스",
+      "observations": [
+        {
+          "at": "2026-11-16 00:12 KST",
+          "price": 14500,
+          "source": "deals.json@56e0530"
+        },
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 14500,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 14500,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 14500,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 4,
+      "avgPrice": 14500,
+      "minPrice": 14500,
+      "maxPrice": 14500,
+      "lastPrice": 14500,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "7249644933": {
+      "productName": "모닌 패션프릇 시럽, 1L, 1개",
+      "category": "시럽·소스",
+      "observations": [
+        {
+          "at": "2026-11-16 00:12 KST",
+          "price": 17000,
+          "source": "deals.json@56e0530"
+        },
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 17000,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 17000,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 17000,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 4,
+      "avgPrice": 17000,
+      "minPrice": 17000,
+      "maxPrice": 17000,
+      "lastPrice": 17000,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "2442336": {
+      "productName": "모닌 오렌지 시럽, 1L, 1개",
+      "category": "시럽·소스",
+      "observations": [
+        {
+          "at": "2026-11-16 00:12 KST",
+          "price": 17000,
+          "source": "deals.json@56e0530"
+        },
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 17000,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 17000,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 17000,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 4,
+      "avgPrice": 17000,
+      "minPrice": 17000,
+      "maxPrice": 17000,
+      "lastPrice": 17000,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "9278918364": {
+      "productName": "일회용 자바라 빨대 (대) 개별포장 자바라 스트로우 식품용소재 간편 휴대",
+      "category": "빨대·홀더",
+      "observations": [
+        {
+          "at": "2026-11-16 00:12 KST",
+          "price": 2930,
+          "source": "deals.json@56e0530"
+        },
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 2930,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 2930,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 2930,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 4,
+      "avgPrice": 2930,
+      "minPrice": 2930,
+      "maxPrice": 2930,
+      "lastPrice": 2930,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "2442301": {
+      "productName": "모닌 카라멜 시럽",
+      "category": "시럽·소스",
+      "observations": [
+        {
+          "at": "2026-11-16 00:12 KST",
+          "price": 4240,
+          "source": "deals.json@56e0530"
+        },
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 4240,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 4240,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 4240,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 4,
+      "avgPrice": 4240,
+      "minPrice": 4240,
+      "maxPrice": 4240,
+      "lastPrice": 4240,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "7773849708": {
+      "productName": "코멧 베이직 빨대 블랙 210 x 7 mm",
+      "category": "빨대·홀더",
+      "observations": [
+        {
+          "at": "2026-11-16 00:12 KST",
+          "price": 4300,
+          "source": "deals.json@56e0530"
+        },
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 4300,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 4300,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 4300,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 4,
+      "avgPrice": 4300,
+      "minPrice": 4300,
+      "maxPrice": 4300,
+      "lastPrice": 4300,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "7395570583": {
+      "productName": "보니팩 자바라 투명 스트로우 벌크 7 x 250 mm",
+      "category": "빨대·홀더",
+      "observations": [
+        {
+          "at": "2026-11-16 00:12 KST",
+          "price": 5300,
+          "source": "deals.json@56e0530"
+        },
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 5300,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 5300,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 5300,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 4,
+      "avgPrice": 5300,
+      "minPrice": 5300,
+      "maxPrice": 5300,
+      "lastPrice": 5300,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "6714056882": {
+      "productName": "모닌 바닐라 시럽",
+      "category": "시럽·소스",
+      "observations": [
+        {
+          "at": "2026-11-16 00:12 KST",
+          "price": 5320,
+          "source": "deals.json@56e0530"
+        },
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 5320,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 5320,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 5320,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 4,
+      "avgPrice": 5320,
+      "minPrice": 5320,
+      "maxPrice": 5320,
+      "lastPrice": 5320,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "7105099367": {
+      "productName": "코멧 25cm 개별포장 롱 빨대, 블랙",
+      "category": "빨대·홀더",
+      "observations": [
+        {
+          "at": "2026-11-16 00:12 KST",
+          "price": 5930,
+          "source": "deals.json@56e0530"
+        },
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 5930,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 5930,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 5930,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 4,
+      "avgPrice": 5930,
+      "minPrice": 5930,
+      "maxPrice": 5930,
+      "lastPrice": 5930,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "2442312": {
+      "productName": "모닌 그린애플 시럽",
+      "category": "시럽·소스",
+      "observations": [
+        {
+          "at": "2026-11-16 00:12 KST",
+          "price": 5940,
+          "source": "deals.json@56e0530"
+        },
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 5940,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 5940,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 5940,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 4,
+      "avgPrice": 5940,
+      "minPrice": 5940,
+      "maxPrice": 5940,
+      "lastPrice": 5940,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "7773849677": {
+      "productName": "코멧 베이직 개별포장 빨대 블랙 210 x 7 mm",
+      "category": "빨대·홀더",
+      "observations": [
+        {
+          "at": "2026-11-16 00:12 KST",
+          "price": 6990,
+          "source": "deals.json@56e0530"
+        },
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 6990,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 6990,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 6990,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 4,
+      "avgPrice": 6990,
+      "minPrice": 6990,
+      "maxPrice": 6990,
+      "lastPrice": 6990,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "2347991107": {
+      "productName": "코멧 칵테일 냅킨",
+      "category": "매장소모품",
+      "observations": [
+        {
+          "at": "2026-11-16 00:12 KST",
+          "price": 7110,
+          "source": "deals.json@56e0530"
+        },
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 7110,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 7110,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 7110,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 4,
+      "avgPrice": 7110,
+      "minPrice": 7110,
+      "maxPrice": 7110,
+      "lastPrice": 7110,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "9715193260": {
+      "productName": "빈플랜트 1883 모닌 마리브리자드 호환 시럽 펌프 + 튜브 3종 세트, 블랙, 2세트",
+      "category": "시럽·소스",
+      "observations": [
+        {
+          "at": "2026-11-16 00:12 KST",
+          "price": 8300,
+          "source": "deals.json@56e0530"
+        },
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 8300,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 8300,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 8300,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 4,
+      "avgPrice": 8300,
+      "minPrice": 8300,
+      "maxPrice": 8300,
+      "lastPrice": 8300,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "1720383899": {
+      "productName": "탐사 투명 PET 아이스컵",
+      "category": "컵·뚜껑",
+      "observations": [
+        {
+          "at": "2026-11-16 00:12 KST",
+          "price": 9990,
+          "source": "deals.json@56e0530"
+        },
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 9990,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 9990,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 9990,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 4,
+      "avgPrice": 9990,
+      "minPrice": 9990,
+      "maxPrice": 9990,
+      "lastPrice": 9990,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "9743039714": {
+      "productName": "92파이 16온스 아이스컵 평뚜껑 세트 PET 일회용 컵 투명 얼음컵 카페 업소용 테이크아웃 리드",
+      "category": "컵·뚜껑",
+      "observations": [
+        {
+          "at": "2026-11-16 00:12 KST",
+          "price": 11400,
+          "source": "deals.json@56e0530"
+        },
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 11400,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 11400,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 11400,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 4,
+      "avgPrice": 11400,
+      "minPrice": 11400,
+      "maxPrice": 11400,
+      "lastPrice": 11400,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "9742978885": {
+      "productName": "아이스컵 돔뚜껑 세트 일회용 컵 16온스 92파이 투명 PET 카페 업소용 테이크아웃",
+      "category": "컵·뚜껑",
+      "observations": [
+        {
+          "at": "2026-11-16 00:12 KST",
+          "price": 11900,
+          "source": "deals.json@56e0530"
+        },
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 11900,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 11900,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 11900,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 4,
+      "avgPrice": 11900,
+      "minPrice": 11900,
+      "maxPrice": 11900,
+      "lastPrice": 11900,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "2453129": {
+      "productName": "모닌 자몽 시럽",
+      "category": "시럽·소스",
+      "observations": [
+        {
+          "at": "2026-11-16 00:12 KST",
+          "price": 15900,
+          "source": "deals.json@56e0530"
+        },
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 15900,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 15900,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 15900,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 4,
+      "avgPrice": 15900,
+      "minPrice": 15900,
+      "maxPrice": 15900,
+      "lastPrice": 15900,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "6436856710": {
+      "productName": "맛있는우유GT 멸균우유",
+      "category": "우유·대체유",
+      "observations": [
+        {
+          "at": "2026-11-16 00:12 KST",
+          "price": 16090,
+          "source": "deals.json@56e0530"
+        },
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 16090,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 16090,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 16090,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 4,
+      "avgPrice": 16090,
+      "minPrice": 16090,
+      "maxPrice": 16090,
+      "lastPrice": 16090,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "6843862783": {
+      "productName": "미쁘 칵테일 냅킨",
+      "category": "매장소모품",
+      "observations": [
+        {
+          "at": "2026-11-16 00:12 KST",
+          "price": 16230,
+          "source": "deals.json@56e0530"
+        },
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 16230,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 16230,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 16230,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 4,
+      "avgPrice": 16230,
+      "minPrice": 16230,
+      "maxPrice": 16230,
+      "lastPrice": 16230,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "4975075206": {
+      "productName": "서울우유 멸균 흰우유, 1L, 10개",
+      "category": "우유·대체유",
+      "observations": [
+        {
+          "at": "2026-11-16 00:12 KST",
+          "price": 17300,
+          "source": "deals.json@56e0530"
+        },
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 17300,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 17300,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 19970,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 4,
+      "avgPrice": 17968,
+      "minPrice": 17300,
+      "maxPrice": 19970,
+      "lastPrice": 19970,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "9536213705": {
+      "productName": "믈레코비타 3.5퍼센트 멸균우유",
+      "category": "우유·대체유",
+      "observations": [
+        {
+          "at": "2026-11-16 00:12 KST",
+          "price": 19440,
+          "source": "deals.json@56e0530"
+        },
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 19440,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 19440,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 15550,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 4,
+      "avgPrice": 18468,
+      "minPrice": 15550,
+      "maxPrice": 19440,
+      "lastPrice": 15550,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "119465439": {
+      "productName": "상하목장 유기농 우유",
+      "category": "우유·대체유",
+      "observations": [
+        {
+          "at": "2026-11-16 00:12 KST",
+          "price": 23000,
+          "source": "deals.json@56e0530"
+        },
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 23000,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 23000,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 23000,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 4,
+      "avgPrice": 23000,
+      "minPrice": 23000,
+      "maxPrice": 23000,
+      "lastPrice": 23000,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "8798984745": {
+      "productName": "에버크린 대나무 원색 인쇄없는 냅킨",
+      "category": "매장소모품",
+      "observations": [
+        {
+          "at": "2026-11-16 00:12 KST",
+          "price": 36000,
+          "source": "deals.json@56e0530"
+        },
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 36000,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 36000,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 36000,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 4,
+      "avgPrice": 36000,
+      "minPrice": 36000,
+      "maxPrice": 36000,
+      "lastPrice": 36000,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "9702656117": {
+      "productName": "베트남 로부스타 원두 1kg 대용량 커피원두 산미없는 고소한 진한 에스프레소 콜드브루",
+      "category": "원두",
+      "observations": [
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 12960,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 12960,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 12960,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 3,
+      "avgPrice": 12960,
+      "minPrice": 12960,
+      "maxPrice": 12960,
+      "lastPrice": 12960,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "9267059189": {
+      "productName": "래빗커피 고소고소 블렌드 브라질, 콜롬비아, 인도 원두커피 원두콩, 가성비, 갓볶은 원두, 3개, 1kg, 홀빈(분쇄안함)",
+      "category": "원두",
+      "observations": [
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 71540,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 71540,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 71540,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 3,
+      "avgPrice": 71540,
+      "minPrice": 71540,
+      "maxPrice": 71540,
+      "lastPrice": 71540,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "9595365819": {
+      "productName": "세일즈카페 고소한 다크초콜릿 시그니쳐 블렌드 에스프레소 분쇄, 1kg, 5개",
+      "category": "원두",
+      "observations": [
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 170000,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 170000,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 170000,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 3,
+      "avgPrice": 170000,
+      "minPrice": 170000,
+      "maxPrice": 170000,
+      "lastPrice": 170000,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "9463147601": {
+      "productName": "노블빈 다크초코 에스프레소 블렌드 원두 커피, 6개, 1kg, 홀빈(분쇄안함)",
+      "category": "원두",
+      "observations": [
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 204500,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 204500,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 204500,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 3,
+      "avgPrice": 204500,
+      "minPrice": 204500,
+      "maxPrice": 204500,
+      "lastPrice": 204500,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "9474695948": {
+      "productName": "커피에스프레소 샵전용 블렌딩 원두커피",
+      "category": "원두",
+      "observations": [
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 16900,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 16900,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 16900,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 3,
+      "avgPrice": 16900,
+      "minPrice": 16900,
+      "maxPrice": 16900,
+      "lastPrice": 16900,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "9385909448": {
+      "productName": "클릭빈 다크 블랜딩 산미없는 원두커피 홀빈 고소한맛",
+      "category": "원두",
+      "observations": [
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 21700,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 21700,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 21700,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 3,
+      "avgPrice": 21700,
+      "minPrice": 21700,
+      "maxPrice": 21700,
+      "lastPrice": 21700,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "7396556857": {
+      "productName": "카누 벨베티 블랙 원두커피",
+      "category": "원두",
+      "observations": [
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 32850,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 32850,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 32850,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 3,
+      "avgPrice": 32850,
+      "minPrice": 32850,
+      "maxPrice": 32850,
+      "lastPrice": 32850,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "9210933178": {
+      "productName": "루프트커피 커피 스페셜티 에스프레소 블렌드 원두커피",
+      "category": "원두",
+      "observations": [
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 24900,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 24900,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 24900,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 3,
+      "avgPrice": 24900,
+      "minPrice": 24900,
+      "maxPrice": 24900,
+      "lastPrice": 24900,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "5244230314": {
+      "productName": "타코 사과 아이스티 파우더 1kg 1박스 12개",
+      "category": "파우더",
+      "observations": [
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 90000,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 90000,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 90000,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 3,
+      "avgPrice": 90000,
+      "minPrice": 90000,
+      "maxPrice": 90000,
+      "lastPrice": 90000,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "9724211869": {
+      "productName": "타코 데일리 녹차 파우더, 2개, 1개입, 1kg",
+      "category": "파우더",
+      "observations": [
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 23280,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 23280,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 23280,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 3,
+      "avgPrice": 23280,
+      "minPrice": 23280,
+      "maxPrice": 23280,
+      "lastPrice": 23280,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "198372945": {
+      "productName": "타코 카페다크초콜릿 파우치, 1kg, 1개입, 2개",
+      "category": "파우더",
+      "observations": [
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 25500,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 25500,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 25500,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 3,
+      "avgPrice": 25500,
+      "minPrice": 25500,
+      "maxPrice": 25500,
+      "lastPrice": 25500,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "7214066444": {
+      "productName": "카페57 프리미엄 코코아 파우더, 1kg, 1개입, 1개",
+      "category": "파우더",
+      "observations": [
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 14000,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 14000,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 14000,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 3,
+      "avgPrice": 14000,
+      "minPrice": 14000,
+      "maxPrice": 14000,
+      "lastPrice": 14000,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "9699325435": {
+      "productName": "믹소 바닐라라떼 파우더, 1kg, 1개, 1개입",
+      "category": "파우더",
+      "observations": [
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 14750,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 14750,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 14750,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 3,
+      "avgPrice": 14750,
+      "minPrice": 14750,
+      "maxPrice": 14750,
+      "lastPrice": 14750,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "8581185653": {
+      "productName": "카페57 말차 파우더, 500g, 1개, 1개입",
+      "category": "파우더",
+      "observations": [
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 9300,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 9300,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 9300,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 3,
+      "avgPrice": 9300,
+      "minPrice": 9300,
+      "maxPrice": 9300,
+      "lastPrice": 9300,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "9807901953": {
+      "productName": "스위트헤븐 터키 튀르키예 전통음료 살렙 파우더 1kg 밀크 우유 음료 분말 홈카페 계피 무첨가",
+      "category": "파우더",
+      "observations": [
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 34900,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 34900,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 34900,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 3,
+      "avgPrice": 34900,
+      "minPrice": 34900,
+      "maxPrice": 34900,
+      "lastPrice": 34900,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "9813568963": {
+      "productName": "유기농 무가당 코코아파우더 1kg(공정무역) 프리미엄 원료100% 베이킹/카페용",
+      "category": "파우더",
+      "observations": [
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 98000,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 98000,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 98000,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 3,
+      "avgPrice": 98000,
+      "minPrice": 98000,
+      "maxPrice": 98000,
+      "lastPrice": 98000,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "9819730901": {
+      "productName": "대용량 아몬드분말 마카롱만들기 가루 재료 견과류 베이킹 파우더 카페 베이커리",
+      "category": "파우더",
+      "observations": [
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 25620,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 25620,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 25620,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 3,
+      "avgPrice": 25620,
+      "minPrice": 25620,
+      "maxPrice": 25620,
+      "lastPrice": 25620,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "9792838748": {
+      "productName": "메가카페 쿠키앤크림 파우더",
+      "category": "파우더",
+      "observations": [
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 26500,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 26500,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 26500,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 3,
+      "avgPrice": 26500,
+      "minPrice": 26500,
+      "maxPrice": 26500,
+      "lastPrice": 26500,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "4682969537": {
+      "productName": "테너베이스 딸기 6입 1박스 아이스박스 무료 배송, 1.2kg, 6개",
+      "category": "과일·베이스",
+      "observations": [
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 65770,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 65770,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 65770,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 3,
+      "avgPrice": 65770,
+      "minPrice": 65770,
+      "maxPrice": 65770,
+      "lastPrice": 65770,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "9783030770": {
+      "productName": "카페식자재 참존 음료베이스 농축과일원액 에이드 835ML 포도7",
+      "category": "과일·베이스",
+      "observations": [
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 4200,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 4200,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 4200,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 3,
+      "avgPrice": 4200,
+      "minPrice": 4200,
+      "maxPrice": 4200,
+      "lastPrice": 4200,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "309613200": {
+      "productName": "서울팩토리 리얼 패션후르츠 베이스, 2개, 1.2kg",
+      "category": "과일·베이스",
+      "observations": [
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 21100,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 21100,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 21100,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 3,
+      "avgPrice": 21100,
+      "minPrice": 21100,
+      "maxPrice": 21100,
+      "lastPrice": 21100,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "9792257236": {
+      "productName": "복숭아홍차에이드 음료베이스 복숭아홍차원액 1000ml",
+      "category": "과일·베이스",
+      "observations": [
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 9900,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 9900,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 9900,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 3,
+      "avgPrice": 9900,
+      "minPrice": 9900,
+      "maxPrice": 9900,
+      "lastPrice": 9900,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "6400586680": {
+      "productName": "서울팩토리 청포도 에이드, 1.9kg, 3개",
+      "category": "과일·베이스",
+      "observations": [
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 60750,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 60750,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 60750,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 3,
+      "avgPrice": 60750,
+      "minPrice": 60750,
+      "maxPrice": 60750,
+      "lastPrice": 60750,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "5410875158": {
+      "productName": "쉘몬 과일 농축액 베이스 1kg 모음전/시럽/원액/에이드, 1개, 1kg",
+      "category": "과일·베이스",
+      "observations": [
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 16000,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 16000,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 16000,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 3,
+      "avgPrice": 16000,
+      "minPrice": 16000,
+      "maxPrice": 16000,
+      "lastPrice": 16000,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "9767510145": {
+      "productName": "레몬청 레몬차 1kg 에이드 과일청 유자알맹이 음료 베이스 알맹이청 카페재료",
+      "category": "과일·베이스",
+      "observations": [
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 17300,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 17300,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 17300,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 3,
+      "avgPrice": 17300,
+      "minPrice": 17300,
+      "maxPrice": 17300,
+      "lastPrice": 17300,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "8326609932": {
+      "productName": "새청달청 수제 자몽청 자몽에이드 자몽스무디 카페 재료 대용량 납품, 1kg, 1개입, 1개",
+      "category": "과일·베이스",
+      "observations": [
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 21200,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 21200,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 21200,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 3,
+      "avgPrice": 21200,
+      "minPrice": 21200,
+      "maxPrice": 21200,
+      "lastPrice": 21200,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "7302732646": {
+      "productName": "토브웰 레몬 홀 에이드 베이스",
+      "category": "과일·베이스",
+      "observations": [
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 24000,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 24000,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 24000,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 3,
+      "avgPrice": 24000,
+      "minPrice": 24000,
+      "maxPrice": 24000,
+      "lastPrice": 24000,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "9821900115": {
+      "productName": "심s청 꿀 청포도 음료베이스 에이드 스무디",
+      "category": "과일·베이스",
+      "observations": [
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 264900,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 264900,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 264900,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 3,
+      "avgPrice": 264900,
+      "minPrice": 264900,
+      "maxPrice": 264900,
+      "lastPrice": 264900,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "6360071707": {
+      "productName": "초정탄산수 플레인, 1.5L, 12개",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 15900,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 15900,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 15900,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 3,
+      "avgPrice": 15900,
+      "minPrice": 15900,
+      "maxPrice": 15900,
+      "lastPrice": 15900,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "9513790612": {
+      "productName": "뉴트리디데이 엘비타 애플사이다비니거 스파클링 탄산음료, 24개, 500ml",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 19900,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 19900,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 19900,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 3,
+      "avgPrice": 19900,
+      "minPrice": 19900,
+      "maxPrice": 19900,
+      "lastPrice": 19900,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "8060571285": {
+      "productName": "초정탄산수, 190ml, 30개",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 10900,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 10900,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 10900,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 3,
+      "avgPrice": 10900,
+      "minPrice": 10900,
+      "maxPrice": 10900,
+      "lastPrice": 10900,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "8574818708": {
+      "productName": "스파클 스파클링 탄산수 플레인",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 14900,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 14900,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 14900,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 3,
+      "avgPrice": 14900,
+      "minPrice": 14900,
+      "maxPrice": 14900,
+      "lastPrice": 14900,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "198053": {
+      "productName": "트레비 탄산수 플레인",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 19180,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 19180,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 19180,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 3,
+      "avgPrice": 19180,
+      "minPrice": 19180,
+      "maxPrice": 19180,
+      "lastPrice": 19180,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "8401739453": {
+      "productName": "라인바싸 플레인 탄산수 무라벨",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 15480,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 15480,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 15480,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 3,
+      "avgPrice": 15480,
+      "minPrice": 15480,
+      "maxPrice": 15480,
+      "lastPrice": 15480,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "8209182187": {
+      "productName": "탐사 스파클링 플레인",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-16 00:51 KST",
+          "price": 13490,
+          "source": "deals.json@e7b70fd"
+        },
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 13490,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 13490,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 3,
+      "avgPrice": 13490,
+      "minPrice": 13490,
+      "maxPrice": 13490,
+      "lastPrice": 13490,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "6355737116": {
+      "productName": "어메이징 오트 바리스타 950ml, 4개, 매일유업 오트밀크 핀란드산 귀리우유, 950ml, 4개",
+      "category": "우유·대체유",
+      "observations": [
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 14680,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 14680,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 2,
+      "avgPrice": 14680,
+      "minPrice": 14680,
+      "maxPrice": 14680,
+      "lastPrice": 14680,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "6344075508": {
+      "productName": "쏘굿 오트 언스위트 밀크, 1L, 3개",
+      "category": "우유·대체유",
+      "observations": [
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 13440,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 13440,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 2,
+      "avgPrice": 13440,
+      "minPrice": 13440,
+      "maxPrice": 13440,
+      "lastPrice": 13440,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "8258949462": {
+      "productName": "쏘굿 아몬드 오리지널, 1L, 3개",
+      "category": "우유·대체유",
+      "observations": [
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 13440,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 13440,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 2,
+      "avgPrice": 13440,
+      "minPrice": 13440,
+      "maxPrice": 13440,
+      "lastPrice": 13440,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "8832698072": {
+      "productName": "얼터너티브데어리 호주 귀리 음료 바리스타 오트, 1개, 1L",
+      "category": "우유·대체유",
+      "observations": [
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 7400,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 7400,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 2,
+      "avgPrice": 7400,
+      "minPrice": 7400,
+      "maxPrice": 7400,
+      "lastPrice": 7400,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "8157287216": {
+      "productName": "오트사이드 귀리음료 바리스타 블렌드",
+      "category": "우유·대체유",
+      "observations": [
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 7160,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 7160,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 2,
+      "avgPrice": 7160,
+      "minPrice": 7160,
+      "maxPrice": 7160,
+      "lastPrice": 7160,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "8157268957": {
+      "productName": "오틀리 바리스타 에디션 귀리음료",
+      "category": "우유·대체유",
+      "observations": [
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 4480,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 4480,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 2,
+      "avgPrice": 4480,
+      "minPrice": 4480,
+      "maxPrice": 4480,
+      "lastPrice": 4480,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "6330671687": {
+      "productName": "어메이징오트 오리지널 혼합음료",
+      "category": "우유·대체유",
+      "observations": [
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 14150,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 14150,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 2,
+      "avgPrice": 14150,
+      "minPrice": 14150,
+      "maxPrice": 14150,
+      "lastPrice": 14150,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "9784494565": {
+      "productName": "브리즈빈 베트남 로부스타 디카페인 1kg 당일로스팅 홀빈 고소한 커피원두 홀빈",
+      "category": "원두",
+      "observations": [
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 23990,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 23990,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 2,
+      "avgPrice": 23990,
+      "minPrice": 23990,
+      "maxPrice": 23990,
+      "lastPrice": 23990,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "9388090271": {
+      "productName": "디카페인 원두 1kg 커피원두 홀빈 분쇄안함 중배전 당일로스팅 리치커피",
+      "category": "원두",
+      "observations": [
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 25870,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 25870,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 2,
+      "avgPrice": 25870,
+      "minPrice": 25870,
+      "maxPrice": 25870,
+      "lastPrice": 25870,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "8431586361": {
+      "productName": "컬트커피랩 디카페인 콜롬비아후일라 슈가케인 너티초코 카라멜 데이나잇 싱글오리진 원두, 홀빈(분쇄안함), 1kg, 1개",
+      "category": "원두",
+      "observations": [
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 29880,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 29880,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 2,
+      "avgPrice": 29880,
+      "minPrice": 29880,
+      "maxPrice": 29880,
+      "lastPrice": 29880,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "9609327067": {
+      "productName": "위크위크 콜롬비아 디카페인 슈가케인 원두 커피, 홀빈(분쇄안함), 1kg, 1개",
+      "category": "원두",
+      "observations": [
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 29900,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 29900,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 2,
+      "avgPrice": 29900,
+      "minPrice": 29900,
+      "maxPrice": 29900,
+      "lastPrice": 29900,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "9735820423": {
+      "productName": "오릇 디카페인 로부스타 G1 당일로스팅 퓨어워터프로세스 산미없는 고소한 로스팅홀빈, 1개, 1kg",
+      "category": "원두",
+      "observations": [
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 41500,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 41500,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 2,
+      "avgPrice": 41500,
+      "minPrice": 41500,
+      "maxPrice": 41500,
+      "lastPrice": 41500,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "9743200071": {
+      "productName": "오릇 브라질 디카페인 원두 당일로스팅 마운틴워터프로세스 산미없는 고소한 로스팅홀빈, 1개, 1kg",
+      "category": "원두",
+      "observations": [
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 44000,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 44000,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 2,
+      "avgPrice": 44000,
+      "minPrice": 44000,
+      "maxPrice": 44000,
+      "lastPrice": 44000,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "9683606713": {
+      "productName": "멜로디커피 디카페인 원두 당일로스팅 고소한맛 커피원두 홀빈(분쇄안함)",
+      "category": "원두",
+      "observations": [
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 25890,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 25890,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 2,
+      "avgPrice": 25890,
+      "minPrice": 25890,
+      "maxPrice": 25890,
+      "lastPrice": 25890,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "7481340380": {
+      "productName": "헤일로빈 디카페인 콜롬비아 수프리모 슈가케인 커피 원두",
+      "category": "원두",
+      "observations": [
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 34920,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 34920,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 2,
+      "avgPrice": 34920,
+      "minPrice": 34920,
+      "maxPrice": 34920,
+      "lastPrice": 34920,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "9773952674": {
+      "productName": "시즌커피 로부스타 G1 디카페인 원두 당일로스팅 퓨어워터 홀빈",
+      "category": "원두",
+      "observations": [
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 28700,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 28700,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 2,
+      "avgPrice": 28700,
+      "minPrice": 28700,
+      "maxPrice": 28700,
+      "lastPrice": 28700,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "7677876919": {
+      "productName": "카일스 초콜릿 파우더, 1kg, 2개, 1개입",
+      "category": "파우더",
+      "observations": [
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 22440,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 22440,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 2,
+      "avgPrice": 22440,
+      "minPrice": 22440,
+      "maxPrice": 22440,
+      "lastPrice": 22440,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "9699325439": {
+      "productName": "믹소 다크초코 파우더, 1kg, 1개, 1개입",
+      "category": "파우더",
+      "observations": [
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 11650,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 11650,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 2,
+      "avgPrice": 11650,
+      "minPrice": 11650,
+      "maxPrice": 11650,
+      "lastPrice": 11650,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "8449685207": {
+      "productName": "이노라이즈 이노미 초코렛 파우더 1kg, 1kg, 1개, 1개입",
+      "category": "파우더",
+      "observations": [
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 12000,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 12000,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 2,
+      "avgPrice": 12000,
+      "minPrice": 12000,
+      "maxPrice": 12000,
+      "lastPrice": 12000,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "9770220113": {
+      "productName": "흥국에프앤비 초코파우더",
+      "category": "파우더",
+      "observations": [
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 21500,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 21500,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 2,
+      "avgPrice": 21500,
+      "minPrice": 21500,
+      "maxPrice": 21500,
+      "lastPrice": 21500,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "7026029061": {
+      "productName": "스위트컵 초코라떼 파우더",
+      "category": "파우더",
+      "observations": [
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 10540,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 10540,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 2,
+      "avgPrice": 10540,
+      "minPrice": 10540,
+      "maxPrice": 10540,
+      "lastPrice": 10540,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "108084889": {
+      "productName": "포모나 코코렛 초코파우더",
+      "category": "파우더",
+      "observations": [
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 14500,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 14500,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 2,
+      "avgPrice": 14500,
+      "minPrice": 14500,
+      "maxPrice": 14500,
+      "lastPrice": 14500,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "7544081580": {
+      "productName": "담터 코코아차 분말",
+      "category": "파우더",
+      "observations": [
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 7690,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 7690,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 2,
+      "avgPrice": 7690,
+      "minPrice": 7690,
+      "maxPrice": 7690,
+      "lastPrice": 7690,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "5684713": {
+      "productName": "오뚜기 오쉐프 코코아차",
+      "category": "파우더",
+      "observations": [
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 5890,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 5890,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 2,
+      "avgPrice": 5890,
+      "minPrice": 5890,
+      "maxPrice": 5890,
+      "lastPrice": 5890,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "6400580429": {
+      "productName": "서울팩토리 자몽에이드, 1.8kg, 2개",
+      "category": "과일·베이스",
+      "observations": [
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 33630,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 33630,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 2,
+      "avgPrice": 33630,
+      "minPrice": 33630,
+      "maxPrice": 33630,
+      "lastPrice": 33630,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "7398456407": {
+      "productName": "엔칸토 자몽 음료베이스, 2개, 1.8kg",
+      "category": "과일·베이스",
+      "observations": [
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 38000,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 38000,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 2,
+      "avgPrice": 38000,
+      "minPrice": 38000,
+      "maxPrice": 38000,
+      "lastPrice": 38000,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "9755119817": {
+      "productName": "[베이스킹] 자몽 베이스 2kg 자몽에이드 자몽농축액 카페 음료베이스 업소용",
+      "category": "과일·베이스",
+      "observations": [
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 21600,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 21600,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 2,
+      "avgPrice": 21600,
+      "minPrice": 21600,
+      "maxPrice": 21600,
+      "lastPrice": 21600,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "6514157775": {
+      "productName": "카페57 상온 자몽 베이스, 1.2kg, 1개",
+      "category": "과일·베이스",
+      "observations": [
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 13000,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 13000,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 2,
+      "avgPrice": 13000,
+      "minPrice": 13000,
+      "maxPrice": 13000,
+      "lastPrice": 13000,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "7969070285": {
+      "productName": "테일러 웰메이드 자몽 농축액, 1.8kg, 1개",
+      "category": "과일·베이스",
+      "observations": [
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 20400,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 20400,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 2,
+      "avgPrice": 20400,
+      "minPrice": 20400,
+      "maxPrice": 20400,
+      "lastPrice": 20400,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "9325794097": {
+      "productName": "담아요 수제 자몽청(알갱이) 정백당, 1개, 자몽청 2kg",
+      "category": "과일·베이스",
+      "observations": [
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 31900,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 31900,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 2,
+      "avgPrice": 31900,
+      "minPrice": 31900,
+      "maxPrice": 31900,
+      "lastPrice": 31900,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "184626075": {
+      "productName": "테너 베이스 자몽",
+      "category": "과일·베이스",
+      "observations": [
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 10950,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 10950,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 2,
+      "avgPrice": 10950,
+      "minPrice": 10950,
+      "maxPrice": 10950,
+      "lastPrice": 10950,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "6402665992": {
+      "productName": "포모나 레드자몽톡톡베이스",
+      "category": "과일·베이스",
+      "observations": [
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 13700,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 13660,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 2,
+      "avgPrice": 13680,
+      "minPrice": 13660,
+      "maxPrice": 13700,
+      "lastPrice": 13660,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "8691432112": {
+      "productName": "흥국에프앤비 자몽 농축액",
+      "category": "과일·베이스",
+      "observations": [
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 37400,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 37400,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 2,
+      "avgPrice": 37400,
+      "minPrice": 37400,
+      "maxPrice": 37400,
+      "lastPrice": 37400,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "7510870490": {
+      "productName": "스위트컵 자몽 농축액",
+      "category": "과일·베이스",
+      "observations": [
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 22500,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 22500,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 2,
+      "avgPrice": 22500,
+      "minPrice": 22500,
+      "maxPrice": 22500,
+      "lastPrice": 22500,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "9003699506": {
+      "productName": "얼그레이티 얼그레이티백 사각 10gx25 후식용차",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 27960,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 27960,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 2,
+      "avgPrice": 27960,
+      "minPrice": 27960,
+      "maxPrice": 27960,
+      "lastPrice": 27960,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "7591172760": {
+      "productName": "스위트허그 루이보스차 40g + 얼그레이 홍차 40g (총 2개)",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 12990,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 12990,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 2,
+      "avgPrice": 12990,
+      "minPrice": 12990,
+      "maxPrice": 12990,
+      "lastPrice": 12990,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "9798270713": {
+      "productName": "립톤 옐로우 라벨 홍차",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 15450,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 15450,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 2,
+      "avgPrice": 15450,
+      "minPrice": 15450,
+      "maxPrice": 15450,
+      "lastPrice": 15450,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "6279051956": {
+      "productName": "실론티 잉글리쉬블랙퍼스트 홍차 & 얼그레이 티백",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 9350,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 9350,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 2,
+      "avgPrice": 9350,
+      "minPrice": 9350,
+      "maxPrice": 9350,
+      "lastPrice": 9350,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "6603842219": {
+      "productName": "[티스페이스] 프리미엄 운남홍차 대용량 1kg 카페용 업소용",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 66000,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 66000,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 2,
+      "avgPrice": 66000,
+      "minPrice": 66000,
+      "maxPrice": 66000,
+      "lastPrice": 66000,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "8749464267": {
+      "productName": "480ml 16온스 아이스전용 무지 무광 이중코팅 양면코팅 음료컵 음료수 슬러시컵 1000개",
+      "category": "컵·뚜껑",
+      "observations": [
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 33700,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 33700,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 2,
+      "avgPrice": 33700,
+      "minPrice": 33700,
+      "maxPrice": 33700,
+      "lastPrice": 33700,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "9670065098": {
+      "productName": "에스제이케미칼 마지막 수량비상 아이스컵 16온스 PS 타 뚜껑 호환 불가 용기만 1000개 1박스",
+      "category": "컵·뚜껑",
+      "observations": [
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 36250,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 36250,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 2,
+      "avgPrice": 36250,
+      "minPrice": 36250,
+      "maxPrice": 36250,
+      "lastPrice": 36250,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "9628116651": {
+      "productName": "명성 16온스(480ml) 92파이 PET 아이스컵 1000개 테이크아웃 카페 커피 음료컵",
+      "category": "컵·뚜껑",
+      "observations": [
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 46900,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 46900,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 2,
+      "avgPrice": 46900,
+      "minPrice": 46900,
+      "maxPrice": 46900,
+      "lastPrice": 46900,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "7396301992": {
+      "productName": "플라마트 실속형 92파이 16온스 아이스컵 1000개",
+      "category": "컵·뚜껑",
+      "observations": [
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 48400,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 53000,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 2,
+      "avgPrice": 50700,
+      "minPrice": 48400,
+      "maxPrice": 53000,
+      "lastPrice": 53000,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "9680367581": {
+      "productName": "[코코넛용기] 92파이 16온스 아이스컵 1000개, 1박스, 500ml, 1000개입",
+      "category": "컵·뚜껑",
+      "observations": [
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 49900,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 49900,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 2,
+      "avgPrice": 49900,
+      "minPrice": 49900,
+      "maxPrice": 49900,
+      "lastPrice": 49900,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "8533799631": {
+      "productName": "92파이 16온스 PET 아이스컵 1000개 J",
+      "category": "컵·뚜껑",
+      "observations": [
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 49900,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 49900,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 2,
+      "avgPrice": 49900,
+      "minPrice": 49900,
+      "maxPrice": 49900,
+      "lastPrice": 49900,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "9680373211": {
+      "productName": "[코코넛용기] 98파이 16온스 아이스컵 1000개, 1박스, 500ml, 1000개입",
+      "category": "컵·뚜껑",
+      "observations": [
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 58900,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 58900,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 2,
+      "avgPrice": 58900,
+      "minPrice": 58900,
+      "maxPrice": 58900,
+      "lastPrice": 58900,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "9523711554": {
+      "productName": "PET 아이스컵 92파이 16온스 컵 + 92파이 돔뚜껑 세트 P, 1개, 490ml, 1000개",
+      "category": "컵·뚜껑",
+      "observations": [
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 67900,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 67900,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 2,
+      "avgPrice": 67900,
+      "minPrice": 67900,
+      "maxPrice": 67900,
+      "lastPrice": 67900,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "9538536228": {
+      "productName": "[담고온 2종세트 1000개] 국내산 16온스 92파이 아이스 PET컵 + 뚜껑 (드링킹리드)",
+      "category": "컵·뚜껑",
+      "observations": [
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 105750,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 105750,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 2,
+      "avgPrice": 105750,
+      "minPrice": 105750,
+      "maxPrice": 105750,
+      "lastPrice": 105750,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "9784284588": {
+      "productName": "[테이크아웃] 초과생산 10/13온스 인쇄된 컵홀더, 1000개",
+      "category": "빨대·홀더",
+      "observations": [
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 9900,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 9900,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 2,
+      "avgPrice": 9900,
+      "minPrice": 9900,
+      "maxPrice": 9900,
+      "lastPrice": 9900,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "26145737": {
+      "productName": "씨앤비 무지 컵홀더 아이스컵 92파이용 핫컵 10/13온스 1000개",
+      "category": "빨대·홀더",
+      "observations": [
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 12900,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 12900,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 2,
+      "avgPrice": 12900,
+      "minPrice": 12900,
+      "maxPrice": 12900,
+      "lastPrice": 12900,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "76902": {
+      "productName": "12/16온스 98파이 크라프트 무지 홀더 1000개, 1개, 1000개",
+      "category": "빨대·홀더",
+      "observations": [
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 14900,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 14900,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 2,
+      "avgPrice": 14900,
+      "minPrice": 14900,
+      "maxPrice": 14900,
+      "lastPrice": 14900,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "5540305703": {
+      "productName": "[박스] 빨강 무지홀더 1박스(1000개), 1개",
+      "category": "빨대·홀더",
+      "observations": [
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 26400,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 26400,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 2,
+      "avgPrice": 26400,
+      "minPrice": 26400,
+      "maxPrice": 26400,
+      "lastPrice": 26400,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "6922591746": {
+      "productName": "종이컵홀더 92파이 98파이 멀티홀더 헬로윈터, 1개, 1000개",
+      "category": "빨대·홀더",
+      "observations": [
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 27000,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 27000,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 2,
+      "avgPrice": 27000,
+      "minPrice": 27000,
+      "maxPrice": 27000,
+      "lastPrice": 27000,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "8420892270": {
+      "productName": "포담팩 카페테이크아웃 종이컵홀더 16 20온스 레드 쿠키, 1개, 1000개",
+      "category": "빨대·홀더",
+      "observations": [
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 29700,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 29700,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 2,
+      "avgPrice": 29700,
+      "minPrice": 29700,
+      "maxPrice": 29700,
+      "lastPrice": 29700,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "8605970169": {
+      "productName": "탐사 일회용 컵홀더",
+      "category": "빨대·홀더",
+      "observations": [
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 5490,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 5490,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 2,
+      "avgPrice": 5490,
+      "minPrice": 5490,
+      "maxPrice": 5490,
+      "lastPrice": 5490,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "1542252723": {
+      "productName": "홀더킹 테이크아웃 일회용 무지 종이컵 홀더 300ml / 390ml",
+      "category": "빨대·홀더",
+      "observations": [
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 13200,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 13200,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 2,
+      "avgPrice": 13200,
+      "minPrice": 13200,
+      "maxPrice": 13200,
+      "lastPrice": 13200,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "7876924802": {
+      "productName": "커피세븐 무지 컵홀더 알뜰형 121 x 104 x 58 mm",
+      "category": "빨대·홀더",
+      "observations": [
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 14970,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 14970,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 2,
+      "avgPrice": 14970,
+      "minPrice": 14970,
+      "maxPrice": 14970,
+      "lastPrice": 14970,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "7597856296": {
+      "productName": "유한그린텍 매장용 개별포장 업소용 물티슈 물그린, 1박스, 1200개입, 40g",
+      "category": "매장소모품",
+      "observations": [
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 15890,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 15890,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 2,
+      "avgPrice": 15890,
+      "minPrice": 15890,
+      "maxPrice": 15890,
+      "lastPrice": 15890,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "8715053766": {
+      "productName": "업소용물티슈 식당물티슈 무료배송 당일배송 덕용물티슈 70g 800매 엠보타입, 1000개, 1개입, 70g",
+      "category": "매장소모품",
+      "observations": [
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 32490,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 32490,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 2,
+      "avgPrice": 32490,
+      "minPrice": 32490,
+      "maxPrice": 32490,
+      "lastPrice": 32490,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "9452530356": {
+      "productName": "업소용물티슈 식당물티슈 무료배송 당일배송 덕용물티슈 90g 600매, 600개, 1개입, 90g",
+      "category": "매장소모품",
+      "observations": [
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 29900,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 29900,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 2,
+      "avgPrice": 29900,
+      "minPrice": 29900,
+      "maxPrice": 29900,
+      "lastPrice": 29900,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "9061598364": {
+      "productName": "아이비물티슈 엠보타입 개별포장 일회용 업소용 물티슈 100g 600매, 600개, 1개입, 100g",
+      "category": "매장소모품",
+      "observations": [
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 31900,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 31900,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 2,
+      "avgPrice": 31900,
+      "minPrice": 31900,
+      "maxPrice": 31900,
+      "lastPrice": 31900,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "8995638881": {
+      "productName": "백올 일매형 업소용 물티슈 대용량",
+      "category": "매장소모품",
+      "observations": [
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 15920,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 15920,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 2,
+      "avgPrice": 15920,
+      "minPrice": 15920,
+      "maxPrice": 15920,
+      "lastPrice": 15920,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "7278866396": {
+      "productName": "탐사 미니 업소용 물티슈",
+      "category": "매장소모품",
+      "observations": [
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 8690,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 8690,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 2,
+      "avgPrice": 8690,
+      "minPrice": 8690,
+      "maxPrice": 8690,
+      "lastPrice": 8690,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "7565793302": {
+      "productName": "행복한 물티슈 업소용 개별포장 무지 물수건",
+      "category": "매장소모품",
+      "observations": [
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 26780,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 26780,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 2,
+      "avgPrice": 26780,
+      "minPrice": 26780,
+      "maxPrice": 26780,
+      "lastPrice": 26780,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "8974546869": {
+      "productName": "티슈도리 라떼 업소용 물티슈",
+      "category": "매장소모품",
+      "observations": [
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 25110,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 25110,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 2,
+      "avgPrice": 25110,
+      "minPrice": 25110,
+      "maxPrice": 25110,
+      "lastPrice": 25110,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "7613632287": {
+      "productName": "크린타올 슈퍼 물티슈 낱개포장형",
+      "category": "매장소모품",
+      "observations": [
+        {
+          "at": "2026-11-16 02:07 KST",
+          "price": 14840,
+          "source": "deals.json@f26fccf"
+        },
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 14840,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 2,
+      "avgPrice": 14840,
+      "minPrice": 14840,
+      "maxPrice": 14840,
+      "lastPrice": 14840,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "9748931999": {
+      "productName": "파이토메이드 아이러브밀크 3.5% 멸균우유, 1박스, 12L",
+      "category": "우유·대체유",
+      "observations": [
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 21200,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 21200,
+      "minPrice": 21200,
+      "maxPrice": 21200,
+      "lastPrice": 21200,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "7677418520": {
+      "productName": "와치아테 멸균우유 3.5%, 1L, 4개",
+      "category": "우유·대체유",
+      "observations": [
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 8800,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 8800,
+      "minPrice": 8800,
+      "maxPrice": 8800,
+      "lastPrice": 8800,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "4884130139": {
+      "productName": "[건국우유] 멸균우유 200ml 48입, 200ml, 48개",
+      "category": "우유·대체유",
+      "observations": [
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 28600,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 28600,
+      "minPrice": 28600,
+      "maxPrice": 28600,
+      "lastPrice": 28600,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "7060182058": {
+      "productName": "서울우유 유기농 멸균우유, 120ml, 32개",
+      "category": "우유·대체유",
+      "observations": [
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 25300,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 25300,
+      "minPrice": 25300,
+      "maxPrice": 25300,
+      "lastPrice": 25300,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "112882627": {
+      "productName": "콩볶는사람들 베트남 로부스타 G1 원두커피 1kg, 홀빈(분쇄안함), 1kg, 1개",
+      "category": "원두",
+      "observations": [
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 12900,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 12900,
+      "minPrice": 12900,
+      "maxPrice": 12900,
+      "lastPrice": 12900,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "9618453633": {
+      "productName": "브로일링커피 화로 블렌드 Brazier 홀빈 에스프레소 원두 직화로스팅 당일로스팅 다크로스트 라떼 카푸치노 카페 원두, 10개, 1kg",
+      "category": "원두",
+      "observations": [
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 178480,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 178480,
+      "minPrice": 178480,
+      "maxPrice": 178480,
+      "lastPrice": 178480,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "8360433211": {
+      "productName": "[베렉스커피] 초코나잇 산미없는 고소한 초코 블렌드 원두커피, 1개, 1kg, 홀빈(분쇄안함)",
+      "category": "원두",
+      "observations": [
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 26800,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 26800,
+      "minPrice": 26800,
+      "maxPrice": 26800,
+      "lastPrice": 26800,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "9444853494": {
+      "productName": "컬트커피랩 진한 바디 쌉쌀한 다크 로브스타 G1 싱글오리진 커피원두",
+      "category": "원두",
+      "observations": [
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 15690,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 15690,
+      "minPrice": 15690,
+      "maxPrice": 15690,
+      "lastPrice": 15690,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "7737842216": {
+      "productName": "모닌 망고 시럽, 1L, 1개",
+      "category": "시럽·소스",
+      "observations": [
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 17000,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 17000,
+      "minPrice": 17000,
+      "maxPrice": 17000,
+      "lastPrice": 17000,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "7742533243": {
+      "productName": "모닌 헤이즐넛 시럽",
+      "category": "시럽·소스",
+      "observations": [
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 5320,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 5320,
+      "minPrice": 5320,
+      "maxPrice": 5320,
+      "lastPrice": 5320,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "5524793096": {
+      "productName": "GreenTree 자몽 에이드 베이스",
+      "category": "과일·베이스",
+      "observations": [
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 18590,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 18590,
+      "minPrice": 18590,
+      "maxPrice": 18590,
+      "lastPrice": 18590,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "9593823253": {
+      "productName": "아이팩피앤디 98파이 16온스 PET 아이스컵 국산 투명, 1박스, 1000개입, 520ml",
+      "category": "컵·뚜껑",
+      "observations": [
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 50380,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 50380,
+      "minPrice": 50380,
+      "maxPrice": 50380,
+      "lastPrice": 50380,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "8810869296": {
+      "productName": "포담팩 종이컵홀더 아이스 92컵 98컵 멀티홀더 자주 하트, 1개, 1000개",
+      "category": "빨대·홀더",
+      "observations": [
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 27400,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 27400,
+      "minPrice": 27400,
+      "maxPrice": 27400,
+      "lastPrice": 27400,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "8493592299": {
+      "productName": "포담팩 카페테이크아웃 92파이용 종이컵홀더 10온스 13온스 레드 쿠키, RED, 1000개",
+      "category": "빨대·홀더",
+      "observations": [
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 29100,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 29100,
+      "minPrice": 29100,
+      "maxPrice": 29100,
+      "lastPrice": 29100,
+      "lastAt": "2026-11-16 07:02 KST"
+    },
+    "9409800834": {
+      "productName": "티슈랩 매장용 개별 포장 일회용 업소용 물티슈, 1세트, 2000매, 40g",
+      "category": "매장소모품",
+      "observations": [
+        {
+          "at": "2026-11-16 07:02 KST",
+          "price": 33500,
+          "source": "deals.json@9b03795"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 33500,
+      "minPrice": 33500,
+      "maxPrice": 33500,
+      "lastPrice": 33500,
+      "lastAt": "2026-11-16 07:02 KST"
+    }
+  }
+}

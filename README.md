@@ -26,6 +26,17 @@
 | 호출 한도 | 시간당 최대 9회(상한 10회) — `--batch`/`--only`/`--wave`로 4~8회씩 분할 수집 |
 | 요청 간격 | 8초 (`SAFE_INTERVAL_SEC`) |
 | 비밀값 | `COUPANG_ACCESS_KEY`, `COUPANG_SECRET_KEY` — GitHub Actions Secrets 에만 저장 |
+| 가격 이력 | `data/price_history.json` — 상품별로 실제 관측된 가격만 누적(추정·보간 없음) |
+
+## 가격 이력 · 평균 대비 할인율
+
+`data/price_history.json` 에 상품(`productId`)별 관측 가격을 쌓고, 그 평균과 비교해 할인율을 계산합니다.
+
+- 관측 1건 = 그 수집 시각에 확인된 해당 상품의 `productPrice`. **보간·추정값은 넣지 않습니다.**
+- `deals.json` 각 상품에 `avgPrice`(누적 평균가), `minPrice`(최저 관측가), `priceCount`(관측 횟수), `discountRate`(평균 대비 하락률)를 함께 저장합니다.
+- `discountRate` = 관측 2회 이상이고 현재가가 누적 평균보다 낮을 때 `round((avgPrice - productPrice) / avgPrice * 100)`, 그 외에는 `null`.
+- 사이트는 `discountRate >= 1` 인 상품에만 `평균 대비 N%↓` 배지와 기준 평균가를 표시합니다(0%·가짜 정가 표시 없음).
+- 초기 이력은 저장소 커밋의 실제 `deals.json` 스냅샷에서 시드했습니다: `python scripts/seed_price_history.py`
 
 ### 쿨다운 안전장치
 
@@ -43,6 +54,8 @@ python scripts/fetch_cafe_deals.py --batch 1      # 1~4번째 카테고리만 �
 python scripts/fetch_cafe_deals.py --wave 2 --max-requests 8  # 2차 보강 키워드 8개 수집
 python scripts/fetch_cafe_deals.py --only 원두,파우더  # 카테고리 지정 수집
 python scripts/fetch_cafe_deals.py --prune-only    # API 없이 기존 데이터 정리(중복·무관 상품 제거)
+python scripts/fetch_cafe_deals.py --recompute     # API 없이 가격 이력만으로 평균가·할인율 재계산
+python scripts/seed_price_history.py               # 커밋 스냅샷에서 가격 이력 최초 시드(1회성)
 python scripts/fetch_cafe_deals.py --assume-used 5   # 로그 밖에서 이미 쓴 호출 수 가산
 python -m http.server 8000                        # 사이트 미리보기 (http://localhost:8000)
 ```

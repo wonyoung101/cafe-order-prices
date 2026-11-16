@@ -20,6 +20,13 @@
   python scripts/fetch_cafe_deals.py --max-requests 4     # 이번 실행 최대 호출 수
   python scripts/fetch_cafe_deals.py --assume-used 5      # 로그 밖에서 이미 쓴 호출 수 가산
   python scripts/fetch_cafe_deals.py --replace            # 병합 대신 전체 교체
+  python scripts/fetch_cafe_deals.py --prune-only         # API 0회 · 무관 상품 정리 + 평균가/할인율 재계산
+  python scripts/fetch_cafe_deals.py --recompute          # API 0회 · 가격 이력만으로 평균가/할인율 재계산
+
+가격 이력:
+  수집한 상품 가격을 `data/price_history.json` 에 상품별로 누적해 두고, 그 평균(avgPrice)과
+  평균 대비 할인율(discountRate)을 `deals.json` 에 함께 저장합니다. 관측되지 않은 가격은
+  절대 만들지 않습니다(보간·추정 없음). 관측이 2회 미만이면 할인율은 null 입니다.
 """
 from __future__ import annotations
 
@@ -39,6 +46,7 @@ from pathlib import Path
 # ---------------------------------------------------------------- 설정
 ROOT = Path(__file__).resolve().parent.parent
 OUT_PATH = ROOT / "deals.json"
+HISTORY_PATH = ROOT / "data" / "price_history.json"
 USAGE_PATH = Path(__file__).resolve().parent / ".api_usage.json"
 
 API_HOST = "https://api-gateway.coupang.com"
@@ -323,6 +331,115 @@ def select_targets(argv: list[str]) -> list[dict]:
     return targets
 
 
+# ---------------------------------------------------------------- 가격 이력 / 평균가
+def load_history() -> dict:
+    try:
+        hist = json.loads(HISTORY_PATH.read_text(encoding="utf-8"))
+        hist.setdefault("products", {})
+        return hist
+    except Exception:
+        return {"updatedAt": None, "source": "collection", "products": {}}
+
+
+def save_history(hist: dict) -> None:
+    hist["updatedAt"] = kst_str(datetime.now(timezone.utc))
+    HISTORY_PATH.parent.mkdir(parents=True, exist_ok=True)
+    tmp = HISTORY_PATH.with_suffix(".json.tmp")
+    tmp.write_text(json.dumps(hist, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    tmp.replace(HISTORY_PATH)
+
+
+def add_observation(hist: dict, deal: dict, at: str, source: str) -> bool:
+    """상품 1건의 관측 가격을 이력에 추가한다. 같은 수집 시각이면 중복 기록하지 않는다."""
+    pid = str(deal.get("productId") or "")
+    price = deal.get("productPrice")
+    if not pid or not price or not at:
+        return False
+    entry = hist["products"].setdefault(pid, {"productName": "", "category": "", "observations": []})
+    entry["productName"] = deal.get("productName") or entry.get("productName") or ""
+    entry["category"] = deal.get("category") or entry.get("category") or ""
+    obs = entry.setdefault("observations", [])
+    for o in obs:
+        if o.get("at") == at:
+            if o.get("price") == int(price):
+                return False            # 같은 시각·같은 가격 → 이미 기록됨
+            o["price"] = int(price)     # 같은 시각 재실행에서 가격이 바뀐 경우만 갱신
+            o["source"] = source
+            return True
+    obs.append({"at": at, "price": int(price), "source": source})
+    return True
+
+
+def reconcile_from_previous(hist: dict, prev_payload: dict) -> int:
+    """이전 `deals.json` 의 수집 시각·가격을 이력에 되살린다.
+
+    워크플로가 `data/price_history.json` 을 커밋하지 못한 경우에도 다음 실행에서
+    이력이 비지 않도록 하는 자기 치유 장치입니다(추정값 없음, 실제 기록만).
+    """
+    at = (prev_payload or {}).get("updatedAt") or ""
+    deals = (prev_payload or {}).get("deals") or []
+    if not at or not deals:
+        return 0
+    restored = 0
+    for d in deals:
+        if add_observation(hist, d, at, "이전 deals.json 복원"):
+            restored += 1
+    return restored
+
+
+def finalize_history(hist: dict) -> None:
+    """관측을 시각순으로 정렬하고 상품별 통계(평균·최저·최고·관측 횟수)를 계산한다."""
+    for entry in hist.get("products", {}).values():
+        obs = sorted(entry.get("observations") or [], key=lambda o: o.get("at") or "")
+        entry["observations"] = obs
+        prices = [o["price"] for o in obs if o.get("price")]
+        entry["priceCount"] = len(prices)
+        entry["avgPrice"] = round(sum(prices) / len(prices)) if prices else None
+        entry["minPrice"] = min(prices) if prices else None
+        entry["maxPrice"] = max(prices) if prices else None
+        entry["lastPrice"] = prices[-1] if prices else None
+        entry["lastAt"] = obs[-1]["at"] if obs else None
+
+
+def apply_price_stats(deals: list[dict], hist: dict) -> int:
+    """각 상품에 avgPrice·minPrice·priceCount·discountRate 를 넣고, 할인 배지 대상 수를 돌려준다.
+
+    discountRate 는 관측 2회 이상이고 현재가가 누적 평균가보다 낮을 때만
+    round((avgPrice - productPrice) / avgPrice * 100), 그 외에는 null.
+    """
+    products = hist.get("products") or {}
+    discounted = 0
+    for d in deals:
+        entry = products.get(str(d.get("productId") or "")) or {}
+        avg = entry.get("avgPrice")
+        count = entry.get("priceCount") or 0
+        price = d.get("productPrice")
+        d["avgPrice"] = avg
+        d["minPrice"] = entry.get("minPrice")
+        d["priceCount"] = count
+        if avg and count >= 2 and price and price < avg:
+            d["discountRate"] = round((avg - price) / avg * 100)
+            if d["discountRate"] >= 1:
+                discounted += 1
+        else:
+            d["discountRate"] = None
+    return discounted
+
+
+def refresh_from_history(prev_payload: dict, prune: bool) -> tuple[dict, int, int]:
+    """API 호출 없이 이력만으로 deals.json 의 평균가·할인율을 다시 계산한다."""
+    hist = load_history()
+    restored = reconcile_from_previous(hist, prev_payload)
+    finalize_history(hist)
+    deals = (prev_payload or {}).get("deals") or []
+    if prune:
+        deals = merge_deals(deals, [])
+    deals = sort_deals(deals) if prune else deals
+    discounted = apply_price_stats(deals, hist)
+    save_history(hist)
+    return deals, discounted, restored
+
+
 def _opt(argv: list[str], name: str) -> str | None:
     for i, a in enumerate(argv):
         if a == name and i + 1 < len(argv):
@@ -500,21 +617,27 @@ def main(argv: list[str]) -> int:
         print("[dry-run] 네트워크 요청/파일 쓰기 없음.")
         return 0
 
-    if "--prune-only" in argv:
+    if "--prune-only" in argv or "--recompute" in argv:
         previous = load_previous()
         prev_deals = previous.get("deals") or []
-        kept = sort_deals(merge_deals(prev_deals, []))
+        prune = "--prune-only" in argv
+        deals, discounted, restored = refresh_from_history(previous, prune)
         write_json({
             "status": "ok",
             "updatedAt": previous.get("updatedAt") or kst_str(datetime.now(timezone.utc)),
+            "statsAt": kst_str(datetime.now(timezone.utc)),
             "notice": "",
             "watchlist": [],
             "categories": CATEGORIES,
-            "count": len(kept),
-            "deals": kept,
+            "count": len(deals),
+            "priceStats": {"products": len(load_history().get("products") or {}), "discounts": discounted},
+            "deals": deals,
         })
-        print(f"[prune] 네트워크 요청 없이 deals.json 정리: {len(prev_deals)} → {len(kept)}건 "
-              f"(제외 키워드 {len(EXCLUDE_KEYWORDS)}종)")
+        label = "prune" if prune else "recompute"
+        print(f"[{label}] 네트워크 요청 없이 갱신: {len(prev_deals)} → {len(deals)}건 · "
+              f"할인 배지 {discounted}건 · 이전 deals.json 복원 {restored}건")
+        if prune:
+            print(f"       (제외 키워드 {len(EXCLUDE_KEYWORDS)}종 적용)")
         return 0
 
     if cooldown_active(now):
@@ -549,17 +672,30 @@ def main(argv: list[str]) -> int:
     prev_deals = previous.get("deals") or []
     merged = sort_deals(deals if replace else merge_deals(prev_deals, deals))
 
+    # 수집 결과를 가격 이력에 기록하고, 누적 평균가·할인율을 계산해 함께 저장한다.
+    updated_at = kst_str(datetime.now(timezone.utc))
+    hist = load_history()
+    reconcile_from_previous(hist, previous)
+    recorded = sum(1 for d in deals if add_observation(hist, d, updated_at, "수집 결과"))
+    finalize_history(hist)
+    discounted = apply_price_stats(merged, hist)
+    save_history(hist)
+
     write_json({
         "status": "ok",
-        "updatedAt": kst_str(datetime.now(timezone.utc)),
+        "updatedAt": updated_at,
+        "statsAt": updated_at,
         "notice": "",
         "watchlist": [],
         "categories": CATEGORIES,
         "count": len(merged),
+        "priceStats": {"products": len(hist.get("products") or {}), "discounts": discounted},
         "deals": merged,
     })
     print(f"[done] 총 {len(merged)}개 상품으로 deals.json 갱신 "
           f"(이전 {len(prev_deals)} + 신규/갱신 {len(deals)} · 병합 {'교체' if replace else '적용'})")
+    print(f"[history] 관측 {recorded}건 기록 · 이력 상품 {len(hist.get('products') or {})}개 · "
+          f"평균 대비 할인 {discounted}건")
     if failed:
         print(f"[note] 응답이 비어 있던 카테고리: {', '.join(sorted(set(failed)))}")
     return 0

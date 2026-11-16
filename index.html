@@ -16,6 +16,7 @@
     --accent: #0f766e;
     --accent-soft: #ecfdf5;
     --rocket: #2563eb;
+    --down: #e11d48;
     --warn-bg: #fff8e6;
     --warn-line: #f2d38a;
     --warn-text: #7a5300;
@@ -71,6 +72,10 @@
   .card .thumb { position: relative; aspect-ratio: 1/1; background: #f7f8fa; display: flex; align-items: center; justify-content: center; padding: 10px; }
   .card .thumb img { max-width: 100%; max-height: 100%; object-fit: contain; }
   .card .badge { position: absolute; top: 7px; left: 7px; font-size: 10px; font-weight: 800; padding: 3px 7px; border-radius: 999px; background: var(--rocket); color: #fff; }
+  .card .badge.discount { left: auto; right: 7px; background: var(--down); box-shadow: 0 1px 4px rgba(190,18,60,.28); }
+  .card .box.down { color: var(--down); }
+  .card .avg { margin-top: 2px; font-size: 10.5px; font-weight: 600; color: #94a3b8; }
+  .card .avg b { font-weight: 700; color: #64748b; }
   .card .body { padding: 9px 10px 11px; display: flex; flex-direction: column; gap: 4px; flex: 1; }
   .card .cat { font-size: 10.5px; font-weight: 700; color: var(--accent); }
   .card .name { font-size: 12.5px; font-weight: 600; line-height: 1.35; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
@@ -121,6 +126,7 @@
     <button class="toggle" id="rocketToggle" aria-pressed="false">🚀 로켓배송만</button>
     <select id="sort" aria-label="정렬">
       <option value="unit">단가 낮은 순 (개당·100ml·100g)</option>
+      <option value="discount">할인율 높은 순</option>
       <option value="price">박스 가격 낮은 순</option>
       <option value="name">이름 순</option>
     </select>
@@ -147,6 +153,7 @@
     <p>· 상품가는 쿠팡 판매가 기준이며, <b>개당 · 100ml당 · 100g당 단가</b>는 상품명에 적힌 박스 구성 수량·용량으로 나눠 계산한 값입니다.</p>
     <p>· 배송비·쿠폰·카드 할인은 반영되지 않으므로 실제 결제 금액과 다를 수 있습니다.</p>
     <p>· 가격은 수집 시점 기준이며, 링크를 누르면 쿠팡 상품 페이지로 이동합니다.</p>
+    <p>· <b>평균 대비 N%↓</b> 배지는 지금까지 실제로 수집된 가격 기록(2회 이상)의 평균과 비교한 값입니다. 기록이 쌓일수록 정확해집니다.</p>
     <div class="disclosure">
       이 페이지의 링크는 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.
     </div>
@@ -214,19 +221,33 @@
       (deal.packNote ? " · " + deal.packNote : "");
   }
 
+  // 2회 이상 관측된 가격들로 계산된 "평균 대비 할인율"이 1% 이상일 때만 배지를 붙인다.
+  // (관측이 부족하거나 평균 이상이면 아무 표시도 하지 않는다 — 0%/가짜 정가 표시 없음)
+  function discountOf(deal) {
+    var r = deal.discountRate;
+    return (typeof r === "number" && r >= 1) ? r : null;
+  }
+
   function cardHTML(deal) {
     var img = deal.productImage
       ? '<img src="' + esc(deal.productImage) + '" alt="' + esc(deal.productName) + '" loading="lazy" referrerpolicy="no-referrer" />'
       : '';
+    var rate = discountOf(deal);
+    var avgLine = (rate && deal.avgPrice)
+      ? '<div class="avg">평균 <b>' + won(deal.avgPrice) + '</b>' +
+          (deal.priceCount ? ' · ' + deal.priceCount + '회 관측' : '') + '</div>'
+      : '';
     return '<a class="card" href="' + esc(deal.productUrl || "#") + '" target="_blank" rel="noopener sponsored">' +
       '<div class="thumb">' +
         (deal.isRocket ? '<span class="badge">🚀 로켓</span>' : '') +
+        (rate ? '<span class="badge discount">평균 대비 ' + rate + '%↓</span>' : '') +
         img +
       '</div>' +
       '<div class="body">' +
         '<div class="cat">' + esc(deal.category || "") + '</div>' +
         '<div class="name">' + esc(deal.productName) + '</div>' +
-        '<div class="box">' + won(deal.productPrice) + '<small>상품가</small></div>' +
+        '<div class="box' + (rate ? ' down' : '') + '">' + won(deal.productPrice) + '<small>상품가</small></div>' +
+        avgLine +
         (unitText(deal) ? '<div class="unit">' + esc(unitText(deal)) + '</div>' : '') +
       '</div></a>';
   }
@@ -242,6 +263,12 @@
       return true;
     });
     if (state.sort === "unit") deals.sort(function (a, b) { return (a.unitPrice || 1e12) - (b.unitPrice || 1e12); });
+    else if (state.sort === "discount") deals.sort(function (a, b) {
+      var ra = (typeof a.discountRate === "number" && a.discountRate >= 1) ? a.discountRate : 0;
+      var rb = (typeof b.discountRate === "number" && b.discountRate >= 1) ? b.discountRate : 0;
+      if (rb !== ra) return rb - ra;
+      return (a.unitPrice || 1e12) - (b.unitPrice || 1e12);
+    });
     else if (state.sort === "price") deals.sort(function (a, b) { return (a.productPrice || 0) - (b.productPrice || 0); });
     else deals.sort(function (a, b) { return String(a.productName).localeCompare(String(b.productName), "ko"); });
 

@@ -1,6 +1,7 @@
 {
   "status": "ok",
   "updatedAt": "2026-11-16 07:02 KST",
+  "statsAt": "2026-11-16 14:32 KST",
   "notice": "",
   "watchlist": [],
   "categories": [
@@ -15,6 +16,10 @@
     "매장소모품"
   ],
   "count": 156,
+  "priceStats": {
+    "products": 156,
+    "discounts": 1
+  },
   "deals": [
     {
       "productId": "9748931999",
@@ -28,7 +33,11 @@
       "query": "멸균우유",
       "unitPrice": 177,
       "unitBasis": "100ml당",
-      "packNote": "12,000ml"
+      "packNote": "12,000ml",
+      "avgPrice": 21200,
+      "minPrice": 21200,
+      "priceCount": 1,
+      "discountRate": null
     },
     {
       "productId": "4975075206",
@@ -42,7 +51,11 @@
       "query": "멸균우유",
       "unitPrice": 200,
       "unitBasis": "100ml당",
-      "packNote": "1,000ml×10"
+      "packNote": "1,000ml×10",
+      "avgPrice": 17968,
+      "minPrice": 17300,
+      "priceCount": 4,
+      "discountRate": null
     },
     {
       "productId": "7677418520",
@@ -56,7 +69,11 @@
       "query": "멸균우유",
       "unitPrice": 220,
       "unitBasis": "100ml당",
-      "packNote": "1,000ml×4"
+      "packNote": "1,000ml×4",
+      "avgPrice": 8800,
+      "minPrice": 8800,
+      "priceCount": 1,
+      "discountRate": null
     },
     {
       "productId": "332850485",
@@ -70,7 +87,11 @@
       "query": "멸균우유",
       "unitPrice": 250,
       "unitBasis": "100ml당",
-      "packNote": "1,000ml×12"
+      "packNote": "1,000ml×12",
+      "avgPrice": 30000,
+      "minPrice": 30000,
+      "priceCount": 4,
+      "discountRate": null
     },
     {
       "productId": "4884130139",
@@ -84,7 +105,11 @@
       "query": "멸균우유",
       "unitPrice": 298,
       "unitBasis": "100ml당",
-      "packNote": "200ml×48"
+      "packNote": "200ml×48",
+      "avgPrice": 28600,
+      "minPrice": 28600,
+      "priceCount": 1,
+      "discountRate": null
     },
     {
       "productId": "7193817761",
@@ -98,7 +123,11 @@
       "query": "멸균우유",
       "unitPrice": 368,
       "unitBasis": "100ml당",
-      "packNote": "1,000ml×12"
+      "packNote": "1,000ml×12",
+      "avgPrice": 44100,
+      "minPrice": 44100,
+      "priceCount": 4,
+      "discountRate": null
     },
     {
       "productId": "6355737116",
@@ -112,7 +141,11 @@
       "query": "오트밀크",
       "unitPrice": 386,
       "unitBasis": "100ml당",
-      "packNote": "950ml×4"
+      "packNote": "950ml×4",
+      "avgPrice": 14680,
+      "minPrice": 14680,
+      "priceCount": 2,
+      "discountRate": null
     },
     {
       "productId": "6344075508",
@@ -126,7 +159,11 @@
       "query": "오트밀크",
       "unitPrice": 448,
       "unitBasis": "100ml당",
-      "packNote": "1,000ml×3"
+      "packNote": "1,000ml×3",
+      "avgPrice": 13440,
+      "minPrice": 13440,
+      "priceCount": 2,
+      "discountRate": null
     },
     {
       "productId": "8258949462",
@@ -140,7 +177,11 @@
       "query": "오트밀크",
       "unitPrice": 448,
       "unitBasis": "100ml당",
-      "packNote": "1,000ml×3"
+      "packNote": "1,000ml×3",
+      "avgPrice": 13440,
+      "minPrice": 13440,
+      "priceCount": 2,
+      "discountRate": null
     },
     {
       "productId": "7060182058",
@@ -154,7 +195,11 @@
       "query": "멸균우유",
       "unitPrice": 659,
       "unitBasis": "100ml당",
-      "packNote": "120ml×32"
+      "packNote": "120ml×32",
+      "avgPrice": 25300,
+      "minPrice": 25300,
+      "priceCount": 1,
+      "discountRate": null
     },
     {
       "productId": "8832698072",
@@ -168,7 +213,11 @@
       "query": "오트밀크",
       "unitPrice": 740,
       "unitBasis": "100ml당",
-      "packNote": "1,000ml"
+      "packNote": "1,000ml",
+      "avgPrice": 7400,
+      "minPrice": 7400,
+      "priceCount": 2,
+      "discountRate": null
     },
     {
       "productId": "6436856710",
@@ -182,7 +231,11 @@
       "query": "멸균우유",
       "unitPrice": null,
       "unitBasis": "100ml당",
-      "packNote": null
+      "packNote": null,
+      "avgPrice": 16090,
+      "minPrice": 16090,
+      "priceCount": 4,
+      "discountRate": null
     },
     {
       "productId": "9536213705",
@@ -196,7 +249,11 @@
       "query": "멸균우유",
       "unitPrice": null,
       "unitBasis": "100ml당",
-      "packNote": null
+      "packNote": null,
+      "avgPrice": 18468,
+      "minPrice": 15550,
+      "priceCount": 4,
+      "discountRate": 16
     },
     {
       "productId": "119465439",
@@ -210,7 +267,11 @@
       "query": "멸균우유",
       "unitPrice": null,
       "unitBasis": "100ml당",
-      "packNote": null
+      "packNote": null,
+      "avgPrice": 23000,
+      "minPrice": 23000,
+      "priceCount": 4,
+      "discountRate": null
     },
     {
       "productId": "8157287216",
@@ -224,7 +285,11 @@
       "query": "오트밀크",
       "unitPrice": null,
       "unitBasis": "100ml당",
-      "packNote": null
+      "packNote": null,
+      "avgPrice": 7160,
+      "minPrice": 7160,
+      "priceCount": 2,
+      "discountRate": null
     },
     {
       "productId": "8157268957",
@@ -238,7 +303,11 @@
       "query": "오트밀크",
       "unitPrice": null,
       "unitBasis": "100ml당",
-      "packNote": null
+      "packNote": null,
+      "avgPrice": 4480,
+      "minPrice": 4480,
+      "priceCount": 2,
+      "discountRate": null
     },
     {
       "productId": "6330671687",
@@ -252,7 +321,11 @@
       "query": "오트밀크",
       "unitPrice": null,
       "unitBasis": "100ml당",
-      "packNote": null
+      "packNote": null,
+      "avgPrice": 14150,
+      "minPrice": 14150,
+      "priceCount": 2,
+      "discountRate": null
     },
     {
       "productId": "112882627",
@@ -266,7 +339,11 @@
       "query": "에스프레소 원두 1kg",
       "unitPrice": 1290,
       "unitBasis": "100g당",
-      "packNote": "1,000g"
+      "packNote": "1,000g",
+      "avgPrice": 12900,
+      "minPrice": 12900,
+      "priceCount": 1,
+      "discountRate": null
     },
     {
       "productId": "9702656117",
@@ -280,7 +357,11 @@
       "query": "에스프레소 원두 1kg",
       "unitPrice": 1296,
       "unitBasis": "100g당",
-      "packNote": "1,000g"
+      "packNote": "1,000g",
+      "avgPrice": 12960,
+      "minPrice": 12960,
+      "priceCount": 3,
+      "discountRate": null
     },
     {
       "productId": "9618453633",
@@ -294,7 +375,11 @@
       "query": "에스프레소 원두 1kg",
       "unitPrice": 1785,
       "unitBasis": "100g당",
-      "packNote": "1,000g×10"
+      "packNote": "1,000g×10",
+      "avgPrice": 178480,
+      "minPrice": 178480,
+      "priceCount": 1,
+      "discountRate": null
     },
     {
       "productId": "9267059189",
@@ -308,7 +393,11 @@
       "query": "에스프레소 원두 1kg",
       "unitPrice": 2385,
       "unitBasis": "100g당",
-      "packNote": "1,000g×3"
+      "packNote": "1,000g×3",
+      "avgPrice": 71540,
+      "minPrice": 71540,
+      "priceCount": 3,
+      "discountRate": null
     },
     {
       "productId": "9784494565",
@@ -322,7 +411,11 @@
       "query": "디카페인 원두 1kg",
       "unitPrice": 2399,
       "unitBasis": "100g당",
-      "packNote": "1,000g"
+      "packNote": "1,000g",
+      "avgPrice": 23990,
+      "minPrice": 23990,
+      "priceCount": 2,
+      "discountRate": null
     },
     {
       "productId": "9388090271",
@@ -336,7 +429,11 @@
       "query": "디카페인 원두 1kg",
       "unitPrice": 2587,
       "unitBasis": "100g당",
-      "packNote": "1,000g"
+      "packNote": "1,000g",
+      "avgPrice": 25870,
+      "minPrice": 25870,
+      "priceCount": 2,
+      "discountRate": null
     },
     {
       "productId": "8360433211",
@@ -350,7 +447,11 @@
       "query": "에스프레소 원두 1kg",
       "unitPrice": 2680,
       "unitBasis": "100g당",
-      "packNote": "1,000g"
+      "packNote": "1,000g",
+      "avgPrice": 26800,
+      "minPrice": 26800,
+      "priceCount": 1,
+      "discountRate": null
     },
     {
       "productId": "8431586361",
@@ -364,7 +465,11 @@
       "query": "디카페인 원두 1kg",
       "unitPrice": 2988,
       "unitBasis": "100g당",
-      "packNote": "1,000g"
+      "packNote": "1,000g",
+      "avgPrice": 29880,
+      "minPrice": 29880,
+      "priceCount": 2,
+      "discountRate": null
     },
     {
       "productId": "9609327067",
@@ -378,7 +483,11 @@
       "query": "디카페인 원두 1kg",
       "unitPrice": 2990,
       "unitBasis": "100g당",
-      "packNote": "1,000g"
+      "packNote": "1,000g",
+      "avgPrice": 29900,
+      "minPrice": 29900,
+      "priceCount": 2,
+      "discountRate": null
     },
     {
       "productId": "9595365819",
@@ -392,7 +501,11 @@
       "query": "에스프레소 원두 1kg",
       "unitPrice": 3400,
       "unitBasis": "100g당",
-      "packNote": "1,000g×5"
+      "packNote": "1,000g×5",
+      "avgPrice": 170000,
+      "minPrice": 170000,
+      "priceCount": 3,
+      "discountRate": null
     },
     {
       "productId": "9463147601",
@@ -406,7 +519,11 @@
       "query": "에스프레소 원두 1kg",
       "unitPrice": 3408,
       "unitBasis": "100g당",
-      "packNote": "1,000g×6"
+      "packNote": "1,000g×6",
+      "avgPrice": 204500,
+      "minPrice": 204500,
+      "priceCount": 3,
+      "discountRate": null
     },
     {
       "productId": "9735820423",
@@ -420,7 +537,11 @@
       "query": "디카페인 원두 1kg",
       "unitPrice": 4150,
       "unitBasis": "100g당",
-      "packNote": "1,000g"
+      "packNote": "1,000g",
+      "avgPrice": 41500,
+      "minPrice": 41500,
+      "priceCount": 2,
+      "discountRate": null
     },
     {
       "productId": "9743200071",
@@ -434,7 +555,11 @@
       "query": "디카페인 원두 1kg",
       "unitPrice": 4400,
       "unitBasis": "100g당",
-      "packNote": "1,000g"
+      "packNote": "1,000g",
+      "avgPrice": 44000,
+      "minPrice": 44000,
+      "priceCount": 2,
+      "discountRate": null
     },
     {
       "productId": "9474695948",
@@ -448,7 +573,11 @@
       "query": "에스프레소 원두 1kg",
       "unitPrice": null,
       "unitBasis": "100g당",
-      "packNote": null
+      "packNote": null,
+      "avgPrice": 16900,
+      "minPrice": 16900,
+      "priceCount": 3,
+      "discountRate": null
     },
     {
       "productId": "9385909448",
@@ -462,7 +591,11 @@
       "query": "에스프레소 원두 1kg",
       "unitPrice": null,
       "unitBasis": "100g당",
-      "packNote": null
+      "packNote": null,
+      "avgPrice": 21700,
+      "minPrice": 21700,
+      "priceCount": 3,
+      "discountRate": null
     },
     {
       "productId": "7396556857",
@@ -476,7 +609,11 @@
       "query": "에스프레소 원두 1kg",
       "unitPrice": null,
       "unitBasis": "100g당",
-      "packNote": null
+      "packNote": null,
+      "avgPrice": 32850,
+      "minPrice": 32850,
+      "priceCount": 3,
+      "discountRate": null
     },
     {
       "productId": "9210933178",
@@ -490,7 +627,11 @@
       "query": "에스프레소 원두 1kg",
       "unitPrice": null,
       "unitBasis": "100g당",
-      "packNote": null
+      "packNote": null,
+      "avgPrice": 24900,
+      "minPrice": 24900,
+      "priceCount": 3,
+      "discountRate": null
     },
     {
       "productId": "9683606713",
@@ -504,7 +645,11 @@
       "query": "디카페인 원두 1kg",
       "unitPrice": null,
       "unitBasis": "100g당",
-      "packNote": null
+      "packNote": null,
+      "avgPrice": 25890,
+      "minPrice": 25890,
+      "priceCount": 2,
+      "discountRate": null
     },
     {
       "productId": "7481340380",
@@ -518,7 +663,11 @@
       "query": "디카페인 원두 1kg",
       "unitPrice": null,
       "unitBasis": "100g당",
-      "packNote": null
+      "packNote": null,
+      "avgPrice": 34920,
+      "minPrice": 34920,
+      "priceCount": 2,
+      "discountRate": null
     },
     {
       "productId": "9773952674",
@@ -532,7 +681,11 @@
       "query": "디카페인 원두 1kg",
       "unitPrice": null,
       "unitBasis": "100g당",
-      "packNote": null
+      "packNote": null,
+      "avgPrice": 28700,
+      "minPrice": 28700,
+      "priceCount": 2,
+      "discountRate": null
     },
     {
       "productId": "9444853494",
@@ -546,7 +699,11 @@
       "query": "에스프레소 원두 1kg",
       "unitPrice": null,
       "unitBasis": "100g당",
-      "packNote": null
+      "packNote": null,
+      "avgPrice": 15690,
+      "minPrice": 15690,
+      "priceCount": 1,
+      "discountRate": null
     },
     {
       "productId": "9304259432",
@@ -560,7 +717,11 @@
       "query": "모닌 시럽",
       "unitPrice": 1450,
       "unitBasis": "100ml당",
-      "packNote": "1,000ml"
+      "packNote": "1,000ml",
+      "avgPrice": 14500,
+      "minPrice": 14500,
+      "priceCount": 4,
+      "discountRate": null
     },
     {
       "productId": "7249644933",
@@ -574,7 +735,11 @@
       "query": "모닌 시럽",
       "unitPrice": 1700,
       "unitBasis": "100ml당",
-      "packNote": "1,000ml"
+      "packNote": "1,000ml",
+      "avgPrice": 17000,
+      "minPrice": 17000,
+      "priceCount": 4,
+      "discountRate": null
     },
     {
       "productId": "2442336",
@@ -588,7 +753,11 @@
       "query": "모닌 시럽",
       "unitPrice": 1700,
       "unitBasis": "100ml당",
-      "packNote": "1,000ml"
+      "packNote": "1,000ml",
+      "avgPrice": 17000,
+      "minPrice": 17000,
+      "priceCount": 4,
+      "discountRate": null
     },
     {
       "productId": "7737842216",
@@ -602,7 +771,11 @@
       "query": "모닌 시럽",
       "unitPrice": 1700,
       "unitBasis": "100ml당",
-      "packNote": "1,000ml"
+      "packNote": "1,000ml",
+      "avgPrice": 17000,
+      "minPrice": 17000,
+      "priceCount": 1,
+      "discountRate": null
     },
     {
       "productId": "2442301",
@@ -616,7 +789,11 @@
       "query": "모닌 시럽",
       "unitPrice": null,
       "unitBasis": "100ml당",
-      "packNote": null
+      "packNote": null,
+      "avgPrice": 4240,
+      "minPrice": 4240,
+      "priceCount": 4,
+      "discountRate": null
     },
     {
       "productId": "6714056882",
@@ -630,7 +807,11 @@
       "query": "모닌 시럽",
       "unitPrice": null,
       "unitBasis": "100ml당",
-      "packNote": null
+      "packNote": null,
+      "avgPrice": 5320,
+      "minPrice": 5320,
+      "priceCount": 4,
+      "discountRate": null
     },
     {
       "productId": "2442312",
@@ -644,7 +825,11 @@
       "query": "모닌 시럽",
       "unitPrice": null,
       "unitBasis": "100ml당",
-      "packNote": null
+      "packNote": null,
+      "avgPrice": 5940,
+      "minPrice": 5940,
+      "priceCount": 4,
+      "discountRate": null
     },
     {
       "productId": "9715193260",
@@ -658,7 +843,11 @@
       "query": "모닌 시럽",
       "unitPrice": null,
       "unitBasis": "100ml당",
-      "packNote": null
+      "packNote": null,
+      "avgPrice": 8300,
+      "minPrice": 8300,
+      "priceCount": 4,
+      "discountRate": null
     },
     {
       "productId": "2453129",
@@ -672,7 +861,11 @@
       "query": "모닌 시럽",
       "unitPrice": null,
       "unitBasis": "100ml당",
-      "packNote": null
+      "packNote": null,
+      "avgPrice": 15900,
+      "minPrice": 15900,
+      "priceCount": 4,
+      "discountRate": null
     },
     {
       "productId": "7742533243",
@@ -686,7 +879,11 @@
       "query": "모닌 시럽",
       "unitPrice": null,
       "unitBasis": "100ml당",
-      "packNote": null
+      "packNote": null,
+      "avgPrice": 5320,
+      "minPrice": 5320,
+      "priceCount": 1,
+      "discountRate": null
     },
     {
       "productId": "5244230314",
@@ -700,7 +897,11 @@
       "query": "카페 파우더 1kg",
       "unitPrice": 750,
       "unitBasis": "100g당",
-      "packNote": "1,000g×12"
+      "packNote": "1,000g×12",
+      "avgPrice": 90000,
+      "minPrice": 90000,
+      "priceCount": 3,
+      "discountRate": null
     },
     {
       "productId": "7677876919",
@@ -714,7 +915,11 @@
       "query": "초코 파우더 1kg",
       "unitPrice": 1122,
       "unitBasis": "100g당",
-      "packNote": "1,000g×2"
+      "packNote": "1,000g×2",
+      "avgPrice": 22440,
+      "minPrice": 22440,
+      "priceCount": 2,
+      "discountRate": null
     },
     {
       "productId": "9724211869",
@@ -728,7 +933,11 @@
       "query": "카페 파우더 1kg",
       "unitPrice": 1164,
       "unitBasis": "100g당",
-      "packNote": "1,000g×2"
+      "packNote": "1,000g×2",
+      "avgPrice": 23280,
+      "minPrice": 23280,
+      "priceCount": 3,
+      "discountRate": null
     },
     {
       "productId": "9699325439",
@@ -742,7 +951,11 @@
       "query": "초코 파우더 1kg",
       "unitPrice": 1165,
       "unitBasis": "100g당",
-      "packNote": "1,000g"
+      "packNote": "1,000g",
+      "avgPrice": 11650,
+      "minPrice": 11650,
+      "priceCount": 2,
+      "discountRate": null
     },
     {
       "productId": "8449685207",
@@ -756,7 +969,11 @@
       "query": "초코 파우더 1kg",
       "unitPrice": 1200,
       "unitBasis": "100g당",
-      "packNote": "1,000g"
+      "packNote": "1,000g",
+      "avgPrice": 12000,
+      "minPrice": 12000,
+      "priceCount": 2,
+      "discountRate": null
     },
     {
       "productId": "198372945",
@@ -770,7 +987,11 @@
       "query": "카페 파우더 1kg",
       "unitPrice": 1275,
       "unitBasis": "100g당",
-      "packNote": "1,000g×2"
+      "packNote": "1,000g×2",
+      "avgPrice": 25500,
+      "minPrice": 25500,
+      "priceCount": 3,
+      "discountRate": null
     },
     {
       "productId": "7214066444",
@@ -784,7 +1005,11 @@
       "query": "초코 파우더 1kg",
       "unitPrice": 1400,
       "unitBasis": "100g당",
-      "packNote": "1,000g"
+      "packNote": "1,000g",
+      "avgPrice": 14000,
+      "minPrice": 14000,
+      "priceCount": 3,
+      "discountRate": null
     },
     {
       "productId": "9699325435",
@@ -798,7 +1023,11 @@
       "query": "카페 파우더 1kg",
       "unitPrice": 1475,
       "unitBasis": "100g당",
-      "packNote": "1,000g"
+      "packNote": "1,000g",
+      "avgPrice": 14750,
+      "minPrice": 14750,
+      "priceCount": 3,
+      "discountRate": null
     },
     {
       "productId": "8581185653",
@@ -812,7 +1041,11 @@
       "query": "카페 파우더 1kg",
       "unitPrice": 1860,
       "unitBasis": "100g당",
-      "packNote": "500g"
+      "packNote": "500g",
+      "avgPrice": 9300,
+      "minPrice": 9300,
+      "priceCount": 3,
+      "discountRate": null
     },
     {
       "productId": "9807901953",
@@ -826,7 +1059,11 @@
       "query": "카페 파우더 1kg",
       "unitPrice": 3490,
       "unitBasis": "100g당",
-      "packNote": "1,000g"
+      "packNote": "1,000g",
+      "avgPrice": 34900,
+      "minPrice": 34900,
+      "priceCount": 3,
+      "discountRate": null
     },
     {
       "productId": "9813568963",
@@ -840,7 +1077,11 @@
       "query": "카페 파우더 1kg",
       "unitPrice": 9800,
       "unitBasis": "100g당",
-      "packNote": "1,000g"
+      "packNote": "1,000g",
+      "avgPrice": 98000,
+      "minPrice": 98000,
+      "priceCount": 3,
+      "discountRate": null
     },
     {
       "productId": "9819730901",
@@ -854,7 +1095,11 @@
       "query": "카페 파우더 1kg",
       "unitPrice": null,
       "unitBasis": "100g당",
-      "packNote": null
+      "packNote": null,
+      "avgPrice": 25620,
+      "minPrice": 25620,
+      "priceCount": 3,
+      "discountRate": null
     },
     {
       "productId": "9792838748",
@@ -868,7 +1113,11 @@
       "query": "카페 파우더 1kg",
       "unitPrice": null,
       "unitBasis": "100g당",
-      "packNote": null
+      "packNote": null,
+      "avgPrice": 26500,
+      "minPrice": 26500,
+      "priceCount": 3,
+      "discountRate": null
     },
     {
       "productId": "9770220113",
@@ -882,7 +1131,11 @@
       "query": "초코 파우더 1kg",
       "unitPrice": null,
       "unitBasis": "100g당",
-      "packNote": null
+      "packNote": null,
+      "avgPrice": 21500,
+      "minPrice": 21500,
+      "priceCount": 2,
+      "discountRate": null
     },
     {
       "productId": "7026029061",
@@ -896,7 +1149,11 @@
       "query": "초코 파우더 1kg",
       "unitPrice": null,
       "unitBasis": "100g당",
-      "packNote": null
+      "packNote": null,
+      "avgPrice": 10540,
+      "minPrice": 10540,
+      "priceCount": 2,
+      "discountRate": null
     },
     {
       "productId": "108084889",
@@ -910,7 +1167,11 @@
       "query": "초코 파우더 1kg",
       "unitPrice": null,
       "unitBasis": "100g당",
-      "packNote": null
+      "packNote": null,
+      "avgPrice": 14500,
+      "minPrice": 14500,
+      "priceCount": 2,
+      "discountRate": null
     },
     {
       "productId": "7544081580",
@@ -924,7 +1185,11 @@
       "query": "초코 파우더 1kg",
       "unitPrice": null,
       "unitBasis": "100g당",
-      "packNote": null
+      "packNote": null,
+      "avgPrice": 7690,
+      "minPrice": 7690,
+      "priceCount": 2,
+      "discountRate": null
     },
     {
       "productId": "5684713",
@@ -938,7 +1203,11 @@
       "query": "초코 파우더 1kg",
       "unitPrice": null,
       "unitBasis": "100g당",
-      "packNote": null
+      "packNote": null,
+      "avgPrice": 5890,
+      "minPrice": 5890,
+      "priceCount": 2,
+      "discountRate": null
     },
     {
       "productId": "9783030770",
@@ -952,7 +1221,11 @@
       "query": "에이드 과일베이스",
       "unitPrice": 503,
       "unitBasis": "100ml당",
-      "packNote": "835ml"
+      "packNote": "835ml",
+      "avgPrice": 4200,
+      "minPrice": 4200,
+      "priceCount": 3,
+      "discountRate": null
     },
     {
       "productId": "309613200",
@@ -966,7 +1239,11 @@
       "query": "에이드 과일베이스",
       "unitPrice": 879,
       "unitBasis": "100g당",
-      "packNote": "1,200g×2"
+      "packNote": "1,200g×2",
+      "avgPrice": 21100,
+      "minPrice": 21100,
+      "priceCount": 3,
+      "discountRate": null
     },
     {
       "productId": "4682969537",
@@ -980,7 +1257,11 @@
       "query": "에이드 과일베이스",
       "unitPrice": 913,
       "unitBasis": "100g당",
-      "packNote": "1,200g×6"
+      "packNote": "1,200g×6",
+      "avgPrice": 65770,
+      "minPrice": 65770,
+      "priceCount": 3,
+      "discountRate": null
     },
     {
       "productId": "6400580429",
@@ -994,7 +1275,11 @@
       "query": "자몽 에이드 베이스",
       "unitPrice": 934,
       "unitBasis": "100g당",
-      "packNote": "1,800g×2"
+      "packNote": "1,800g×2",
+      "avgPrice": 33630,
+      "minPrice": 33630,
+      "priceCount": 2,
+      "discountRate": null
     },
     {
       "productId": "9792257236",
@@ -1008,7 +1293,11 @@
       "query": "에이드 과일베이스",
       "unitPrice": 990,
       "unitBasis": "100ml당",
-      "packNote": "1,000ml"
+      "packNote": "1,000ml",
+      "avgPrice": 9900,
+      "minPrice": 9900,
+      "priceCount": 3,
+      "discountRate": null
     },
     {
       "productId": "7398456407",
@@ -1022,7 +1311,11 @@
       "query": "자몽 에이드 베이스",
       "unitPrice": 1056,
       "unitBasis": "100g당",
-      "packNote": "1,800g×2"
+      "packNote": "1,800g×2",
+      "avgPrice": 38000,
+      "minPrice": 38000,
+      "priceCount": 2,
+      "discountRate": null
     },
     {
       "productId": "6400586680",
@@ -1036,7 +1329,11 @@
       "query": "에이드 과일베이스",
       "unitPrice": 1066,
       "unitBasis": "100g당",
-      "packNote": "1,900g×3"
+      "packNote": "1,900g×3",
+      "avgPrice": 60750,
+      "minPrice": 60750,
+      "priceCount": 3,
+      "discountRate": null
     },
     {
       "productId": "9755119817",
@@ -1050,7 +1347,11 @@
       "query": "자몽 에이드 베이스",
       "unitPrice": 1080,
       "unitBasis": "100g당",
-      "packNote": "2,000g"
+      "packNote": "2,000g",
+      "avgPrice": 21600,
+      "minPrice": 21600,
+      "priceCount": 2,
+      "discountRate": null
     },
     {
       "productId": "6514157775",
@@ -1064,7 +1365,11 @@
       "query": "자몽 에이드 베이스",
       "unitPrice": 1083,
       "unitBasis": "100g당",
-      "packNote": "1,200g"
+      "packNote": "1,200g",
+      "avgPrice": 13000,
+      "minPrice": 13000,
+      "priceCount": 2,
+      "discountRate": null
     },
     {
       "productId": "7969070285",
@@ -1078,7 +1383,11 @@
       "query": "자몽 에이드 베이스",
       "unitPrice": 1133,
       "unitBasis": "100g당",
-      "packNote": "1,800g"
+      "packNote": "1,800g",
+      "avgPrice": 20400,
+      "minPrice": 20400,
+      "priceCount": 2,
+      "discountRate": null
     },
     {
       "productId": "9325794097",
@@ -1092,7 +1401,11 @@
       "query": "자몽 에이드 베이스",
       "unitPrice": 1595,
       "unitBasis": "100g당",
-      "packNote": "2,000g"
+      "packNote": "2,000g",
+      "avgPrice": 31900,
+      "minPrice": 31900,
+      "priceCount": 2,
+      "discountRate": null
     },
     {
       "productId": "5410875158",
@@ -1106,7 +1419,11 @@
       "query": "에이드 과일베이스",
       "unitPrice": 1600,
       "unitBasis": "100g당",
-      "packNote": "1,000g"
+      "packNote": "1,000g",
+      "avgPrice": 16000,
+      "minPrice": 16000,
+      "priceCount": 3,
+      "discountRate": null
     },
     {
       "productId": "9767510145",
@@ -1120,7 +1437,11 @@
       "query": "에이드 과일베이스",
       "unitPrice": 1730,
       "unitBasis": "100g당",
-      "packNote": "1,000g"
+      "packNote": "1,000g",
+      "avgPrice": 17300,
+      "minPrice": 17300,
+      "priceCount": 3,
+      "discountRate": null
     },
     {
       "productId": "8326609932",
@@ -1134,7 +1455,11 @@
       "query": "에이드 과일베이스",
       "unitPrice": 2120,
       "unitBasis": "100g당",
-      "packNote": "1,000g"
+      "packNote": "1,000g",
+      "avgPrice": 21200,
+      "minPrice": 21200,
+      "priceCount": 3,
+      "discountRate": null
     },
     {
       "productId": "7302732646",
@@ -1148,7 +1473,11 @@
       "query": "에이드 과일베이스",
       "unitPrice": null,
       "unitBasis": "100g당",
-      "packNote": null
+      "packNote": null,
+      "avgPrice": 24000,
+      "minPrice": 24000,
+      "priceCount": 3,
+      "discountRate": null
     },
     {
       "productId": "9821900115",
@@ -1162,7 +1491,11 @@
       "query": "에이드 과일베이스",
       "unitPrice": null,
       "unitBasis": "100g당",
-      "packNote": null
+      "packNote": null,
+      "avgPrice": 264900,
+      "minPrice": 264900,
+      "priceCount": 3,
+      "discountRate": null
     },
     {
       "productId": "184626075",
@@ -1176,7 +1509,11 @@
       "query": "자몽 에이드 베이스",
       "unitPrice": null,
       "unitBasis": "100ml당",
-      "packNote": null
+      "packNote": null,
+      "avgPrice": 10950,
+      "minPrice": 10950,
+      "priceCount": 2,
+      "discountRate": null
     },
     {
       "productId": "6402665992",
@@ -1190,7 +1527,11 @@
       "query": "자몽 에이드 베이스",
       "unitPrice": null,
       "unitBasis": "100ml당",
-      "packNote": null
+      "packNote": null,
+      "avgPrice": 13680,
+      "minPrice": 13660,
+      "priceCount": 2,
+      "discountRate": 0
     },
     {
       "productId": "8691432112",
@@ -1204,7 +1545,11 @@
       "query": "자몽 에이드 베이스",
       "unitPrice": null,
       "unitBasis": "100ml당",
-      "packNote": null
+      "packNote": null,
+      "avgPrice": 37400,
+      "minPrice": 37400,
+      "priceCount": 2,
+      "discountRate": null
     },
     {
       "productId": "7510870490",
@@ -1218,7 +1563,11 @@
       "query": "자몽 에이드 베이스",
       "unitPrice": null,
       "unitBasis": "100ml당",
-      "packNote": null
+      "packNote": null,
+      "avgPrice": 22500,
+      "minPrice": 22500,
+      "priceCount": 2,
+      "discountRate": null
     },
     {
       "productId": "5524793096",
@@ -1232,7 +1581,11 @@
       "query": "자몽 에이드 베이스",
       "unitPrice": null,
       "unitBasis": "100ml당",
-      "packNote": null
+      "packNote": null,
+      "avgPrice": 18590,
+      "minPrice": 18590,
+      "priceCount": 1,
+      "discountRate": null
     },
     {
       "productId": "6360071707",
@@ -1246,7 +1599,11 @@
       "query": "업소용 탄산수",
       "unitPrice": 88,
       "unitBasis": "100ml당",
-      "packNote": "1,500ml×12"
+      "packNote": "1,500ml×12",
+      "avgPrice": 15900,
+      "minPrice": 15900,
+      "priceCount": 3,
+      "discountRate": null
     },
     {
       "productId": "9513790612",
@@ -1260,7 +1617,11 @@
       "query": "업소용 탄산수",
       "unitPrice": 166,
       "unitBasis": "100ml당",
-      "packNote": "500ml×24"
+      "packNote": "500ml×24",
+      "avgPrice": 19900,
+      "minPrice": 19900,
+      "priceCount": 3,
+      "discountRate": null
     },
     {
       "productId": "8060571285",
@@ -1274,7 +1635,11 @@
       "query": "업소용 탄산수",
       "unitPrice": 191,
       "unitBasis": "100ml당",
-      "packNote": "190ml×30"
+      "packNote": "190ml×30",
+      "avgPrice": 10900,
+      "minPrice": 10900,
+      "priceCount": 3,
+      "discountRate": null
     },
     {
       "productId": "9003699506",
@@ -1288,7 +1653,11 @@
       "query": "얼그레이 티백 업소용",
       "unitPrice": 1118,
       "unitBasis": "개당",
-      "packNote": "25개입"
+      "packNote": "25개입",
+      "avgPrice": 27960,
+      "minPrice": 27960,
+      "priceCount": 2,
+      "discountRate": null
     },
     {
       "productId": "7591172760",
@@ -1302,7 +1671,11 @@
       "query": "얼그레이 티백 업소용",
       "unitPrice": 6495,
       "unitBasis": "개당",
-      "packNote": "2개입"
+      "packNote": "2개입",
+      "avgPrice": 12990,
+      "minPrice": 12990,
+      "priceCount": 2,
+      "discountRate": null
     },
     {
       "productId": "8574818708",
@@ -1316,7 +1689,11 @@
       "query": "업소용 탄산수",
       "unitPrice": null,
       "unitBasis": "100ml당",
-      "packNote": null
+      "packNote": null,
+      "avgPrice": 14900,
+      "minPrice": 14900,
+      "priceCount": 3,
+      "discountRate": null
     },
     {
       "productId": "198053",
@@ -1330,7 +1707,11 @@
       "query": "업소용 탄산수",
       "unitPrice": null,
       "unitBasis": "100ml당",
-      "packNote": null
+      "packNote": null,
+      "avgPrice": 19180,
+      "minPrice": 19180,
+      "priceCount": 3,
+      "discountRate": null
     },
     {
       "productId": "8401739453",
@@ -1344,7 +1725,11 @@
       "query": "업소용 탄산수",
       "unitPrice": null,
       "unitBasis": "100ml당",
-      "packNote": null
+      "packNote": null,
+      "avgPrice": 15480,
+      "minPrice": 15480,
+      "priceCount": 3,
+      "discountRate": null
     },
     {
       "productId": "8209182187",
@@ -1358,7 +1743,11 @@
       "query": "업소용 탄산수",
       "unitPrice": null,
       "unitBasis": "100ml당",
-      "packNote": null
+      "packNote": null,
+      "avgPrice": 13490,
+      "minPrice": 13490,
+      "priceCount": 3,
+      "discountRate": null
     },
     {
       "productId": "9798270713",
@@ -1372,7 +1761,11 @@
       "query": "얼그레이 티백 업소용",
       "unitPrice": null,
       "unitBasis": "개당",
-      "packNote": null
+      "packNote": null,
+      "avgPrice": 15450,
+      "minPrice": 15450,
+      "priceCount": 2,
+      "discountRate": null
     },
     {
       "productId": "6279051956",
@@ -1386,7 +1779,11 @@
       "query": "얼그레이 티백 업소용",
       "unitPrice": null,
       "unitBasis": "개당",
-      "packNote": null
+      "packNote": null,
+      "avgPrice": 9350,
+      "minPrice": 9350,
+      "priceCount": 2,
+      "discountRate": null
     },
     {
       "productId": "6603842219",
@@ -1400,7 +1797,11 @@
       "query": "얼그레이 티백 업소용",
       "unitPrice": null,
       "unitBasis": "개당",
-      "packNote": null
+      "packNote": null,
+      "avgPrice": 66000,
+      "minPrice": 66000,
+      "priceCount": 2,
+      "discountRate": null
     },
     {
       "productId": "8749464267",
@@ -1414,7 +1815,11 @@
       "query": "16oz 아이스컵 1000개",
       "unitPrice": 34,
       "unitBasis": "개당",
-      "packNote": "1,000개입"
+      "packNote": "1,000개입",
+      "avgPrice": 33700,
+      "minPrice": 33700,
+      "priceCount": 2,
+      "discountRate": null
     },
     {
       "productId": "9670065098",
@@ -1428,7 +1833,11 @@
       "query": "16oz 아이스컵 1000개",
       "unitPrice": 36,
       "unitBasis": "개당",
-      "packNote": "1,000개입"
+      "packNote": "1,000개입",
+      "avgPrice": 36250,
+      "minPrice": 36250,
+      "priceCount": 2,
+      "discountRate": null
     },
     {
       "productId": "8631440572",
@@ -1442,7 +1851,11 @@
       "query": "테이크아웃 아이스컵",
       "unitPrice": 44,
       "unitBasis": "개당",
-      "packNote": "1,000개입"
+      "packNote": "1,000개입",
+      "avgPrice": 44170,
+      "minPrice": 44170,
+      "priceCount": 4,
+      "discountRate": null
     },
     {
       "productId": "9628116651",
@@ -1456,7 +1869,11 @@
       "query": "16oz 아이스컵 1000개",
       "unitPrice": 47,
       "unitBasis": "개당",
-      "packNote": "1,000개입"
+      "packNote": "1,000개입",
+      "avgPrice": 46900,
+      "minPrice": 46900,
+      "priceCount": 2,
+      "discountRate": null
     },
     {
       "productId": "8887691390",
@@ -1470,7 +1887,11 @@
       "query": "테이크아웃 아이스컵",
       "unitPrice": 49,
       "unitBasis": "개당",
-      "packNote": "1,000개입"
+      "packNote": "1,000개입",
+      "avgPrice": 48510,
+      "minPrice": 48510,
+      "priceCount": 4,
+      "discountRate": null
     },
     {
       "productId": "8356008135",
@@ -1484,7 +1905,11 @@
       "query": "테이크아웃 아이스컵",
       "unitPrice": 49,
       "unitBasis": "개당",
-      "packNote": "1,000개입"
+      "packNote": "1,000개입",
+      "avgPrice": 49400,
+      "minPrice": 49400,
+      "priceCount": 4,
+      "discountRate": null
     },
     {
       "productId": "9422933215",
@@ -1498,7 +1923,11 @@
       "query": "16oz 아이스컵 1000개",
       "unitPrice": 50,
       "unitBasis": "개당",
-      "packNote": "1,000개입"
+      "packNote": "1,000개입",
+      "avgPrice": 49900,
+      "minPrice": 49900,
+      "priceCount": 4,
+      "discountRate": null
     },
     {
       "productId": "9680367581",
@@ -1512,7 +1941,11 @@
       "query": "16oz 아이스컵 1000개",
       "unitPrice": 50,
       "unitBasis": "개당",
-      "packNote": "1,000개입"
+      "packNote": "1,000개입",
+      "avgPrice": 49900,
+      "minPrice": 49900,
+      "priceCount": 2,
+      "discountRate": null
     },
     {
       "productId": "8533799631",
@@ -1526,7 +1959,11 @@
       "query": "16oz 아이스컵 1000개",
       "unitPrice": 50,
       "unitBasis": "개당",
-      "packNote": "1,000개입"
+      "packNote": "1,000개입",
+      "avgPrice": 49900,
+      "minPrice": 49900,
+      "priceCount": 2,
+      "discountRate": null
     },
     {
       "productId": "9593823253",
@@ -1540,7 +1977,11 @@
       "query": "16oz 아이스컵 1000개",
       "unitPrice": 50,
       "unitBasis": "개당",
-      "packNote": "1,000개입"
+      "packNote": "1,000개입",
+      "avgPrice": 50380,
+      "minPrice": 50380,
+      "priceCount": 1,
+      "discountRate": null
     },
     {
       "productId": "7396301992",
@@ -1554,7 +1995,11 @@
       "query": "16oz 아이스컵 1000개",
       "unitPrice": 53,
       "unitBasis": "개당",
-      "packNote": "1,000개입"
+      "packNote": "1,000개입",
+      "avgPrice": 50700,
+      "minPrice": 48400,
+      "priceCount": 2,
+      "discountRate": null
     },
     {
       "productId": "9680373211",
@@ -1568,7 +2013,11 @@
       "query": "16oz 아이스컵 1000개",
       "unitPrice": 59,
       "unitBasis": "개당",
-      "packNote": "1,000개입"
+      "packNote": "1,000개입",
+      "avgPrice": 58900,
+      "minPrice": 58900,
+      "priceCount": 2,
+      "discountRate": null
     },
     {
       "productId": "9523711554",
@@ -1582,7 +2031,11 @@
       "query": "16oz 아이스컵 1000개",
       "unitPrice": 68,
       "unitBasis": "개당",
-      "packNote": "1,000개입"
+      "packNote": "1,000개입",
+      "avgPrice": 67900,
+      "minPrice": 67900,
+      "priceCount": 2,
+      "discountRate": null
     },
     {
       "productId": "9683639291",
@@ -1596,7 +2049,11 @@
       "query": "테이크아웃 아이스컵",
       "unitPrice": 90,
       "unitBasis": "개당",
-      "packNote": "100개입"
+      "packNote": "100개입",
+      "avgPrice": 8980,
+      "minPrice": 8980,
+      "priceCount": 4,
+      "discountRate": null
     },
     {
       "productId": "9593716376",
@@ -1610,7 +2067,11 @@
       "query": "테이크아웃 아이스컵",
       "unitPrice": 96,
       "unitBasis": "개당",
-      "packNote": "500개입"
+      "packNote": "500개입",
+      "avgPrice": 47960,
+      "minPrice": 47960,
+      "priceCount": 4,
+      "discountRate": null
     },
     {
       "productId": "9538536228",
@@ -1624,7 +2085,11 @@
       "query": "16oz 아이스컵 1000개",
       "unitPrice": 106,
       "unitBasis": "개당",
-      "packNote": "1,000개입"
+      "packNote": "1,000개입",
+      "avgPrice": 105750,
+      "minPrice": 105750,
+      "priceCount": 2,
+      "discountRate": null
     },
     {
       "productId": "9552873620",
@@ -1638,7 +2103,11 @@
       "query": "테이크아웃 아이스컵",
       "unitPrice": 265,
       "unitBasis": "개당",
-      "packNote": "100개입"
+      "packNote": "100개입",
+      "avgPrice": 26460,
+      "minPrice": 26460,
+      "priceCount": 4,
+      "discountRate": null
     },
     {
       "productId": "1720383899",
@@ -1652,7 +2121,11 @@
       "query": "테이크아웃 아이스컵",
       "unitPrice": null,
       "unitBasis": "개당",
-      "packNote": null
+      "packNote": null,
+      "avgPrice": 9990,
+      "minPrice": 9990,
+      "priceCount": 4,
+      "discountRate": null
     },
     {
       "productId": "9743039714",
@@ -1666,7 +2139,11 @@
       "query": "테이크아웃 아이스컵",
       "unitPrice": null,
       "unitBasis": "개당",
-      "packNote": null
+      "packNote": null,
+      "avgPrice": 11400,
+      "minPrice": 11400,
+      "priceCount": 4,
+      "discountRate": null
     },
     {
       "productId": "9742978885",
@@ -1680,7 +2157,11 @@
       "query": "테이크아웃 아이스컵",
       "unitPrice": null,
       "unitBasis": "개당",
-      "packNote": null
+      "packNote": null,
+      "avgPrice": 11900,
+      "minPrice": 11900,
+      "priceCount": 4,
+      "discountRate": null
     },
     {
       "productId": "6393757205",
@@ -1694,7 +2175,11 @@
       "query": "일회용 빨대",
       "unitPrice": 8,
       "unitBasis": "개당",
-      "packNote": "1,000개입"
+      "packNote": "1,000개입",
+      "avgPrice": 8340,
+      "minPrice": 8340,
+      "priceCount": 4,
+      "discountRate": null
     },
     {
       "productId": "5542110692",
@@ -1708,7 +2193,11 @@
       "query": "일회용 빨대",
       "unitPrice": 10,
       "unitBasis": "개당",
-      "packNote": "1,000개입"
+      "packNote": "1,000개입",
+      "avgPrice": 9970,
+      "minPrice": 9970,
+      "priceCount": 4,
+      "discountRate": null
     },
     {
       "productId": "9784284588",
@@ -1722,7 +2211,11 @@
       "query": "테이크아웃 컵홀더",
       "unitPrice": 10,
       "unitBasis": "개당",
-      "packNote": "1,000개입"
+      "packNote": "1,000개입",
+      "avgPrice": 9900,
+      "minPrice": 9900,
+      "priceCount": 2,
+      "discountRate": null
     },
     {
       "productId": "26145737",
@@ -1736,7 +2229,11 @@
       "query": "테이크아웃 컵홀더",
       "unitPrice": 13,
       "unitBasis": "개당",
-      "packNote": "1,000개입"
+      "packNote": "1,000개입",
+      "avgPrice": 12900,
+      "minPrice": 12900,
+      "priceCount": 2,
+      "discountRate": null
     },
     {
       "productId": "76902",
@@ -1750,7 +2247,11 @@
       "query": "테이크아웃 컵홀더",
       "unitPrice": 15,
       "unitBasis": "개당",
-      "packNote": "1,000개입"
+      "packNote": "1,000개입",
+      "avgPrice": 14900,
+      "minPrice": 14900,
+      "priceCount": 2,
+      "discountRate": null
     },
     {
       "productId": "9628021737",
@@ -1764,7 +2265,11 @@
       "query": "일회용 빨대",
       "unitPrice": 18,
       "unitBasis": "개당",
-      "packNote": "45개입"
+      "packNote": "45개입",
+      "avgPrice": 790,
+      "minPrice": 790,
+      "priceCount": 4,
+      "discountRate": null
     },
     {
       "productId": "2273239739",
@@ -1778,7 +2283,11 @@
       "query": "일회용 빨대",
       "unitPrice": 25,
       "unitBasis": "개당",
-      "packNote": "500개입"
+      "packNote": "500개입",
+      "avgPrice": 12570,
+      "minPrice": 12570,
+      "priceCount": 4,
+      "discountRate": null
     },
     {
       "productId": "5540305703",
@@ -1792,7 +2301,11 @@
       "query": "테이크아웃 컵홀더",
       "unitPrice": 26,
       "unitBasis": "개당",
-      "packNote": "1,000개입"
+      "packNote": "1,000개입",
+      "avgPrice": 26400,
+      "minPrice": 26400,
+      "priceCount": 2,
+      "discountRate": null
     },
     {
       "productId": "6922591746",
@@ -1806,7 +2319,11 @@
       "query": "테이크아웃 컵홀더",
       "unitPrice": 27,
       "unitBasis": "개당",
-      "packNote": "1,000개입"
+      "packNote": "1,000개입",
+      "avgPrice": 27000,
+      "minPrice": 27000,
+      "priceCount": 2,
+      "discountRate": null
     },
     {
       "productId": "8810869296",
@@ -1820,7 +2337,11 @@
       "query": "테이크아웃 컵홀더",
       "unitPrice": 27,
       "unitBasis": "개당",
-      "packNote": "1,000개입"
+      "packNote": "1,000개입",
+      "avgPrice": 27400,
+      "minPrice": 27400,
+      "priceCount": 1,
+      "discountRate": null
     },
     {
       "productId": "8493592299",
@@ -1834,7 +2355,11 @@
       "query": "테이크아웃 컵홀더",
       "unitPrice": 29,
       "unitBasis": "개당",
-      "packNote": "1,000개입"
+      "packNote": "1,000개입",
+      "avgPrice": 29100,
+      "minPrice": 29100,
+      "priceCount": 1,
+      "discountRate": null
     },
     {
       "productId": "8420892270",
@@ -1848,7 +2373,11 @@
       "query": "테이크아웃 컵홀더",
       "unitPrice": 30,
       "unitBasis": "개당",
-      "packNote": "1,000개입"
+      "packNote": "1,000개입",
+      "avgPrice": 29700,
+      "minPrice": 29700,
+      "priceCount": 2,
+      "discountRate": null
     },
     {
       "productId": "9609711847",
@@ -1862,7 +2391,11 @@
       "query": "일회용 빨대",
       "unitPrice": 68,
       "unitBasis": "개당",
-      "packNote": "100개입"
+      "packNote": "100개입",
+      "avgPrice": 6800,
+      "minPrice": 6800,
+      "priceCount": 4,
+      "discountRate": null
     },
     {
       "productId": "9278918364",
@@ -1876,7 +2409,11 @@
       "query": "일회용 빨대",
       "unitPrice": null,
       "unitBasis": "개당",
-      "packNote": null
+      "packNote": null,
+      "avgPrice": 2930,
+      "minPrice": 2930,
+      "priceCount": 4,
+      "discountRate": null
     },
     {
       "productId": "7773849708",
@@ -1890,7 +2427,11 @@
       "query": "일회용 빨대",
       "unitPrice": null,
       "unitBasis": "개당",
-      "packNote": null
+      "packNote": null,
+      "avgPrice": 4300,
+      "minPrice": 4300,
+      "priceCount": 4,
+      "discountRate": null
     },
     {
       "productId": "7395570583",
@@ -1904,7 +2445,11 @@
       "query": "일회용 빨대",
       "unitPrice": null,
       "unitBasis": "개당",
-      "packNote": null
+      "packNote": null,
+      "avgPrice": 5300,
+      "minPrice": 5300,
+      "priceCount": 4,
+      "discountRate": null
     },
     {
       "productId": "7105099367",
@@ -1918,7 +2463,11 @@
       "query": "일회용 빨대",
       "unitPrice": null,
       "unitBasis": "개당",
-      "packNote": null
+      "packNote": null,
+      "avgPrice": 5930,
+      "minPrice": 5930,
+      "priceCount": 4,
+      "discountRate": null
     },
     {
       "productId": "7773849677",
@@ -1932,7 +2481,11 @@
       "query": "일회용 빨대",
       "unitPrice": null,
       "unitBasis": "개당",
-      "packNote": null
+      "packNote": null,
+      "avgPrice": 6990,
+      "minPrice": 6990,
+      "priceCount": 4,
+      "discountRate": null
     },
     {
       "productId": "8605970169",
@@ -1946,7 +2499,11 @@
       "query": "테이크아웃 컵홀더",
       "unitPrice": null,
       "unitBasis": "개당",
-      "packNote": null
+      "packNote": null,
+      "avgPrice": 5490,
+      "minPrice": 5490,
+      "priceCount": 2,
+      "discountRate": null
     },
     {
       "productId": "1542252723",
@@ -1960,7 +2517,11 @@
       "query": "테이크아웃 컵홀더",
       "unitPrice": null,
       "unitBasis": "개당",
-      "packNote": null
+      "packNote": null,
+      "avgPrice": 13200,
+      "minPrice": 13200,
+      "priceCount": 2,
+      "discountRate": null
     },
     {
       "productId": "7876924802",
@@ -1974,7 +2535,11 @@
       "query": "테이크아웃 컵홀더",
       "unitPrice": null,
       "unitBasis": "개당",
-      "packNote": null
+      "packNote": null,
+      "avgPrice": 14970,
+      "minPrice": 14970,
+      "priceCount": 2,
+      "discountRate": null
     },
     {
       "productId": "8436480488",
@@ -1988,7 +2553,11 @@
       "query": "카페 냅킨",
       "unitPrice": 4,
       "unitBasis": "개당",
-      "packNote": "8,000개입"
+      "packNote": "8,000개입",
+      "avgPrice": 31670,
+      "minPrice": 31670,
+      "priceCount": 4,
+      "discountRate": null
     },
     {
       "productId": "1951259803",
@@ -2002,7 +2571,11 @@
       "query": "카페 냅킨",
       "unitPrice": 5,
       "unitBasis": "개당",
-      "packNote": "4개×3,000개"
+      "packNote": "4개×3,000개",
+      "avgPrice": 58800,
+      "minPrice": 58800,
+      "priceCount": 4,
+      "discountRate": null
     },
     {
       "productId": "7983859170",
@@ -2016,7 +2589,11 @@
       "query": "카페 냅킨",
       "unitPrice": 7,
       "unitBasis": "개당",
-      "packNote": "5개×3,000개"
+      "packNote": "5개×3,000개",
+      "avgPrice": 104050,
+      "minPrice": 104050,
+      "priceCount": 4,
+      "discountRate": null
     },
     {
       "productId": "7597856296",
@@ -2030,7 +2607,11 @@
       "query": "업소용 물티슈",
       "unitPrice": 13,
       "unitBasis": "개당",
-      "packNote": "1,200개입"
+      "packNote": "1,200개입",
+      "avgPrice": 15890,
+      "minPrice": 15890,
+      "priceCount": 2,
+      "discountRate": null
     },
     {
       "productId": "9409800834",
@@ -2044,7 +2625,11 @@
       "query": "업소용 물티슈",
       "unitPrice": 17,
       "unitBasis": "개당",
-      "packNote": "2,000개입"
+      "packNote": "2,000개입",
+      "avgPrice": 33500,
+      "minPrice": 33500,
+      "priceCount": 1,
+      "discountRate": null
     },
     {
       "productId": "8715053766",
@@ -2058,7 +2643,11 @@
       "query": "업소용 물티슈",
       "unitPrice": 32,
       "unitBasis": "개당",
-      "packNote": "1,000개입"
+      "packNote": "1,000개입",
+      "avgPrice": 32490,
+      "minPrice": 32490,
+      "priceCount": 2,
+      "discountRate": null
     },
     {
       "productId": "9452530356",
@@ -2072,7 +2661,11 @@
       "query": "업소용 물티슈",
       "unitPrice": 50,
       "unitBasis": "개당",
-      "packNote": "600개입"
+      "packNote": "600개입",
+      "avgPrice": 29900,
+      "minPrice": 29900,
+      "priceCount": 2,
+      "discountRate": null
     },
     {
       "productId": "9061598364",
@@ -2086,7 +2679,11 @@
       "query": "업소용 물티슈",
       "unitPrice": 53,
       "unitBasis": "개당",
-      "packNote": "600개입"
+      "packNote": "600개입",
+      "avgPrice": 31900,
+      "minPrice": 31900,
+      "priceCount": 2,
+      "discountRate": null
     },
     {
       "productId": "2347991107",
@@ -2100,7 +2697,11 @@
       "query": "카페 냅킨",
       "unitPrice": null,
       "unitBasis": "개당",
-      "packNote": null
+      "packNote": null,
+      "avgPrice": 7110,
+      "minPrice": 7110,
+      "priceCount": 4,
+      "discountRate": null
     },
     {
       "productId": "6843862783",
@@ -2114,7 +2715,11 @@
       "query": "카페 냅킨",
       "unitPrice": null,
       "unitBasis": "개당",
-      "packNote": null
+      "packNote": null,
+      "avgPrice": 16230,
+      "minPrice": 16230,
+      "priceCount": 4,
+      "discountRate": null
     },
     {
       "productId": "8798984745",
@@ -2128,7 +2733,11 @@
       "query": "카페 냅킨",
       "unitPrice": null,
       "unitBasis": "개당",
-      "packNote": null
+      "packNote": null,
+      "avgPrice": 36000,
+      "minPrice": 36000,
+      "priceCount": 4,
+      "discountRate": null
     },
     {
       "productId": "8995638881",
@@ -2142,7 +2751,11 @@
       "query": "업소용 물티슈",
       "unitPrice": null,
       "unitBasis": "개당",
-      "packNote": null
+      "packNote": null,
+      "avgPrice": 15920,
+      "minPrice": 15920,
+      "priceCount": 2,
+      "discountRate": null
     },
     {
       "productId": "7278866396",
@@ -2156,7 +2769,11 @@
       "query": "업소용 물티슈",
       "unitPrice": null,
       "unitBasis": "개당",
-      "packNote": null
+      "packNote": null,
+      "avgPrice": 8690,
+      "minPrice": 8690,
+      "priceCount": 2,
+      "discountRate": null
     },
     {
       "productId": "7565793302",
@@ -2170,7 +2787,11 @@
       "query": "업소용 물티슈",
       "unitPrice": null,
       "unitBasis": "개당",
-      "packNote": null
+      "packNote": null,
+      "avgPrice": 26780,
+      "minPrice": 26780,
+      "priceCount": 2,
+      "discountRate": null
     },
     {
       "productId": "8974546869",
@@ -2184,7 +2805,11 @@
       "query": "업소용 물티슈",
       "unitPrice": null,
       "unitBasis": "개당",
-      "packNote": null
+      "packNote": null,
+      "avgPrice": 25110,
+      "minPrice": 25110,
+      "priceCount": 2,
+      "discountRate": null
     },
     {
       "productId": "7613632287",
@@ -2198,7 +2823,11 @@
       "query": "업소용 물티슈",
       "unitPrice": null,
       "unitBasis": "개당",
-      "packNote": null
+      "packNote": null,
+      "avgPrice": 14840,
+      "minPrice": 14840,
+      "priceCount": 2,
+      "discountRate": null
     }
   ]
 }
