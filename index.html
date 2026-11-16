@@ -660,9 +660,9 @@
     if (n === 1) {
       // 관측 1회: 가로 기준선 + 점 + 안내 문구
       var q = px[0];
-      parts.push('<path d="M' + L + ' ' + q.y.toFixed(1) + ' L' + q.x.toFixed(1) + ' ' + q.y.toFixed(1) + ' L' + q.x.toFixed(1) + ' ' + (H - B) + ' L' + L + ' ' + (H - B) + ' Z" fill="url(#fillI)"/>');
-      parts.push('<line x1="' + L + '" y1="' + q.y.toFixed(1) + '" x2="' + (W - R) + '" y2="' + q.y.toFixed(1) + '" stroke="#0f766e" stroke-width="2" stroke-linecap="round"/>');
-      parts.push('<text x="' + (L + 8) + '" y="' + (T + 8) + '" font-size="8.5" fill="#c3ccd6">관측이 쌓이면 시간대별 선이 그려집니다</text>');
+      parts.push('<path d="M' + L + ' ' + q.y.toFixed(1) + ' L' + (W - R) + ' ' + q.y.toFixed(1) + ' L' + (W - R) + ' ' + (H - B) + ' L' + L + ' ' + (H - B) + ' Z" fill="url(#fillI)"/>');
+      parts.push('<line x1="' + L + '" y1="' + q.y.toFixed(1) + '" x2="' + (W - R) + '" y2="' + q.y.toFixed(1) + '" stroke="#0f766e" stroke-width="2" stroke-linecap="round" opacity=".6"/>');
+      parts.push('<text x="' + ((L + W - R) / 2).toFixed(1) + '" y="' + (H - B - 12) + '" font-size="8.5" fill="#b9c3cd" text-anchor="middle">오늘 1회 관측 · 다음 수집부터 선이 이어집니다</text>');
     } else {
       var linePath = px.map(function (q, i) { return (i ? 'L' : 'M') + q.x.toFixed(1) + ' ' + q.y.toFixed(1); }).join(' ');
       parts.push('<path d="' + linePath + ' L' + px[n - 1].x.toFixed(1) + ' ' + (H - B) + ' L' + px[0].x.toFixed(1) + ' ' + (H - B) + ' Z" fill="url(#fillI)"/>');
