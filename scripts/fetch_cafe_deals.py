@@ -232,6 +232,19 @@ TARGETS = [
     {"label": "꿀 1kg",              "category": "당류·토핑",   "query": "꿀 1kg",            "bases": ["100g"], "wave": 12},
     {"label": "아몬드밀크 1L",        "category": "우유·대체유", "query": "아몬드밀크 1L",      "bases": ["100ml"], "wave": 12},
 
+    # ---- 13차 보강 키워드 (wave=13) — 2026-11-17 02시 회차 실행분(8회).
+    #      건수가 가장 적은 카테고리(크림·연유 5 · 빨대·홀더 10 · 매장소모품 11 · 우유·대체유 12 ·
+    #      베이킹 재료 12)와, 01시 회차에서 적중률이 확인된 패턴(맛 변형 시럽·베이스)에 8회를 배분했다.
+    #      모두 **제목에 용량·개수가 명시되는** 키워드만 쓴다(사용자 확정 규칙).
+    {"label": "휘핑크림 1000ml",      "category": "크림·연유",   "query": "휘핑크림 1000ml",    "bases": ["100ml", "100g"], "wave": 13},
+    {"label": "종이냅킨 1000매",      "category": "매장소모품",  "query": "종이냅킨 1000매",   "bases": ["개당"], "wave": 13},
+    {"label": "빨대 500개입",        "category": "빨대·홀더",  "query": "빨대 500개입",      "bases": ["개당"], "wave": 13},
+    {"label": "귀리우유 1L",         "category": "우유·대체유", "query": "귀리우유 1L",       "bases": ["100ml"], "wave": 13},
+    {"label": "아몬드 슬라이스 1kg",   "category": "베이킹 재료", "query": "아몬드 슬라이스 1kg", "bases": ["100g"], "wave": 13},
+    {"label": "흑당 시럽 1kg",       "category": "시럽·소스",   "query": "흑당 시럽 1kg",     "bases": ["100g", "100ml"], "wave": 13},
+    {"label": "딸기 스무디 1kg",      "category": "과일·베이스", "query": "딸기 스무디 1kg",    "bases": ["100g", "100ml"], "wave": 13},
+    {"label": "페퍼민트 티백",        "category": "티·탄산수",   "query": "페퍼민트 티백",      "bases": ["개당"], "wave": 13},
+
 ]
 
 BANNER_NOTICE = "쿠팡 API 연동 대기 중 (2026-11-16 00:00 이후 자동 업데이트 예정)"
@@ -253,6 +266,11 @@ EXCLUDE_KEYWORDS = [
 # (예: `딸기 파우더 1kg` 조회에 섞여 온 딸기 베이스는 과일·베이스 소관)
 PRODUCT_CATEGORY_OVERRIDES = {
     "넘치는 딸기 베이스": "과일·베이스",
+    # 2026-11-17 02시 회차: `휘핑크림 1000ml` 조회에 섞여 온 마스카포네(티라미수용 크림치즈)는
+    # 음료용 크림·연유가 아니라 베이킹 재료다.
+    "마스카포네": "베이킹 재료",
+    # 같은 회차: `딸기 스무디 1kg` 으로 잡힌 요거트 파우더는 고구마 파우더와 같이 파우더 소관.
+    "딸기 요거트 파우더": "파우더",
 }
 
 # 상품명의 수량 표기가 실제 구성과 맞지 않아 단가가 수 배 낙게 계산되는 상품.
@@ -458,7 +476,7 @@ def _dedupe_repeats(vals: list[int]) -> list[int]:
     return out
 
 
-def _total_units(vals: list[int]) -> tuple[int | None, str | None]:
+def _total_units(vals: list[int], name: str = "") -> tuple[int | None, str | None]:
     """박스 수 × 내부 수량처럼 여러 수량이 겹치면 곱해서 총 개수를 구한다."""
     if not vals:
         return None, None
@@ -466,8 +484,11 @@ def _total_units(vals: list[int]) -> tuple[int | None, str | None]:
     total = 1
     for v in vals:
         total *= v
-    if total > MAX_PLAUSIBLE_UNITS:      # 박스×내부수량 곱셈이 비현실적이면 가장 큰 표기를 채택
-        vals = [max(vals)]
+    if total > MAX_PLAUSIBLE_UNITS:      # 박스×내부수량 곱셈이 비현실적이면 숫자 하나만 채택
+        # `500개 3500개 10000개, 1세트, 500개입` 처럼 선택 옵션 수량이 나열된 제목은
+        # 맨 뒤 `N개입` 표기가 실제 구성이므로 그 값을 쓴다(옵션 나열 수치의 곱은 의미가 없다).
+        named = [int(m.group(1)) for m in re.finditer(r"(\d+)\s*개입", _norm(name))]
+        vals = [named[-1]] if named else [max(vals)]
         total = vals[0]
     factors = [v for v in vals if v != 1] or [1]
     if len(factors) == 1:
@@ -483,7 +504,7 @@ def _volume_total(name: str, kind: str) -> tuple[float | None, str | None]:
     if not vals:
         return None, None
     vmax, vmin = max(vals), min(vals)
-    units, _ = _total_units(_counts(name))
+    units, _ = _total_units(_counts(name), name)
     unit_text = "g" if kind == "g" else "ml"
 
     # "1kg (250g x 4)" 처럼 총량이 이미 적힌 경우: 큰 값 = 작은 값 × 개수 → 곱하지 않는다.
@@ -501,17 +522,33 @@ def _volume_total(name: str, kind: str) -> tuple[float | None, str | None]:
 
 
 BASIS_LABEL = {"100ml": "100ml당", "100g": "100g당", "개당": "개당"}
+BASIS_BASES = {"개당": ["개당"], "100g당": ["100g"], "100ml당": ["100ml"]}
+
+# 개 단위가 자연스러운 소모품 카테고리. 이 밖의 카테고리에서 `1개입` 한 포장에 100g/ml 이상이
+# 적힌 상품(예: 벌크 잎차)은 개당 단가가 의미를 갖지 못해 용량 단가로 표기한다.
+CONSUMABLE_CATEGORIES = {"컵·뚜껑", "빨대·홀더", "매장소모품"}
+BULK_SINGLE_MIN = 100   # 한 포장 100g/ml 이상이면 벌크 원료로 본다
 
 
-def calc_unit_price(name: str, price: float, bases: list[str]):
-    """상품명에서 용량/수량을 읽어 (단가, 기준, 산출근거)를 돌려준다. 실패하면 (None, 첫 기준, None)."""
+def calc_unit_price(name: str, price: float, bases: list[str], category: str | None = None):
+    """상품명에서 용량/수량을 읽어 (단가, 기준, 산출근거)를 돌려준다. 실패하면 (None, 첫 기준, None).
+
+    `개당` 기준인데 수량이 `1개입` 하나뿐이고 상품명에 100g/ml 이상의 용량이 적혀 있으면
+    (예: `티스트롱 아쌈홍차 CTC 500g, 1개입` = 벌크 잎차) 개당 단가 대신 용량 단가를 쓴다.
+    소모품 카테고리(컵·뚜껑·빨대·홀더·매장소모품)는 개수가 비교 축이므로 그대로 개당을 유지한다.
+    """
     if not price or price <= 0:
         return None, BASIS_LABEL.get(bases[0], bases[0]), None
 
-    units, pack = _total_units(_counts(name))
+    units, pack = _total_units(_counts(name), name)
     for basis in bases:
         if basis == "개당":
             if units and units > 0:
+                if units == 1 and (category or "") not in CONSUMABLE_CATEGORIES:
+                    for kind, vol_basis in (("g", "100g"), ("ml", "100ml")):
+                        total, note = _volume_total(name, kind)
+                        if total and total >= BULK_SINGLE_MIN:
+                            return price / (total / 100.0), BASIS_LABEL[vol_basis], note
                 return price / units, "개당", pack
             continue
         kind = "g" if basis == "100g" else "ml"
@@ -817,7 +854,8 @@ def collect(access_key: str, secret_key: str, sub_id: str, targets: list[dict],
                 continue
             seen.add(pid)
             price = item.get("productPrice") or 0
-            unit_price, basis, pack = calc_unit_price(item.get("productName", ""), price, target["bases"])
+            unit_price, basis, pack = calc_unit_price(item.get("productName", ""), price,
+                                                      target["bases"], target["category"])
             if VERBOSE_CANDIDATES:
                 ok = bool(item.get("isRocket")) and unit_price is not None
                 print(f"    {'✓' if ok else '✗'} rocket={str(bool(item.get('isRocket'))).lower():5} "
@@ -881,7 +919,38 @@ def merge_deals(previous: list[dict], fresh: list[dict]) -> list[dict]:
         if pid not in merged:
             order.append(pid)
         merged[pid] = d
-    return [merged[pid] for pid in order]
+    deals = [merged[pid] for pid in order]
+    relabeled = relabel_units(deals)
+    if relabeled:
+        print(f"[relabel] 1개입 벌크 포장 {relabeled}건을 개당 → 용량 단가로 표기 변경")
+    return deals
+
+
+def relabel_units(deals: list[dict]) -> int:
+    """기존 상품의 단가 표기를 상품명 기준으로 다시 계산한다(벌크 단일 포장·옵션 나열 보정용).
+
+    현재 기준(`unitBasis`)을 그대로 힌트로 쓰므로 비교 축이 흔들리지 않고, 같은 기준으로
+    계산한 값이 달라졌을 때만(벌크 1개입 → 용량 단가, 옵션 나열 개수 보정 등) 저장합니다.
+    """
+    changed = 0
+    for d in deals:
+        if d.get("unitPrice") is None:
+            continue
+        basis = d.get("unitBasis")
+        bases = BASIS_BASES.get(basis)
+        if not bases:
+            continue
+        unit, new_basis, pack = calc_unit_price(d.get("productName", ""),
+                                                d.get("productPrice") or 0,
+                                                bases, d.get("category"))
+        if not unit:
+            continue
+        if round(unit) != d.get("unitPrice") or new_basis != basis or pack != d.get("packNote"):
+            d["unitPrice"] = round(unit)
+            d["unitBasis"] = new_basis
+            d["packNote"] = pack
+            changed += 1
+    return changed
 
 
 def sort_deals(deals: list[dict]) -> list[dict]:

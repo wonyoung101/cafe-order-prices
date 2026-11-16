@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17 01:11 KST",
+  "updatedAt": "2026-11-17 02:13 KST",
   "source": "git snapshots",
   "products": {
     "8436480488": {
@@ -288,14 +288,19 @@
           "at": "2026-11-16 15:15 KST",
           "price": 12570,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 02:12 KST",
+          "price": 12570,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 5,
+      "priceCount": 6,
       "avgPrice": 12570,
       "minPrice": 12570,
       "maxPrice": 12570,
       "lastPrice": 12570,
-      "lastAt": "2026-11-16 15:15 KST",
+      "lastAt": "2026-11-17 02:12 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -304,9 +309,17 @@
           12570,
           12570,
           5
+        ],
+        [
+          "2026-11-17",
+          12570,
+          12570,
+          12570,
+          12570,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "8631440572": {
       "productName": "아이팩피앤디 92파이 14온스 PET 아이스컵 국산 투명, 1박스, 420ml, 1000개",
@@ -3288,14 +3301,19 @@
           "at": "2026-11-16 15:15 KST",
           "price": 13440,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 02:12 KST",
+          "price": 13440,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 3,
+      "priceCount": 4,
       "avgPrice": 13440,
       "minPrice": 13440,
       "maxPrice": 13440,
       "lastPrice": 13440,
-      "lastAt": "2026-11-16 15:15 KST",
+      "lastAt": "2026-11-17 02:12 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -3304,9 +3322,17 @@
           13440,
           13440,
           3
+        ],
+        [
+          "2026-11-17",
+          13440,
+          13440,
+          13440,
+          13440,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "8258949462": {
       "productName": "쏘굿 아몬드 오리지널, 1L, 3개",
@@ -3387,14 +3413,19 @@
           "at": "2026-11-16 23:08 KST",
           "price": 7400,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 02:12 KST",
+          "price": 7400,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 4,
-      "avgPrice": 9170,
+      "priceCount": 5,
+      "avgPrice": 8816,
       "minPrice": 7400,
       "maxPrice": 14480,
       "lastPrice": 7400,
-      "lastAt": "2026-11-16 23:08 KST",
+      "lastAt": "2026-11-17 02:12 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -3403,9 +3434,17 @@
           9170,
           7400,
           4
+        ],
+        [
+          "2026-11-17",
+          7400,
+          7400,
+          7400,
+          7400,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "8157287216": {
       "productName": "오트사이드 귀리음료 바리스타 블렌드",
@@ -6912,14 +6951,19 @@
           "at": "2026-11-16 16:52 KST",
           "price": 46860,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 02:12 KST",
+          "price": 46860,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 46860,
       "minPrice": 46860,
       "maxPrice": 46860,
       "lastPrice": 46860,
-      "lastAt": "2026-11-16 16:52 KST",
+      "lastAt": "2026-11-17 02:12 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -6928,9 +6972,17 @@
           46860,
           46860,
           1
+        ],
+        [
+          "2026-11-17",
+          46860,
+          46860,
+          46860,
+          46860,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "8421621861": {
       "productName": "누티푸드 크리머 스위텐드, 385g, 1개",
@@ -8215,14 +8267,19 @@
           "at": "2026-11-16 21:06 KST",
           "price": 12000,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 02:12 KST",
+          "price": 22500,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
-      "avgPrice": 12000,
+      "priceCount": 2,
+      "avgPrice": 17250,
       "minPrice": 12000,
-      "maxPrice": 12000,
-      "lastPrice": 12000,
-      "lastAt": "2026-11-16 21:06 KST",
+      "maxPrice": 22500,
+      "lastPrice": 22500,
+      "lastAt": "2026-11-17 02:12 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -8231,9 +8288,17 @@
           12000,
           12000,
           1
+        ],
+        [
+          "2026-11-17",
+          22500,
+          22500,
+          22500,
+          22500,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "9546241780": {
       "productName": "엔칸토 제주녹차 파우더, 1개, 1개입, 1kg",
@@ -9584,6 +9649,398 @@
           7400,
           7400,
           7400,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "130476598": {
+      "productName": "프레지덩 휘핑크림, 1L, 1개",
+      "category": "크림·연유",
+      "observations": [
+        {
+          "at": "2026-11-17 02:12 KST",
+          "price": 10000,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 10000,
+      "minPrice": 10000,
+      "maxPrice": 10000,
+      "lastPrice": 10000,
+      "lastAt": "2026-11-17 02:12 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          10000,
+          10000,
+          10000,
+          10000,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7340177591": {
+      "productName": "[로켓프레시] 마스카포네 치즈, 250g, 1개입, 1개",
+      "category": "크림·연유",
+      "observations": [
+        {
+          "at": "2026-11-17 02:12 KST",
+          "price": 7180,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 7180,
+      "minPrice": 7180,
+      "maxPrice": 7180,
+      "lastPrice": 7180,
+      "lastAt": "2026-11-17 02:12 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          7180,
+          7180,
+          7180,
+          7180,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8620395047": {
+      "productName": "제이디팩 자바라 빨대 7*210mm 투명 개별포장 500개 3500개 10000개, 1세트, 500개입",
+      "category": "빨대·홀더",
+      "observations": [
+        {
+          "at": "2026-11-17 02:12 KST",
+          "price": 6480,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 6480,
+      "minPrice": 6480,
+      "maxPrice": 6480,
+      "lastPrice": 6480,
+      "lastAt": "2026-11-17 02:12 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          6480,
+          6480,
+          6480,
+          6480,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8900660404": {
+      "productName": "제이디팩 일자 빨대 7*280mm 검정 개별포장 500개, 1세트, 500개입",
+      "category": "빨대·홀더",
+      "observations": [
+        {
+          "at": "2026-11-17 02:12 KST",
+          "price": 8000,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 8000,
+      "minPrice": 8000,
+      "maxPrice": 8000,
+      "lastPrice": 8000,
+      "lastAt": "2026-11-17 02:12 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          8000,
+          8000,
+          8000,
+          8000,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7539257331": {
+      "productName": "버블빨대 투명 개별포장, 100개입, 1개",
+      "category": "빨대·홀더",
+      "observations": [
+        {
+          "at": "2026-11-17 02:12 KST",
+          "price": 4000,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 4000,
+      "minPrice": 4000,
+      "maxPrice": 4000,
+      "lastPrice": 4000,
+      "lastAt": "2026-11-17 02:12 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          4000,
+          4000,
+          4000,
+          4000,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8989596765": {
+      "productName": "에이투밀크 멸균우유, 1L, 1개",
+      "category": "우유·대체유",
+      "observations": [
+        {
+          "at": "2026-11-17 02:12 KST",
+          "price": 5100,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 5100,
+      "minPrice": 5100,
+      "maxPrice": 5100,
+      "lastPrice": 5100,
+      "lastAt": "2026-11-17 02:12 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          5100,
+          5100,
+          5100,
+          5100,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9531601037": {
+      "productName": "킹너츠 씨드견과믹스 아몬드슬라이스 볶음땅콩분태 호박씨 해바라기씨 4종 견과믹스, 1개, 1kg",
+      "category": "베이킹 재료",
+      "observations": [
+        {
+          "at": "2026-11-17 02:12 KST",
+          "price": 11800,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 11800,
+      "minPrice": 11800,
+      "maxPrice": 11800,
+      "lastPrice": 11800,
+      "lastAt": "2026-11-17 02:12 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          11800,
+          11800,
+          11800,
+          11800,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8873364395": {
+      "productName": "더바른상회 생 아몬드 슬라이스 대용량 업소용 식자재, 1개, 800g",
+      "category": "베이킹 재료",
+      "observations": [
+        {
+          "at": "2026-11-17 02:12 KST",
+          "price": 17500,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 17500,
+      "minPrice": 17500,
+      "maxPrice": 17500,
+      "lastPrice": 17500,
+      "lastAt": "2026-11-17 02:12 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          17500,
+          17500,
+          17500,
+          17500,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "6408586603": {
+      "productName": "서울팩토리 흑당시럽, 1.2kg, 1개",
+      "category": "시럽·소스",
+      "observations": [
+        {
+          "at": "2026-11-17 02:12 KST",
+          "price": 11250,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 11250,
+      "minPrice": 11250,
+      "maxPrice": 11250,
+      "lastPrice": 11250,
+      "lastAt": "2026-11-17 02:12 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          11250,
+          11250,
+          11250,
+          11250,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9493852898": {
+      "productName": "토스키 카라멜 시럽 750ml, 1개, 750ml",
+      "category": "시럽·소스",
+      "observations": [
+        {
+          "at": "2026-11-17 02:12 KST",
+          "price": 9500,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 9500,
+      "minPrice": 9500,
+      "maxPrice": 9500,
+      "lastPrice": 9500,
+      "lastAt": "2026-11-17 02:12 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          9500,
+          9500,
+          9500,
+          9500,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7973180924": {
+      "productName": "서울팩토리 리얼 딸기 베이스, 1개, 1.2kg",
+      "category": "과일·베이스",
+      "observations": [
+        {
+          "at": "2026-11-17 02:12 KST",
+          "price": 10400,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 10400,
+      "minPrice": 10400,
+      "maxPrice": 10400,
+      "lastPrice": 10400,
+      "lastAt": "2026-11-17 02:12 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          10400,
+          10400,
+          10400,
+          10400,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7764496954": {
+      "productName": "더블데이 레드패션 딸기 요거트 파우더, 800g, 1개입, 1개",
+      "category": "과일·베이스",
+      "observations": [
+        {
+          "at": "2026-11-17 02:12 KST",
+          "price": 14500,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 14500,
+      "minPrice": 14500,
+      "maxPrice": 14500,
+      "lastPrice": 14500,
+      "lastAt": "2026-11-17 02:12 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          14500,
+          14500,
+          14500,
+          14500,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7226088126": {
+      "productName": "유리아 페퍼민트 삼각티백, 1.2g, 100개입, 15개",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-17 02:12 KST",
+          "price": 202500,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 202500,
+      "minPrice": 202500,
+      "maxPrice": 202500,
+      "lastPrice": 202500,
+      "lastAt": "2026-11-17 02:12 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          202500,
+          202500,
+          202500,
+          202500,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7679941576": {
+      "productName": "닥터루트 페퍼민트 삼각티백, 1.2g, 100개입, 1개",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-17 02:12 KST",
+          "price": 12930,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 12930,
+      "minPrice": 12930,
+      "maxPrice": 12930,
+      "lastPrice": 12930,
+      "lastAt": "2026-11-17 02:12 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          12930,
+          12930,
+          12930,
+          12930,
           1
         ]
       ],
