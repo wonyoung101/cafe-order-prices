@@ -159,12 +159,24 @@ TARGETS = [
     {"label": "초코칩 1kg",          "category": "당류·토핑",   "query": "초코칩 1kg",       "bases": ["100g"], "wave": 6},
     {"label": "가당연유 1kg",         "category": "크림·연유",   "query": "가당연유 1kg",      "bases": ["100g", "100ml"], "wave": 6},
     {"label": "휘핑크림 1L",          "category": "크림·연유",   "query": "휘핑크림 1L",       "bases": ["100ml", "100g"], "wave": 6},
-    # 다음 회차 후보 (미검증)
-    {"label": "슈가파우더 1kg",       "category": "당류·토핑",   "query": "슈가파우더 1kg",    "bases": ["100g"], "wave": 6},
-    {"label": "콜롬비아 원두 1kg",     "category": "원두",       "query": "콜롬비아 원두 1kg",  "bases": ["100g"], "wave": 6},
-    {"label": "키친타월 12롤",        "category": "매장소모품",  "query": "키친타월 12롤",     "bases": ["개당"], "wave": 6},
-    {"label": "코코넛밀크 1L",        "category": "우유·대체유", "query": "코코넛밀크 1L",     "bases": ["100ml"], "wave": 6},
-    {"label": "아이스티 1kg",        "category": "티·탄산수",   "query": "아이스티 1kg",     "bases": ["100g"], "wave": 6},
+    # ---- 7차 보강 키워드 (wave=7) — 20:00 회차 실행분.
+    # 건수가 가장 적은 7개 카테고리(크림·연유 5 · 매장소모품 6 · 나머지 7)를 한 칸씩 보강하고,
+    # 가장 취약한 크림·연유에는 소용량·믹스 계열 2개를 배분했다. 모두 **제목에 용량·개수가
+    # 명시되는 로켓 품목**을 노린 키워드다(사용자 확정 규칙: 용량 표기 없는 상품 미노출).
+    {"label": "휘핑크림 250ml",        "category": "크림·연유",   "query": "휘핑크림 250ml",     "bases": ["100ml", "100g"], "wave": 7},
+    {"label": "커스터드크림 믹스 1kg",   "category": "크림·연유",   "query": "커스터드크림 믹스 1kg", "bases": ["100g"], "wave": 7},
+    {"label": "키친타월 12롤",        "category": "매장소모품",  "query": "키친타월 12롤",     "bases": ["개당"], "wave": 7},
+    {"label": "코코넛밀크 1L",        "category": "우유·대체유", "query": "코코넛밀크 1L",     "bases": ["100ml"], "wave": 7},
+    {"label": "레몬청 1kg",          "category": "과일·베이스", "query": "레몬청 1kg",       "bases": ["100g"], "wave": 7},
+    {"label": "종이컵 1000개",        "category": "컵·뚜껑",    "query": "종이컵 1000개",     "bases": ["개당"], "wave": 7},
+    {"label": "테이크아웃 컵홀더 1000개", "category": "빨대·홀더",  "query": "테이크아웃 컵홀더 1000개", "bases": ["개당"], "wave": 7},
+    {"label": "아이스티 1kg",        "category": "티·탄산수",   "query": "아이스티 1kg",     "bases": ["100g"], "wave": 7},
+
+    # ---- 8차 보강 후보 (wave=8, 미검증) — 20:00 회차에서 돌지 않은 키워드.
+    {"label": "슈가파우더 1kg",       "category": "당류·토핑",   "query": "슈가파우더 1kg",    "bases": ["100g"], "wave": 8},
+    {"label": "콜롬비아 원두 1kg",     "category": "원두",       "query": "콜롬비아 원두 1kg",  "bases": ["100g"], "wave": 8},
+    {"label": "딸기 파우더 1kg",       "category": "파우더",      "query": "딸기 파우더 1kg",    "bases": ["100g"], "wave": 8},
+    {"label": "두유 1L",            "category": "우유·대체유", "query": "두유 1L",          "bases": ["100ml"], "wave": 8},
 ]
 
 BANNER_NOTICE = "쿠팡 API 연동 대기 중 (2026-11-16 00:00 이후 자동 업데이트 예정)"
@@ -174,6 +186,7 @@ EXCLUDE_KEYWORDS = [
     "탐사 샘물",
     "알룰로스",
     "결로방지 컵홀더",
+    "코코넛 워터",   # 2026-11-16 20시 회차: 코코넛밀크 키워드에 섞여 온 음료(코코넛워터)는 우유·대체유가 아니다
 ]
 
 # 상품명의 수량 표기가 실제 구성과 맞지 않아 단가가 수 배 낙게 계산되는 상품.

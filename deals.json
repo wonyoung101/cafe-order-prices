@@ -1,7 +1,7 @@
 {
   "status": "ok",
-  "updatedAt": "2026-11-16 19:03 KST",
-  "statsAt": "2026-11-16 19:04 KST",
+  "updatedAt": "2026-11-16 20:04 KST",
+  "statsAt": "2026-11-16 20:04 KST",
   "notice": "",
   "watchlist": [],
   "categories": [
@@ -18,9 +18,9 @@
     "빨대·홀더",
     "매장소모품"
   ],
-  "count": 92,
+  "count": 104,
   "priceStats": {
-    "products": 219,
+    "products": 232,
     "discounts": 0
   },
   "deals": [
@@ -333,6 +333,78 @@
         [
           "2026-11-16 15:15 KST",
           14480
+        ]
+      ]
+    },
+    {
+      "productId": "9200473378",
+      "productName": "코코씸 드링킹용 코코넛 밀크, 12개, 1L",
+      "productPrice": 96000,
+      "productImage": "https://ads-partners.coupang.com/image1/XsN_x3eO2alU4x79XjvuQnkyr5ubyde6kyOtZGB7QjxWXLDWImwiZl8se11yGQncam-Ns0mArUlju8PFivem3eYqjL0ApIwXRq6vjjtAgkXpRclSgglUWw9meDehIyX37oj-RfCqPuXn8LJk5BCxJOjuNrrYH32CcrVgss4IypvBVhJSQnf6KgYuo5CKBfuEEX6FPodmH9O4RL7QQaZitjusAAyOKNWd4Z6dTjXUEhd7OfeB1Zb_h-3t0OyeXzJXN4TOcLuc-ZXKTcLzfpih_juAHv7TYqdLKtbeaBDXCKTn6esV9mKu9Rms0yU4r1HnqoByHDMPhSO0q9-qTkDEH-fGxkNDKgr_uFHL2Yr5mlMfws2c756g3ANRbfGOYCqmVq14fAGae2aYO83zXCfuK-Q5ZPQO40T91139OqWUlcpqGNjCEnOWam15mBbnGX5l2Mv-0Cz4MNyiyYFuKGTUAN-zomvnFZajyAnl3Q26xCOOTkC9f5VqqIba53NPR9KN8Yu9zFTKy5CzmnbEWv1sFnhfJic7vJDWZoWIpmVGnRXcZKc8eHu7DPjDxpzXv6jD1ERPJJ5ay62DzXdVkNECBi8pO-I5-k2CnV7j",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9200473378&itemId=27172741909&vendorItemId=94140379212&traceid=V0-153-e79f8965ab906816&clickBeacon=73e70db0-e1ad-11f1-81ea-e3c441f6e957%7E3&requestid=20261116200411455096253334&token=31850C%7CMIXED&pt=1&slot=2",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "우유·대체유",
+      "query": "코코넛밀크 1L",
+      "unitPrice": 800,
+      "unitBasis": "100ml당",
+      "packNote": "1,000ml×12",
+      "avgPrice": 96000,
+      "minPrice": 96000,
+      "maxPrice": 96000,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          96000,
+          96000,
+          96000,
+          96000,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-16 20:04 KST",
+          96000
+        ]
+      ]
+    },
+    {
+      "productId": "6669882649",
+      "productName": "코코씸 코코넛 밀크 무설탕 무첨가, 1L, 2개",
+      "productPrice": 22000,
+      "productImage": "https://ads-partners.coupang.com/image1/BAmxwgUSJrN0WZdXBJRobTKLP9Sp8jTdJQGmQtXRWU2fLXVyj_ZEBXvEEH-dMUNN_fAD6K9mWQKLaU9HjdGiqaLHl63JWAc9drGkZmMUxSIK27IPyHQArHFcXY1GDaPVnN6VtjAQWA8x3t55YH77xxyVG1WeHXbU5owUOjK5OcdU-48YXUI0rG4CcOhgKFEQ_vB8cZ_YiayR6AOAIy4fKOTQb0wMwql1-q3vyIKGOMYXckbS8buBmcz4RYEt7okeYuD3TKjjWgqzK7esFCHRbyDqUC9cCu2o7j66LFw1ao0SZMxxJDs8LnEr_fOkibQocVsvtSF14o7_wRPag2ElVUJcwTM-IlDBYW1lsCndejZtnjvWihdMWO8CRzDqz_wmP9B7fyxvTn4vK0ybTSpaxiU-Rxmdq1INeXv655a2-QvZenDLGzCGCJwFlcf49v4Qf8nOec9KDk3_vcldBWFjEUFnWSii8ccQy_K91fEtzNLokrpmrHxjvaVamSli2MQMSnJb__ap6lJvBIG9yQ-uJlVXG3qYdi8mJz9EY__cNToftqL9IkusMU7mGA-jyRIJ3p94B9MBfM1dytYlpcA=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=6669882649&itemId=28981865705&vendorItemId=95911104311&traceid=V0-153-959e5ed637d237ca&clickBeacon=73e70db0-e1ad-11f1-9dd5-bd49f7e4e4cb%7E3&requestid=20261116200411455096253334&token=31850C%7CMIXED&pt=1&slot=1",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "우유·대체유",
+      "query": "코코넛밀크 1L",
+      "unitPrice": 1100,
+      "unitBasis": "100ml당",
+      "packNote": "1,000ml×2",
+      "avgPrice": 22000,
+      "minPrice": 22000,
+      "maxPrice": 22000,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          22000,
+          22000,
+          22000,
+          22000,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-16 20:04 KST",
+          22000
         ]
       ]
     },
@@ -2040,19 +2112,19 @@
       "productId": "5803499574",
       "productName": "서강 라미스 휘핑크림, 1L, 2개",
       "productPrice": 9230,
-      "productImage": "https://ads-partners.coupang.com/image1/cMbKc9qcvZe4aZpccFk1sXcSN4B0xNAQnh66ZXcHhFAKRqOiugcNpZfh7bXjO-BvlYHoPKOhP_zP7WcE79nY4ufspSLfxGp-8ELSvBgLD0JzHIGByeS3jT_fIF0rvWPCI5cDj22uwm2ytVqbBkBMYkW_WgUmO6kJLazPnDP-3xXrePVZrcgyauZynd5O2in-TT0gRd8hVIDEl3gKLg-vTpbqQDn8d000FcF3ZkP1vj3b2YfTZp20EKx09b0ymsMCI1obG0tu065T0xIAXVr_TPlcoAbc87PQnnQ1c4UIC6GcGe3P0futvmtkfzrRVQPw5-Tz-Dy7iHBIeopYyBy1STVkyVadZ_r9qpbf89TiVO53AxmHF45589XSDbVsU72M7gWq6cLbF5uIol9PsTyTrsRp6bnaRKCjhU5Gf34UTlbpO-UI84U_hx21FiBrHjiEtZ2wMFSU7VCuXFwVPQ1BYqDiJ1JnP_IO1ScWxY75FERCY_OzSevjGMOo_ZX7Rz7msBgLVHMIxhR7gTu8msIPi6plbWUw7GFWghNmmAArkV9TdlUWJFKWTzP5IgQfBBo4MWos",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=5803499574&itemId=9961390914&vendorItemId=77244524635&traceid=V0-153-f092caec55dfbd2c&clickBeacon=fcde76c0-e1a4-11f1-adad-66b77fb49047%7E3&requestid=20261116190335785137971082&token=31850C%7CMIXED&pt=1&slot=1",
+      "productImage": "https://ads-partners.coupang.com/image1/DA2JfQw8tdsRYGElDEl2zqPm6_5rl8WCmYZ3OIufTAs3AIOfbuZf0gB8ywoOA67EPqqGAhh3vGXCuAffg3WBn7MKsGj-K80JvBqlbmsbWi-3-Fn85tra1GTB2ZhfBQ5fgTnxNVBLpU8vrqCwU6ACBznNZID41YjIiajtINTApAEsjhD4kIzgea8LONmbnQdyZXIu-Q7JKT6ZKrTE6W5EJQTn6ZJwcrslfDEiNCZqtLP-rrdDLG7hdE16nL7HGfQrvOYOMEViNnXfcyCfltikxgpkIw7SRMOJKB2B8P3OS3g0XtXD-MBkJGbsjvLap5Qh4erBnzdTEqdIRT4mA6qkU-NwJ7M-3jXMPxAgU7X85DXF7U0A9-vWtzv6hT5UeXmtB84zstCRkKxFw-XyDd6b5TenfT6X7BbEpN8d3GUHL4ObzLycE-mGRNV-iUDfbsZ_-riaGnlOT0egqNKHL_aSd6J5G9vHBGvL4AtBuKmylLFXTCGjYzgQfHwerT2HXDwRhfY0SRUxKO57zo_Ofo6UnbESjBsxsqlguoTUxvv5zBivnyRHxcOx8rcWHGDgCQHDRN15",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=5803499574&itemId=9961390914&vendorItemId=77244524635&traceid=V0-153-f092caec55dfbd2c&clickBeacon=64a8ec60-e1ad-11f1-b7c2-8f74cc4555cd%7E3&requestid=20261116200345900249746768&token=31850C%7CMIXED&pt=1&slot=1",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "크림·연유",
-      "query": "휘핑크림 1L",
+      "query": "휘핑크림 250ml",
       "unitPrice": 462,
       "unitBasis": "100ml당",
       "packNote": "1,000ml×2",
       "avgPrice": 9230,
       "minPrice": 9230,
       "maxPrice": 9230,
-      "priceCount": 2,
+      "priceCount": 3,
       "discountRate": null,
       "uniqueDays": 1,
       "dailyHistory": [
@@ -2062,7 +2134,7 @@
           9230,
           9230,
           9230,
-          2
+          3
         ]
       ],
       "priceHistory": [
@@ -2072,6 +2144,10 @@
         ],
         [
           "2026-11-16 19:03 KST",
+          9230
+        ],
+        [
+          "2026-11-16 20:04 KST",
           9230
         ]
       ]
@@ -2116,19 +2192,19 @@
       "productId": "5803499619",
       "productName": "서강 카우밀, 1L, 2개",
       "productPrice": 10400,
-      "productImage": "https://ads-partners.coupang.com/image1/efeMxZT-vCnGrbkReQWdOZQvIMKlsDHYH_4R3-yw51RvL_260Q_-4cG3Tfo3X14zfHSm3H57Yc6eYHKhAdYY7MDvZ9lrOThBTXlyQUJsu-NvjDLT-AjwPTRFhNF36Id1FdHXIDK-U-zhB9iaqRB60CmoeIS6XwXz77mFyQXjD4fSOHEyCmBYvUrsI447g1r7q9aDDlrx3qulEK8lOU8mHcWo8mPFzfq2uQcvaPRhRRL6F8kbcQwo1Qs86DdfqFh8n2kFMzRdkEFy8KGyPCYA90yUfbS1_gP1LXczogGGeI078cZq6NErrZS_Zlb5gJG65sBH33-K73mha6ZLWw00UQEDGjIRxjBi83kL5oEKibMJ0W-3Pu0LFfhCgHk2WOozIaQjaqWXUfebe6r0uolQIpUTUbB8Xmt5fVmt_-hvIse-gZBRG0J_dVKb0obaHRKisM2DThoDqHEcKZccPdZyW9xCSxgH0t2iIPYb0xhS8d_l4bvB5RsRPlXRK2DAmCI_o56R0OnuYuk0CYS2_EIbz_hQoWSCbNUDoGjYTAv3-i6s_Tk1wZ9cL2w8Z6nfEtlXvOtb",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=5803499619&itemId=9961391178&vendorItemId=77244524942&traceid=V0-153-63d2cbc5d06d3d07&clickBeacon=fcde76c0-e1a4-11f1-a5fb-646fa4de7c9a%7E3&requestid=20261116190335785137971082&token=31850C%7CMIXED&pt=1&slot=2",
+      "productImage": "https://ads-partners.coupang.com/image1/pjGVeCbSSrBRSmBepm8WU6F14H6UaEC70swssrv0t1sukdWvQbym6l67G_OqhEnjyCGeSVg1fRXTRwFO5pAVtXW_LYPReXtLhfG0coxBaEW4ZYW4HZoICuqFYsWoQkGXoMatE4rzYyhzMeUXpGiKnd9b1pR19VfgOA-LyqYIt2VyjbCkGd0zBHcJ-XEz0uH9QrUMhVkYPaPoP7KecmlRJbbtnuPKr5iK2eFrqRrZgx0MvGy7RQnykXG6TlUaSQTcJZo25ZrxEeV4AuZ3vdOTp1NDvjjl1XVWE2rLND5q-86xvyHbObKEmldMDU49zEci3x1YzJUgfmKi11E6TqDJlgV5o6M9TKfZZ_rTI2vmnQXb23flfT3nPtJ8dR5owv-BxTMMHK-mATPOtCqeNOp-flbole4nLf2klxjsv_eLsBHqd0ndQMqi5YufWbF-gEeoQ9YDGhYbCL3ElzWkASIoZyA2kPfzEVeLeW7c1nRlEeNuWashMzVkM-MCQtw8rmxneY-JojjfDeya_YapPthVjY-jMdbbhA2682Y8AsrtVH6jW26zzo76sjG_2iA1TfPa4w==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=5803499619&itemId=9961391178&vendorItemId=77244524942&traceid=V0-153-63d2cbc5d06d3d07&clickBeacon=64a8ec60-e1ad-11f1-9403-231c92e0cb7b%7E3&requestid=20261116200345900249746768&token=31850C%7CMIXED&pt=1&slot=2",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "크림·연유",
-      "query": "휘핑크림 1L",
+      "query": "휘핑크림 250ml",
       "unitPrice": 520,
       "unitBasis": "100ml당",
       "packNote": "1,000ml×2",
       "avgPrice": 10400,
       "minPrice": 10400,
       "maxPrice": 10400,
-      "priceCount": 1,
+      "priceCount": 2,
       "discountRate": null,
       "uniqueDays": 1,
       "dailyHistory": [
@@ -2138,12 +2214,16 @@
           10400,
           10400,
           10400,
-          1
+          2
         ]
       ],
       "priceHistory": [
         [
           "2026-11-16 19:03 KST",
+          10400
+        ],
+        [
+          "2026-11-16 20:04 KST",
           10400
         ]
       ]
@@ -2809,6 +2889,150 @@
       ]
     },
     {
+      "productId": "9699325460",
+      "productName": "믹소 복숭아 아이스티 파우더, 1kg, 1개, 1개입",
+      "productPrice": 7430,
+      "productImage": "https://ads-partners.coupang.com/image1/Hme-7MvxYzid11B-Hl3K2kP-FSARfqKy97ry4ppdWIvqY2z64cbVEXG14QVY7DEoq05obsM-w7Ti3Q3J5UzSy_AWCd79FIAE5R5cyP08wKoIj3_jcCx47Qm02U1sh7F-y3UC0Bf_IMdSQO6pGWqa8EVRnWX3uIWcBEmsbM9uS8PCU4hBgjne491QT4FE6EQaNCeRhPSlfL1m4lcY-gxNWXV9lSX0fFTi4HPLjMyiLO1UmF9bRCZucHdDNYf6xoSJNgzFKFtVllyq4WlLoYEZ1cvdiJH-qPgmHvDTrWU3-whP7qGyeNn9yVUP86kWXkVi5hUVQEf4pT5LIptf9cDLXGpxg-4QnYANr74RFPVYkGeSD1FYKHTDZNQIIWgmRPq2igpk8MOz41w8o1AOEW4Ag64wB7XMpseYt5_BidFDyfedJ4aQz2f1phgDRHTxmiSiaaIEpobaaeI0gMTgDNWygzbwnzECwbqwGUhkZMlKb9QZ-Sst318ygFn2lxLw3EWkykc36RmhKgUFvHPQS8mWvnyB47C5DRu_sHChP8Nd6-tOosF7386I1EX1GK2PmDVGzccc",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9699325460&itemId=29013942007&vendorItemId=95941971731&traceid=V0-153-8f40c329e0aae27b&clickBeacon=880707f0-e1ad-11f1-afe3-27bc65682bb8%7E3&requestid=20261116200445166291614409&token=31850C%7CMIXED&pt=1&slot=1",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "티·탄산수",
+      "query": "아이스티 1kg",
+      "unitPrice": 743,
+      "unitBasis": "100g당",
+      "packNote": "1,000g",
+      "avgPrice": 7430,
+      "minPrice": 7430,
+      "maxPrice": 7430,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          7430,
+          7430,
+          7430,
+          7430,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-16 20:04 KST",
+          7430
+        ]
+      ]
+    },
+    {
+      "productId": "8244145059",
+      "productName": "립톤 아이스티 분말 레몬맛, 1.5kg, 1개입, 2개",
+      "productPrice": 24280,
+      "productImage": "https://ads-partners.coupang.com/image1/7j2SWtwewGmATyVk7tw5v0sFylLSNAKC3HnYnuKWj1VFlZ9PBw7gOU15jxZPOGy29CI_P_KzO5WEKSIdy1W8l5pCnTiSBmXSxFh6Z06iGKPp8M9E9ZaGCv0wWZdDhaAdtKt7aVQANX5Xq9JyZIpP_gqiSYYLW7mJbFY5qXhsvXiYYyQxaKigf9cBHxKHca0LTFCw9ch5ysclSMxhJhWe2qEEmkkZT1_2lkwicj8anEB5pA-irAlGiqQwaR2EZN9YPvR0z-kPpdX6KFBFOI9e1Ad6gJwNaP6m26RWQYz5I_WUtqABYhXII2jHwjOOB3MjOrIj4Y9bKLTr4K9BQGxLfZ0xWS36xowniGouAafOKqmiZW9ymu5o9H_fJi5Ii3K1kbXk3EN1YVnD36u6tYBZcDfH5wOtUohoVpGKhWfplX39yvH1i2MiKZewi4fLbIgKwbi1-De_4SzKHiMjqdRBfw8uw5kZ3to_tNjTSqhrPHZrAnkyR0yyNrZjwkrjSVMPBLdeDUrNNeAokjURHV6gUf6-4IlJswahPBpJ9sDpOQIs97_MwqZ9AXcGHOOmc3yOzggAF48yDg==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8244145059&itemId=21019256021&vendorItemId=92725647410&traceid=V0-153-84ad5ef2820d7eed&clickBeacon=880707f0-e1ad-11f1-96bd-421eb879af49%7E3&requestid=20261116200445166291614409&token=31850C%7CMIXED&pt=1&slot=2",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "티·탄산수",
+      "query": "아이스티 1kg",
+      "unitPrice": 809,
+      "unitBasis": "100g당",
+      "packNote": "1,500g×2",
+      "avgPrice": 24280,
+      "minPrice": 24280,
+      "maxPrice": 24280,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          24280,
+          24280,
+          24280,
+          24280,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-16 20:04 KST",
+          24280
+        ]
+      ]
+    },
+    {
+      "productId": "9585836999",
+      "productName": "[8월여름한정이벤트]이노미 저당 아이스티 복숭아 파우더 / 다이어트 / 저당음료, 4개, 1개입, 1kg",
+      "productPrice": 51900,
+      "productImage": "https://ads-partners.coupang.com/image1/_U9neuBNSa15ryWw_fn-gKn-2saJUcMebuVrItou0OFTsTOaoxaQpcJbrc7iEziOGZSb3Esnk4cNSRgM8KBmi7de4eZ7q34qP8D5ilIo2FS-AyzePy-RODib1FJXtmmOvcMynRfyBAlO8tUNhnlyw1v4Y4R8V3js12zALY_XK0C_QRuvZY9-rXq39IgCtO4LEP7szk4ZOMGGW4GeMHa6qiwyjacA7NQ9_THS-bWy-FKBREi0cueLCvBiHzH3V_U-KZoTSbvZTGLZSo7wX3ECc-0bN-GYRC46X0N8Ew0ws_PTmdmcSiInM39DXDHACXboxWNc6JupLuT15daAhhjDLUl5B3XfC0uxNEWFilx_Y0ly1Flv3tILsEjnJLcec1tZbTnaAehNo3VbXL-T__wsTC1sqKE8v53iGpvPIp7KSoTyYkzj1nMsixGf65CtukjDebPvXc2fHgL7zZF9mtO-TfY2227HciDnvN9B-GPC9A_kcy2gvw2x81dX8y0wCVfTYb5JMc6MgmoGAGzloy4F94zLway9hyZgI2evLZUArHhSmIOYP4y8kmrqa3iLqvNe37ZrbBpQUGSaS1JkS_Ub1Ic=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9585836999&itemId=28677015168&vendorItemId=95618774797&traceid=V0-153-0bf5cf2ffba364a9&clickBeacon=880707f0-e1ad-11f1-a355-07f02012749d%7E3&requestid=20261116200445166291614409&token=31850C%7CMIXED&pt=1&slot=4",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "티·탄산수",
+      "query": "아이스티 1kg",
+      "unitPrice": 1298,
+      "unitBasis": "100g당",
+      "packNote": "1,000g×4",
+      "avgPrice": 51900,
+      "minPrice": 51900,
+      "maxPrice": 51900,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          51900,
+          51900,
+          51900,
+          51900,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-16 20:04 KST",
+          51900
+        ]
+      ]
+    },
+    {
+      "productId": "9707225326",
+      "productName": "수팍 무형광 일회용 종이컵 6.5oz 185ml, 1박스, 1000개입",
+      "productPrice": 13800,
+      "productImage": "https://ads-partners.coupang.com/image1/bl3dgUgLzGXqQQ3TbtG17uJVRCmk4ZV34aWZiu1pj9W4Kpi_3sfKEpos3aHcVLgNDMlrBTTHL_8n00M8CdhQbSVViipZ0iP-g_XrRFHEwRYFg5UvK56m2pk3UHArmA3LkHxppXjNFjh9FEjuy-gViM1rxUqhl4l6GLFl7Hzavnsbp0Qo6qHZ79kMHOjSbVICibLtZcrUZREuHAjdR057xnMeB1S_-ULKabO-sKxSJzDPaCQzQiu-MADn-Z0HP5jUkyGq2Uwd3677hCnTvNJ1CNced49REp1Svsi1NSipdH--NfiktKDINzRXfZB05zQGXo4LXILYffitLR8nEoUHNbykJ-j7q-2tBcNIlLs536udUwwlWf1l3XtfC4MA1H5zRrcCcR4TAEXO2iEYa-6hdIC5HlRrDbPvCyH1Do9iTkgCyZ-X-9dfEQdITThw4mGtTAR9NOw1KgesxHQ27kd3lqACr1ekfJLoH9tiq3Ue2E_BdYnxTSKoDu5ApFHRpntPhm_EZeBl4AYz1yY_hu9sbGDANVdhcaY=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9707225326&itemId=29041840795&vendorItemId=95969021427&traceid=V0-153-6fa15773a37ba263&clickBeacon=7df18c90-e1ad-11f1-bfd0-cd6e86b47f6c%7E3&requestid=20261116200428350035032916&token=31850C%7CMIXED&pt=1&slot=2",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "컵·뚜껑",
+      "query": "종이컵 1000개",
+      "unitPrice": 14,
+      "unitBasis": "개당",
+      "packNote": "1,000개입",
+      "avgPrice": 13800,
+      "minPrice": 13800,
+      "maxPrice": 13800,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          13800,
+          13800,
+          13800,
+          13800,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-16 20:04 KST",
+          13800
+        ]
+      ]
+    },
+    {
       "productId": "8631440572",
       "productName": "아이팩피앤디 92파이 14온스 PET 아이스컵 국산 투명, 1박스, 420ml, 1000개",
       "productPrice": 44170,
@@ -3293,6 +3517,42 @@
       ]
     },
     {
+      "productId": "7460888891",
+      "productName": "포담팩 카페테이크아웃 종이컵홀더 92파이 98파이 멀티홀더 옐로우 햇살, 1개, 1000개",
+      "productPrice": 25630,
+      "productImage": "https://ads-partners.coupang.com/image1/B3fUIDrAdxAa_SLoB-kbJC6IqmpVd6qQoyc3PRSeP3UZGCTTvyiMd2OPvt4eQ7s4PDH20CGerDa3ZDsOkALsweIWmGdZDniHp3a4ixUKfY_Z8vjn2oczbl5-PK4DU3rCzsiuat-i1TBozVgLiCib8KPSQ9SiMl35AQoPumdnOKHXO82kl8yK8R85OYQ6-dp-b_Zt46XpL6Zd7gpEOd2ejxaSbKbynXrA_I1N32nxl8qJtfpRdqrb_5e1YsgIEe4m3y_ee3puOZY-3Zol4e3PXkuzRYhHiGsVbY4-lA4OWwBXdk6836Gzsyokfmo6ICjQF7C8xT_FMdSHq9M-DZ_ekEuTbCoIJfFerX9a_WC4EGYlqICbz57uETkiMlTn092lYsvNbPQl0cN6J6swSTzQgV27PmKFRI57tutRe2fsb3S9d7PvADnLORu1JKxg2YnvwXOQDfboeWR9yo8_eIKNTLoR8cZ7c3uelfqnKtQhT8TnRVTa5nB2k7AGxqDFEBt9R2uAthPbcuaeNX-GL2WGcy2pwAVmlBI=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7460888891&itemId=19446300323&vendorItemId=89981805257&traceid=V0-153-8d67834dcb331057&clickBeacon=82f45b00-e1ad-11f1-b8f2-3511a7210e8e%7E3&requestid=20261116200436722187597284&token=31850C%7CMIXED&pt=1&slot=2",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "빨대·홀더",
+      "query": "테이크아웃 컵홀더 1000개",
+      "unitPrice": 26,
+      "unitBasis": "개당",
+      "packNote": "1,000개입",
+      "avgPrice": 25630,
+      "minPrice": 25630,
+      "maxPrice": 25630,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          25630,
+          25630,
+          25630,
+          25630,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-16 20:04 KST",
+          25630
+        ]
+      ]
+    },
+    {
       "productId": "6922591746",
       "productName": "종이컵홀더 92파이 98파이 멀티홀더 헬로윈터, 1개, 1000개",
       "productPrice": 27000,
@@ -3336,26 +3596,20 @@
       "productId": "8810869296",
       "productName": "포담팩 종이컵홀더 아이스 92컵 98컵 멀티홀더 자주 하트, 1개, 1000개",
       "productPrice": 27400,
-      "productImage": "https://ads-partners.coupang.com/image1/CPKV8w6Uepx68lRWCBiJPTMdTuf4-DN9PNlINupKCofY8Bkm6UwIFtCWOMOPHF5fGtpDEqNk3rUezzh00W1obgdzQsj6BD5vHQhHdrsuIQRuU6Gv47J4NtzFbyPwedofCtqeKrxMiKrQEn6h0IdxD08fTt0ydV0Jrk-7lQNHjDAh3D2s-40g4fqk7y5lFy4uuQRM9SDyo8ixkEpDbjIu3rrbJwXFUjQkvMPvbIHgsL0vJjwwI2J4_D0ZsP1oq5Ju3GDNHhfV8WBFZStYKGNuSY0sjmAR5ars-f3JV_ISckUCLeFEqv0i94327aAk9w_Fq2ZrSEqf7JXsA5jrN5CDILrZdORH30BQhMp0M7W9uM0VLECC-97kEm-ItqSacI3Zv0HGS52jy7IZvD3AHk613f_hh9_u8xZg9etOLAjyQm6QsBmbPNIP-zBgFHN1U4qtbQdRNmsmOyVz-p73IoN6m00A_DYuCE--Z7Dfdsxzj7QBwl9AeUTdDtvlSvQY9k3V9pW7CMz5D7WsIDMStBNJoI5Qr5XGlqs=",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8810869296&itemId=25666847161&vendorItemId=92656434229&traceid=V0-153-ac3bcbab3083fc71&clickBeacon=2ab61a90-e140-11f1-8b08-501a5a696f96%7E3&requestid=20261116070153531226805569&token=31850C%7CMIXED&pt=1&slot=6",
+      "productImage": "https://ads-partners.coupang.com/image1/jQUbLM93Yq6_P-bijcTdBBEGHZIi9JO2pQAg8gycU5Yj3BlSqrecxLgrkfMgwiziuJHnUoWHyZH-z8Rvabxvpgdtu6wepz-jvNnypAnFjjChgzs33fdyBYXshYxq5H-WhPtDB_bG9A5Xj53a57TKPIS6hkzUcvY1s4cNjl3EGWX6DvRXuCIaLISrQOuNTm_yjv6Vi10MZzPKJzpqLqH36OOqy37yMbcF5zqfmY_ZvkJmbxdduXU3QlFwTFJ62VJo3a5yj7fPzv7-eoNl7K0bmt_mMdlpR6e7riwgYoq4FI_DjdT5-aka5d6tPdAsi6xoc70pn7LLQViYUWw5PTxTD6StLQ3o8cNWFHWe7P_iGck5agdqcjnRIKj9S-CrU3Ljxu8JPSNCDpFBWU0iD5Mx48wq8Uwg0Xy4lrt2ANmbKBtySuu6cbgb6iWrntb3d5JhsqtzKuzIbWJnWOvDqsjwXJ3UDuO-pb8Yx2NlVp7IsQFuwTyoprSYgf_fKrMT2xdBwjOCAYC2HujFWWuO93hPogjWZFqUtdw=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8810869296&itemId=25666847161&vendorItemId=92656434229&traceid=V0-153-ac3bcbab3083fc71&clickBeacon=82f45b00-e1ad-11f1-a143-a21b80fc293f%7E3&requestid=20261116200436722187597284&token=31850C%7CMIXED&pt=1&slot=1",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "빨대·홀더",
-      "query": "테이크아웃 컵홀더",
+      "query": "테이크아웃 컵홀더 1000개",
       "unitPrice": 27,
       "unitBasis": "개당",
       "packNote": "1,000개입",
       "avgPrice": 27400,
       "minPrice": 27400,
-      "priceCount": 1,
-      "discountRate": null,
-      "priceHistory": [
-        [
-          "2026-11-16 07:02 KST",
-          27400
-        ]
-      ],
       "maxPrice": 27400,
+      "priceCount": 2,
+      "discountRate": null,
       "uniqueDays": 1,
       "dailyHistory": [
         [
@@ -3364,7 +3618,17 @@
           27400,
           27400,
           27400,
-          1
+          2
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-16 07:02 KST",
+          27400
+        ],
+        [
+          "2026-11-16 20:04 KST",
+          27400
         ]
       ]
     },
@@ -3493,6 +3757,42 @@
       ]
     },
     {
+      "productId": "7572829529",
+      "productName": "모나리자 스마트 다용도 키친타올 250매, 250매, 12개",
+      "productPrice": 12730,
+      "productImage": "https://ads-partners.coupang.com/image1/hJju62gKaqaLNa9mhPYEqrEnmVhY6uWlsfTxPEP5TF6V42qzNZ5k5AymD44mvoU4duk2dNK2D7ETkKVrLW8fYQn-l17B1tC2k16xEJ9Z-9OIy9-o1kqaT4M4M6P6ccWcpYWEMkTa2qsfpe9v-n3s7-iEQV0UYSupRzVG0udEiiO0rYkq0QQXrtS9OrMienIl_1WfG68E1It3QiS_erXf88cj9buhbhAHxClXxaSADIRB-HGo7La2wN2khTwyB5xJQYwOjXBIDSMwdZ0ZN6H__cFlIgoTvV_3bM9h2zYxm6fh3G3udG80lSPDyvez-8jEb3fS4Q9aG0_UBk988vtSIgIm-lmisZBntilEnn0iBS3bq5J9JBB7EX0-_H3xmRLAdGmjaIUj92tNeDa8AfF5aa7zeunWzxhE5ZLHU97M5LQzDtdMT6Vcp7ewsrXDIE5vFzAc19vW-5FKKBMx0hv-bhOBPGd6-KtbCEcZ53_krElWP18ELV40A9Y_twLkaBS1nhqJBv1b0oHTZPbcOY7aCGHlB2AxZmYkdnGBApqNMkyCPLXGJ8HyFMEcTpdkt0F5YrZ4Y1ZJjeBSLBZyfhlxKoxb",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7572829529&itemId=29365666210&vendorItemId=90271557299&traceid=V0-153-7700177b7e1384f1&clickBeacon=6ecfa5d0-e1ad-11f1-8a9f-6debb6587274%7E3&requestid=20261116200402849128964918&token=31850C%7CMIXED&pt=1&slot=2",
+      "isRocket": true,
+      "isFreeShipping": true,
+      "category": "매장소모품",
+      "query": "키친타월 12롤",
+      "unitPrice": 4,
+      "unitBasis": "개당",
+      "packNote": "250개×12개",
+      "avgPrice": 12730,
+      "minPrice": 12730,
+      "maxPrice": 12730,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          12730,
+          12730,
+          12730,
+          12730,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-16 20:04 KST",
+          12730
+        ]
+      ]
+    },
+    {
       "productId": "1951259803",
       "productName": "냅킨공장 칵테일 무지 냅킨, Brown, 4개, 3000개입",
       "productPrice": 58800,
@@ -3537,6 +3837,78 @@
           58800,
           58800,
           4
+        ]
+      ]
+    },
+    {
+      "productId": "8188344094",
+      "productName": "브론디 플러스 천연펄프 키친타월, 150매, 8개",
+      "productPrice": 7130,
+      "productImage": "https://ads-partners.coupang.com/image1/ha7P4o4KFhhEoCxqhczh4W4NbaQfyBpEPjNmRf4XQ7RNfLULzuwR3TKonn_m4IeR7JeqWwD1nQTyyhcacIfQWhgJnBCwEf0H3ROo22bjBGxt9GbwueNY0wzVh7uVw9fST1B0UJKbVhpDQ8ZDViJt8wIaV2qRV_JOgnM3ooTqq-dKKZFfSY1ariCQBH7zdzc5iFlg9NTXZaYnri14NnwIokQz48gLJY0Q6IdtUOoYMm8klcPKGLGycscNPbWKYmwwFcU8d-CO-k2yuDdWjOQYLuaFS53aafmCAuvHKomC-Zs1sD0s-618IiocXkS017OQW1ozKZbrSsT4F6IS_F-K4VaYhE5WPqNi7GbZ0YupKR_L2jdelJdCgXqsvasSUr_seT1i4mW4cXBYwv28NNo_ULeERFj1_KCQ1I0jKGPlbVlfM7fo7UVL5PC2N8XiIRu_i53r4Xo-Kpd4bOTix1JVfjP7q5yJ95M81Q9HyOcDMZOh89BGXkY3oSfNq5SS1f_hbY10iXqTIsqO0EjxCG3wkjI7M1DX69_bjVRyS-3cDcllAnRemluoXkyifHLaeGbghu8HwKexRCgBeErQjfE50tZBhpO320CweHeOWLPW",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8188344094&itemId=23423489209&vendorItemId=90450508967&traceid=V0-153-4234e734fb08825b&clickBeacon=6ecfa5d0-e1ad-11f1-a3de-9d760b9a76ec%7E3&requestid=20261116200402849128964918&token=31850C%7CMIXED&pt=1&slot=3",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "매장소모품",
+      "query": "키친타월 12롤",
+      "unitPrice": 6,
+      "unitBasis": "개당",
+      "packNote": "150개×8개",
+      "avgPrice": 7130,
+      "minPrice": 7130,
+      "maxPrice": 7130,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          7130,
+          7130,
+          7130,
+          7130,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-16 20:04 KST",
+          7130
+        ]
+      ]
+    },
+    {
+      "productId": "8121622589",
+      "productName": "브론디 데일리 키친타월, 200매, 12개",
+      "productPrice": 13260,
+      "productImage": "https://ads-partners.coupang.com/image1/O_ika9qybtAC-qccO-tayfHaiKUhChjQZNDh5P6z17SKSYDHtpfE1DFr-3X0bdn_8OnGFARUNsg4G6Dlm-snoo73oJDVg5mAqL8R59Qb_YVpkMkLMOHHcHs7P9bOGhrahMeRDAUHLL6_0YdZ7H0P35CcChoRVELMz8rYEnhYDzr_L9srOjeKfEplY8oekcQiLBfKIgisfpA3wgMmsV6xMZxx5ve2Pvl6ykyD3_Ojtij148h-gdr_xwYCdEgoE_6MMdTVgDs1SKApSpyYSvmwufOBlZX2qospB4S7TiMUdwL0NPoN4khYVpHMIhUQ-lcYy3I1hK33Evpp_CIUyqNuy6HtqFQlWSiTaxtxl28GL6AkZTZ2kGxlTKkmnFLdZoeYmk-0pu9lvmO9b7xhVhkceJ0lFwWgmkji3jkgkIfEc27g2FIaPYvixmFOpx-4CEBhZdMd75M0wkQzomKRJRiFkP2OL9JICPfh1sHcLcz1wP4v-HSS6s3woL-tMLmyr8iIjyAL2jlXp94CcXKYUCAWZEupszGGoG79btvMSVOQx2pQbhAGscsZzsWkry3ucknFJLHGsgmjrtdqXWvz63xc_Bvvlg==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8121622589&itemId=23038272301&vendorItemId=90071994592&traceid=V0-153-363221000dbd2aab&clickBeacon=6ecfa5d0-e1ad-11f1-939e-38f69794d067%7E3&requestid=20261116200402849128964918&token=31850C%7CMIXED&pt=1&slot=4",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "매장소모품",
+      "query": "키친타월 12롤",
+      "unitPrice": 6,
+      "unitBasis": "개당",
+      "packNote": "200개×12개",
+      "avgPrice": 13260,
+      "minPrice": 13260,
+      "maxPrice": 13260,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          13260,
+          13260,
+          13260,
+          13260,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-16 20:04 KST",
+          13260
         ]
       ]
     },
@@ -3625,6 +3997,42 @@
       ]
     },
     {
+      "productId": "9668226659",
+      "productName": "하우스클래스 2겹 대나무 키친타올, 6개, 150매",
+      "productPrice": 9090,
+      "productImage": "https://ads-partners.coupang.com/image1/brn2qt6-jz2YT2cvbriGYFr7AFuD1sXQzzelEZsYJmcWrRIMNTf2TOcKQ_RAVMyyek4slf-IYgLKnct4ENJuZt89hcfgrWWenqZ3AJydCF3hifLpQFF4nvmh5PnHB8xBBb1O5zoAVHjcL1WiV0NWR9yJZADpt5YN6lG6K9FSjc2qMLRQGsvzrdPLQ8dHfMRPQHPOk5nEQB3FvuVZCM9CzCzOFGnvi-ljbxacQGiiW6v1xoz02sCPFP44pW_GxK8dMqsePVqw0Q7SQ8k-yJqJPKT1CUbvUSm7-QB7869_WDQUzrMcYD7nBMf6pbWYq8rEECX8Ctc-QXvFNe2j4sMwKGDpJFZQbNs-MCEu00_Qs7_sGtqtD-WCPzITqMM1iGxD3N3qYzq3ksWN9cHkADUl24zl0QAvVpilPGrTqhJLCj0EBJ64GPkzcM1uiA4wjfcEIuo-ApdR9qF8C7-x7Gj6cNwHZfdXstens7biaAp12zr6c721xrCCdaQHIWWfunrGjLPjb3ZBCLiyRsLeDkzfgbWWJ2V4dS3P2L2f2ZsqFPk4Sgw3o1DNreZ0UZVXsPykSPFDXRBVQDJ0NoGXBiVAeU0IAByc",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9668226659&itemId=28906151565&vendorItemId=95838290288&traceid=V0-153-2b47559b3a2be964&clickBeacon=6ecf7ec0-e1ad-11f1-b8ef-968746083529%7E3&requestid=20261116200402849128964918&token=31850C%7CMIXED&pt=1&slot=1",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "매장소모품",
+      "query": "키친타월 12롤",
+      "unitPrice": 10,
+      "unitBasis": "개당",
+      "packNote": "6개×150개",
+      "avgPrice": 9090,
+      "minPrice": 9090,
+      "maxPrice": 9090,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          9090,
+          9090,
+          9090,
+          9090,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-16 20:04 KST",
+          9090
+        ]
+      ]
+    },
+    {
       "productId": "7597856296",
       "productName": "유한그린텍 매장용 개별포장 업소용 물티슈 물그린, 1박스, 1200개입, 40g",
       "productPrice": 15890,
@@ -3697,6 +4105,42 @@
         [
           "2026-11-16 19:03 KST",
           17800
+        ]
+      ]
+    },
+    {
+      "productId": "277970218",
+      "productName": "코멧 깨끗한 천연펄프 키친타올 롤형 3겹160매",
+      "productPrice": 10990,
+      "productImage": "https://ads-partners.coupang.com/image1/mIp2bMimvjAghWlhmFJ-71L37awLf5X0De42dALu5Uicy5jym8mt8l4qx1g18c8qXExm-FQ9sjuDPxkiGV3q9Pwt3BpqPymw7O9EGW2ZHhseqlu3hhwYsbR3iRcpNHFXHnnB8WvljfPohJ5JrDPDUAzi6gK7_uHpMwreGzCDvifkIgUzB7zGixBeMdIey9R0lMcGqVGKMOS5E1Q-Ps3YxGFgSLUNjK33suEdXwDB9-FcxKinkWiZAwvXMEGCUlFyst5mo0IW63xNtns11zVLWwP70SSsFYFzpyAxo_WxGYguBqDu6CfEP0a4bE4zUMgb8CZa2bKJC5xXTKJUe2QZEVd58u-cIoxJs4GUxuAvc_nFMNlUWqRdzjFgyJFlO3230PzWHSoREUcnD4Tt5BB66Y_7-z9paTROHEm_gDKDXKRYgQydts8ZMyZwfiyvqSNJv7VpiLZoH5tQrO6AMeYYyfHeMvjOZN3diP6yeQA7aFh542j8yIHe562GvST3DgGcZ1s93HeVMvtzALwIRpalyNRTxVaWAoRTK-mGOBgg_o72WpPIIj8VXVJ3g-nUppkr3ALSykpwfdIhIpmrpA==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=277970218&itemId=8307658207&vendorItemId=75595551162&traceid=V0-153-120fbe23462a7807&requestid=20261116200402849128964918&token=31850C%7CMIXED&pt=0&slot=10",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "매장소모품",
+      "query": "키친타월 12롤",
+      "unitPrice": 69,
+      "unitBasis": "개당",
+      "packNote": "160개입",
+      "avgPrice": 10990,
+      "minPrice": 10990,
+      "maxPrice": 10990,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          10990,
+          10990,
+          10990,
+          10990,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-16 20:04 KST",
+          10990
         ]
       ]
     }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16 19:04 KST",
+  "updatedAt": "2026-11-16 20:04 KST",
   "source": "git snapshots",
   "products": {
     "8436480488": {
@@ -5834,14 +5834,19 @@
           "at": "2026-11-16 07:02 KST",
           "price": 27400,
           "source": "deals.json@9b03795"
+        },
+        {
+          "at": "2026-11-16 20:04 KST",
+          "price": 27400,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 27400,
       "minPrice": 27400,
       "maxPrice": 27400,
       "lastPrice": 27400,
-      "lastAt": "2026-11-16 07:02 KST",
+      "lastAt": "2026-11-16 20:04 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -5849,7 +5854,7 @@
           27400,
           27400,
           27400,
-          1
+          2
         ]
       ],
       "uniqueDays": 1
@@ -6847,14 +6852,19 @@
           "at": "2026-11-16 19:03 KST",
           "price": 9230,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-16 20:04 KST",
+          "price": 9230,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 2,
+      "priceCount": 3,
       "avgPrice": 9230,
       "minPrice": 9230,
       "maxPrice": 9230,
       "lastPrice": 9230,
-      "lastAt": "2026-11-16 19:03 KST",
+      "lastAt": "2026-11-16 20:04 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -6862,7 +6872,7 @@
           9230,
           9230,
           9230,
-          2
+          3
         ]
       ],
       "uniqueDays": 1
@@ -7659,14 +7669,19 @@
           "at": "2026-11-16 19:03 KST",
           "price": 10400,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-16 20:04 KST",
+          "price": 10400,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 10400,
       "minPrice": 10400,
       "maxPrice": 10400,
       "lastPrice": 10400,
-      "lastAt": "2026-11-16 19:03 KST",
+      "lastAt": "2026-11-16 20:04 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -7674,6 +7689,370 @@
           10400,
           10400,
           10400,
+          2
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9668226659": {
+      "productName": "하우스클래스 2겹 대나무 키친타올, 6개, 150매",
+      "category": "매장소모품",
+      "observations": [
+        {
+          "at": "2026-11-16 20:04 KST",
+          "price": 9090,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 9090,
+      "minPrice": 9090,
+      "maxPrice": 9090,
+      "lastPrice": 9090,
+      "lastAt": "2026-11-16 20:04 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          9090,
+          9090,
+          9090,
+          9090,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7572829529": {
+      "productName": "모나리자 스마트 다용도 키친타올 250매, 250매, 12개",
+      "category": "매장소모품",
+      "observations": [
+        {
+          "at": "2026-11-16 20:04 KST",
+          "price": 12730,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 12730,
+      "minPrice": 12730,
+      "maxPrice": 12730,
+      "lastPrice": 12730,
+      "lastAt": "2026-11-16 20:04 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          12730,
+          12730,
+          12730,
+          12730,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8188344094": {
+      "productName": "브론디 플러스 천연펄프 키친타월, 150매, 8개",
+      "category": "매장소모품",
+      "observations": [
+        {
+          "at": "2026-11-16 20:04 KST",
+          "price": 7130,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 7130,
+      "minPrice": 7130,
+      "maxPrice": 7130,
+      "lastPrice": 7130,
+      "lastAt": "2026-11-16 20:04 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          7130,
+          7130,
+          7130,
+          7130,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8121622589": {
+      "productName": "브론디 데일리 키친타월, 200매, 12개",
+      "category": "매장소모품",
+      "observations": [
+        {
+          "at": "2026-11-16 20:04 KST",
+          "price": 13260,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 13260,
+      "minPrice": 13260,
+      "maxPrice": 13260,
+      "lastPrice": 13260,
+      "lastAt": "2026-11-16 20:04 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          13260,
+          13260,
+          13260,
+          13260,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "277970218": {
+      "productName": "코멧 깨끗한 천연펄프 키친타올 롤형 3겹160매",
+      "category": "매장소모품",
+      "observations": [
+        {
+          "at": "2026-11-16 20:04 KST",
+          "price": 10990,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 10990,
+      "minPrice": 10990,
+      "maxPrice": 10990,
+      "lastPrice": 10990,
+      "lastAt": "2026-11-16 20:04 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          10990,
+          10990,
+          10990,
+          10990,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "6669882649": {
+      "productName": "코코씸 코코넛 밀크 무설탕 무첨가, 1L, 2개",
+      "category": "우유·대체유",
+      "observations": [
+        {
+          "at": "2026-11-16 20:04 KST",
+          "price": 22000,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 22000,
+      "minPrice": 22000,
+      "maxPrice": 22000,
+      "lastPrice": 22000,
+      "lastAt": "2026-11-16 20:04 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          22000,
+          22000,
+          22000,
+          22000,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9200473378": {
+      "productName": "코코씸 드링킹용 코코넛 밀크, 12개, 1L",
+      "category": "우유·대체유",
+      "observations": [
+        {
+          "at": "2026-11-16 20:04 KST",
+          "price": 96000,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 96000,
+      "minPrice": 96000,
+      "maxPrice": 96000,
+      "lastPrice": 96000,
+      "lastAt": "2026-11-16 20:04 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          96000,
+          96000,
+          96000,
+          96000,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "6273403276": {
+      "productName": "RFC 코코넛 워터, 1L, 12개",
+      "category": "우유·대체유",
+      "observations": [
+        {
+          "at": "2026-11-16 20:04 KST",
+          "price": 29700,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 29700,
+      "minPrice": 29700,
+      "maxPrice": 29700,
+      "lastPrice": 29700,
+      "lastAt": "2026-11-16 20:04 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          29700,
+          29700,
+          29700,
+          29700,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9707225326": {
+      "productName": "수팍 무형광 일회용 종이컵 6.5oz 185ml, 1박스, 1000개입",
+      "category": "컵·뚜껑",
+      "observations": [
+        {
+          "at": "2026-11-16 20:04 KST",
+          "price": 13800,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 13800,
+      "minPrice": 13800,
+      "maxPrice": 13800,
+      "lastPrice": 13800,
+      "lastAt": "2026-11-16 20:04 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          13800,
+          13800,
+          13800,
+          13800,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7460888891": {
+      "productName": "포담팩 카페테이크아웃 종이컵홀더 92파이 98파이 멀티홀더 옐로우 햇살, 1개, 1000개",
+      "category": "빨대·홀더",
+      "observations": [
+        {
+          "at": "2026-11-16 20:04 KST",
+          "price": 25630,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 25630,
+      "minPrice": 25630,
+      "maxPrice": 25630,
+      "lastPrice": 25630,
+      "lastAt": "2026-11-16 20:04 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          25630,
+          25630,
+          25630,
+          25630,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9699325460": {
+      "productName": "믹소 복숭아 아이스티 파우더, 1kg, 1개, 1개입",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-16 20:04 KST",
+          "price": 7430,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 7430,
+      "minPrice": 7430,
+      "maxPrice": 7430,
+      "lastPrice": 7430,
+      "lastAt": "2026-11-16 20:04 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          7430,
+          7430,
+          7430,
+          7430,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8244145059": {
+      "productName": "립톤 아이스티 분말 레몬맛, 1.5kg, 1개입, 2개",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-16 20:04 KST",
+          "price": 24280,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 24280,
+      "minPrice": 24280,
+      "maxPrice": 24280,
+      "lastPrice": 24280,
+      "lastAt": "2026-11-16 20:04 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          24280,
+          24280,
+          24280,
+          24280,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9585836999": {
+      "productName": "[8월여름한정이벤트]이노미 저당 아이스티 복숭아 파우더 / 다이어트 / 저당음료, 4개, 1개입, 1kg",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-16 20:04 KST",
+          "price": 51900,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 51900,
+      "minPrice": 51900,
+      "maxPrice": 51900,
+      "lastPrice": 51900,
+      "lastAt": "2026-11-16 20:04 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          51900,
+          51900,
+          51900,
+          51900,
           1
         ]
       ],
