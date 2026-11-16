@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16 23:09 KST",
+  "updatedAt": "2026-11-17 00:10 KST",
   "source": "git snapshots",
   "products": {
     "8436480488": {
@@ -7294,14 +7294,19 @@
           "at": "2026-11-16 23:08 KST",
           "price": 15890,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 00:10 KST",
+          "price": 15890,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 3,
+      "priceCount": 4,
       "avgPrice": 15890,
       "minPrice": 15890,
       "maxPrice": 15890,
       "lastPrice": 15890,
-      "lastAt": "2026-11-16 23:08 KST",
+      "lastAt": "2026-11-17 00:10 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -7310,9 +7315,17 @@
           15890,
           15890,
           3
+        ],
+        [
+          "2026-11-17",
+          15890,
+          15890,
+          15890,
+          15890,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "9411208937": {
       "productName": "딥 플러스 바닐라 시럽 마다가스카르산 씨드 함유, 1개, 1L",
@@ -8808,6 +8821,286 @@
           14460,
           14460,
           14460,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7764750064": {
+      "productName": "배대감 대용량 국산 고소한 미숫가루, 2kg, 1개",
+      "category": "파우더",
+      "observations": [
+        {
+          "at": "2026-11-17 00:10 KST",
+          "price": 21900,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 21900,
+      "minPrice": 21900,
+      "maxPrice": 21900,
+      "lastPrice": 21900,
+      "lastAt": "2026-11-17 00:10 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          21900,
+          21900,
+          21900,
+          21900,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8053929657": {
+      "productName": "네이쳐티 zero 카라멜 시럽, 10개, 1L",
+      "category": "시럽·소스",
+      "observations": [
+        {
+          "at": "2026-11-17 00:10 KST",
+          "price": 119380,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 119380,
+      "minPrice": 119380,
+      "maxPrice": 119380,
+      "lastPrice": 119380,
+      "lastAt": "2026-11-17 00:10 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          119380,
+          119380,
+          119380,
+          119380,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9265147894": {
+      "productName": "네이쳐티 카라멜시럽, 10개, 1L",
+      "category": "시럽·소스",
+      "observations": [
+        {
+          "at": "2026-11-17 00:10 KST",
+          "price": 130000,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 130000,
+      "minPrice": 130000,
+      "maxPrice": 130000,
+      "lastPrice": 130000,
+      "lastAt": "2026-11-17 00:10 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          130000,
+          130000,
+          130000,
+          130000,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8008670033": {
+      "productName": "토스키 카라멜 시럽, 1L, 3개",
+      "category": "시럽·소스",
+      "observations": [
+        {
+          "at": "2026-11-17 00:10 KST",
+          "price": 45000,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 45000,
+      "minPrice": 45000,
+      "maxPrice": 45000,
+      "lastPrice": 45000,
+      "lastAt": "2026-11-17 00:10 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          45000,
+          45000,
+          45000,
+          45000,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7687800243": {
+      "productName": "커피컵 350ml(10온스) 무지 종이컵 1000개 1박스 (뚜껑별도)",
+      "category": "컵·뚜껑",
+      "observations": [
+        {
+          "at": "2026-11-17 00:10 KST",
+          "price": 32500,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 32500,
+      "minPrice": 32500,
+      "maxPrice": 32500,
+      "lastPrice": 32500,
+      "lastAt": "2026-11-17 00:10 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          32500,
+          32500,
+          32500,
+          32500,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7290063313": {
+      "productName": "[씨엘] 400ml(13온스) 종이컵 1000개 1박스 (뚜껑별도)",
+      "category": "컵·뚜껑",
+      "observations": [
+        {
+          "at": "2026-11-17 00:10 KST",
+          "price": 38000,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 38000,
+      "minPrice": 38000,
+      "maxPrice": 38000,
+      "lastPrice": 38000,
+      "lastAt": "2026-11-17 00:10 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          38000,
+          38000,
+          38000,
+          38000,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "6942277630": {
+      "productName": "네이쳐티 넘치는 블루베리 베이스, 1개, 1kg",
+      "category": "과일·베이스",
+      "observations": [
+        {
+          "at": "2026-11-17 00:10 KST",
+          "price": 13300,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 13300,
+      "minPrice": 13300,
+      "maxPrice": 13300,
+      "lastPrice": 13300,
+      "lastAt": "2026-11-17 00:10 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          13300,
+          13300,
+          13300,
+          13300,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "6408611242": {
+      "productName": "서울팩토리 리얼 블루베리 베이스, 1개, 1.2kg",
+      "category": "과일·베이스",
+      "observations": [
+        {
+          "at": "2026-11-17 00:10 KST",
+          "price": 11700,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 11700,
+      "minPrice": 11700,
+      "maxPrice": 11700,
+      "lastPrice": 11700,
+      "lastAt": "2026-11-17 00:10 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          11700,
+          11700,
+          11700,
+          11700,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9710260560": {
+      "productName": "[로켓프레시] 블루베리 (냉동), 1개, 1kg",
+      "category": "과일·베이스",
+      "observations": [
+        {
+          "at": "2026-11-17 00:10 KST",
+          "price": 7840,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 7840,
+      "minPrice": 7840,
+      "maxPrice": 7840,
+      "lastPrice": 7840,
+      "lastAt": "2026-11-17 00:10 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          7840,
+          7840,
+          7840,
+          7840,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9448177129": {
+      "productName": "커필드 과테말라 싱글 오리진 원두, 1개, 1kg, 홀빈(분쇄안함)",
+      "category": "원두",
+      "observations": [
+        {
+          "at": "2026-11-17 00:10 KST",
+          "price": 23800,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 23800,
+      "minPrice": 23800,
+      "maxPrice": 23800,
+      "lastPrice": 23800,
+      "lastAt": "2026-11-17 00:10 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          23800,
+          23800,
+          23800,
+          23800,
           1
         ]
       ],
