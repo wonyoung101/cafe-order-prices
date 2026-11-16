@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17 07:19 KST",
+  "updatedAt": "2026-11-17 08:21 KST",
   "source": "git snapshots",
   "products": {
     "8436480488": {
@@ -7112,14 +7112,19 @@
           "at": "2026-11-17 05:17 KST",
           "price": 9230,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 08:21 KST",
+          "price": 9230,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 5,
+      "priceCount": 6,
       "avgPrice": 9230,
       "minPrice": 9230,
       "maxPrice": 9230,
       "lastPrice": 9230,
-      "lastAt": "2026-11-17 05:17 KST",
+      "lastAt": "2026-11-17 08:21 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -7135,7 +7140,7 @@
           9230,
           9230,
           9230,
-          2
+          3
         ]
       ],
       "uniqueDays": 2
@@ -7882,21 +7887,26 @@
       "uniqueDays": 1
     },
     "7660088660": {
-      "productName": "파베글라스 루미에르 컴파운드 코인 코팅 다크초콜릿, 1kg, 1개",
-      "category": "당류·토핑",
+      "productName": "파베글라스 루미에르 컴파운드 코인 코팅 다크초콜릿, 1kg, 7개",
+      "category": "베이킹 재료",
       "observations": [
         {
           "at": "2026-11-16 19:03 KST",
           "price": 12240,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 08:21 KST",
+          "price": 81860,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
-      "avgPrice": 12240,
+      "priceCount": 2,
+      "avgPrice": 47050,
       "minPrice": 12240,
-      "maxPrice": 12240,
-      "lastPrice": 12240,
-      "lastAt": "2026-11-16 19:03 KST",
+      "maxPrice": 81860,
+      "lastPrice": 81860,
+      "lastAt": "2026-11-17 08:21 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -7905,9 +7915,17 @@
           12240,
           12240,
           1
+        ],
+        [
+          "2026-11-17",
+          81860,
+          81860,
+          81860,
+          81860,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "7660090685": {
       "productName": "파베글라스 루미에르 컴파운드 코인 코팅 화이트초콜릿, 1kg, 1개",
@@ -8004,14 +8022,19 @@
           "at": "2026-11-16 20:04 KST",
           "price": 10400,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 08:21 KST",
+          "price": 10400,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 2,
+      "priceCount": 3,
       "avgPrice": 10400,
       "minPrice": 10400,
       "maxPrice": 10400,
       "lastPrice": 10400,
-      "lastAt": "2026-11-16 20:04 KST",
+      "lastAt": "2026-11-17 08:21 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -8020,9 +8043,17 @@
           10400,
           10400,
           2
+        ],
+        [
+          "2026-11-17",
+          10400,
+          10400,
+          10400,
+          10400,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "9668226659": {
       "productName": "하우스클래스 2겹 대나무 키친타올, 6개, 150매",
@@ -8165,21 +8196,26 @@
       "uniqueDays": 1
     },
     "6669882649": {
-      "productName": "코코씸 코코넛 밀크 무설탕 무첨가, 1L, 2개",
+      "productName": "코코씸 코코넛 밀크 무설탕 무첨가, 1L, 1개",
       "category": "우유·대체유",
       "observations": [
         {
           "at": "2026-11-16 20:04 KST",
           "price": 22000,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 08:21 KST",
+          "price": 15000,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
-      "avgPrice": 22000,
-      "minPrice": 22000,
+      "priceCount": 2,
+      "avgPrice": 18500,
+      "minPrice": 15000,
       "maxPrice": 22000,
-      "lastPrice": 22000,
-      "lastAt": "2026-11-16 20:04 KST",
+      "lastPrice": 15000,
+      "lastAt": "2026-11-17 08:21 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -8188,9 +8224,17 @@
           22000,
           22000,
           1
+        ],
+        [
+          "2026-11-17",
+          15000,
+          15000,
+          15000,
+          15000,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "9200473378": {
       "productName": "코코씸 드링킹용 코코넛 밀크, 12개, 1L",
@@ -11759,6 +11803,202 @@
           18700,
           18700,
           18700,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9289484756": {
+      "productName": "코코온 코코넛밀크 (요리용), 4개, 400ml",
+      "category": "우유·대체유",
+      "observations": [
+        {
+          "at": "2026-11-17 08:21 KST",
+          "price": 8900,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 8900,
+      "minPrice": 8900,
+      "maxPrice": 8900,
+      "lastPrice": 8900,
+      "lastAt": "2026-11-17 08:21 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          8900,
+          8900,
+          8900,
+          8900,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9271916742": {
+      "productName": "엘리펀트앤썬 태국 저당 코코넛밀크(코코넛추출물 85%), 6개, 400ml",
+      "category": "우유·대체유",
+      "observations": [
+        {
+          "at": "2026-11-17 08:21 KST",
+          "price": 14900,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 14900,
+      "minPrice": 14900,
+      "maxPrice": 14900,
+      "lastPrice": 14900,
+      "lastAt": "2026-11-17 08:21 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          14900,
+          14900,
+          14900,
+          14900,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9523129899": {
+      "productName": "코코듀티 태국 코코넛밀크 음료, 12개, 180ml",
+      "category": "우유·대체유",
+      "observations": [
+        {
+          "at": "2026-11-17 08:21 KST",
+          "price": 18900,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 18900,
+      "minPrice": 18900,
+      "maxPrice": 18900,
+      "lastPrice": 18900,
+      "lastAt": "2026-11-17 08:21 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          18900,
+          18900,
+          18900,
+          18900,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7595762670": {
+      "productName": "파베글라스 벨벳 다크 58% 커버춰 리얼 초콜릿, 1개, 1kg",
+      "category": "베이킹 재료",
+      "observations": [
+        {
+          "at": "2026-11-17 08:21 KST",
+          "price": 26240,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 26240,
+      "minPrice": 26240,
+      "maxPrice": 26240,
+      "lastPrice": 26240,
+      "lastAt": "2026-11-17 08:21 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          26240,
+          26240,
+          26240,
+          26240,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8288390173": {
+      "productName": "파베글라스 벨벳 다크 65% 커버춰 리얼 초콜릿, 1kg, 1개",
+      "category": "베이킹 재료",
+      "observations": [
+        {
+          "at": "2026-11-17 08:21 KST",
+          "price": 29150,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 29150,
+      "minPrice": 29150,
+      "maxPrice": 29150,
+      "lastPrice": 29150,
+      "lastAt": "2026-11-17 08:21 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          29150,
+          29150,
+          29150,
+          29150,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8533796062": {
+      "productName": "엔칸토 고흥 유자 음료베이스, 1.8kg, 1개",
+      "category": "과일·베이스",
+      "observations": [
+        {
+          "at": "2026-11-17 08:21 KST",
+          "price": 19000,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 19000,
+      "minPrice": 19000,
+      "maxPrice": 19000,
+      "lastPrice": 19000,
+      "lastAt": "2026-11-17 08:21 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          19000,
+          19000,
+          19000,
+          19000,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7217164717": {
+      "productName": "더블데이 유자레몬 퓨럽, 1.2kg, 1개",
+      "category": "과일·베이스",
+      "observations": [
+        {
+          "at": "2026-11-17 08:21 KST",
+          "price": 19000,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 19000,
+      "minPrice": 19000,
+      "maxPrice": 19000,
+      "lastPrice": 19000,
+      "lastAt": "2026-11-17 08:21 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          19000,
+          19000,
+          19000,
+          19000,
           1
         ]
       ],

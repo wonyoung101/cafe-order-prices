@@ -1,7 +1,7 @@
 {
   "status": "ok",
-  "updatedAt": "2026-11-17 07:19 KST",
-  "statsAt": "2026-11-17 07:19 KST",
+  "updatedAt": "2026-11-17 08:21 KST",
+  "statsAt": "2026-11-17 08:21 KST",
   "notice": "",
   "watchlist": [],
   "categories": [
@@ -18,10 +18,10 @@
     "빨대·홀더",
     "매장소모품"
   ],
-  "count": 212,
+  "count": 219,
   "priceStats": {
-    "products": 349,
-    "discounts": 5
+    "products": 356,
+    "discounts": 6
   },
   "deals": [
     {
@@ -446,6 +446,80 @@
       ]
     },
     {
+      "productId": "9289484756",
+      "vendorItemId": "",
+      "productName": "코코온 코코넛밀크 (요리용), 4개, 400ml",
+      "productPrice": 8900,
+      "productImage": "https://ads-partners.coupang.com/image1/haO8dtQtPjeTR_AZhc0ofBfXYpl_GcK24CfDfh1grY_ya24UIWfIooKCfQErkpYnTKroLcj629JxUskKpKqr2przfMgFFFmIKKpjUZfnGvcy0DAusEBAprWiHM4zBZPhwHifAcJUEkXBTTEcFxSRS5LCh5OSbPJIodzphR-RuiaatNTOWgtY0GzSiJ-UkXH4r9Oc7RlRqtcoHcUs5igaA7vOt7dJ9o_TuLjWlIXpPCAa1viovmIpY_pHxRSRd3ydXcHGp8HkAk8LJChGMfR9YGY9q3E6j26r6_SG2fF20BVAVBRQKN2uFHskYaJqNnO615Ov24io_j-7qdO8_s22Kr4h-VLGSxSHPGQWJzGsM18M6lKVlCgwy7_zTbx9eOvAS8uyQr1C5o9ZlSCreL0ql67WP3gQ5YIz-Jd_wsc-g3ZO3i_-lo9i2Fn03dnGzuUjTyWFB2XfqtHW8yV0qJhaBRk73G_J5JNdBHhYpC-YVu-vG1FjWIq42NbxcjEMMv6G_bV4rb3PMz0KXU39v3aN8pVBiW9wTA==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9289484756&itemId=27510798820&vendorItemId=94424088525&traceid=V0-153-e9d4fff949897063&clickBeacon=4c429010-e214-11f1-85a3-1071ac15a12f%7E3&requestid=20261117082023108267612917&token=31850C%7CMIXED&pt=1&slot=1",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "우유·대체유",
+      "query": "코코넛밀크 400ml",
+      "unitPrice": 556,
+      "unitBasis": "100ml당",
+      "packNote": "400ml×4",
+      "avgPrice": 8900,
+      "minPrice": 8900,
+      "maxPrice": 8900,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          8900,
+          8900,
+          8900,
+          8900,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-17 08:21 KST",
+          8900
+        ]
+      ]
+    },
+    {
+      "productId": "9271916742",
+      "vendorItemId": "",
+      "productName": "엘리펀트앤썬 태국 저당 코코넛밀크(코코넛추출물 85%), 6개, 400ml",
+      "productPrice": 14900,
+      "productImage": "https://ads-partners.coupang.com/image1/s6C6H96I1rAMHHZKswUxkXJ7By7hT63MCSt7JhSnTndaYsSBgfye_kh2XuY6_KC2UoR10x_aoRnZSPX9DD9FeFcnDI7zywUtRO6JdfKqlfMn0VAKJ7M03GeNlb8lggNeWYQmmBkZwlVF0zpHCoKIAoA47_ZQjuGdYLk5rpd5GHVeMVbUpY2JoVHG8k07NZLoVgSywZL8O6o3zenLOcBngXoGYmdjECZWtvF1feFcAuxzr9tkNMz17JZ8G9YFHnnCCZ_4VCqgQZI5E3-kMwdGZQTvgNEVwsYquoWPCE225JchIedXDQP-xVHunH2xXfsoHd_1nljYZQKQzLAykjI8uqv_Hb6DpKMMBqBT9VEr7Eq1IdSv6Vvxs2ucdNfz-l6sIb4Xqn0-_u0AoTloctbPqvRecS1MlC_1ulBOJPEyAdeip98Ch-zkB1UA3ZxapfV7DR7fCLINF9ogcGga8EbbkdxwhX1FN6JKkISAfkVkTdzzhO_r3vAvlynoDxMQOGXmjPAZlg6Wiu82opMxBKLXXh8f_exv",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9271916742&itemId=27442843447&vendorItemId=94408254495&traceid=V0-153-922758fea01cc052&clickBeacon=4c429010-e214-11f1-8a53-6d48f299d9d8%7E3&requestid=20261117082023108267612917&token=31850C%7CMIXED&pt=1&slot=3",
+      "isRocket": true,
+      "isFreeShipping": true,
+      "category": "우유·대체유",
+      "query": "코코넛밀크 400ml",
+      "unitPrice": 621,
+      "unitBasis": "100ml당",
+      "packNote": "400ml×6",
+      "avgPrice": 14900,
+      "minPrice": 14900,
+      "maxPrice": 14900,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          14900,
+          14900,
+          14900,
+          14900,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-17 08:21 KST",
+          14900
+        ]
+      ]
+    },
+    {
       "productId": "8832698072",
       "productName": "얼터너티브데어리 호주 귀리 음료 바리스타 오트, 2개, 1L",
       "productPrice": 14480,
@@ -615,6 +689,43 @@
       ]
     },
     {
+      "productId": "9523129899",
+      "vendorItemId": "",
+      "productName": "코코듀티 태국 코코넛밀크 음료, 12개, 180ml",
+      "productPrice": 18900,
+      "productImage": "https://ads-partners.coupang.com/image1/Smh6pU7HcCO36bAwSkXZ4XeZ8KuO1Tyv1v7vedEMC2oz3rnAxCEQzZ9VsRASf9JBye-1Nc_QM0-BAL2_uBC3d3i6iqZ17_gG_N59YmZUSuSGPmbJuUO58cMTi3TyBTLv9pRhpH5yWC4jRqVV5CR4lMTO-OrzsLu5xi1S_MozjzzP5eMPUnqz4ZHRkz9TmPTVkC5aBkZokdjbyVMcNiFUN8edbXCkRwUgKWk2UU8fneLgdCWweYNtJ3lXPiG7JQle55u6_Kc89D66judl_4qKe3SKjAZtVZpUlKxf4tRUWP6CbdhoQBEcgbsE-E7bNX7j7wdrcPCuOekDQsvQi53CU3VLBGgIuTfTnnqzVWkDtgWWSc_ig4ddMirAGNq2pZHDhtr2MSxfCemU1f6hb-cxTIzBd-iBaPvNuAAtbsmEnbPeSFTF09iSH9T5G154ayCIHCK6OzL2SDOQqTZyfrJSfqO1b96X_6KR2nkzcrP_JBPUjQPzihr-LFnkDDSv40iQ3-UtFF7meTPoDdLdZPkLV7zJWqM5",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9523129899&itemId=28391247911&vendorItemId=95342726842&traceid=V0-153-58df795631ea983d&clickBeacon=4c429010-e214-11f1-be16-b11746131175%7E3&requestid=20261117082023108267612917&token=31850C%7CMIXED&pt=1&slot=4",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "우유·대체유",
+      "query": "코코넛밀크 400ml",
+      "unitPrice": 875,
+      "unitBasis": "100ml당",
+      "packNote": "180ml×12",
+      "avgPrice": 18900,
+      "minPrice": 18900,
+      "maxPrice": 18900,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          18900,
+          18900,
+          18900,
+          18900,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-17 08:21 KST",
+          18900
+        ]
+      ]
+    },
+    {
       "productId": "6669882649",
       "productName": "코코씸 코코넛 밀크 무설탕 무첨가, 1L, 2개",
       "productPrice": 22000,
@@ -627,12 +738,12 @@
       "unitPrice": 1100,
       "unitBasis": "100ml당",
       "packNote": "1,000ml×2",
-      "avgPrice": 22000,
-      "minPrice": 22000,
+      "avgPrice": 18500,
+      "minPrice": 15000,
       "maxPrice": 22000,
-      "priceCount": 1,
+      "priceCount": 2,
       "discountRate": null,
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "dailyHistory": [
         [
           "2026-11-16",
@@ -641,12 +752,24 @@
           22000,
           22000,
           1
+        ],
+        [
+          "2026-11-17",
+          15000,
+          15000,
+          15000,
+          15000,
+          1
         ]
       ],
       "priceHistory": [
         [
           "2026-11-16 20:04 KST",
           22000
+        ],
+        [
+          "2026-11-17 08:21 KST",
+          15000
         ]
       ]
     },
@@ -3217,6 +3340,43 @@
       ]
     },
     {
+      "productId": "8533796062",
+      "vendorItemId": "",
+      "productName": "엔칸토 고흥 유자 음료베이스, 1.8kg, 1개",
+      "productPrice": 19000,
+      "productImage": "https://ads-partners.coupang.com/image1/_o6UDkk3JSZ-IT1l_keiYRAMEXHsdSLWbGHuCY5sDd0Vj7N_d0PPk8brKlXZBuCiLloCsIwNRfv8ig__8Df3binoMQ-uNkkCVjy5E5G5XvYHd_cGNDYM97Ro8JnCIlLACkwSRdajGTiUP7jFj6d46bv1PQdFrfL0Rqu34AN2EebVY7trpatH06XYel3ReUf4lFd61CHLMEfvltttuUPZQ1Dh-r7pvJjBEitjdM_T5a8FTcrELgASbMgwJ_GKDCE5zpjO3gBZhx1aHRP4Nn8X3nXzhT_AMr0NKmVIla4EfgBYcbTlZMqvCCY6QkIJ8lOZsCdVNINQLdg5g2_ZKePZNnBSpx5Q03KLGzO5-It4vOhTUqca3kOB9d8qcm3slWse8dqsgyXxkHeOZN33LxAuILCkQLkWDI3DCZldjl08v47AhcY25c9ZegkXERdlP_orfn2vLTt9cQWFT3qNkRMkE61Iz6ggVKksTk2tDbY6I80psqaSbX2Y8cA0vZoR4eJwnIUVo6-RMjVmw96ExbHVOjXl0uPvQlARV3Z_uhwkh_-QQHycCdCE5Nyqaq_ThaGry_oJ6XQ=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8533796062&itemId=24702890171&vendorItemId=93505204581&traceid=V0-153-63932322fa25f2b9&clickBeacon=6655fa50-e214-11f1-b875-abb7a579b84f%7E3&requestid=20261117082106880324085849&token=31850C%7CMIXED&pt=1&slot=2",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "과일·베이스",
+      "query": "유자 베이스 1kg",
+      "unitPrice": 1056,
+      "unitBasis": "100g당",
+      "packNote": "1,800g",
+      "avgPrice": 19000,
+      "minPrice": 19000,
+      "maxPrice": 19000,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          19000,
+          19000,
+          19000,
+          19000,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-17 08:21 KST",
+          19000
+        ]
+      ]
+    },
+    {
       "productId": "6400586680",
       "productName": "서울팩토리 청포도 에이드, 1.9kg, 3개",
       "productPrice": 60750,
@@ -3711,6 +3871,43 @@
       ]
     },
     {
+      "productId": "7217164717",
+      "vendorItemId": "",
+      "productName": "더블데이 유자레몬 퓨럽, 1.2kg, 1개",
+      "productPrice": 19000,
+      "productImage": "https://ads-partners.coupang.com/image1/Y1htGez3ZF45K0VoY_PnCQGEKw2a1kuryeYaS7GfvPpDk7DUBSsyuqV5eYTicUcgTS2ltxHWfxvGOzncTxeV6NqixOGjmBAmZOjUGb3ebBJ7BDmJLbQNOQcJ23l44nuAjC80JP2pVGnrX0W6WGrVxqHyLzj_8bzJu7nr1vwjfPsxf5LsmgU8_5Jp8BNUxeHwrk1U8tF0uqTc--7VN_ljcxvwct2G7XBE7tnA9k7KzO70TEOE5W8dAtv4zUAVQlDkIgHSla3sHb343s_gZu5DSjrXfpSntmcIMzs1jJkt1usGKhF3qY9aMsly7P0a5Wk0-yD3Vm9qjo6Y-zWHM9jLc9YQRvNWumxPZ7sGeQFnv9PZ8ZkW3mxF-D6LJ0OcBSQHsP2kKWX2RvE_aiXmPSzlafOuiswpZt3DBcOAcfGzAZkrCWfed3-edK0vZDXn2fpUHriLtwdF4QFAKrX8lXOkz7O62gF2kodjmpshA6a13Wp6yPh0ezDSWPjGqdtrjGJNjyWhYSQ9K71T9IJxyNsbUKLdW3S_k4f9hG3ryVgz2LXugXhOZBymu7s71QLp7Eai95oV",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7217164717&itemId=789726177&vendorItemId=90735366867&traceid=V0-153-13eb8905d9a9a0d1&clickBeacon=6655fa50-e214-11f1-9e2d-245f68421979%7E3&requestid=20261117082106880324085849&token=31850C%7CMIXED&pt=1&slot=5",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "과일·베이스",
+      "query": "유자 베이스 1kg",
+      "unitPrice": 1583,
+      "unitBasis": "100g당",
+      "packNote": "1,200g",
+      "avgPrice": 19000,
+      "minPrice": 19000,
+      "maxPrice": 19000,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          19000,
+          19000,
+          19000,
+          19000,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-17 08:21 KST",
+          19000
+        ]
+      ]
+    },
+    {
       "productId": "8721977523",
       "vendorItemId": "",
       "productName": "황매실청 하동 지리산 황매담 숙성 발효액 3년숙성, 1개, 1L",
@@ -4066,12 +4263,12 @@
       "unitPrice": 1224,
       "unitBasis": "100g당",
       "packNote": "1,000g",
-      "avgPrice": 12240,
+      "avgPrice": 47050,
       "minPrice": 12240,
-      "maxPrice": 12240,
-      "priceCount": 1,
-      "discountRate": null,
-      "uniqueDays": 1,
+      "maxPrice": 81860,
+      "priceCount": 2,
+      "discountRate": 74,
+      "uniqueDays": 2,
       "dailyHistory": [
         [
           "2026-11-16",
@@ -4080,12 +4277,24 @@
           12240,
           12240,
           1
+        ],
+        [
+          "2026-11-17",
+          81860,
+          81860,
+          81860,
+          81860,
+          1
         ]
       ],
       "priceHistory": [
         [
           "2026-11-16 19:03 KST",
           12240
+        ],
+        [
+          "2026-11-17 08:21 KST",
+          81860
         ]
       ]
     },
@@ -4543,19 +4752,19 @@
       "vendorItemId": "",
       "productName": "서강 라미스 휘핑크림, 1L, 2개",
       "productPrice": 9230,
-      "productImage": "https://ads-partners.coupang.com/image1/KhsEUriEwO3mc6rkKmxp1oqgBZSDq5zQEpVGqQg7u2lQsjkzW4N20JRopKbQWdxCxbZ0eIr-MgP8vlsuIpjm6oYZshVJrZn51WQ7sATCJwI-uhUUsGU2gnEmDRyIPwOxwCZGcrRk6e-jTIhYktiURFj5oz1yuH8ok-FLZo8nFeqT8kbh0QbBz9p_cfyJmcaeNNp6MHaj6XeQj7lqtxaCeGvGCmN233ghrRSDTLRMOYJBy80KbXM6Q-nCBLaGm44KiyYxfOSBVHML_7nn-hVrIT2Nd2D4zIbrQI9nbsMVl8utsvE_ljegpV7LbvdeZsp4WwqkwMiJ9JfoGaNpH2FXHcBoFk-TaolHzz8qed6xK4fZelOH9Ahe2a2INdO2D1AQi9ngVnySycM2DqNbzNYawjtd5jHh3Uh65PZYPQyW8P9-1U1QKrtLs3fLyKS-gtBjErlYXvewYUP4VTnHt0sShd-WiYr5Wz5X0rwvubWyaF0CcHjzybWal14usg5ZmoTpm5IUqMVG_xlK9NLrQ42f08vtAnrffmQ2ZRwoXN8Higb5L2lB6U-bPacCblw_HRHBBUR5eQs=",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=5803499574&itemId=9961390914&vendorItemId=77244524635&traceid=V0-153-f092caec55dfbd2c&clickBeacon=8de51430-e1fa-11f1-9b54-8b321de539d1%7E3&requestid=20261117051606325021620551&token=31850C%7CMIXED&pt=1&slot=4",
+      "productImage": "https://ads-partners.coupang.com/image1/_ao_hvQdFkvSKB2c_RsPrwolObsV4m6Fbjqk5uB3HtqiQCYMLmfwY1d4WLSaGovnxMAeXxi3n7EIWxXG-ppwnxeThCXc5MYu0HzU00FxdZOgjn32WuPJRR_1cAiZfnG9mdNEidr33FwXeRx3Lk0tdRMWKe07BBBqDCO3SX2wAqA7UoAQGGNsFig_DDZmHcBTWIGFMsGPqAJ9ZGA3k1aEeh2FOPt2MV--ZC2oqQgQLLsFjypEgcXcTJJXteIYnyP1cQOXnOvmathFSjGvgap4UUHNBzcr8xWG9P6IycPyGIzUvBVELTwncsC8LWGNx3MPZi796dTc888o7Yv7pCGgTyA0lhHJp4NlJvNyrSinlJJXQ_tLyZokC8a-KhheaIX9HzQxoitbxV4WS6ODYIrjyrqm8BPyuZuGzZ31HEtazK6CiwlGnULd9mbyyob1jRikE_SkXvFezQihd4hOUYW5UpPK2wkuBm97jv0CDPWSrorax7ssyZebeAvl8xP1bQiMbSG_VAonEA==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=5803499574&itemId=9961390914&vendorItemId=77244524635&traceid=V0-153-f092caec55dfbd2c&clickBeacon=46f1a1a0-e214-11f1-90d3-be8a30c67a69%7E3&requestid=20261117082014217003648640&token=31850C%7CMIXED&pt=1&slot=1",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "크림·연유",
-      "query": "휘핑크림 1kg",
+      "query": "생크림 1000ml",
       "unitPrice": 462,
       "unitBasis": "100ml당",
       "packNote": "1,000ml×2",
       "avgPrice": 9230,
       "minPrice": 9230,
       "maxPrice": 9230,
-      "priceCount": 5,
+      "priceCount": 6,
       "discountRate": null,
       "uniqueDays": 2,
       "dailyHistory": [
@@ -4573,7 +4782,7 @@
           9230,
           9230,
           9230,
-          2
+          3
         ]
       ],
       "priceHistory": [
@@ -4595,6 +4804,10 @@
         ],
         [
           "2026-11-17 05:17 KST",
+          9230
+        ],
+        [
+          "2026-11-17 08:21 KST",
           9230
         ]
       ]
@@ -4650,23 +4863,24 @@
     },
     {
       "productId": "5803499619",
+      "vendorItemId": "",
       "productName": "서강 카우밀, 1L, 2개",
       "productPrice": 10400,
-      "productImage": "https://ads-partners.coupang.com/image1/pjGVeCbSSrBRSmBepm8WU6F14H6UaEC70swssrv0t1sukdWvQbym6l67G_OqhEnjyCGeSVg1fRXTRwFO5pAVtXW_LYPReXtLhfG0coxBaEW4ZYW4HZoICuqFYsWoQkGXoMatE4rzYyhzMeUXpGiKnd9b1pR19VfgOA-LyqYIt2VyjbCkGd0zBHcJ-XEz0uH9QrUMhVkYPaPoP7KecmlRJbbtnuPKr5iK2eFrqRrZgx0MvGy7RQnykXG6TlUaSQTcJZo25ZrxEeV4AuZ3vdOTp1NDvjjl1XVWE2rLND5q-86xvyHbObKEmldMDU49zEci3x1YzJUgfmKi11E6TqDJlgV5o6M9TKfZZ_rTI2vmnQXb23flfT3nPtJ8dR5owv-BxTMMHK-mATPOtCqeNOp-flbole4nLf2klxjsv_eLsBHqd0ndQMqi5YufWbF-gEeoQ9YDGhYbCL3ElzWkASIoZyA2kPfzEVeLeW7c1nRlEeNuWashMzVkM-MCQtw8rmxneY-JojjfDeya_YapPthVjY-jMdbbhA2682Y8AsrtVH6jW26zzo76sjG_2iA1TfPa4w==",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=5803499619&itemId=9961391178&vendorItemId=77244524942&traceid=V0-153-63d2cbc5d06d3d07&clickBeacon=64a8ec60-e1ad-11f1-9403-231c92e0cb7b%7E3&requestid=20261116200345900249746768&token=31850C%7CMIXED&pt=1&slot=2",
+      "productImage": "https://ads-partners.coupang.com/image1/C8HXKDp4GSgJUatRC_-yEGl561rRBDGHFLi190JgIz1B0EvwJeFvR9TaFFurKflgRfyl7InAkOhhlIVLqWSC8rahI5t6OI1XCL3dyAoqPqRt4fdelPf30cHj67J883sz1evO_IVL6ZMgC77yhxrCuEaPSd9xJwuNo364d9aHYDrQtnloq60s7tEzi83Hu4iCzL-SIzdGIF1GrM6kzgV7aoq6la5xqmjpcg6yGfz0qgvUzYKWBvvqAWQ01yyOUvMnIL1NvUmswMmhpP7a9EMRos-Eanp3qmzAK0lQkj7z_bqnKmv4GRtvgMoOtrSWgIo1eBzIfvu77QtTohBVipcNwoJZ7Whcgdw11Z9DQ7DmjV7844UkxoaoENuUWLP1rDQXy5w23w-nhp_Cx6nP_vj1Ku_iU_bKuyTUrR4oMOGFfPXYrVJGl3ZIlQu6nF61tJVTUTxXz39D2AuM8Oa8WvEdaH4GMeYiUpIOWT4Cqia0EP87kKNOF3saxZJ8lAaGKwwl2d-7ky0=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=5803499619&itemId=9961391178&vendorItemId=77244524942&traceid=V0-153-63d2cbc5d06d3d07&clickBeacon=46f1a1a0-e214-11f1-a405-1f158a197b55%7E3&requestid=20261117082014217003648640&token=31850C%7CMIXED&pt=1&slot=3",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "크림·연유",
-      "query": "휘핑크림 250ml",
+      "query": "생크림 1000ml",
       "unitPrice": 520,
       "unitBasis": "100ml당",
       "packNote": "1,000ml×2",
       "avgPrice": 10400,
       "minPrice": 10400,
       "maxPrice": 10400,
-      "priceCount": 2,
+      "priceCount": 3,
       "discountRate": null,
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "dailyHistory": [
         [
           "2026-11-16",
@@ -4675,6 +4889,14 @@
           10400,
           10400,
           2
+        ],
+        [
+          "2026-11-17",
+          10400,
+          10400,
+          10400,
+          10400,
+          1
         ]
       ],
       "priceHistory": [
@@ -4684,6 +4906,10 @@
         ],
         [
           "2026-11-16 20:04 KST",
+          10400
+        ],
+        [
+          "2026-11-17 08:21 KST",
           10400
         ]
       ]
@@ -5204,6 +5430,43 @@
       ]
     },
     {
+      "productId": "7595762670",
+      "vendorItemId": "",
+      "productName": "파베글라스 벨벳 다크 58% 커버춰 리얼 초콜릿, 1개, 1kg",
+      "productPrice": 26240,
+      "productImage": "https://ads-partners.coupang.com/image1/40VxdbAyIUSb3Cny41TBVxcMIc_60FNjDUwT4GSfyjn5TMB_nwUGoq0Rgr7AMQo7JQ5uzpttTHaG4_j8c612PRa0RYwFepQlq8a0lR180reeZJ8gqMM2Hb47Ino1whnkerGQfsEiI8s14pyChHLoxE06JxxeVSd39vSYGtmMrcIP8h_K17VuGV_2ivAEATeGbTmgM_pOWu8peUQQToxYAmFJTeuuQuNCobdaj8lIPse6633EK8EjfzDw-B1qY5kqu4j9lYA4KwVpz8CtwWuC8qqwN0e_WsngrxSKdp0vPk-T-mOTNS22AhWqkagSAXSX6kedfLgpB4ySWPUlPs727n2PyLgSMFYAM0mG11TZbWlPs6hD9faA9t0EhUHZ8j2iazWI5qVeRyvkot_7vMTAP5Dk75u-drRByBoSbW_94UadNnDgrZKzyvsMn1VtLmaS28qyCz4HAbSkHsuK6xx7RNQOIzsW6Nq6LxdLa1_XGJLyUYHWvGMgTpFf0IpBSbkxT2Bsb1MgWTpu4oTYDJk9GgG662YDR8oQYzhB0J3dPmGDGTeyErNTu91Q-N5Ytf1q39E=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7595762670&itemId=20081464881&vendorItemId=92466550064&traceid=V0-153-a01ab436d0675e5b&clickBeacon=5c05bfe0-e214-11f1-a9e9-42c8204c3f95%7E3&requestid=20261117082049543273230838&token=31850C%7CMIXED&pt=1&slot=1",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "베이킹 재료",
+      "query": "다크초콜릿 커버춰 1kg",
+      "unitPrice": 2624,
+      "unitBasis": "100g당",
+      "packNote": "1,000g",
+      "avgPrice": 26240,
+      "minPrice": 26240,
+      "maxPrice": 26240,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          26240,
+          26240,
+          26240,
+          26240,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-17 08:21 KST",
+          26240
+        ]
+      ]
+    },
+    {
       "productId": "7340177591",
       "vendorItemId": "",
       "productName": "[로켓프레시] 마스카포네 치즈, 250g, 1개입, 1개",
@@ -5237,6 +5500,43 @@
         [
           "2026-11-17 02:12 KST",
           7180
+        ]
+      ]
+    },
+    {
+      "productId": "8288390173",
+      "vendorItemId": "",
+      "productName": "파베글라스 벨벳 다크 65% 커버춰 리얼 초콜릿, 1kg, 1개",
+      "productPrice": 29150,
+      "productImage": "https://ads-partners.coupang.com/image1/QVCWW6kDcbCpNXUIQTEQxZZjI1s7i0guLdJg2_z5CDOtvMOHe_oeRpB621ZEnOtHGA0j2ufVsrEMiTVJoKJYJk7nXaKATlYMkChLTnq_2UOYCPgduyTPNN28RFvP9vGLYFe07ds-9cG7aRxysN4SCXT3lchQFjKlM3R3dMdw_GxTIkI5rK5vMs304_oUNxq5_eNmxIJl5SE1IE6iKvBq8ng-s7k2XPyTO8Czhu4B7J5e8JxhxT-t6vKlI5CrUzgCFD0IItP-1a-E6y8RuscUW6PGaaB1Ow2fGPdksKOfk2IQk2n80CE9-jX3gOOXYe2d_-pEOJ-QvI41gtrWDaBuVrCX6Q-jdoTK7QHGmYHJlO382OI5s2BHo55BEAjNahSG0s-_RWjPtG7cYlcjihd38aQcJBORWPeU9wfRYXcnuixb5EhTQ18wvKMiVm_i6rF1gGQxw6guRzA6Ma37SMBmkPhlW0zen-DOSL7feU6nG8LUYPnNpmkwUuMlnytEdo2O-TfPBUB1PAtxGi4MiYVbX9R5rC7CYUIsoEisc-KuGZNUCJQVwJV6Y3-IamWEyPyYjfvN",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8288390173&itemId=20392604546&vendorItemId=92458384826&traceid=V0-153-69b38010634e4b74&clickBeacon=5c05e6f0-e214-11f1-b635-48abff5c4e63%7E3&requestid=20261117082049543273230838&token=31850C%7CMIXED&pt=1&slot=5",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "베이킹 재료",
+      "query": "다크초콜릿 커버춰 1kg",
+      "unitPrice": 2915,
+      "unitBasis": "100g당",
+      "packNote": "1,000g",
+      "avgPrice": 29150,
+      "minPrice": 29150,
+      "maxPrice": 29150,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          29150,
+          29150,
+          29150,
+          29150,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-17 08:21 KST",
+          29150
         ]
       ]
     },
