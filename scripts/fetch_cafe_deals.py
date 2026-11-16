@@ -211,6 +211,19 @@ def hour_window(stamps: list[datetime], now: datetime) -> list[datetime]:
     return [s for s in stamps if now - s < timedelta(hours=1) and s <= now]
 
 
+def pace_wait(stamps: list[datetime], now: datetime) -> float:
+    """직전 호출(이전 실행 포함)로부터 SAFE_INTERVAL_SEC 가 차지 않았으면 남은 초를 돌려준다.
+
+    같은 프로세스 안의 요청끼리만 간격을 맞추면, 실행을 둘로 나뉘거나 이전 실행 직후에
+    시작할 때 실제 요청 간격이 8초보다 짧아진다. 사용기록(scripts/.api_usage.json)의 마지막
+    호출 시각을 기준으로 계산해 어느 경로로 들어와도 요청 간 8초를 지킨다.
+    """
+    if not stamps:
+        return 0.0
+    last = max(stamps)
+    return max(0.0, SAFE_INTERVAL_SEC - (now - last).total_seconds())
+
+
 # ---------------------------------------------------------------- 서명/요청
 def signed_headers(method: str, path: str, query: str, access_key: str, secret_key: str, dt: datetime) -> dict:
     signed_date = dt.strftime("%y%m%dT%H%M%SZ")
@@ -634,8 +647,9 @@ def collect(access_key: str, secret_key: str, sub_id: str, targets: list[dict],
         if len(recent) + assume_used >= HOURLY_CAP:
             print(f"[stop] 최근 1시간 호출 {len(recent) + assume_used}회 — 시간당 상한({HOURLY_CAP}회) 도달. 중단합니다.")
             break
-        if requests_made:
-            time.sleep(SAFE_INTERVAL_SEC)
+        wait = pace_wait(usage, datetime.now(timezone.utc))
+        if wait > 0:
+            time.sleep(wait)
 
         params = {"keyword": target["query"], "limit": LIMIT}
         if sub_id:
