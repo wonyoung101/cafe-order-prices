@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16 14:59 KST",
+  "updatedAt": "2026-11-16 15:15 KST",
   "source": "git snapshots",
   "products": {
     "8436480488": {
@@ -283,14 +283,19 @@
           "at": "2026-11-16 07:02 KST",
           "price": 12570,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-16 15:15 KST",
+          "price": 12570,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 4,
+      "priceCount": 5,
       "avgPrice": 12570,
       "minPrice": 12570,
       "maxPrice": 12570,
       "lastPrice": 12570,
-      "lastAt": "2026-11-16 07:02 KST",
+      "lastAt": "2026-11-16 15:15 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -298,7 +303,7 @@
           12570,
           12570,
           12570,
-          4
+          5
         ]
       ],
       "uniqueDays": 1
@@ -326,14 +331,19 @@
           "at": "2026-11-16 07:02 KST",
           "price": 44170,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-16 15:15 KST",
+          "price": 44170,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 4,
+      "priceCount": 5,
       "avgPrice": 44170,
       "minPrice": 44170,
       "maxPrice": 44170,
       "lastPrice": 44170,
-      "lastAt": "2026-11-16 07:02 KST",
+      "lastAt": "2026-11-16 15:15 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -341,7 +351,7 @@
           44170,
           44170,
           44170,
-          4
+          5
         ]
       ],
       "uniqueDays": 1
@@ -369,14 +379,19 @@
           "at": "2026-11-16 07:02 KST",
           "price": 48510,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-16 15:15 KST",
+          "price": 48510,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 4,
+      "priceCount": 5,
       "avgPrice": 48510,
       "minPrice": 48510,
       "maxPrice": 48510,
       "lastPrice": 48510,
-      "lastAt": "2026-11-16 07:02 KST",
+      "lastAt": "2026-11-16 15:15 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -384,7 +399,7 @@
           48510,
           48510,
           48510,
-          4
+          5
         ]
       ],
       "uniqueDays": 1
@@ -412,22 +427,27 @@
           "at": "2026-11-16 07:02 KST",
           "price": 49400,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-16 15:15 KST",
+          "price": 49300,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 4,
-      "avgPrice": 49400,
-      "minPrice": 49400,
+      "priceCount": 5,
+      "avgPrice": 49380,
+      "minPrice": 49300,
       "maxPrice": 49400,
-      "lastPrice": 49400,
-      "lastAt": "2026-11-16 07:02 KST",
+      "lastPrice": 49300,
+      "lastAt": "2026-11-16 15:15 KST",
       "dailyHistory": [
         [
           "2026-11-16",
+          49300,
           49400,
-          49400,
-          49400,
-          49400,
-          4
+          49380,
+          49300,
+          5
         ]
       ],
       "uniqueDays": 1
@@ -455,14 +475,19 @@
           "at": "2026-11-16 07:02 KST",
           "price": 49900,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-16 15:15 KST",
+          "price": 49900,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 4,
+      "priceCount": 5,
       "avgPrice": 49900,
       "minPrice": 49900,
       "maxPrice": 49900,
       "lastPrice": 49900,
-      "lastAt": "2026-11-16 07:02 KST",
+      "lastAt": "2026-11-16 15:15 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -470,7 +495,7 @@
           49900,
           49900,
           49900,
-          4
+          5
         ]
       ],
       "uniqueDays": 1
@@ -541,14 +566,19 @@
           "at": "2026-11-16 07:02 KST",
           "price": 8980,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-16 15:15 KST",
+          "price": 8980,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 4,
+      "priceCount": 5,
       "avgPrice": 8980,
       "minPrice": 8980,
       "maxPrice": 8980,
       "lastPrice": 8980,
-      "lastAt": "2026-11-16 07:02 KST",
+      "lastAt": "2026-11-16 15:15 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -556,7 +586,7 @@
           8980,
           8980,
           8980,
-          4
+          5
         ]
       ],
       "uniqueDays": 1
@@ -584,14 +614,19 @@
           "at": "2026-11-16 07:02 KST",
           "price": 47960,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-16 15:15 KST",
+          "price": 47960,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 4,
+      "priceCount": 5,
       "avgPrice": 47960,
       "minPrice": 47960,
       "maxPrice": 47960,
       "lastPrice": 47960,
-      "lastAt": "2026-11-16 07:02 KST",
+      "lastAt": "2026-11-16 15:15 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -599,7 +634,7 @@
           47960,
           47960,
           47960,
-          4
+          5
         ]
       ],
       "uniqueDays": 1
@@ -670,14 +705,19 @@
           "at": "2026-11-16 07:02 KST",
           "price": 26460,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-16 15:15 KST",
+          "price": 26460,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 4,
+      "priceCount": 5,
       "avgPrice": 26460,
       "minPrice": 26460,
       "maxPrice": 26460,
       "lastPrice": 26460,
-      "lastAt": "2026-11-16 07:02 KST",
+      "lastAt": "2026-11-16 15:15 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -685,7 +725,7 @@
           26460,
           26460,
           26460,
-          4
+          5
         ]
       ],
       "uniqueDays": 1
@@ -885,14 +925,19 @@
           "at": "2026-11-16 07:02 KST",
           "price": 2930,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-16 15:15 KST",
+          "price": 2930,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 4,
+      "priceCount": 5,
       "avgPrice": 2930,
       "minPrice": 2930,
       "maxPrice": 2930,
       "lastPrice": 2930,
-      "lastAt": "2026-11-16 07:02 KST",
+      "lastAt": "2026-11-16 15:15 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -900,7 +945,7 @@
           2930,
           2930,
           2930,
-          4
+          5
         ]
       ],
       "uniqueDays": 1
@@ -971,14 +1016,19 @@
           "at": "2026-11-16 07:02 KST",
           "price": 4300,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-16 15:15 KST",
+          "price": 4300,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 4,
+      "priceCount": 5,
       "avgPrice": 4300,
       "minPrice": 4300,
       "maxPrice": 4300,
       "lastPrice": 4300,
-      "lastAt": "2026-11-16 07:02 KST",
+      "lastAt": "2026-11-16 15:15 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -986,7 +1036,7 @@
           4300,
           4300,
           4300,
-          4
+          5
         ]
       ],
       "uniqueDays": 1
@@ -1014,14 +1064,19 @@
           "at": "2026-11-16 07:02 KST",
           "price": 5300,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-16 15:15 KST",
+          "price": 5300,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 4,
+      "priceCount": 5,
       "avgPrice": 5300,
       "minPrice": 5300,
       "maxPrice": 5300,
       "lastPrice": 5300,
-      "lastAt": "2026-11-16 07:02 KST",
+      "lastAt": "2026-11-16 15:15 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -1029,7 +1084,7 @@
           5300,
           5300,
           5300,
-          4
+          5
         ]
       ],
       "uniqueDays": 1
@@ -1100,14 +1155,19 @@
           "at": "2026-11-16 07:02 KST",
           "price": 5930,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-16 15:15 KST",
+          "price": 5930,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 4,
+      "priceCount": 5,
       "avgPrice": 5930,
       "minPrice": 5930,
       "maxPrice": 5930,
       "lastPrice": 5930,
-      "lastAt": "2026-11-16 07:02 KST",
+      "lastAt": "2026-11-16 15:15 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -1115,7 +1175,7 @@
           5930,
           5930,
           5930,
-          4
+          5
         ]
       ],
       "uniqueDays": 1
@@ -1186,14 +1246,19 @@
           "at": "2026-11-16 07:02 KST",
           "price": 6990,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-16 15:15 KST",
+          "price": 6990,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 4,
+      "priceCount": 5,
       "avgPrice": 6990,
       "minPrice": 6990,
       "maxPrice": 6990,
       "lastPrice": 6990,
-      "lastAt": "2026-11-16 07:02 KST",
+      "lastAt": "2026-11-16 15:15 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -1201,7 +1266,7 @@
           6990,
           6990,
           6990,
-          4
+          5
         ]
       ],
       "uniqueDays": 1
@@ -1229,14 +1294,19 @@
           "at": "2026-11-16 07:02 KST",
           "price": 7110,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-16 15:15 KST",
+          "price": 7110,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 4,
+      "priceCount": 5,
       "avgPrice": 7110,
       "minPrice": 7110,
       "maxPrice": 7110,
       "lastPrice": 7110,
-      "lastAt": "2026-11-16 07:02 KST",
+      "lastAt": "2026-11-16 15:15 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -1244,7 +1314,7 @@
           7110,
           7110,
           7110,
-          4
+          5
         ]
       ],
       "uniqueDays": 1
@@ -1315,14 +1385,19 @@
           "at": "2026-11-16 07:02 KST",
           "price": 9990,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-16 15:15 KST",
+          "price": 9990,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 4,
+      "priceCount": 5,
       "avgPrice": 9990,
       "minPrice": 9990,
       "maxPrice": 9990,
       "lastPrice": 9990,
-      "lastAt": "2026-11-16 07:02 KST",
+      "lastAt": "2026-11-16 15:15 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -1330,7 +1405,7 @@
           9990,
           9990,
           9990,
-          4
+          5
         ]
       ],
       "uniqueDays": 1
@@ -1358,14 +1433,19 @@
           "at": "2026-11-16 07:02 KST",
           "price": 11400,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-16 15:15 KST",
+          "price": 11400,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 4,
+      "priceCount": 5,
       "avgPrice": 11400,
       "minPrice": 11400,
       "maxPrice": 11400,
       "lastPrice": 11400,
-      "lastAt": "2026-11-16 07:02 KST",
+      "lastAt": "2026-11-16 15:15 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -1373,7 +1453,7 @@
           11400,
           11400,
           11400,
-          4
+          5
         ]
       ],
       "uniqueDays": 1
@@ -1401,14 +1481,19 @@
           "at": "2026-11-16 07:02 KST",
           "price": 11900,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-16 15:15 KST",
+          "price": 11900,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 4,
+      "priceCount": 5,
       "avgPrice": 11900,
       "minPrice": 11900,
       "maxPrice": 11900,
       "lastPrice": 11900,
-      "lastAt": "2026-11-16 07:02 KST",
+      "lastAt": "2026-11-16 15:15 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -1416,7 +1501,7 @@
           11900,
           11900,
           11900,
-          4
+          5
         ]
       ],
       "uniqueDays": 1
@@ -1530,22 +1615,27 @@
           "at": "2026-11-16 07:02 KST",
           "price": 16230,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-16 15:15 KST",
+          "price": 16800,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 4,
-      "avgPrice": 16230,
+      "priceCount": 5,
+      "avgPrice": 16344,
       "minPrice": 16230,
-      "maxPrice": 16230,
-      "lastPrice": 16230,
-      "lastAt": "2026-11-16 07:02 KST",
+      "maxPrice": 16800,
+      "lastPrice": 16800,
+      "lastAt": "2026-11-16 15:15 KST",
       "dailyHistory": [
         [
           "2026-11-16",
           16230,
-          16230,
-          16230,
-          16230,
-          4
+          16800,
+          16344,
+          16800,
+          5
         ]
       ],
       "uniqueDays": 1
@@ -1702,14 +1792,19 @@
           "at": "2026-11-16 07:02 KST",
           "price": 36000,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-16 15:15 KST",
+          "price": 36000,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 4,
+      "priceCount": 5,
       "avgPrice": 36000,
       "minPrice": 36000,
       "maxPrice": 36000,
       "lastPrice": 36000,
-      "lastAt": "2026-11-16 07:02 KST",
+      "lastAt": "2026-11-16 15:15 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -1717,7 +1812,7 @@
           36000,
           36000,
           36000,
-          4
+          5
         ]
       ],
       "uniqueDays": 1
@@ -2044,14 +2139,19 @@
           "at": "2026-11-16 07:02 KST",
           "price": 90000,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-16 15:15 KST",
+          "price": 90000,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 3,
+      "priceCount": 4,
       "avgPrice": 90000,
       "minPrice": 90000,
       "maxPrice": 90000,
       "lastPrice": 90000,
-      "lastAt": "2026-11-16 07:02 KST",
+      "lastAt": "2026-11-16 15:15 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -2059,7 +2159,7 @@
           90000,
           90000,
           90000,
-          3
+          4
         ]
       ],
       "uniqueDays": 1
@@ -2158,14 +2258,19 @@
           "at": "2026-11-16 07:02 KST",
           "price": 14000,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-16 15:15 KST",
+          "price": 14000,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 3,
+      "priceCount": 4,
       "avgPrice": 14000,
       "minPrice": 14000,
       "maxPrice": 14000,
       "lastPrice": 14000,
-      "lastAt": "2026-11-16 07:02 KST",
+      "lastAt": "2026-11-16 15:15 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -2173,7 +2278,7 @@
           14000,
           14000,
           14000,
-          3
+          4
         ]
       ],
       "uniqueDays": 1
@@ -2196,14 +2301,19 @@
           "at": "2026-11-16 07:02 KST",
           "price": 14750,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-16 15:15 KST",
+          "price": 14750,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 3,
+      "priceCount": 4,
       "avgPrice": 14750,
       "minPrice": 14750,
       "maxPrice": 14750,
       "lastPrice": 14750,
-      "lastAt": "2026-11-16 07:02 KST",
+      "lastAt": "2026-11-16 15:15 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -2211,7 +2321,7 @@
           14750,
           14750,
           14750,
-          3
+          4
         ]
       ],
       "uniqueDays": 1
@@ -2234,14 +2344,19 @@
           "at": "2026-11-16 07:02 KST",
           "price": 9300,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-16 15:15 KST",
+          "price": 9300,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 3,
+      "priceCount": 4,
       "avgPrice": 9300,
       "minPrice": 9300,
       "maxPrice": 9300,
       "lastPrice": 9300,
-      "lastAt": "2026-11-16 07:02 KST",
+      "lastAt": "2026-11-16 15:15 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -2249,7 +2364,7 @@
           9300,
           9300,
           9300,
-          3
+          4
         ]
       ],
       "uniqueDays": 1
@@ -2272,14 +2387,19 @@
           "at": "2026-11-16 07:02 KST",
           "price": 34900,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-16 15:15 KST",
+          "price": 34900,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 3,
+      "priceCount": 4,
       "avgPrice": 34900,
       "minPrice": 34900,
       "maxPrice": 34900,
       "lastPrice": 34900,
-      "lastAt": "2026-11-16 07:02 KST",
+      "lastAt": "2026-11-16 15:15 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -2287,7 +2407,7 @@
           34900,
           34900,
           34900,
-          3
+          4
         ]
       ],
       "uniqueDays": 1
@@ -2348,14 +2468,19 @@
           "at": "2026-11-16 07:02 KST",
           "price": 25620,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-16 15:15 KST",
+          "price": 25620,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 3,
+      "priceCount": 4,
       "avgPrice": 25620,
       "minPrice": 25620,
       "maxPrice": 25620,
       "lastPrice": 25620,
-      "lastAt": "2026-11-16 07:02 KST",
+      "lastAt": "2026-11-16 15:15 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -2363,7 +2488,7 @@
           25620,
           25620,
           25620,
-          3
+          4
         ]
       ],
       "uniqueDays": 1
@@ -2462,14 +2587,19 @@
           "at": "2026-11-16 07:02 KST",
           "price": 4200,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-16 15:15 KST",
+          "price": 4200,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 3,
+      "priceCount": 4,
       "avgPrice": 4200,
       "minPrice": 4200,
       "maxPrice": 4200,
       "lastPrice": 4200,
-      "lastAt": "2026-11-16 07:02 KST",
+      "lastAt": "2026-11-16 15:15 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -2477,7 +2607,7 @@
           4200,
           4200,
           4200,
-          3
+          4
         ]
       ],
       "uniqueDays": 1
@@ -2538,14 +2668,19 @@
           "at": "2026-11-16 07:02 KST",
           "price": 9900,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-16 15:15 KST",
+          "price": 9900,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 3,
+      "priceCount": 4,
       "avgPrice": 9900,
       "minPrice": 9900,
       "maxPrice": 9900,
       "lastPrice": 9900,
-      "lastAt": "2026-11-16 07:02 KST",
+      "lastAt": "2026-11-16 15:15 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -2553,7 +2688,7 @@
           9900,
           9900,
           9900,
-          3
+          4
         ]
       ],
       "uniqueDays": 1
@@ -2652,14 +2787,19 @@
           "at": "2026-11-16 07:02 KST",
           "price": 17300,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-16 15:15 KST",
+          "price": 17300,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 3,
+      "priceCount": 4,
       "avgPrice": 17300,
       "minPrice": 17300,
       "maxPrice": 17300,
       "lastPrice": 17300,
-      "lastAt": "2026-11-16 07:02 KST",
+      "lastAt": "2026-11-16 15:15 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -2667,7 +2807,7 @@
           17300,
           17300,
           17300,
-          3
+          4
         ]
       ],
       "uniqueDays": 1
@@ -2690,14 +2830,19 @@
           "at": "2026-11-16 07:02 KST",
           "price": 21200,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-16 15:15 KST",
+          "price": 21200,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 3,
+      "priceCount": 4,
       "avgPrice": 21200,
       "minPrice": 21200,
       "maxPrice": 21200,
       "lastPrice": 21200,
-      "lastAt": "2026-11-16 07:02 KST",
+      "lastAt": "2026-11-16 15:15 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -2705,7 +2850,7 @@
           21200,
           21200,
           21200,
-          3
+          4
         ]
       ],
       "uniqueDays": 1
@@ -2728,14 +2873,19 @@
           "at": "2026-11-16 07:02 KST",
           "price": 24000,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-16 15:15 KST",
+          "price": 24000,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 3,
+      "priceCount": 4,
       "avgPrice": 24000,
       "minPrice": 24000,
       "maxPrice": 24000,
       "lastPrice": 24000,
-      "lastAt": "2026-11-16 07:02 KST",
+      "lastAt": "2026-11-16 15:15 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -2743,7 +2893,7 @@
           24000,
           24000,
           24000,
-          3
+          4
         ]
       ],
       "uniqueDays": 1
@@ -2766,14 +2916,19 @@
           "at": "2026-11-16 07:02 KST",
           "price": 264900,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-16 15:15 KST",
+          "price": 264900,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 3,
+      "priceCount": 4,
       "avgPrice": 264900,
       "minPrice": 264900,
       "maxPrice": 264900,
       "lastPrice": 264900,
-      "lastAt": "2026-11-16 07:02 KST",
+      "lastAt": "2026-11-16 15:15 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -2781,7 +2936,7 @@
           264900,
           264900,
           264900,
-          3
+          4
         ]
       ],
       "uniqueDays": 1
@@ -2842,14 +2997,19 @@
           "at": "2026-11-16 07:02 KST",
           "price": 19900,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-16 15:15 KST",
+          "price": 19900,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 3,
+      "priceCount": 4,
       "avgPrice": 19900,
       "minPrice": 19900,
       "maxPrice": 19900,
       "lastPrice": 19900,
-      "lastAt": "2026-11-16 07:02 KST",
+      "lastAt": "2026-11-16 15:15 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -2857,13 +3017,13 @@
           19900,
           19900,
           19900,
-          3
+          4
         ]
       ],
       "uniqueDays": 1
     },
     "8060571285": {
-      "productName": "초정탄산수, 190ml, 30개",
+      "productName": "초정탄산수",
       "category": "티·탄산수",
       "observations": [
         {
@@ -2880,14 +3040,19 @@
           "at": "2026-11-16 07:02 KST",
           "price": 10900,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-16 15:15 KST",
+          "price": 10900,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 3,
+      "priceCount": 4,
       "avgPrice": 10900,
       "minPrice": 10900,
       "maxPrice": 10900,
       "lastPrice": 10900,
-      "lastAt": "2026-11-16 07:02 KST",
+      "lastAt": "2026-11-16 15:15 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -2895,7 +3060,7 @@
           10900,
           10900,
           10900,
-          3
+          4
         ]
       ],
       "uniqueDays": 1
@@ -2918,14 +3083,19 @@
           "at": "2026-11-16 07:02 KST",
           "price": 14900,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-16 15:15 KST",
+          "price": 14900,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 3,
+      "priceCount": 4,
       "avgPrice": 14900,
       "minPrice": 14900,
       "maxPrice": 14900,
       "lastPrice": 14900,
-      "lastAt": "2026-11-16 07:02 KST",
+      "lastAt": "2026-11-16 15:15 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -2933,7 +3103,7 @@
           14900,
           14900,
           14900,
-          3
+          4
         ]
       ],
       "uniqueDays": 1
@@ -2956,14 +3126,19 @@
           "at": "2026-11-16 07:02 KST",
           "price": 19180,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-16 15:15 KST",
+          "price": 19180,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 3,
+      "priceCount": 4,
       "avgPrice": 19180,
       "minPrice": 19180,
       "maxPrice": 19180,
       "lastPrice": 19180,
-      "lastAt": "2026-11-16 07:02 KST",
+      "lastAt": "2026-11-16 15:15 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -2971,7 +3146,7 @@
           19180,
           19180,
           19180,
-          3
+          4
         ]
       ],
       "uniqueDays": 1
@@ -3053,7 +3228,7 @@
       "uniqueDays": 1
     },
     "6355737116": {
-      "productName": "어메이징 오트 바리스타 950ml, 4개, 매일유업 오트밀크 핀란드산 귀리우유, 950ml, 4개",
+      "productName": "어메이징오트 바리스타",
       "category": "우유·대체유",
       "observations": [
         {
@@ -3065,22 +3240,27 @@
           "at": "2026-11-16 07:02 KST",
           "price": 14680,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-16 15:15 KST",
+          "price": 25660,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 2,
-      "avgPrice": 14680,
+      "priceCount": 3,
+      "avgPrice": 18340,
       "minPrice": 14680,
-      "maxPrice": 14680,
-      "lastPrice": 14680,
-      "lastAt": "2026-11-16 07:02 KST",
+      "maxPrice": 25660,
+      "lastPrice": 25660,
+      "lastAt": "2026-11-16 15:15 KST",
       "dailyHistory": [
         [
           "2026-11-16",
           14680,
-          14680,
-          14680,
-          14680,
-          2
+          25660,
+          18340,
+          25660,
+          3
         ]
       ],
       "uniqueDays": 1
@@ -3098,14 +3278,19 @@
           "at": "2026-11-16 07:02 KST",
           "price": 13440,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-16 15:15 KST",
+          "price": 13440,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 2,
+      "priceCount": 3,
       "avgPrice": 13440,
       "minPrice": 13440,
       "maxPrice": 13440,
       "lastPrice": 13440,
-      "lastAt": "2026-11-16 07:02 KST",
+      "lastAt": "2026-11-16 15:15 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -3113,7 +3298,7 @@
           13440,
           13440,
           13440,
-          2
+          3
         ]
       ],
       "uniqueDays": 1
@@ -3131,14 +3316,19 @@
           "at": "2026-11-16 07:02 KST",
           "price": 13440,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-16 15:15 KST",
+          "price": 13440,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 2,
+      "priceCount": 3,
       "avgPrice": 13440,
       "minPrice": 13440,
       "maxPrice": 13440,
       "lastPrice": 13440,
-      "lastAt": "2026-11-16 07:02 KST",
+      "lastAt": "2026-11-16 15:15 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -3146,13 +3336,13 @@
           13440,
           13440,
           13440,
-          2
+          3
         ]
       ],
       "uniqueDays": 1
     },
     "8832698072": {
-      "productName": "얼터너티브데어리 호주 귀리 음료 바리스타 오트, 1개, 1L",
+      "productName": "얼터너티브데어리 호주 귀리 음료 바리스타 오트, 2개, 1L",
       "category": "우유·대체유",
       "observations": [
         {
@@ -3164,22 +3354,27 @@
           "at": "2026-11-16 07:02 KST",
           "price": 7400,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-16 15:15 KST",
+          "price": 14480,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 2,
-      "avgPrice": 7400,
+      "priceCount": 3,
+      "avgPrice": 9760,
       "minPrice": 7400,
-      "maxPrice": 7400,
-      "lastPrice": 7400,
-      "lastAt": "2026-11-16 07:02 KST",
+      "maxPrice": 14480,
+      "lastPrice": 14480,
+      "lastAt": "2026-11-16 15:15 KST",
       "dailyHistory": [
         [
           "2026-11-16",
           7400,
-          7400,
-          7400,
-          7400,
-          2
+          14480,
+          9760,
+          14480,
+          3
         ]
       ],
       "uniqueDays": 1
@@ -3197,14 +3392,19 @@
           "at": "2026-11-16 07:02 KST",
           "price": 7160,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-16 15:15 KST",
+          "price": 7160,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 2,
+      "priceCount": 3,
       "avgPrice": 7160,
       "minPrice": 7160,
       "maxPrice": 7160,
       "lastPrice": 7160,
-      "lastAt": "2026-11-16 07:02 KST",
+      "lastAt": "2026-11-16 15:15 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -3212,7 +3412,7 @@
           7160,
           7160,
           7160,
-          2
+          3
         ]
       ],
       "uniqueDays": 1
@@ -3230,22 +3430,27 @@
           "at": "2026-11-16 07:02 KST",
           "price": 4480,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-16 15:15 KST",
+          "price": 23380,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 2,
-      "avgPrice": 4480,
+      "priceCount": 3,
+      "avgPrice": 10780,
       "minPrice": 4480,
-      "maxPrice": 4480,
-      "lastPrice": 4480,
-      "lastAt": "2026-11-16 07:02 KST",
+      "maxPrice": 23380,
+      "lastPrice": 23380,
+      "lastAt": "2026-11-16 15:15 KST",
       "dailyHistory": [
         [
           "2026-11-16",
           4480,
-          4480,
-          4480,
-          4480,
-          2
+          23380,
+          10780,
+          23380,
+          3
         ]
       ],
       "uniqueDays": 1
@@ -3263,14 +3468,19 @@
           "at": "2026-11-16 07:02 KST",
           "price": 14150,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-16 15:15 KST",
+          "price": 14150,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 2,
+      "priceCount": 3,
       "avgPrice": 14150,
       "minPrice": 14150,
       "maxPrice": 14150,
       "lastPrice": 14150,
-      "lastAt": "2026-11-16 07:02 KST",
+      "lastAt": "2026-11-16 15:15 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -3278,7 +3488,7 @@
           14150,
           14150,
           14150,
-          2
+          3
         ]
       ],
       "uniqueDays": 1
@@ -3296,14 +3506,19 @@
           "at": "2026-11-16 07:02 KST",
           "price": 23990,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-16 15:15 KST",
+          "price": 23990,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 2,
+      "priceCount": 3,
       "avgPrice": 23990,
       "minPrice": 23990,
       "maxPrice": 23990,
       "lastPrice": 23990,
-      "lastAt": "2026-11-16 07:02 KST",
+      "lastAt": "2026-11-16 15:15 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -3311,7 +3526,7 @@
           23990,
           23990,
           23990,
-          2
+          3
         ]
       ],
       "uniqueDays": 1
@@ -3329,14 +3544,19 @@
           "at": "2026-11-16 07:02 KST",
           "price": 25870,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-16 15:15 KST",
+          "price": 25870,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 2,
+      "priceCount": 3,
       "avgPrice": 25870,
       "minPrice": 25870,
       "maxPrice": 25870,
       "lastPrice": 25870,
-      "lastAt": "2026-11-16 07:02 KST",
+      "lastAt": "2026-11-16 15:15 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -3344,7 +3564,7 @@
           25870,
           25870,
           25870,
-          2
+          3
         ]
       ],
       "uniqueDays": 1
@@ -3362,14 +3582,19 @@
           "at": "2026-11-16 07:02 KST",
           "price": 29880,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-16 15:15 KST",
+          "price": 29880,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 2,
+      "priceCount": 3,
       "avgPrice": 29880,
       "minPrice": 29880,
       "maxPrice": 29880,
       "lastPrice": 29880,
-      "lastAt": "2026-11-16 07:02 KST",
+      "lastAt": "2026-11-16 15:15 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -3377,7 +3602,7 @@
           29880,
           29880,
           29880,
-          2
+          3
         ]
       ],
       "uniqueDays": 1
@@ -3395,14 +3620,19 @@
           "at": "2026-11-16 07:02 KST",
           "price": 29900,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-16 15:15 KST",
+          "price": 29900,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 2,
+      "priceCount": 3,
       "avgPrice": 29900,
       "minPrice": 29900,
       "maxPrice": 29900,
       "lastPrice": 29900,
-      "lastAt": "2026-11-16 07:02 KST",
+      "lastAt": "2026-11-16 15:15 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -3410,7 +3640,7 @@
           29900,
           29900,
           29900,
-          2
+          3
         ]
       ],
       "uniqueDays": 1
@@ -3428,14 +3658,19 @@
           "at": "2026-11-16 07:02 KST",
           "price": 41500,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-16 15:15 KST",
+          "price": 41500,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 2,
+      "priceCount": 3,
       "avgPrice": 41500,
       "minPrice": 41500,
       "maxPrice": 41500,
       "lastPrice": 41500,
-      "lastAt": "2026-11-16 07:02 KST",
+      "lastAt": "2026-11-16 15:15 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -3443,7 +3678,7 @@
           41500,
           41500,
           41500,
-          2
+          3
         ]
       ],
       "uniqueDays": 1
@@ -3461,14 +3696,19 @@
           "at": "2026-11-16 07:02 KST",
           "price": 44000,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-16 15:15 KST",
+          "price": 44000,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 2,
+      "priceCount": 3,
       "avgPrice": 44000,
       "minPrice": 44000,
       "maxPrice": 44000,
       "lastPrice": 44000,
-      "lastAt": "2026-11-16 07:02 KST",
+      "lastAt": "2026-11-16 15:15 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -3476,7 +3716,7 @@
           44000,
           44000,
           44000,
-          2
+          3
         ]
       ],
       "uniqueDays": 1
@@ -3494,14 +3734,19 @@
           "at": "2026-11-16 07:02 KST",
           "price": 25890,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-16 15:15 KST",
+          "price": 25890,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 2,
+      "priceCount": 3,
       "avgPrice": 25890,
       "minPrice": 25890,
       "maxPrice": 25890,
       "lastPrice": 25890,
-      "lastAt": "2026-11-16 07:02 KST",
+      "lastAt": "2026-11-16 15:15 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -3509,7 +3754,7 @@
           25890,
           25890,
           25890,
-          2
+          3
         ]
       ],
       "uniqueDays": 1
@@ -3527,14 +3772,19 @@
           "at": "2026-11-16 07:02 KST",
           "price": 34920,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-16 15:15 KST",
+          "price": 34920,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 2,
+      "priceCount": 3,
       "avgPrice": 34920,
       "minPrice": 34920,
       "maxPrice": 34920,
       "lastPrice": 34920,
-      "lastAt": "2026-11-16 07:02 KST",
+      "lastAt": "2026-11-16 15:15 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -3542,7 +3792,7 @@
           34920,
           34920,
           34920,
-          2
+          3
         ]
       ],
       "uniqueDays": 1
@@ -3560,14 +3810,19 @@
           "at": "2026-11-16 07:02 KST",
           "price": 28700,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-16 15:15 KST",
+          "price": 28700,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 2,
+      "priceCount": 3,
       "avgPrice": 28700,
       "minPrice": 28700,
       "maxPrice": 28700,
       "lastPrice": 28700,
-      "lastAt": "2026-11-16 07:02 KST",
+      "lastAt": "2026-11-16 15:15 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -3575,7 +3830,7 @@
           28700,
           28700,
           28700,
-          2
+          3
         ]
       ],
       "uniqueDays": 1
@@ -5645,6 +5900,510 @@
           33500,
           33500,
           33500,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "4536085322": {
+      "productName": "바리스타퀸 다크초콜렛 파우더 1kg, 1kg, 1개입, 10개",
+      "category": "파우더",
+      "observations": [
+        {
+          "at": "2026-11-16 15:15 KST",
+          "price": 130000,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 130000,
+      "minPrice": 130000,
+      "maxPrice": 130000,
+      "lastPrice": 130000,
+      "lastAt": "2026-11-16 15:15 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          130000,
+          130000,
+          130000,
+          130000,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "5257562097": {
+      "productName": "카페57 요거트 파우더, 1kg, 1개입, 1개",
+      "category": "파우더",
+      "observations": [
+        {
+          "at": "2026-11-16 15:15 KST",
+          "price": 12400,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 12400,
+      "minPrice": 12400,
+      "maxPrice": 12400,
+      "lastPrice": 12400,
+      "lastAt": "2026-11-16 15:15 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          12400,
+          12400,
+          12400,
+          12400,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9816738221": {
+      "productName": "이디야 플레인 요거트 파우더 대용량 요거트분말 홈카페 스무디 재료",
+      "category": "파우더",
+      "observations": [
+        {
+          "at": "2026-11-16 15:15 KST",
+          "price": 12980,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 12980,
+      "minPrice": 12980,
+      "maxPrice": 12980,
+      "lastPrice": 12980,
+      "lastAt": "2026-11-16 15:15 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          12980,
+          12980,
+          12980,
+          12980,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9294381116": {
+      "productName": "쉘몬 과일농축액 청포도베이스, 1kg, 1개",
+      "category": "과일·베이스",
+      "observations": [
+        {
+          "at": "2026-11-16 15:15 KST",
+          "price": 18800,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 18800,
+      "minPrice": 18800,
+      "maxPrice": 18800,
+      "lastPrice": 18800,
+      "lastAt": "2026-11-16 15:15 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          18800,
+          18800,
+          18800,
+          18800,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9392701157": {
+      "productName": "쉘몬 과일농축액 자몽베이스, 1kg, 1개",
+      "category": "과일·베이스",
+      "observations": [
+        {
+          "at": "2026-11-16 15:15 KST",
+          "price": 18300,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 18300,
+      "minPrice": 18300,
+      "maxPrice": 18300,
+      "lastPrice": 18300,
+      "lastAt": "2026-11-16 15:15 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          18300,
+          18300,
+          18300,
+          18300,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7398457869": {
+      "productName": "엔칸토 청포도 베이스, 1.8kg, 1개",
+      "category": "과일·베이스",
+      "observations": [
+        {
+          "at": "2026-11-16 15:15 KST",
+          "price": 18900,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 18900,
+      "minPrice": 18900,
+      "maxPrice": 18900,
+      "lastPrice": 18900,
+      "lastAt": "2026-11-16 15:15 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          18900,
+          18900,
+          18900,
+          18900,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7150854164": {
+      "productName": "청키 수제 블루베리청 대용량 카페용 과일청 2kg, 2kg, 1개, 1개입",
+      "category": "과일·베이스",
+      "observations": [
+        {
+          "at": "2026-11-16 15:15 KST",
+          "price": 30800,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 30800,
+      "minPrice": 30800,
+      "maxPrice": 30800,
+      "lastPrice": 30800,
+      "lastAt": "2026-11-16 15:15 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          30800,
+          30800,
+          30800,
+          30800,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9614570919": {
+      "productName": "홀베리 레몬하나 스파클링, 24개, 500ml",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-16 15:15 KST",
+          "price": 25020,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 25020,
+      "minPrice": 25020,
+      "maxPrice": 25020,
+      "lastPrice": 25020,
+      "lastAt": "2026-11-16 15:15 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          25020,
+          25020,
+          25020,
+          25020,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8054602080": {
+      "productName": "클룹 애사비소다 오리지널, 500ml, 24개",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-16 15:15 KST",
+          "price": 26610,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 26610,
+      "minPrice": 26610,
+      "maxPrice": 26610,
+      "lastPrice": 26610,
+      "lastAt": "2026-11-16 15:15 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          26610,
+          26610,
+          26610,
+          26610,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8485035226": {
+      "productName": "Tingle 레몬애사비소다, 250ml, 30개",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-16 15:15 KST",
+          "price": 16420,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 16420,
+      "minPrice": 16420,
+      "maxPrice": 16420,
+      "lastPrice": 16420,
+      "lastAt": "2026-11-16 15:15 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          16420,
+          16420,
+          16420,
+          16420,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "5750786161": {
+      "productName": "라인바싸 자몽 탄산음료, 500ml, 40개",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-16 15:15 KST",
+          "price": 19900,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 19900,
+      "minPrice": 19900,
+      "maxPrice": 19900,
+      "lastPrice": 19900,
+      "lastAt": "2026-11-16 15:15 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          19900,
+          19900,
+          19900,
+          19900,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8620395041": {
+      "productName": "제이디팩 일자 빨대 7*210mm 검정 개별포장 500개입, 20세트, 500개입",
+      "category": "빨대·홀더",
+      "observations": [
+        {
+          "at": "2026-11-16 15:15 KST",
+          "price": 64500,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 64500,
+      "minPrice": 64500,
+      "maxPrice": 64500,
+      "lastPrice": 64500,
+      "lastAt": "2026-11-16 15:15 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          64500,
+          64500,
+          64500,
+          64500,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9058195015": {
+      "productName": "원바이 이지컷 빨대 7.0 mm x 250 mm 개별포장 5000개 (검정), 10개, 500개입",
+      "category": "빨대·홀더",
+      "observations": [
+        {
+          "at": "2026-11-16 15:15 KST",
+          "price": 45100,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 45100,
+      "minPrice": 45100,
+      "maxPrice": 45100,
+      "lastPrice": 45100,
+      "lastAt": "2026-11-16 15:15 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          45100,
+          45100,
+          45100,
+          45100,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8799508584": {
+      "productName": "개별포장 자바라빨대 투명 스트로우 7x21cm 4팩 2000개입, 1세트, 2000개",
+      "category": "빨대·홀더",
+      "observations": [
+        {
+          "at": "2026-11-16 15:15 KST",
+          "price": 22600,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 22600,
+      "minPrice": 22600,
+      "maxPrice": 22600,
+      "lastPrice": 22600,
+      "lastAt": "2026-11-16 15:15 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          22600,
+          22600,
+          22600,
+          22600,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8801620464": {
+      "productName": "카페전용 개별포장7*21 에코윌 국내제조 환경부인증 친환경PLA빨대 커피주스용, 1개, 5000개입",
+      "category": "빨대·홀더",
+      "observations": [
+        {
+          "at": "2026-11-16 15:15 KST",
+          "price": 102630,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 102630,
+      "minPrice": 102630,
+      "maxPrice": 102630,
+      "lastPrice": 102630,
+      "lastAt": "2026-11-16 15:15 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          102630,
+          102630,
+          102630,
+          102630,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8425476120": {
+      "productName": "업소용 테이블 냅킨 10000매 대용량 무형광 식당 네프킨 디너 뽑아쓰는, 10000매, 1개",
+      "category": "매장소모품",
+      "observations": [
+        {
+          "at": "2026-11-16 15:15 KST",
+          "price": 22500,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 22500,
+      "minPrice": 22500,
+      "maxPrice": 22500,
+      "lastPrice": 22500,
+      "lastAt": "2026-11-16 15:15 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          22500,
+          22500,
+          22500,
+          22500,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8556420005": {
+      "productName": "칵테일 냅킨 테이블 냅킨 삼정펄프 무지 무형광 2,000매, 2000개입, 1개, 흰색",
+      "category": "매장소모품",
+      "observations": [
+        {
+          "at": "2026-11-16 15:15 KST",
+          "price": 13020,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 13020,
+      "minPrice": 13020,
+      "maxPrice": 13020,
+      "lastPrice": 13020,
+      "lastAt": "2026-11-16 15:15 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          13020,
+          13020,
+          13020,
+          13020,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9651065658": {
+      "productName": "칵테일 테이블 냅킨 업소용 갈색 무형광 무지 10000매, 단품, 1박스, 10000개",
+      "category": "매장소모품",
+      "observations": [
+        {
+          "at": "2026-11-16 15:15 KST",
+          "price": 34300,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 34300,
+      "minPrice": 34300,
+      "maxPrice": 34300,
+      "lastPrice": 34300,
+      "lastAt": "2026-11-16 15:15 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          34300,
+          34300,
+          34300,
+          34300,
           1
         ]
       ],
