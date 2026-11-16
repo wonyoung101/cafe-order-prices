@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16 18:02 KST",
+  "updatedAt": "2026-11-16 19:04 KST",
   "source": "git snapshots",
   "products": {
     "8436480488": {
@@ -5661,14 +5661,19 @@
           "at": "2026-11-16 07:02 KST",
           "price": 26800,
           "source": "deals.json@9b03795"
+        },
+        {
+          "at": "2026-11-16 19:03 KST",
+          "price": 26800,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 26800,
       "minPrice": 26800,
       "maxPrice": 26800,
       "lastPrice": 26800,
-      "lastAt": "2026-11-16 07:02 KST",
+      "lastAt": "2026-11-16 19:03 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -5676,7 +5681,7 @@
           26800,
           26800,
           26800,
-          1
+          2
         ]
       ],
       "uniqueDays": 1
@@ -6837,14 +6842,19 @@
           "at": "2026-11-16 18:02 KST",
           "price": 9230,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-16 19:03 KST",
+          "price": 9230,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 9230,
       "minPrice": 9230,
       "maxPrice": 9230,
       "lastPrice": 9230,
-      "lastAt": "2026-11-16 18:02 KST",
+      "lastAt": "2026-11-16 19:03 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -6852,7 +6862,7 @@
           9230,
           9230,
           9230,
-          1
+          2
         ]
       ],
       "uniqueDays": 1
@@ -7160,6 +7170,510 @@
           6000,
           6000,
           6000,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9682099731": {
+      "productName": "위크위크 고소한 브라질 싱글 오리진 원두 커피 홀빈, 1개, 1kg",
+      "category": "원두",
+      "observations": [
+        {
+          "at": "2026-11-16 19:03 KST",
+          "price": 18900,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 18900,
+      "minPrice": 18900,
+      "maxPrice": 18900,
+      "lastPrice": 18900,
+      "lastAt": "2026-11-16 19:03 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          18900,
+          18900,
+          18900,
+          18900,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9434882675": {
+      "productName": "스페셜 블렌드 브라질, 콜롬비아, 에티오피아 원두커피 커피콩 맛있는 고소한 신선한 그라도스커피, 1개, 1kg, 홀빈(분쇄안함)",
+      "category": "원두",
+      "observations": [
+        {
+          "at": "2026-11-16 19:03 KST",
+          "price": 31300,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 31300,
+      "minPrice": 31300,
+      "maxPrice": 31300,
+      "lastPrice": 31300,
+      "lastAt": "2026-11-16 19:03 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          31300,
+          31300,
+          31300,
+          31300,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9136027887": {
+      "productName": "위크위크 고소한 베트남 로부스타 G1 원두 커피 홀빈, 1개, 1kg, 홀빈(분쇄안함)",
+      "category": "원두",
+      "observations": [
+        {
+          "at": "2026-11-16 19:03 KST",
+          "price": 15890,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 15890,
+      "minPrice": 15890,
+      "maxPrice": 15890,
+      "lastPrice": 15890,
+      "lastAt": "2026-11-16 19:03 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          15890,
+          15890,
+          15890,
+          15890,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9411208937": {
+      "productName": "딥 플러스 바닐라 시럽 마다가스카르산 씨드 함유, 1개, 1L",
+      "category": "시럽·소스",
+      "observations": [
+        {
+          "at": "2026-11-16 19:03 KST",
+          "price": 9310,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 9310,
+      "minPrice": 9310,
+      "maxPrice": 9310,
+      "lastPrice": 9310,
+      "lastAt": "2026-11-16 19:03 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          9310,
+          9310,
+          9310,
+          9310,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9411195559": {
+      "productName": "딥플러스 헤이즐넛 시럽, 1개, 1L",
+      "category": "시럽·소스",
+      "observations": [
+        {
+          "at": "2026-11-16 19:03 KST",
+          "price": 9030,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 9030,
+      "minPrice": 9030,
+      "maxPrice": 9030,
+      "lastPrice": 9030,
+      "lastAt": "2026-11-16 19:03 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          9030,
+          9030,
+          9030,
+          9030,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9714957083": {
+      "productName": "[로켓프레시] 네이쳐티 블랙 타피오카 즉석컵펄(냉동), 720g, 1개",
+      "category": "당류·토핑",
+      "observations": [
+        {
+          "at": "2026-11-16 19:03 KST",
+          "price": 11190,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 11190,
+      "minPrice": 11190,
+      "maxPrice": 11190,
+      "lastPrice": 11190,
+      "lastAt": "2026-11-16 19:03 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          11190,
+          11190,
+          11190,
+          11190,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9714957086": {
+      "productName": "[로켓프레시] 네이쳐티 딸기타피오카 즉석컵펄 12개입 (냉동), 720g, 2개",
+      "category": "당류·토핑",
+      "observations": [
+        {
+          "at": "2026-11-16 19:03 KST",
+          "price": 22020,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 22020,
+      "minPrice": 22020,
+      "maxPrice": 22020,
+      "lastPrice": 22020,
+      "lastAt": "2026-11-16 19:03 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          22020,
+          22020,
+          22020,
+          22020,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7787581793": {
+      "productName": "[로켓프레시] 버블펄스 타피오카 블랙 펄 (냉동), 70g, 50개",
+      "category": "당류·토핑",
+      "observations": [
+        {
+          "at": "2026-11-16 19:03 KST",
+          "price": 55800,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 55800,
+      "minPrice": 55800,
+      "maxPrice": 55800,
+      "lastPrice": 55800,
+      "lastAt": "2026-11-16 19:03 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          55800,
+          55800,
+          55800,
+          55800,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7485430140": {
+      "productName": "브릭글로 엠보싱 비닐 위생장갑 도톰형, 500개입, 2개",
+      "category": "매장소모품",
+      "observations": [
+        {
+          "at": "2026-11-16 19:03 KST",
+          "price": 17800,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 17800,
+      "minPrice": 17800,
+      "maxPrice": 17800,
+      "lastPrice": 17800,
+      "lastAt": "2026-11-16 19:03 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          17800,
+          17800,
+          17800,
+          17800,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8089929339": {
+      "productName": "네이쳐티 딥초코, 2kg, 1개",
+      "category": "시럽·소스",
+      "observations": [
+        {
+          "at": "2026-11-16 19:03 KST",
+          "price": 17500,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 17500,
+      "minPrice": 17500,
+      "maxPrice": 17500,
+      "lastPrice": 17500,
+      "lastAt": "2026-11-16 19:03 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          17500,
+          17500,
+          17500,
+          17500,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8461281908": {
+      "productName": "이노라이즈 이노미 초콜릿 소스, 1개, 1.25kg",
+      "category": "시럽·소스",
+      "observations": [
+        {
+          "at": "2026-11-16 19:03 KST",
+          "price": 13000,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 13000,
+      "minPrice": 13000,
+      "maxPrice": 13000,
+      "lastPrice": 13000,
+      "lastAt": "2026-11-16 19:03 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          13000,
+          13000,
+          13000,
+          13000,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8760750105": {
+      "productName": "토스키 초콜릿 소스, 2kg, 1개",
+      "category": "시럽·소스",
+      "observations": [
+        {
+          "at": "2026-11-16 19:03 KST",
+          "price": 27800,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 27800,
+      "minPrice": 27800,
+      "maxPrice": 27800,
+      "lastPrice": 27800,
+      "lastAt": "2026-11-16 19:03 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          27800,
+          27800,
+          27800,
+          27800,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9061110194": {
+      "productName": "파베글라스 루미에르 다크초코칩, 1kg, 1개",
+      "category": "당류·토핑",
+      "observations": [
+        {
+          "at": "2026-11-16 19:03 KST",
+          "price": 12980,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 12980,
+      "minPrice": 12980,
+      "maxPrice": 12980,
+      "lastPrice": 12980,
+      "lastAt": "2026-11-16 19:03 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          12980,
+          12980,
+          12980,
+          12980,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9103262508": {
+      "productName": "[영국산]칼리바우트 다크 청크 초콜릿, 1개, 1kg",
+      "category": "당류·토핑",
+      "observations": [
+        {
+          "at": "2026-11-16 19:03 KST",
+          "price": 29410,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 29410,
+      "minPrice": 29410,
+      "maxPrice": 29410,
+      "lastPrice": 29410,
+      "lastAt": "2026-11-16 19:03 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          29410,
+          29410,
+          29410,
+          29410,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7660088660": {
+      "productName": "파베글라스 루미에르 컴파운드 코인 코팅 다크초콜릿, 1kg, 1개",
+      "category": "당류·토핑",
+      "observations": [
+        {
+          "at": "2026-11-16 19:03 KST",
+          "price": 12240,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 12240,
+      "minPrice": 12240,
+      "maxPrice": 12240,
+      "lastPrice": 12240,
+      "lastAt": "2026-11-16 19:03 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          12240,
+          12240,
+          12240,
+          12240,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7660090685": {
+      "productName": "파베글라스 루미에르 컴파운드 코인 코팅 화이트초콜릿, 1kg, 1개",
+      "category": "당류·토핑",
+      "observations": [
+        {
+          "at": "2026-11-16 19:03 KST",
+          "price": 12240,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 12240,
+      "minPrice": 12240,
+      "maxPrice": 12240,
+      "lastPrice": 12240,
+      "lastAt": "2026-11-16 19:03 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          12240,
+          12240,
+          12240,
+          12240,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9210126689": {
+      "productName": "파베글라스 설탕무첨가 다크 루미에르 초코칩, 1kg, 1개",
+      "category": "당류·토핑",
+      "observations": [
+        {
+          "at": "2026-11-16 19:03 KST",
+          "price": 20100,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 20100,
+      "minPrice": 20100,
+      "maxPrice": 20100,
+      "lastPrice": 20100,
+      "lastAt": "2026-11-16 19:03 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          20100,
+          20100,
+          20100,
+          20100,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "5803499619": {
+      "productName": "서강 카우밀, 1L, 2개",
+      "category": "크림·연유",
+      "observations": [
+        {
+          "at": "2026-11-16 19:03 KST",
+          "price": 10400,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 10400,
+      "minPrice": 10400,
+      "maxPrice": 10400,
+      "lastPrice": 10400,
+      "lastAt": "2026-11-16 19:03 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          10400,
+          10400,
+          10400,
+          10400,
           1
         ]
       ],

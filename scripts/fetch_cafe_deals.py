@@ -152,6 +152,19 @@ TARGETS = [
     {"label": "바닐라 시럽 1L",       "category": "시럽·소스",   "query": "바닐라 시럽 1L",    "bases": ["100ml"], "wave": 5},
     {"label": "타피오카펄 1kg",       "category": "당류·토핑",   "query": "타피오카펄 1kg",    "bases": ["100g"], "wave": 5},
     {"label": "위생장갑 1000매",      "category": "매장소모품",  "query": "위생장갑 1000매",   "bases": ["개당"], "wave": 5},
+
+    # ---- 6차 보강 키워드 (wave=6) — 19:00 회차에서 실행한 4개 + 다음 회차 후보 5개.
+    # 19:00 회차 실행분: 초코 소스 1kg · 초코칩 1kg(당류·토핑) · 가당연유 1kg · 휘핑크림 1L(크림·연유)
+    {"label": "초코 소스 1kg",        "category": "시럽·소스",   "query": "초코 소스 1kg",     "bases": ["100g"], "wave": 6},
+    {"label": "초코칩 1kg",          "category": "당류·토핑",   "query": "초코칩 1kg",       "bases": ["100g"], "wave": 6},
+    {"label": "가당연유 1kg",         "category": "크림·연유",   "query": "가당연유 1kg",      "bases": ["100g", "100ml"], "wave": 6},
+    {"label": "휘핑크림 1L",          "category": "크림·연유",   "query": "휘핑크림 1L",       "bases": ["100ml", "100g"], "wave": 6},
+    # 다음 회차 후보 (미검증)
+    {"label": "슈가파우더 1kg",       "category": "당류·토핑",   "query": "슈가파우더 1kg",    "bases": ["100g"], "wave": 6},
+    {"label": "콜롬비아 원두 1kg",     "category": "원두",       "query": "콜롬비아 원두 1kg",  "bases": ["100g"], "wave": 6},
+    {"label": "키친타월 12롤",        "category": "매장소모품",  "query": "키친타월 12롤",     "bases": ["개당"], "wave": 6},
+    {"label": "코코넛밀크 1L",        "category": "우유·대체유", "query": "코코넛밀크 1L",     "bases": ["100ml"], "wave": 6},
+    {"label": "아이스티 1kg",        "category": "티·탄산수",   "query": "아이스티 1kg",     "bases": ["100g"], "wave": 6},
 ]
 
 BANNER_NOTICE = "쿠팡 API 연동 대기 중 (2026-11-16 00:00 이후 자동 업데이트 예정)"
@@ -163,10 +176,18 @@ EXCLUDE_KEYWORDS = [
     "결로방지 컵홀더",
 ]
 
+# 상품명의 수량 표기가 실제 구성과 맞지 않아 단가가 수 배 낙게 계산되는 상품.
+# (예: `딸기타피오카 즉석컵펄 12개입, 720g, 2개` → 720g×24 = 17.28kg 로 읽혀 127원/100g.
+#  같은 브랜드 `블랙 즉석컵펄 720g` 1,554원/100g 과 비교해 12분의 1 수준이라 실제 구성과 다르다.)
+# 구성이 상품 페이지로 확인되면 이 목록에서 뺀다.
+AMBIGUOUS_QUANTITY = [
+    "딸기타피오카 즉석컵펄",
+]
+
 
 def is_excluded(name: str) -> bool:
     text = (name or "").replace(" ", "").lower()
-    return any(k.replace(" ", "").lower() in text for k in EXCLUDE_KEYWORDS)
+    return any(k.replace(" ", "").lower() in text for k in EXCLUDE_KEYWORDS + AMBIGUOUS_QUANTITY)
 
 
 def passes_listing_filter(deal: dict) -> bool:
