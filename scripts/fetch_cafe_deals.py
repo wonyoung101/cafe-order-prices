@@ -184,11 +184,26 @@ TARGETS = [
     {"label": "프리마 1kg",          "category": "크림·연유",   "query": "프리마 1kg",       "bases": ["100g"], "wave": 8},
     {"label": "아이스컵 뚜껑 1000개",  "category": "컵·뚜껑",    "query": "아이스컵 뚜껑 1000개", "bases": ["개당"], "wave": 8},
 
-    # ---- 9차 보강 후보 (wave=9) — 다음 회차 후보. 아직 수집하지 않은 키워드.
-    {"label": "슈가파우더 1kg",       "category": "당류·토핑",   "query": "슈가파우더 1kg",    "bases": ["100g"], "wave": 9},
+    # ---- 9차 보강 키워드 (wave=9) — 22:00 회차 실행분(8회).
+    # 건수가 가장 적은 6개 카테고리(베이킹 재료 8 · 빨대·홀더 8 · 우유·대체유 9 · 과일·베이스 9 ·
+    # 원두 10 · 컵·뚜껑 10)에 8회를 배분했다. `크림·연유` 는 2회 연속 신규 0건(포화 신호)이라 제외.
+    # 모두 **제목에 용량·개수가 명시되는** 키워드만 쓴다(사용자 확정 규칙).
     {"label": "두유 1L",            "category": "우유·대체유", "query": "두유 1L",          "bases": ["100ml"], "wave": 9},
     {"label": "종이 빨대 1000개",     "category": "빨대·홀더",  "query": "종이 빨대 1000개",  "bases": ["개당"], "wave": 9},
+    {"label": "컵슬리브 1000개",      "category": "빨대·홀더",  "query": "컵슬리브 1000개",   "bases": ["개당"], "wave": 9},
     {"label": "테이크아웃 아이스컵 뚜껑 1000개", "category": "컵·뚜껑", "query": "테이크아웃 아이스컵 뚜껑 1000개", "bases": ["개당"], "wave": 9},
+    {"label": "아몬드가루 1kg",       "category": "베이킹 재료", "query": "아몬드가루 1kg",    "bases": ["100g"], "wave": 9},
+    {"label": "강력분 1kg",          "category": "베이킹 재료", "query": "강력분 1kg",       "bases": ["100g"], "wave": 9},
+    {"label": "복숭아 베이스 1kg",     "category": "과일·베이스", "query": "복숭아 베이스 1kg",  "bases": ["100g", "100ml"], "wave": 9},
+    {"label": "에티오피아 원두 1kg",   "category": "원두",       "query": "에티오피아 원두 1kg", "bases": ["100g"], "wave": 9},
+
+    # ---- 10차 보강 후보 (wave=10) — 다음 회차 후보. 아직 수집하지 않은 키워드.
+    {"label": "슈가파우더 1kg",       "category": "당류·토핑",   "query": "슈가파우더 1kg",    "bases": ["100g"], "wave": 10},
+    {"label": "우드 빨대 1000개",     "category": "빨대·홀더",  "query": "우드 빨대 1000개",  "bases": ["개당"], "wave": 10},
+    {"label": "오트밀크 1L",         "category": "우유·대체유", "query": "오트밀크 1L",      "bases": ["100ml"], "wave": 10},
+    {"label": "케냐 원두 1kg",        "category": "원두",       "query": "케냐 원두 1kg",     "bases": ["100g"], "wave": 10},
+    {"label": "크림치즈 1kg",         "category": "베이킹 재료", "query": "크림치즈 1kg",      "bases": ["100g"], "wave": 10},
+
 ]
 
 BANNER_NOTICE = "쿠팡 API 연동 대기 중 (2026-11-16 00:00 이후 자동 업데이트 예정)"
@@ -230,6 +245,36 @@ def override_category(name: str, category: str) -> str:
 def is_excluded(name: str) -> bool:
     text = (name or "").replace(" ", "").lower()
     return any(k.replace(" ", "").lower() in text for k in EXCLUDE_KEYWORDS + AMBIGUOUS_QUANTITY)
+
+
+VENDOR_ITEM_RE = re.compile(r"[?&]vendorItemId=(\d+)")
+
+
+def vendor_item_id(deal: dict) -> str:
+    """쿠팡 상품 링크에서 **vendorItemId**(옵션 단위 식별자)를 뽑는다.
+
+    API 응답의 `productId` 는 상품 **페이지**(pageKey) 단위라, 한 페이지에서 함께 파는
+    다른 옵션(예: `아이팩피앤디 92파이 16온스 아이스컵` ↔ `98파이 돔리드 컵뚜껑`)이
+    같은 값을 갖는다. 그래서 같은 productId 로 들어온 다른 옵션이 기존 상품을
+    조용히 덮어써 상품이 사라지고 평균가가 섞이지 않도록, 옵션이 다르면 기존 상품을
+    유지하고 새 옵션은 건너뛴다(2026-11-16 22시 회차 데이터 점검에서 발견).
+    """
+    if isinstance(deal, dict):
+        vid = str(deal.get("vendorItemId") or "").strip()
+        if vid:
+            return vid
+        url = deal.get("productUrl") or ""
+    else:
+        url = str(deal or "")
+    m = VENDOR_ITEM_RE.search(url)
+    return m.group(1) if m else ""
+
+
+def is_other_option(stored: dict, fresh: dict) -> bool:
+    """같은 productId 인데 실제 판매 옵션(vendorItemId)이 다른 상품인지."""
+    a = vendor_item_id(stored)
+    b = vendor_item_id(fresh)
+    return bool(a and b and a != b)
 
 
 def passes_listing_filter(deal: dict) -> bool:
@@ -749,6 +794,7 @@ def collect(access_key: str, secret_key: str, sub_id: str, targets: list[dict],
                       f"{item.get('productName', '')[:64]}")
             deals.append({
                 "productId": pid,
+                "vendorItemId": str(item.get("vendorItemId") or ""),
                 "productName": item.get("productName", ""),
                 "productPrice": int(price) if price else None,
                 "productImage": item.get("productImage", ""),
@@ -795,6 +841,10 @@ def merge_deals(previous: list[dict], fresh: list[dict]) -> list[dict]:
     for d in fresh:
         pid = str(d.get("productId") or "")
         if not pid or is_excluded(d.get("productName", "")) or not passes_listing_filter(d):
+            continue
+        if pid in merged and is_other_option(merged[pid], d):
+            print(f"[skip] 같은 상품 페이지(productId {pid})의 다른 옵션 — 기존 상품 유지: "
+                  f"{(d.get('productName') or '')[:48]}")
             continue
         d["category"] = override_category(d.get("productName", ""), d.get("category", ""))
         if pid not in merged:

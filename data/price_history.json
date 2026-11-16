@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16 21:06 KST",
+  "updatedAt": "2026-11-16 22:08 KST",
   "source": "git snapshots",
   "products": {
     "8436480488": {
@@ -3326,14 +3326,19 @@
           "at": "2026-11-16 15:15 KST",
           "price": 13440,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-16 22:07 KST",
+          "price": 13440,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 3,
+      "priceCount": 4,
       "avgPrice": 13440,
       "minPrice": 13440,
       "maxPrice": 13440,
       "lastPrice": 13440,
-      "lastAt": "2026-11-16 15:15 KST",
+      "lastAt": "2026-11-16 22:07 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -3341,7 +3346,7 @@
           13440,
           13440,
           13440,
-          3
+          4
         ]
       ],
       "uniqueDays": 1
@@ -5676,14 +5681,19 @@
           "at": "2026-11-16 19:03 KST",
           "price": 26800,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-16 22:07 KST",
+          "price": 26800,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 2,
+      "priceCount": 3,
       "avgPrice": 26800,
       "minPrice": 26800,
       "maxPrice": 26800,
       "lastPrice": 26800,
-      "lastAt": "2026-11-16 19:03 KST",
+      "lastAt": "2026-11-16 22:07 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -5691,7 +5701,7 @@
           26800,
           26800,
           26800,
-          2
+          3
         ]
       ],
       "uniqueDays": 1
@@ -5849,14 +5859,19 @@
           "at": "2026-11-16 20:04 KST",
           "price": 27400,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-16 22:07 KST",
+          "price": 27400,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 2,
+      "priceCount": 3,
       "avgPrice": 27400,
       "minPrice": 27400,
       "maxPrice": 27400,
       "lastPrice": 27400,
-      "lastAt": "2026-11-16 20:04 KST",
+      "lastAt": "2026-11-16 22:07 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -5864,7 +5879,7 @@
           27400,
           27400,
           27400,
-          2
+          3
         ]
       ],
       "uniqueDays": 1
@@ -7231,14 +7246,19 @@
           "at": "2026-11-16 19:03 KST",
           "price": 31300,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-16 22:07 KST",
+          "price": 31300,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 31300,
       "minPrice": 31300,
       "maxPrice": 31300,
       "lastPrice": 31300,
-      "lastAt": "2026-11-16 19:03 KST",
+      "lastAt": "2026-11-16 22:07 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -7246,7 +7266,7 @@
           31300,
           31300,
           31300,
-          1
+          2
         ]
       ],
       "uniqueDays": 1
@@ -8075,7 +8095,7 @@
     },
     "7123864170": {
       "productName": "네이쳐티 넘치는 딸기 베이스, 1kg, 1개",
-      "category": "파우더",
+      "category": "과일·베이스",
       "observations": [
         {
           "at": "2026-11-16 21:06 KST",
@@ -8333,14 +8353,19 @@
           "at": "2026-11-16 21:06 KST",
           "price": 17900,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-16 22:07 KST",
+          "price": 17900,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 17900,
       "minPrice": 17900,
       "maxPrice": 17900,
       "lastPrice": 17900,
-      "lastAt": "2026-11-16 21:06 KST",
+      "lastAt": "2026-11-16 22:07 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -8348,7 +8373,7 @@
           17900,
           17900,
           17900,
-          1
+          2
         ]
       ],
       "uniqueDays": 1
@@ -8361,14 +8386,19 @@
           "at": "2026-11-16 21:06 KST",
           "price": 17900,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-16 22:07 KST",
+          "price": 17900,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 17900,
       "minPrice": 17900,
       "maxPrice": 17900,
       "lastPrice": 17900,
-      "lastAt": "2026-11-16 21:06 KST",
+      "lastAt": "2026-11-16 22:07 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -8376,6 +8406,258 @@
           17900,
           17900,
           17900,
+          2
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9063854435": {
+      "productName": "파이토메이드 고칼슘 & 비타민D 두유 검은콩, 24개, 190ml",
+      "category": "우유·대체유",
+      "observations": [
+        {
+          "at": "2026-11-16 22:07 KST",
+          "price": 10650,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 10650,
+      "minPrice": 10650,
+      "maxPrice": 10650,
+      "lastPrice": 10650,
+      "lastAt": "2026-11-16 22:07 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          10650,
+          10650,
+          10650,
+          10650,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8866895518": {
+      "productName": "얼터너티브데어리 호주 두유 음료 바리스타 소이, 1개, 1L",
+      "category": "우유·대체유",
+      "observations": [
+        {
+          "at": "2026-11-16 22:07 KST",
+          "price": 7400,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 7400,
+      "minPrice": 7400,
+      "maxPrice": 7400,
+      "lastPrice": 7400,
+      "lastAt": "2026-11-16 22:07 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          7400,
+          7400,
+          7400,
+          7400,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9237186355": {
+      "productName": "포담팩 종이컵홀더 아이스 92컵 98컵 멀티홀더 그린 클로버, 1개, 1000개",
+      "category": "빨대·홀더",
+      "observations": [
+        {
+          "at": "2026-11-16 22:07 KST",
+          "price": 26950,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 26950,
+      "minPrice": 26950,
+      "maxPrice": 26950,
+      "lastPrice": 26950,
+      "lastAt": "2026-11-16 22:07 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          26950,
+          26950,
+          26950,
+          26950,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7268743119": {
+      "productName": "윤고집 아몬드 분말, 800g, 1개",
+      "category": "베이킹 재료",
+      "observations": [
+        {
+          "at": "2026-11-16 22:07 KST",
+          "price": 24900,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 24900,
+      "minPrice": 24900,
+      "maxPrice": 24900,
+      "lastPrice": 24900,
+      "lastAt": "2026-11-16 22:07 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          24900,
+          24900,
+          24900,
+          24900,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9723407913": {
+      "productName": "26년산 햇밀 가정용 속이 편한 양평 우리밀 통밀가루 강력분, 500g, 1개",
+      "category": "베이킹 재료",
+      "observations": [
+        {
+          "at": "2026-11-16 22:07 KST",
+          "price": 5190,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 5190,
+      "minPrice": 5190,
+      "maxPrice": 5190,
+      "lastPrice": 5190,
+      "lastAt": "2026-11-16 22:07 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          5190,
+          5190,
+          5190,
+          5190,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9629750440": {
+      "productName": "26년산 국산 우리밀 발아 통밀가루 500g 강력분, 1개, 500g",
+      "category": "베이킹 재료",
+      "observations": [
+        {
+          "at": "2026-11-16 22:07 KST",
+          "price": 6310,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 6310,
+      "minPrice": 6310,
+      "maxPrice": 6310,
+      "lastPrice": 6310,
+      "lastAt": "2026-11-16 22:07 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          6310,
+          6310,
+          6310,
+          6310,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9334584566": {
+      "productName": "쌀가루 (강력분) 국산 양평 가루미 제빵 글루텐프리, 1개, 1kg",
+      "category": "베이킹 재료",
+      "observations": [
+        {
+          "at": "2026-11-16 22:07 KST",
+          "price": 5620,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 5620,
+      "minPrice": 5620,
+      "maxPrice": 5620,
+      "lastPrice": 5620,
+      "lastAt": "2026-11-16 22:07 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          5620,
+          5620,
+          5620,
+          5620,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "6942277510": {
+      "productName": "네이쳐티 넘치는복숭아 베이스, 2개, 1kg",
+      "category": "과일·베이스",
+      "observations": [
+        {
+          "at": "2026-11-16 22:07 KST",
+          "price": 19710,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 19710,
+      "minPrice": 19710,
+      "maxPrice": 19710,
+      "lastPrice": 19710,
+      "lastAt": "2026-11-16 22:07 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          19710,
+          19710,
+          19710,
+          19710,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9245945158": {
+      "productName": "커피에스프레소 에티오피아 예가체프 코케허니 G1 스폐셜티 원두, 1개, 1kg",
+      "category": "원두",
+      "observations": [
+        {
+          "at": "2026-11-16 22:07 KST",
+          "price": 37400,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 37400,
+      "minPrice": 37400,
+      "maxPrice": 37400,
+      "lastPrice": 37400,
+      "lastAt": "2026-11-16 22:07 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          37400,
+          37400,
+          37400,
+          37400,
           1
         ]
       ],
