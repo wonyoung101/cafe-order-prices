@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17 05:17 KST",
+  "updatedAt": "2026-11-17 06:18 KST",
   "source": "git snapshots",
   "products": {
     "8436480488": {
@@ -484,7 +484,7 @@
       "uniqueDays": 1
     },
     "9422933215": {
-      "productName": "아이팩피앤디 98파이 돔리드 PET 컵뚜껑 국산 투명, 1박스, 1000개",
+      "productName": "아이팩피앤디 92파이 16온스 PET 아이스컵 국산 투명, 1박스, 1000개, 470ml",
       "category": "컵·뚜껑",
       "observations": [
         {
@@ -5214,14 +5214,19 @@
           "at": "2026-11-17 01:11 KST",
           "price": 27000,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 06:18 KST",
+          "price": 27000,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 3,
+      "priceCount": 4,
       "avgPrice": 27000,
       "minPrice": 27000,
       "maxPrice": 27000,
       "lastPrice": 27000,
-      "lastAt": "2026-11-17 01:11 KST",
+      "lastAt": "2026-11-17 06:18 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -5237,7 +5242,7 @@
           27000,
           27000,
           27000,
-          1
+          2
         ]
       ],
       "uniqueDays": 2
@@ -5260,14 +5265,19 @@
           "at": "2026-11-17 01:11 KST",
           "price": 29700,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 06:18 KST",
+          "price": 29700,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 3,
+      "priceCount": 4,
       "avgPrice": 29700,
       "minPrice": 29700,
       "maxPrice": 29700,
       "lastPrice": 29700,
-      "lastAt": "2026-11-17 01:11 KST",
+      "lastAt": "2026-11-17 06:18 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -5283,7 +5293,7 @@
           29700,
           29700,
           29700,
-          1
+          2
         ]
       ],
       "uniqueDays": 2
@@ -8760,14 +8770,19 @@
           "at": "2026-11-16 22:07 KST",
           "price": 26950,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 06:18 KST",
+          "price": 26950,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 26950,
       "minPrice": 26950,
       "maxPrice": 26950,
       "lastPrice": 26950,
-      "lastAt": "2026-11-16 22:07 KST",
+      "lastAt": "2026-11-17 06:18 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -8776,9 +8791,17 @@
           26950,
           26950,
           1
+        ],
+        [
+          "2026-11-17",
+          26950,
+          26950,
+          26950,
+          26950,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "7268743119": {
       "productName": "윤고집 아몬드 분말, 800g, 1개",
@@ -11160,6 +11183,286 @@
           62500,
           62500,
           62500,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8239844126": {
+      "productName": "삼육두유 바리스타 두유, 950ml, 12개",
+      "category": "우유·대체유",
+      "observations": [
+        {
+          "at": "2026-11-17 06:18 KST",
+          "price": 19600,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 19600,
+      "minPrice": 19600,
+      "maxPrice": 19600,
+      "lastPrice": 19600,
+      "lastAt": "2026-11-17 06:18 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          19600,
+          19600,
+          19600,
+          19600,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9749776470": {
+      "productName": "[국내제조] 플로랄베이크 M자형 PE케이크 투명비닐 (50장), 100개, 1호사이즈",
+      "category": "매장소모품",
+      "observations": [
+        {
+          "at": "2026-11-17 06:18 KST",
+          "price": 26180,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 26180,
+      "minPrice": 26180,
+      "maxPrice": 26180,
+      "lastPrice": 26180,
+      "lastAt": "2026-11-17 06:18 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          26180,
+          26180,
+          26180,
+          26180,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9143127473": {
+      "productName": "포담팩 종이컵홀더 92파이 98파이 멀티홀더 홀리데이, 1000개",
+      "category": "빨대·홀더",
+      "observations": [
+        {
+          "at": "2026-11-17 06:18 KST",
+          "price": 38500,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 38500,
+      "minPrice": 38500,
+      "maxPrice": 38500,
+      "lastPrice": 38500,
+      "lastAt": "2026-11-17 06:18 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          38500,
+          38500,
+          38500,
+          38500,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "5502853827": {
+      "productName": "colorfood 코코아 파우더, 300g, 1개입, 1개",
+      "category": "베이킹 재료",
+      "observations": [
+        {
+          "at": "2026-11-17 06:18 KST",
+          "price": 13990,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 13990,
+      "minPrice": 13990,
+      "maxPrice": 13990,
+      "lastPrice": 13990,
+      "lastAt": "2026-11-17 06:18 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          13990,
+          13990,
+          13990,
+          13990,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9741371333": {
+      "productName": "다크초콜릿 100% 무가당 비알칼리 카카오매스, 1개, 500g",
+      "category": "베이킹 재료",
+      "observations": [
+        {
+          "at": "2026-11-17 06:18 KST",
+          "price": 27670,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 27670,
+      "minPrice": 27670,
+      "maxPrice": 27670,
+      "lastPrice": 27670,
+      "lastAt": "2026-11-17 06:18 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          27670,
+          27670,
+          27670,
+          27670,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9604266419": {
+      "productName": "리얼 코코아매스 100% 다크초콜릿, 300g, 1개, 1개입",
+      "category": "베이킹 재료",
+      "observations": [
+        {
+          "at": "2026-11-17 06:18 KST",
+          "price": 16200,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 16200,
+      "minPrice": 16200,
+      "maxPrice": 16200,
+      "lastPrice": 16200,
+      "lastAt": "2026-11-17 06:18 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          16200,
+          16200,
+          16200,
+          16200,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8675791119": {
+      "productName": "파베글라스 무가당 카카오매스 다크초콜릿, 7개, 200g",
+      "category": "베이킹 재료",
+      "observations": [
+        {
+          "at": "2026-11-17 06:18 KST",
+          "price": 112220,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 112220,
+      "minPrice": 112220,
+      "maxPrice": 112220,
+      "lastPrice": 112220,
+      "lastAt": "2026-11-17 06:18 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          112220,
+          112220,
+          112220,
+          112220,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9743124573": {
+      "productName": "사노셀 유기농 NFC 레몬즙 100% 1,000ml, 6개, 1L",
+      "category": "시럽·소스",
+      "observations": [
+        {
+          "at": "2026-11-17 06:18 KST",
+          "price": 79900,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 79900,
+      "minPrice": 79900,
+      "maxPrice": 79900,
+      "lastPrice": 79900,
+      "lastAt": "2026-11-17 06:18 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          79900,
+          79900,
+          79900,
+          79900,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8799309080": {
+      "productName": "파이토메이드 NFC착즙 100% 유기농 레몬즙, 1개, 500ml",
+      "category": "시럽·소스",
+      "observations": [
+        {
+          "at": "2026-11-17 06:18 KST",
+          "price": 5200,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 5200,
+      "minPrice": 5200,
+      "maxPrice": 5200,
+      "lastPrice": 5200,
+      "lastAt": "2026-11-17 06:18 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          5200,
+          5200,
+          5200,
+          5200,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9077140166": {
+      "productName": "후버 100% NFC 착즙 레몬즙, 2개, 1L",
+      "category": "시럽·소스",
+      "observations": [
+        {
+          "at": "2026-11-17 06:18 KST",
+          "price": 12900,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 12900,
+      "minPrice": 12900,
+      "maxPrice": 12900,
+      "lastPrice": 12900,
+      "lastAt": "2026-11-17 06:18 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          12900,
+          12900,
+          12900,
+          12900,
           1
         ]
       ],
