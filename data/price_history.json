@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17 06:18 KST",
+  "updatedAt": "2026-11-17 07:19 KST",
   "source": "git snapshots",
   "products": {
     "8436480488": {
@@ -7917,14 +7917,19 @@
           "at": "2026-11-16 19:03 KST",
           "price": 12240,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 07:19 KST",
+          "price": 12020,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
-      "avgPrice": 12240,
-      "minPrice": 12240,
+      "priceCount": 2,
+      "avgPrice": 12130,
+      "minPrice": 12020,
       "maxPrice": 12240,
-      "lastPrice": 12240,
-      "lastAt": "2026-11-16 19:03 KST",
+      "lastPrice": 12020,
+      "lastAt": "2026-11-17 07:19 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -7933,9 +7938,17 @@
           12240,
           12240,
           1
+        ],
+        [
+          "2026-11-17",
+          12020,
+          12020,
+          12020,
+          12020,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "9210126689": {
       "productName": "파베글라스 설탕무첨가 다크 루미에르 초코칩, 1kg, 1개",
@@ -7945,14 +7958,19 @@
           "at": "2026-11-16 19:03 KST",
           "price": 20100,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 07:19 KST",
+          "price": 11800,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
-      "avgPrice": 20100,
-      "minPrice": 20100,
+      "priceCount": 2,
+      "avgPrice": 15950,
+      "minPrice": 11800,
       "maxPrice": 20100,
-      "lastPrice": 20100,
-      "lastAt": "2026-11-16 19:03 KST",
+      "lastPrice": 11800,
+      "lastAt": "2026-11-17 07:19 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -7961,9 +7979,17 @@
           20100,
           20100,
           1
+        ],
+        [
+          "2026-11-17",
+          11800,
+          11800,
+          11800,
+          11800,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "5803499619": {
       "productName": "서강 카우밀, 1L, 2개",
@@ -8286,14 +8312,19 @@
           "at": "2026-11-16 20:04 KST",
           "price": 7430,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 07:19 KST",
+          "price": 7430,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 7430,
       "minPrice": 7430,
       "maxPrice": 7430,
       "lastPrice": 7430,
-      "lastAt": "2026-11-16 20:04 KST",
+      "lastAt": "2026-11-17 07:19 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -8302,9 +8333,17 @@
           7430,
           7430,
           1
+        ],
+        [
+          "2026-11-17",
+          7430,
+          7430,
+          7430,
+          7430,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "8244145059": {
       "productName": "립톤 아이스티 분말 레몬맛, 1.5kg, 1개입, 2개",
@@ -11056,14 +11095,19 @@
           "at": "2026-11-17 05:17 KST",
           "price": 21970,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 07:19 KST",
+          "price": 21970,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 21970,
       "minPrice": 21970,
       "maxPrice": 21970,
       "lastPrice": 21970,
-      "lastAt": "2026-11-17 05:17 KST",
+      "lastAt": "2026-11-17 07:19 KST",
       "dailyHistory": [
         [
           "2026-11-17",
@@ -11071,7 +11115,7 @@
           21970,
           21970,
           21970,
-          1
+          2
         ]
       ],
       "uniqueDays": 1
@@ -11463,6 +11507,258 @@
           12900,
           12900,
           12900,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "6579715072": {
+      "productName": "크리넥스 미트 페이퍼 롤 키친타올, 400매, 2개",
+      "category": "매장소모품",
+      "observations": [
+        {
+          "at": "2026-11-17 07:19 KST",
+          "price": 19850,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 19850,
+      "minPrice": 19850,
+      "maxPrice": 19850,
+      "lastPrice": 19850,
+      "lastAt": "2026-11-17 07:19 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          19850,
+          19850,
+          19850,
+          19850,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9638644644": {
+      "productName": "네이쳐티 넘치는 라떼 파우더, 750g, 1개, 1개입",
+      "category": "파우더",
+      "observations": [
+        {
+          "at": "2026-11-17 07:19 KST",
+          "price": 13200,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 13200,
+      "minPrice": 13200,
+      "maxPrice": 13200,
+      "lastPrice": 13200,
+      "lastAt": "2026-11-17 07:19 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          13200,
+          13200,
+          13200,
+          13200,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7657698356": {
+      "productName": "파베글라스 벨벳 화이트 40% 커버춰 리얼 초콜릿, 1kg, 1개",
+      "category": "당류·토핑",
+      "observations": [
+        {
+          "at": "2026-11-17 07:19 KST",
+          "price": 24480,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 24480,
+      "minPrice": 24480,
+      "maxPrice": 24480,
+      "lastPrice": 24480,
+      "lastAt": "2026-11-17 07:19 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          24480,
+          24480,
+          24480,
+          24480,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9717971496": {
+      "productName": "화이트 컴파운드 초코칩 미디움 1kg 선인 토핑 [선주문]",
+      "category": "당류·토핑",
+      "observations": [
+        {
+          "at": "2026-11-17 07:19 KST",
+          "price": 13800,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 13800,
+      "minPrice": 13800,
+      "maxPrice": 13800,
+      "lastPrice": 13800,
+      "lastAt": "2026-11-17 07:19 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          13800,
+          13800,
+          13800,
+          13800,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9631985357": {
+      "productName": "슈가티코 컬러 슈가폰던트 300g 슈가반죽 슈가크래프트 슈가페이스트, 1개, 블랙",
+      "category": "당류·토핑",
+      "observations": [
+        {
+          "at": "2026-11-17 07:19 KST",
+          "price": 18800,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 18800,
+      "minPrice": 18800,
+      "maxPrice": 18800,
+      "lastPrice": 18800,
+      "lastAt": "2026-11-17 07:19 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          18800,
+          18800,
+          18800,
+          18800,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "1930861647": {
+      "productName": "테틀리 얼그레이티, 2g, 100개입, 1개",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-17 07:19 KST",
+          "price": 22010,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 22010,
+      "minPrice": 22010,
+      "maxPrice": 22010,
+      "lastPrice": 22010,
+      "lastAt": "2026-11-17 07:19 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          22010,
+          22010,
+          22010,
+          22010,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "2046090668": {
+      "productName": "난다라이프 얼그레이 홍차 티백, 2g, 30개입, 3개",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-17 07:19 KST",
+          "price": 23200,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 23200,
+      "minPrice": 23200,
+      "maxPrice": 23200,
+      "lastPrice": 23200,
+      "lastAt": "2026-11-17 07:19 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          23200,
+          23200,
+          23200,
+          23200,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9278983406": {
+      "productName": "제임스티스푼 얼그레이, 2g, 30개입, 1개",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-17 07:19 KST",
+          "price": 7700,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 7700,
+      "minPrice": 7700,
+      "maxPrice": 7700,
+      "lastPrice": 7700,
+      "lastAt": "2026-11-17 07:19 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          7700,
+          7700,
+          7700,
+          7700,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7490493199": {
+      "productName": "포담팩 발수코팅 빅사 종이 컵캐리어 2구 무지, 1개, 100개",
+      "category": "빨대·홀더",
+      "observations": [
+        {
+          "at": "2026-11-17 07:19 KST",
+          "price": 18700,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 18700,
+      "minPrice": 18700,
+      "maxPrice": 18700,
+      "lastPrice": 18700,
+      "lastAt": "2026-11-17 07:19 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          18700,
+          18700,
+          18700,
+          18700,
           1
         ]
       ],

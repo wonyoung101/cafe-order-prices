@@ -1,7 +1,7 @@
 {
   "status": "ok",
-  "updatedAt": "2026-11-17 06:18 KST",
-  "statsAt": "2026-11-17 06:18 KST",
+  "updatedAt": "2026-11-17 07:19 KST",
+  "statsAt": "2026-11-17 07:19 KST",
   "notice": "",
   "watchlist": [],
   "categories": [
@@ -18,10 +18,10 @@
     "빨대·홀더",
     "매장소모품"
   ],
-  "count": 204,
+  "count": 212,
   "priceStats": {
-    "products": 340,
-    "discounts": 4
+    "products": 349,
+    "discounts": 5
   },
   "deals": [
     {
@@ -2629,6 +2629,43 @@
       ]
     },
     {
+      "productId": "9638644644",
+      "vendorItemId": "",
+      "productName": "네이쳐티 넘치는 라떼 파우더, 750g, 1개, 1개입",
+      "productPrice": 13200,
+      "productImage": "https://ads-partners.coupang.com/image1/uMriWS9v6eDfOAuXuH2L-vnAS4o4vjtPOHg5iF00Fg5k3iNR02dCqU0a3HFRewXabVofaop0BwupsPvpCK7HwJMePD6otg5I5bPvut9vyq_RT9d1Rtd9zm0HKC8knJe0RqEbjiJ7lUWizkn31j3e3Ueofk35C8U5gatvWhMJt8GAob3UTTgxesVeeAo00AU7JYR6y1mpBcHwDm8-pvfIpeABTwsqIr4L2HSKuFH3kFOZGSWCWT097gv-0eQ9DokNKcIQXOilDPhv3KG5CCdVRSxuqyQ44ru33diIdyMAcEzOFjIQ2Rbsaa4st82nglEPgnZ2vXxJxOlZeqlsZ5dNQSBnJotjX8lDGbwAAfK2KUfl6tI9DCljfiXHWNTPfknkCYAi9-bejSGM485UK4IWyUIbnNYbfUkOKzj2y5N0JDD0avyLIjt5jODNUpytM9haFbAr2bZIVes7edbx2eG3A_xTNLLX4t0PXZcJZxb9NjoheqFY9G11d4K52AzUfD_T8gXTAD9mAYUFM1ms9Z2MxgyXBC8MaEJSr7aca8N4as7CwR2tDZHWxm2VrsYe2bkbEtDEd4w=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9638644644&itemId=28797873626&vendorItemId=95733343018&traceid=V0-153-9102f9fa094a95e7&clickBeacon=b8358970-e20b-11f1-ba78-65f6acb5e1cc%7E3&requestid=20261117071858670284765984&token=31850C%7CMIXED&pt=1&slot=2",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "파우더",
+      "query": "타로 파우더 1kg",
+      "unitPrice": 1760,
+      "unitBasis": "100g당",
+      "packNote": "750g",
+      "avgPrice": 13200,
+      "minPrice": 13200,
+      "maxPrice": 13200,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          13200,
+          13200,
+          13200,
+          13200,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-17 07:19 KST",
+          13200
+        ]
+      ]
+    },
+    {
       "productId": "7796309815",
       "vendorItemId": "",
       "productName": "더블데이 리치 고구마 라떼 파우더, 1개, 800g, 1개입",
@@ -3968,24 +4005,25 @@
       ]
     },
     {
-      "productId": "7660088660",
-      "productName": "파베글라스 루미에르 컴파운드 코인 코팅 다크초콜릿, 1kg, 1개",
-      "productPrice": 12240,
-      "productImage": "https://ads-partners.coupang.com/image1/3ICZsNbgun3VoQEY3JnA6YQ5TGDyW-tzxnYaZam9cM-_mWoFC37fqPyBkX_Mm5KQA_TcyluHhbqjKzRHi9986UfGSWt5zWACLzJS445n2LzD-6JJePX9-6H2BOb6U8O5D3H3LZPMlckCXX8a5RYxU5vNEfeYtvrvcmB77LYQxYlY4XihSSAM8qXWJrbwxfAvmNvq8Tlz7018BBhhgSz0C_Li4eTJIXx8sW8uSqau49XcuWnLcKBbMlmwRFIhEuzKknHUBcbmx9Rr-c4OWPKU0fG56k96zJmowkGiTQhxe98XeQfSUYQHqyogDmR63idA31FX3N1FtFZclvO62MNil4Qeod9J_odDTCQK52d7gDjT1qF_EutHrWnvF401CDhwzIdCuA-XCW7QJhcEZ8CR7x2IPzV_Nw4nt9xXHx-MHFeDEFdL7z049uaxIA31x47Jj3TvxSfIWdTotUAlAI1vF2xk5guByidsHmZWplh6hvLSrvQo-xU5QOv5oABGHbA=",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7660088660&itemId=20405443961&vendorItemId=92430836591&traceid=V0-153-0b335c324214db98&clickBeacon=f29f2c40-e1a4-11f1-b73f-72a88de3f9e3%7E3&requestid=20261116190318598249745363&token=31850C%7CMIXED&pt=1&slot=3",
+      "productId": "7660090685",
+      "vendorItemId": "",
+      "productName": "파베글라스 루미에르 컴파운드 코인 코팅 화이트초콜릿, 1kg, 1개",
+      "productPrice": 12020,
+      "productImage": "https://ads-partners.coupang.com/image1/Sy9D3-RYdFZ7Dyr0S4Q_ZhsmIhsgUHpPgcXS-lI-6e7InAeqtSzB93yLxnwn8EDH2iNKxCeGAWJJJQNzamOlwXgtJJ45bmCU-1-W0x4pj_tKOW7E5BgyMW-8zekQOlu81f0U30FchA8EJcHXnfTkJDI5vb5BBdJwfUkLMpcfC9FrvOsF1JbtsTRZkkbBiRuSPy7t9Agm9xwpGsdR50DxUl1Ni4FdhCme-JR6yKZ32zyFzD3V-gvfrmb_zT6Aj6EXRlykXQStthYnebmWfYvrOrmOmYcVQNK4Wz5IwC22c4x3UKYrpUZL_g_sSimanHnQ8swjBX8wRVbZA6HX1pAvxlll43WG1IxgUdvQ8xt9FYSGHT1NgbDHl6jwpbhjCi8kHzmsFztbpAsUeSQhkFFadF5rtHkePQpyM_go9w9-CXbhA2FZw5J8LNmJrlBf58jN6_wH4ptP8-AtGwQGX2v99kWoBFef6sA67e6a-5FnaYo9BQNAYkBUGQrsPsIqa_okd-X_KzIgYg==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7660090685&itemId=20405453228&vendorItemId=92458204024&traceid=V0-153-7a674ef04645fe8a&clickBeacon=bd4c7c20-e20b-11f1-aeac-88f4c06f8ebd%7E3&requestid=20261117071907276147037919&token=31850C%7CMIXED&pt=1&slot=1",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "당류·토핑",
-      "query": "초코칩 1kg",
-      "unitPrice": 1224,
+      "query": "화이트 초코칩 1kg",
+      "unitPrice": 1202,
       "unitBasis": "100g당",
       "packNote": "1,000g",
-      "avgPrice": 12240,
-      "minPrice": 12240,
+      "avgPrice": 12130,
+      "minPrice": 12020,
       "maxPrice": 12240,
-      "priceCount": 1,
-      "discountRate": null,
-      "uniqueDays": 1,
+      "priceCount": 2,
+      "discountRate": 1,
+      "uniqueDays": 2,
       "dailyHistory": [
         [
           "2026-11-16",
@@ -3994,21 +4032,33 @@
           12240,
           12240,
           1
+        ],
+        [
+          "2026-11-17",
+          12020,
+          12020,
+          12020,
+          12020,
+          1
         ]
       ],
       "priceHistory": [
         [
           "2026-11-16 19:03 KST",
           12240
+        ],
+        [
+          "2026-11-17 07:19 KST",
+          12020
         ]
       ]
     },
     {
-      "productId": "7660090685",
-      "productName": "파베글라스 루미에르 컴파운드 코인 코팅 화이트초콜릿, 1kg, 1개",
+      "productId": "7660088660",
+      "productName": "파베글라스 루미에르 컴파운드 코인 코팅 다크초콜릿, 1kg, 1개",
       "productPrice": 12240,
-      "productImage": "https://ads-partners.coupang.com/image1/uRyiknWjxjuiDiAFuevt9ruBnhIEYdDwu0BjKWn0n5ReRez2LkPRft-DWw6pHEwsIcWofa8CiHEtUF7cBssOUySCFhvcDxHH1kE_7fkhxlM1GMuKbCQgHkgdVUFIBLL-raWINHopi0Ay5diLEnaY9_n2NshWTZkrI12iABbRRC9aj6RyhNjbObvPcJByqf9gh6abduCFVkCwY1zZXQXUJ6iZiDJUu3UQDSvySQC4zLktT5zOnnPoXhACYlQSNnThQpzVj2-SDmWogf9lb8o5yB45szYXVq9syIbVHleRz9MCYf3fbWUExqf9jPZn0w64v_mhYHRTXR2YJ5-kQJ8ZVAk6ov8HmMh9yIzWWXmd-PTXdPCvXuSh41sHhUx67Cxaw4QMzRjWePS57NDXzKXfw5-AZC_SvQEYZf2fx4lFyyMbef7AVsR01y3ZSoQjNIPmsxarYdl7-sw-R1B0Wfnem5O65iXhlCtqprnIcL0ASjHwrRUgrjVGfj7m2B3AzFJc",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7660090685&itemId=20405453228&vendorItemId=92458204024&traceid=V0-153-7a674ef04645fe8a&clickBeacon=f29f2c40-e1a4-11f1-97bb-5f95badb6f8e%7E3&requestid=20261116190318598249745363&token=31850C%7CMIXED&pt=1&slot=4",
+      "productImage": "https://ads-partners.coupang.com/image1/3ICZsNbgun3VoQEY3JnA6YQ5TGDyW-tzxnYaZam9cM-_mWoFC37fqPyBkX_Mm5KQA_TcyluHhbqjKzRHi9986UfGSWt5zWACLzJS445n2LzD-6JJePX9-6H2BOb6U8O5D3H3LZPMlckCXX8a5RYxU5vNEfeYtvrvcmB77LYQxYlY4XihSSAM8qXWJrbwxfAvmNvq8Tlz7018BBhhgSz0C_Li4eTJIXx8sW8uSqau49XcuWnLcKBbMlmwRFIhEuzKknHUBcbmx9Rr-c4OWPKU0fG56k96zJmowkGiTQhxe98XeQfSUYQHqyogDmR63idA31FX3N1FtFZclvO62MNil4Qeod9J_odDTCQK52d7gDjT1qF_EutHrWnvF401CDhwzIdCuA-XCW7QJhcEZ8CR7x2IPzV_Nw4nt9xXHx-MHFeDEFdL7z049uaxIA31x47Jj3TvxSfIWdTotUAlAI1vF2xk5guByidsHmZWplh6hvLSrvQo-xU5QOv5oABGHbA=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7660088660&itemId=20405443961&vendorItemId=92430836591&traceid=V0-153-0b335c324214db98&clickBeacon=f29f2c40-e1a4-11f1-b73f-72a88de3f9e3%7E3&requestid=20261116190318598249745363&token=31850C%7CMIXED&pt=1&slot=3",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "당류·토핑",
@@ -4108,6 +4158,43 @@
         [
           "2026-11-16 16:52 KST",
           6500
+        ]
+      ]
+    },
+    {
+      "productId": "9717971496",
+      "vendorItemId": "",
+      "productName": "화이트 컴파운드 초코칩 미디움 1kg 선인 토핑 [선주문]",
+      "productPrice": 13800,
+      "productImage": "https://ads-partners.coupang.com/image1/oaxj-Sdk0oA_lcyKoUV_f4uq3VL7UTFS2sWmZoABQ6-EH_Yx__4kxWTN4l3qXV6kKppJKvV-p93lkbOdL-D6I_W75pi4si619oJZDRz8CU63umWj5GiWkzz4-B5hTj5e_j7mrhUTMPk_2uoAy3AtOinbxnapNSd0MPkQ7PqyJqhL0Rzuv9knv3JuPev8mXzulnFTV-8g3_DK3OY8LCawd9ZXJYzF8COy0ZGUU7Of_8PHeoTer4hJ1dChEIXM7Uib_xKe5n1tRkH9e2QsSqzB_ZYMahmNlSH858344z1WB0YQn0D6MVdjjVeAK2Z3hBw1BbwZQ5yOY03aVKZq6v6xWICJ_DfYOhsKU1nlvep4F5Tz_ZrXL5kFX1CWRBhIZ5H13PtTSSGphiXRHvIwG4xHX0zieY4x2rcdn0-3h8SaW3YPZ3Iyl0IFVogvAzoPG15fU1PehZdzrLWag1rAC2QibpHrNGWDRhAkLhjU1lubFIamGfQF7wHW5Mw5-V1dpJwNYHZFBf-8XOk9ViauIITKHaqPjL5AR-9eICF0XDOMmm9KtgD98A==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9717971496&itemId=29080165836&vendorItemId=96006020428&traceid=V0-153-63b8da8e15bda089&requestid=20261117071907276147037919&token=31850C%7CMIXED&pt=0&slot=8",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "당류·토핑",
+      "query": "화이트 초코칩 1kg",
+      "unitPrice": 1380,
+      "unitBasis": "100g당",
+      "packNote": "1,000g",
+      "avgPrice": 13800,
+      "minPrice": 13800,
+      "maxPrice": 13800,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          13800,
+          13800,
+          13800,
+          13800,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-17 07:19 KST",
+          13800
         ]
       ]
     },
@@ -4232,12 +4319,12 @@
       "unitPrice": 2010,
       "unitBasis": "100g당",
       "packNote": "1,000g",
-      "avgPrice": 20100,
-      "minPrice": 20100,
+      "avgPrice": 15950,
+      "minPrice": 11800,
       "maxPrice": 20100,
-      "priceCount": 1,
+      "priceCount": 2,
       "discountRate": null,
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "dailyHistory": [
         [
           "2026-11-16",
@@ -4246,12 +4333,24 @@
           20100,
           20100,
           1
+        ],
+        [
+          "2026-11-17",
+          11800,
+          11800,
+          11800,
+          11800,
+          1
         ]
       ],
       "priceHistory": [
         [
           "2026-11-16 19:03 KST",
           20100
+        ],
+        [
+          "2026-11-17 07:19 KST",
+          11800
         ]
       ]
     },
@@ -4289,6 +4388,43 @@
         [
           "2026-11-17 05:17 KST",
           6100
+        ]
+      ]
+    },
+    {
+      "productId": "7657698356",
+      "vendorItemId": "",
+      "productName": "파베글라스 벨벳 화이트 40% 커버춰 리얼 초콜릿, 1kg, 1개",
+      "productPrice": 24480,
+      "productImage": "https://ads-partners.coupang.com/image1/vvInBqZkRlyrmIg4vrreMzilHEdfJcDbSUzrsdrju7xHT34U-RTz1xwE8y59LnrX6p0p5M-f_l2oVrC_1_yAqE29q4pemyhxfynikxgLgF7PLw5lQI9Z2acB6f5HoI6vIQo9ersjfipSBIzCT7_mliCKEuSsqq3vU4FWb_M_ZfYr8FrZIjtMvMKKR4VR9H8z160VhjrLaad_-QLI5e8yiXXgDo5hdCemRZLNERxi2WIB88DblOd8m-UDHHBgr41LJmgYQE5EK-wRl3UyYOLtJ0UPTV49B_SY7P0HC2YwWMj6Qg11a79_OMzCUymB9Y3UO1b2TydQXnFtWgetJ2vwgrFpmoA1ohv10nRjPppS2m_IyLu7SDKljMxrlqG41V-CPoUl62at3NvNdmC0w_WfxroYLyoqTe1-QC686qJGFpSnM8-Mo6grwMoueSkVSEBHFGgWxdWJcwyJ2tMR52u7Ms2svHWVcamRCy1tTqbodeWY3PHKnDl1fmIsMu64b5RAJHzomwicvao=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7657698356&itemId=21964090808&vendorItemId=92458236979&traceid=V0-153-5fa7025def984a64&clickBeacon=bd4c7c20-e20b-11f1-b005-1a3c053540f9%7E3&requestid=20261117071907276147037919&token=31850C%7CMIXED&pt=1&slot=2",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "당류·토핑",
+      "query": "화이트 초코칩 1kg",
+      "unitPrice": 2448,
+      "unitBasis": "100g당",
+      "packNote": "1,000g",
+      "avgPrice": 24480,
+      "minPrice": 24480,
+      "maxPrice": 24480,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          24480,
+          24480,
+          24480,
+          24480,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-17 07:19 KST",
+          24480
         ]
       ]
     },
@@ -5898,6 +6034,43 @@
       ]
     },
     {
+      "productId": "1930861647",
+      "vendorItemId": "",
+      "productName": "테틀리 얼그레이티, 2g, 100개입, 1개",
+      "productPrice": 22010,
+      "productImage": "https://ads-partners.coupang.com/image1/Bn2LKFLBcXHNamsPBhK2GW1QxCHB2TMqqNyKui3ZniNhGY_AySNJ2tvxjNqIJDdYdlTeAx4cnr8fLl2qsx5ZwynGGrNuJGT6DlB_DyJomJjV9SKTpJcqr5LdGqfvVO590Xf9iPRvjaqxCfysOq2mqFWGb8e4tx0S3fxPGE-t0ufxpCxuZ0bNt24865OxMzVtMsxysE-_QGtJ5Pg_UFPiO5ceXQBvNf0Ub0M9k0SvVz0EwRjpw8L16KtA2HvR2MZOKrfGqQn0ssIh1_CjckuEqK4FmeWWL3vA9qgj4s9XgT5AzUtTwyV9N7zyqGt6I-qUcnwftRmZYdWl0fMAY4xMboIUqo96ZFyfXC1PbJLbNp77bYanSinMWV2sOsXPdQtflYI6elEKnH9IteC_bRPqsnKhbxBVWvbEFjBOnixYGEulqTwI349NLZk_xUbx-hEjqPSBPAL6DVaeFx39setVTppqMzE5KlulFVkV8zWqpcYvgaPmQmyswxfHmIDKCLAOS_4IR4_OJw==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=1930861647&itemId=3984443009&vendorItemId=71968754619&traceid=V0-153-f87fe9bc506cdaab&clickBeacon=ccbf1af0-e20b-11f1-bdd6-e134c1f3af22%7E3&requestid=20261117071933208137979480&token=31850C%7CMIXED&pt=1&slot=2",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "티·탄산수",
+      "query": "얼그레이 티백 100개입",
+      "unitPrice": 220,
+      "unitBasis": "개당",
+      "packNote": "100개입",
+      "avgPrice": 22010,
+      "minPrice": 22010,
+      "maxPrice": 22010,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          22010,
+          22010,
+          22010,
+          22010,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-17 07:19 KST",
+          22010
+        ]
+      ]
+    },
+    {
       "productId": "8054602080",
       "productName": "클룹 애사비소다 오리지널, 500ml, 24개",
       "productPrice": 26610,
@@ -6003,6 +6176,80 @@
         [
           "2026-11-16 18:02 KST",
           24900
+        ]
+      ]
+    },
+    {
+      "productId": "9278983406",
+      "vendorItemId": "",
+      "productName": "제임스티스푼 얼그레이, 2g, 30개입, 1개",
+      "productPrice": 7700,
+      "productImage": "https://ads-partners.coupang.com/image1/GQLVTr2Rcngb908NGZSj-iXuWt6kVhsCluc_rIsoS7h4DfOSif94eEGe5PQJxH-oNXKZ0ZT0sqqMd8ugF9BwPkF7Hdm-cC_7--rG4b3pCUnpygZlMBM868bLYbpx_ans88vdzgpjpfISn5RwiIG0KCVSVS2FOzYRxG387RpvYza7v0M5LpUr37OSuhG4YM9UIefoyARmUN_NunSqTMmB0daDBbQPVRXnz-UsuCoP6eFfCSJ5BInNlDOyuwXKFzOhgSv4Va8qs_3rLlJO4oQbmlBmTCPvSsMiuadstr0R4aTsyCUucMjzQ_ntZaw18QVDBQKsJ0l__ChIpq0XecKGRF9Gf5oDbjUbSxWMM0K4iQp-USos1xS3kyv6rhZG4W-k69DW61zYsJRAXDErnmD7-LimkxLqlVNsOqQTEPLdKnKKZxm5Eh0rCfGNwFSE5uurp8jCAKf0UnPT9vccdKLWZ67r1xVgScGiX1oWA6KrZt81sQnrlSRKFecA3YxYRsgEjUTN8KpZFts=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9278983406&itemId=27467831586&vendorItemId=94433059246&traceid=V0-153-705ac42e8346ed29&clickBeacon=ccbf1af0-e20b-11f1-9276-19c370312ffa%7E3&requestid=20261117071933208137979480&token=31850C%7CMIXED&pt=1&slot=5",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "티·탄산수",
+      "query": "얼그레이 티백 100개입",
+      "unitPrice": 257,
+      "unitBasis": "개당",
+      "packNote": "30개입",
+      "avgPrice": 7700,
+      "minPrice": 7700,
+      "maxPrice": 7700,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          7700,
+          7700,
+          7700,
+          7700,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-17 07:19 KST",
+          7700
+        ]
+      ]
+    },
+    {
+      "productId": "2046090668",
+      "vendorItemId": "",
+      "productName": "난다라이프 얼그레이 홍차 티백, 2g, 30개입, 3개",
+      "productPrice": 23200,
+      "productImage": "https://ads-partners.coupang.com/image1/414BOVukpxkYJ7Zj4w5PmcPSTpyKdxvNGBb7JR-7s53W2EMj0ni9wTRr68uVpNfyVC8q4KROwTtjCd0CbgH_muBV0BjRcC9zRoMacrTM_YVfFlLNBP_taMs6YQLd0hC7F7bbp1nWIzHsC-mqGxJOKxNxziJmtDCItZrABHNbH7WuLoagHtCmOayIZCWnk5IPxQQUHU4ydR_05YVHSPMRI1Isuy8eckwRvuSOoC0UPNHBmdYfLnxF99nLbnbbIo9Ipz6pqayoVmc_30l1zC-EKzamUrMlZqXSL6VHXwLQTT4wKpemty3HPGJ4s54gMZM5GrHQhSJwYRWixzLUNTzO5T-srZ3p1KB0E5VxkuUkB5DrdV1Tgy5tY-KPC9fnB3PGQ7eILbZqHwNBgrudTfljPmAm0HspsAyyqe4m53xoRwhh_lRSuzBhnGJE8GHir2UmgIglrcYQpPtzg3XmdEJUKKJ7sXaPPvuE9wV0UzMGDVn3Vbv6PGcQRjRNN_szIiNZ9Dix3-X6mQ==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=2046090668&itemId=18818675923&vendorItemId=85949057976&traceid=V0-153-a3b90d65f43eb9aa&clickBeacon=ccbf1af0-e20b-11f1-b952-1dd91dfb8434%7E3&requestid=20261117071933208137979480&token=31850C%7CMIXED&pt=1&slot=4",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "티·탄산수",
+      "query": "얼그레이 티백 100개입",
+      "unitPrice": 258,
+      "unitBasis": "개당",
+      "packNote": "30개×3개",
+      "avgPrice": 23200,
+      "minPrice": 23200,
+      "maxPrice": 23200,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          23200,
+          23200,
+          23200,
+          23200,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-17 07:19 KST",
+          23200
         ]
       ]
     },
@@ -6118,26 +6365,35 @@
     },
     {
       "productId": "9699325460",
+      "vendorItemId": "",
       "productName": "믹소 복숭아 아이스티 파우더, 1kg, 1개, 1개입",
       "productPrice": 7430,
-      "productImage": "https://ads-partners.coupang.com/image1/Hme-7MvxYzid11B-Hl3K2kP-FSARfqKy97ry4ppdWIvqY2z64cbVEXG14QVY7DEoq05obsM-w7Ti3Q3J5UzSy_AWCd79FIAE5R5cyP08wKoIj3_jcCx47Qm02U1sh7F-y3UC0Bf_IMdSQO6pGWqa8EVRnWX3uIWcBEmsbM9uS8PCU4hBgjne491QT4FE6EQaNCeRhPSlfL1m4lcY-gxNWXV9lSX0fFTi4HPLjMyiLO1UmF9bRCZucHdDNYf6xoSJNgzFKFtVllyq4WlLoYEZ1cvdiJH-qPgmHvDTrWU3-whP7qGyeNn9yVUP86kWXkVi5hUVQEf4pT5LIptf9cDLXGpxg-4QnYANr74RFPVYkGeSD1FYKHTDZNQIIWgmRPq2igpk8MOz41w8o1AOEW4Ag64wB7XMpseYt5_BidFDyfedJ4aQz2f1phgDRHTxmiSiaaIEpobaaeI0gMTgDNWygzbwnzECwbqwGUhkZMlKb9QZ-Sst318ygFn2lxLw3EWkykc36RmhKgUFvHPQS8mWvnyB47C5DRu_sHChP8Nd6-tOosF7386I1EX1GK2PmDVGzccc",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9699325460&itemId=29013942007&vendorItemId=95941971731&traceid=V0-153-8f40c329e0aae27b&clickBeacon=880707f0-e1ad-11f1-afe3-27bc65682bb8%7E3&requestid=20261116200445166291614409&token=31850C%7CMIXED&pt=1&slot=1",
+      "productImage": "https://ads-partners.coupang.com/image1/q_Up4eTPfKjERESkq58-0BhkApffgo8ZvrzrRW460nDwoNi9FL7HrHcPoJsKWYvq0FlPZJdxwIGXA1Rk8R4FIUDt8KJI0wy_ktFp7kCTW_KQGmJETfkmp5-bigkd6cykx8l8VcONiTw_8-4rSFPjOYaLxtJZQ8UtIXdPED3Xv42oOlazJQZAswcJNMJG3ZCIw2XZjlQrBfVqs2Vm-IHQzdGjVrrK_XEa2JXmait1XLGdjTVT-cOYdxWJy2-kUaYwynqbZJ9yt9fhAV_GB85JTqta2MpWMaGDgfgPq60V-khGdSYlYA45ayWIAo9VPipYYf6wY42--MKMintoR54C6DbPaTJ_co-tQajjUN7Jr1BAkIfhHRJkrFyJit0Yy0Lcv5N4xlPflsEc_4tDYONeUAYzYLOcu6DlWnj8w9c9AOAed5tPDs-C_ukHNdl2pGCLPNRTeL64TE0ULg62YirSaIiWb_4YASbYU3NmZLKiMZdpqycNgn5ywu0ru75c7ieoPzco-tlvRqQ=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9699325460&itemId=29013942007&vendorItemId=95941971731&traceid=V0-153-8f40c329e0aae27b&clickBeacon=c7a9d5f0-e20b-11f1-9800-ad9faf339c6c%7E3&requestid=20261117071924669137975524&token=31850C%7CMIXED&pt=1&slot=1",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "티·탄산수",
-      "query": "아이스티 1kg",
+      "query": "복숭아 아이스티 1kg",
       "unitPrice": 743,
       "unitBasis": "100g당",
       "packNote": "1,000g",
       "avgPrice": 7430,
       "minPrice": 7430,
       "maxPrice": 7430,
-      "priceCount": 1,
+      "priceCount": 2,
       "discountRate": null,
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "dailyHistory": [
         [
           "2026-11-16",
+          7430,
+          7430,
+          7430,
+          7430,
+          1
+        ],
+        [
+          "2026-11-17",
           7430,
           7430,
           7430,
@@ -6148,6 +6404,10 @@
       "priceHistory": [
         [
           "2026-11-16 20:04 KST",
+          7430
+        ],
+        [
+          "2026-11-17 07:19 KST",
           7430
         ]
       ]
@@ -7615,6 +7875,43 @@
       ]
     },
     {
+      "productId": "7490493199",
+      "vendorItemId": "",
+      "productName": "포담팩 발수코팅 빅사 종이 컵캐리어 2구 무지, 1개, 100개",
+      "productPrice": 18700,
+      "productImage": "https://ads-partners.coupang.com/image1/AxcqjycA3I0qjY-vAyKvKvsfcrI4bhteWDCRQmo8QfQlckLf-PJEtM3XET_2KtSxR2ECgaVXW1MpV9gn4S0keXmNkXqANT6Iru_a72vT_XFwsZEqn2HchFbqQMdcsDuVgdvqILTxcE9MPOod1k_4EiD1mmvfVnoox9ek0UIvpse9viOxJBlLBuI58M1KJLAf4P3xI9n1Hikvqgplf7cHOuuv4ykQt7D1C7pteY11-BDEL9IErOQjoCweOIKkTh03TDc17s0h-aWnSJjihorn2v2Nnqu5fdv0uIIGZab3H1EXZTxqA03T0oIBwR595NJb4lE6xVIEbQcswOgvlx76OBSkwr9K_V18cSpjeLUrPvgRg954CbrucOqTzculSg_tf970N_YLpDDStI84KA0iI9q2iRfve7ZBaqBupZrK7Ohg7FgEXAKW3xDwQB1yGlm0XbEMhTcpO_t47MXai645CZBeBWSXlBWqUOuVqvVW18sV_HwB8_edL2TUoGpqve5ki0eUPuKaA4yOBLb5_k4Vpb-ayHDG",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7490493199&itemId=23436120596&vendorItemId=90463018363&traceid=V0-153-87359ac0c8df0ef4&clickBeacon=d1dbb2f0-e20b-11f1-a9a5-25d26effe8a5%7E3&requestid=20261117071941719088814000&token=31850C%7CMIXED&pt=1&slot=2",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "빨대·홀더",
+      "query": "종이캐리어 100개",
+      "unitPrice": 187,
+      "unitBasis": "개당",
+      "packNote": "100개입",
+      "avgPrice": 18700,
+      "minPrice": 18700,
+      "maxPrice": 18700,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          18700,
+          18700,
+          18700,
+          18700,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-17 07:19 KST",
+          18700
+        ]
+      ]
+    },
+    {
       "productId": "8425476120",
       "productName": "업소용 테이블 냅킨 10000매 대용량 무형광 식당 네프킨 디너 뽑아쓰는, 10000매, 1개",
       "productPrice": 22500,
@@ -7691,19 +7988,19 @@
       "vendorItemId": "",
       "productName": "SOOM 100% 천연펄프 무형광 핸드타올 5000매 키친타올 페이퍼타올, 5000개입, 1개",
       "productPrice": 21970,
-      "productImage": "https://ads-partners.coupang.com/image1/YZY-TubJ_GZRMnlRYdgwWVEnu16vtUqx5g4xSQU5jcsaHLkR6KCY3eSpwtxNVYgkCI5IHU2Q9kgymvY-9ngQN3D7WErhXJLyeBAbvUtX2vHiJjyiFY8c7DWPAOZkSut7zZ1bp-3z5kmQWMEBseLuNpSmTyQF0eNVU8Vn9QF7MAwmYFZUGYuUDYRT1WEWdGBYRWjGeixuYVPZnzuyS0GO2d00Y-w0l1Aqg91bxtS8si51W_JC5iTflqjgLMREwvPRpvBAj8IkGqXawqQD2dHCo68t4FJeq0S3YoRggr5CYNDuS2EL88v_RwaX1aIwsnTWv5uMiiIHrCt8O0cpL0nRBNEPRNV6juDo7V03Fj_hbEsvnh3LUCiULjCDtbXzEPCan_pIn5fcXnwNqqHce8lhpWVeFe62Mr5NgCEdIDnruSP4DIPCkbM6DLQNGrdOxTsWutLUjO8tcU0rmtl4yoxjAn4qo21d2MkEmR6PpAewtsn0soAGVy069nd3N0aAEF7d8BnUVus5cfEfbHI3VPY4wRgcB7mGUnnKPw==",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9318808229&itemId=20483887234&vendorItemId=89468456030&traceid=V0-153-8faec837c6df715b&clickBeacon=a3502c10-e1fa-11f1-941e-3989eb7e7404%7E3&requestid=20261117051642192021620491&token=31850C%7CMIXED&pt=1&slot=5",
+      "productImage": "https://ads-partners.coupang.com/image1/lGXdZ3RL3t_iiiOZlKYEv0rz9Rk-R1wxcvw0Ufo9ZWwMmGKKSiG9eKdkGapHoHLExphkTlnu10E6ZZhIIZLvpzMnT0FtOOyzMpcNA9XiMFvDqn90O0Jgtyr7wLs8D6Vfk9SGUve127-L9rRyr_EaLyz-0LWPQvSzqyoFHgynLaMJyil6gsiHa-GoAZ7kF195lONTkIsLtPXqjZ-M2yAqhbLAXUNzcDtMKVlpFYNSXb8Lydpu6_iB4NSMOEbui-BKqNr6vH8xg0SDf2nVqSwSkFvhIY-eR5xACORBu4Q_1Qt-hjtI2WEoCqu5o1OVgCCHlVJJxgiQi-i4_mYnvZogftoYdU3qsBrPJRZWIs4Ne3cwzvylARGoO8ReoJzqfB1u_o1HYHvAic7sl9jkfTf0PGLtePdoXPfamt60ruMGfAacw7IMeooAt8HuBVEsbVW3fC9rphZaJ39FnrKPeHUJTlYZsY6onbdAyGs8E8XDE7n_IVmKOqPGb1B5qKyNPwGX0CzIkWg2i75sV6CxrKVXALNzch7WHV6cbA==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9318808229&itemId=20483887234&vendorItemId=89468456030&traceid=V0-153-8faec837c6df715b&clickBeacon=b2e0a360-e20b-11f1-bf26-3ab9e44e1bc5%7E3&requestid=20261117071849810232885781&token=31850C%7CMIXED&pt=1&slot=2",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "매장소모품",
-      "query": "업소용 핸드타월 200매",
+      "query": "롤 핸드타월 12롤",
       "unitPrice": 4,
       "unitBasis": "개당",
       "packNote": "5,000개입",
       "avgPrice": 21970,
       "minPrice": 21970,
       "maxPrice": 21970,
-      "priceCount": 1,
+      "priceCount": 2,
       "discountRate": null,
       "uniqueDays": 1,
       "dailyHistory": [
@@ -7713,12 +8010,16 @@
           21970,
           21970,
           21970,
-          1
+          2
         ]
       ],
       "priceHistory": [
         [
           "2026-11-17 05:17 KST",
+          21970
+        ],
+        [
+          "2026-11-17 07:19 KST",
           21970
         ]
       ]
@@ -8073,6 +8374,43 @@
         [
           "2026-11-16 19:03 KST",
           17800
+        ]
+      ]
+    },
+    {
+      "productId": "6579715072",
+      "vendorItemId": "",
+      "productName": "크리넥스 미트 페이퍼 롤 키친타올, 400매, 2개",
+      "productPrice": 19850,
+      "productImage": "https://ads-partners.coupang.com/image1/Vu1j32C4llsxy6KJVlJtcMzytnS2MQ5MDgORHySvkSMMg7i7ug-M1Jt-CEZ1nYRQJnAi6ZoojYb5yFYpzdiyRpLPsT8v9kQRaE-oOQeftLkfMj8IWoIDdQPqeeanI_qz17RG-BbRQm9--upM8-aLcd_UPlf7BGv_OkkGEN2tSgPm_TCajpP-IxyN3GYMQ_7pjZXiJ1NrosQ7VhY2iTnJvTHTzzgjCN_4lAugIEGWv7xuOZ7cGJa083Nnml5tQ57FAojUJL1LElTT4lrIuq4il2v4GyT17q3BI5CnUrzJ4hIg1v4nQ_kMFZrnteQfTCihXf5Jt1Ic-j52o_THoLkYFGOQEtktgWlRQXEOnZix4V7DmGf8DB3kqwazLnLdC44eRPcba3s5bTLFzOAEmm2F-_Ci1eXJdenIWl1Qzrl-jyvcnEKqgr37sKBNXHo9VHoaZwF472aQSQIFDIkJqe113sSEllkUllUOMdd6To754DL761-2EX-9-3kkayP-jWOAW6TUgsYsCw==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=6579715072&itemId=26581725840&vendorItemId=88583532057&traceid=V0-153-ecb870006e7ec16a&clickBeacon=b2e0a360-e20b-11f1-bc1b-648eb08511fe%7E3&requestid=20261117071849810232885781&token=31850C%7CMIXED&pt=1&slot=4",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "매장소모품",
+      "query": "롤 핸드타월 12롤",
+      "unitPrice": 25,
+      "unitBasis": "개당",
+      "packNote": "400개×2개",
+      "avgPrice": 19850,
+      "minPrice": 19850,
+      "maxPrice": 19850,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          19850,
+          19850,
+          19850,
+          19850,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-17 07:19 KST",
+          19850
         ]
       ]
     },
