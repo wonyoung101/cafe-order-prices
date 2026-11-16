@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17 02:13 KST",
+  "updatedAt": "2026-11-17 03:14 KST",
   "source": "git snapshots",
   "products": {
     "8436480488": {
@@ -1676,14 +1676,19 @@
           "at": "2026-11-16 07:02 KST",
           "price": 19970,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-17 03:14 KST",
+          "price": 19970,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 4,
-      "avgPrice": 17968,
+      "priceCount": 5,
+      "avgPrice": 18368,
       "minPrice": 17300,
       "maxPrice": 19970,
       "lastPrice": 19970,
-      "lastAt": "2026-11-16 07:02 KST",
+      "lastAt": "2026-11-17 03:14 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -1692,9 +1697,17 @@
           17968,
           19970,
           4
+        ],
+        [
+          "2026-11-17",
+          19970,
+          19970,
+          19970,
+          19970,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "9536213705": {
       "productName": "믈레코비타 3.5퍼센트 멸균우유",
@@ -7086,14 +7099,19 @@
           "at": "2026-11-16 18:02 KST",
           "price": 7460,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 03:14 KST",
+          "price": 13420,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
-      "avgPrice": 7460,
+      "priceCount": 2,
+      "avgPrice": 10440,
       "minPrice": 7460,
-      "maxPrice": 7460,
-      "lastPrice": 7460,
-      "lastAt": "2026-11-16 18:02 KST",
+      "maxPrice": 13420,
+      "lastPrice": 13420,
+      "lastAt": "2026-11-17 03:14 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -7102,9 +7120,17 @@
           7460,
           7460,
           1
+        ],
+        [
+          "2026-11-17",
+          13420,
+          13420,
+          13420,
+          13420,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "1894828334": {
       "productName": "우리차 돼지감자차, 1g, 100개입, 1개",
@@ -9684,7 +9710,7 @@
     },
     "7340177591": {
       "productName": "[로켓프레시] 마스카포네 치즈, 250g, 1개입, 1개",
-      "category": "크림·연유",
+      "category": "베이킹 재료",
       "observations": [
         {
           "at": "2026-11-17 02:12 KST",
@@ -9964,7 +9990,7 @@
     },
     "7764496954": {
       "productName": "더블데이 레드패션 딸기 요거트 파우더, 800g, 1개입, 1개",
-      "category": "과일·베이스",
+      "category": "파우더",
       "observations": [
         {
           "at": "2026-11-17 02:12 KST",
@@ -10041,6 +10067,454 @@
           12930,
           12930,
           12930,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9402583307": {
+      "productName": "트리아노 가죽 방수 테이블 매트, 크림, 1개, 80 x 140 cm",
+      "category": "매장소모품",
+      "observations": [
+        {
+          "at": "2026-11-17 03:14 KST",
+          "price": 18600,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 18600,
+      "minPrice": 18600,
+      "maxPrice": 18600,
+      "lastPrice": 18600,
+      "lastAt": "2026-11-17 03:14 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          18600,
+          18600,
+          18600,
+          18600,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9041615889": {
+      "productName": "커버팩토리 프리미엄 유리대용 테이블 반투명 매트, 단일 색상, 2개",
+      "category": "매장소모품",
+      "observations": [
+        {
+          "at": "2026-11-17 03:14 KST",
+          "price": 11120,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 11120,
+      "minPrice": 11120,
+      "maxPrice": 11120,
+      "lastPrice": 11120,
+      "lastAt": "2026-11-17 03:14 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          11120,
+          11120,
+          11120,
+          11120,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7846788192": {
+      "productName": "디아쿠아 북유럽 스타일 레스토랑 2개 세트 테이블 라운드 식탁매트, 민트스카이블루, 1세트",
+      "category": "매장소모품",
+      "observations": [
+        {
+          "at": "2026-11-17 03:14 KST",
+          "price": 6900,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 6900,
+      "minPrice": 6900,
+      "maxPrice": 6900,
+      "lastPrice": 6900,
+      "lastAt": "2026-11-17 03:14 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          6900,
+          6900,
+          6900,
+          6900,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9158278681": {
+      "productName": "커버팩토리 프리미엄 PVC 테이블 매트, 반투명, 80cm x 140cm x 두께 3mm x 모서리 라운드1.5cm, 1개",
+      "category": "매장소모품",
+      "observations": [
+        {
+          "at": "2026-11-17 03:14 KST",
+          "price": 42200,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 42200,
+      "minPrice": 42200,
+      "maxPrice": 42200,
+      "lastPrice": 42200,
+      "lastAt": "2026-11-17 03:14 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          42200,
+          42200,
+          42200,
+          42200,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8509808079": {
+      "productName": "커버팩토리 식탁 테이블 매트, 투명, 60cm x 220cm x 2mm, 1개",
+      "category": "매장소모품",
+      "observations": [
+        {
+          "at": "2026-11-17 03:14 KST",
+          "price": 33500,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 33500,
+      "minPrice": 33500,
+      "maxPrice": 33500,
+      "lastPrice": 33500,
+      "lastAt": "2026-11-17 03:14 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          33500,
+          33500,
+          33500,
+          33500,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8940892945": {
+      "productName": "대한다업 캐모마일차, 1g, 10개, 100개입",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-17 03:14 KST",
+          "price": 140630,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 140630,
+      "minPrice": 140630,
+      "maxPrice": 140630,
+      "lastPrice": 140630,
+      "lastAt": "2026-11-17 03:14 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          140630,
+          140630,
+          140630,
+          140630,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7488170820": {
+      "productName": "닥터루트 캐모마일차 삼각티백, 1.2g, 100개입, 1개",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-17 03:14 KST",
+          "price": 14160,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 14160,
+      "minPrice": 14160,
+      "maxPrice": 14160,
+      "lastPrice": 14160,
+      "lastAt": "2026-11-17 03:14 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          14160,
+          14160,
+          14160,
+          14160,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "1918835282": {
+      "productName": "다비앙 유기농 캐모마일 티백, 1.5g, 20개입, 2개",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-17 03:14 KST",
+          "price": 15800,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 15800,
+      "minPrice": 15800,
+      "maxPrice": 15800,
+      "lastPrice": 15800,
+      "lastAt": "2026-11-17 03:14 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          15800,
+          15800,
+          15800,
+          15800,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9619984543": {
+      "productName": "유리아 더진한 캐모마일 삼각티백, 1개, 50개입, 1.5g",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-17 03:14 KST",
+          "price": 11600,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 11600,
+      "minPrice": 11600,
+      "maxPrice": 11600,
+      "lastPrice": 11600,
+      "lastAt": "2026-11-17 03:14 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          11600,
+          11600,
+          11600,
+          11600,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "400147": {
+      "productName": "녹차수도보성 보성 산 녹차 티백, 1.2g, 100개입, 1개",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-17 03:14 KST",
+          "price": 8810,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 8810,
+      "minPrice": 8810,
+      "maxPrice": 8810,
+      "lastPrice": 8810,
+      "lastAt": "2026-11-17 03:14 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          8810,
+          8810,
+          8810,
+          8810,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9651126621": {
+      "productName": "대한다업 유기농 보성 현미 녹차, 1.5g, 1개, 100개입",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-17 03:14 KST",
+          "price": 6050,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 6050,
+      "minPrice": 6050,
+      "maxPrice": 6050,
+      "lastPrice": 6050,
+      "lastAt": "2026-11-17 03:14 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          6050,
+          6050,
+          6050,
+          6050,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "2112264285": {
+      "productName": "녹차수도보성 현미녹차 티백, 1.5g, 100개입, 1개",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-17 03:14 KST",
+          "price": 6170,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 6170,
+      "minPrice": 6170,
+      "maxPrice": 6170,
+      "lastPrice": 6170,
+      "lastAt": "2026-11-17 03:14 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          6170,
+          6170,
+          6170,
+          6170,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8168828141": {
+      "productName": "킹아일랜드 구운 코코넛칩 대용량, 500g, 1개",
+      "category": "당류·토핑",
+      "observations": [
+        {
+          "at": "2026-11-17 03:14 KST",
+          "price": 14900,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 14900,
+      "minPrice": 14900,
+      "maxPrice": 14900,
+      "lastPrice": 14900,
+      "lastAt": "2026-11-17 03:14 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          14900,
+          14900,
+          14900,
+          14900,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7418316890": {
+      "productName": "베버시티 파인애플베이스, 1kg, 1개",
+      "category": "과일·베이스",
+      "observations": [
+        {
+          "at": "2026-11-17 03:14 KST",
+          "price": 12200,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 12200,
+      "minPrice": 12200,
+      "maxPrice": 12200,
+      "lastPrice": 12200,
+      "lastAt": "2026-11-17 03:14 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          12200,
+          12200,
+          12200,
+          12200,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7398481358": {
+      "productName": "엔아이에프 엔칸토 제주감귤베이스, 1.8kg, 1개",
+      "category": "과일·베이스",
+      "observations": [
+        {
+          "at": "2026-11-17 03:14 KST",
+          "price": 18000,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 18000,
+      "minPrice": 18000,
+      "maxPrice": 18000,
+      "lastPrice": 18000,
+      "lastAt": "2026-11-17 03:14 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          18000,
+          18000,
+          18000,
+          18000,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7398450358": {
+      "productName": "엔칸토 한라봉 베이스, 1.8kg, 1개",
+      "category": "과일·베이스",
+      "observations": [
+        {
+          "at": "2026-11-17 03:14 KST",
+          "price": 20500,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 20500,
+      "minPrice": 20500,
+      "maxPrice": 20500,
+      "lastPrice": 20500,
+      "lastAt": "2026-11-17 03:14 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          20500,
+          20500,
+          20500,
+          20500,
           1
         ]
       ],
