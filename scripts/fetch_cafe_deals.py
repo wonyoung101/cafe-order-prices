@@ -172,11 +172,23 @@ TARGETS = [
     {"label": "테이크아웃 컵홀더 1000개", "category": "빨대·홀더",  "query": "테이크아웃 컵홀더 1000개", "bases": ["개당"], "wave": 7},
     {"label": "아이스티 1kg",        "category": "티·탄산수",   "query": "아이스티 1kg",     "bases": ["100g"], "wave": 7},
 
-    # ---- 8차 보강 후보 (wave=8, 미검증) — 20:00 회차에서 돌지 않은 키워드.
-    {"label": "슈가파우더 1kg",       "category": "당류·토핑",   "query": "슈가파우더 1kg",    "bases": ["100g"], "wave": 8},
-    {"label": "콜롬비아 원두 1kg",     "category": "원두",       "query": "콜롬비아 원두 1kg",  "bases": ["100g"], "wave": 8},
+    # ---- 8차 보강 키워드 (wave=8) — 21:00 회차 실행분.
+    # 건수가 가장 적은 카테고리(크림·연유 5 · 파우더 7 · 과일·베이스 7 · 원두 8 · 컵·뚜껑 8)에
+    # 8회를 모두 배분했다. 모두 **제목에 용량·개수가 명시되는** 키워드만 쓴다(사용자 확정 규칙).
     {"label": "딸기 파우더 1kg",       "category": "파우더",      "query": "딸기 파우더 1kg",    "bases": ["100g"], "wave": 8},
-    {"label": "두유 1L",            "category": "우유·대체유", "query": "두유 1L",          "bases": ["100ml"], "wave": 8},
+    {"label": "녹차 파우더 1kg",       "category": "파우더",      "query": "녹차 파우더 1kg",    "bases": ["100g"], "wave": 8},
+    {"label": "유자청 1kg",          "category": "과일·베이스", "query": "유자청 1kg",       "bases": ["100g"], "wave": 8},
+    {"label": "딸기 베이스 1kg",       "category": "과일·베이스", "query": "딸기 베이스 1kg",    "bases": ["100g", "100ml"], "wave": 8},
+    {"label": "콜롬비아 원두 1kg",     "category": "원두",       "query": "콜롬비아 원두 1kg",  "bases": ["100g"], "wave": 8},
+    {"label": "휘핑크림 500ml",       "category": "크림·연유",   "query": "휘핑크림 500ml",    "bases": ["100ml", "100g"], "wave": 8},
+    {"label": "프리마 1kg",          "category": "크림·연유",   "query": "프리마 1kg",       "bases": ["100g"], "wave": 8},
+    {"label": "아이스컵 뚜껑 1000개",  "category": "컵·뚜껑",    "query": "아이스컵 뚜껑 1000개", "bases": ["개당"], "wave": 8},
+
+    # ---- 9차 보강 후보 (wave=9) — 다음 회차 후보. 아직 수집하지 않은 키워드.
+    {"label": "슈가파우더 1kg",       "category": "당류·토핑",   "query": "슈가파우더 1kg",    "bases": ["100g"], "wave": 9},
+    {"label": "두유 1L",            "category": "우유·대체유", "query": "두유 1L",          "bases": ["100ml"], "wave": 9},
+    {"label": "종이 빨대 1000개",     "category": "빨대·홀더",  "query": "종이 빨대 1000개",  "bases": ["개당"], "wave": 9},
+    {"label": "테이크아웃 아이스컵 뚜껑 1000개", "category": "컵·뚜껑", "query": "테이크아웃 아이스컵 뚜껑 1000개", "bases": ["개당"], "wave": 9},
 ]
 
 BANNER_NOTICE = "쿠팡 API 연동 대기 중 (2026-11-16 00:00 이후 자동 업데이트 예정)"
@@ -187,7 +199,15 @@ EXCLUDE_KEYWORDS = [
     "알룰로스",
     "결로방지 컵홀더",
     "코코넛 워터",   # 2026-11-16 20시 회차: 코코넛밀크 키워드에 섞여 온 음료(코코넛워터)는 우유·대체유가 아니다
+    "딸기(냉동)",     # 2026-11-16 21시 회차: 딸기 베이스 키워드에 섞여 온 냉동 생과일은 음료 베이스가 아니다
+                      # (`[로켓프레시] 국내산 딸기 (냉동) 1kg` → 799원/100g 로 과일·베이스 최저가 1위를 차지해 비교를 왜곡)
 ]
+
+# 검색 키워드와 실제 상품 성격이 달라 카테고리를 바로잡는 상품(상품명 일부 → 카테고리).
+# (예: `딸기 파우더 1kg` 조회에 섞여 온 딸기 베이스는 과일·베이스 소관)
+PRODUCT_CATEGORY_OVERRIDES = {
+    "넘치는 딸기 베이스": "과일·베이스",
+}
 
 # 상품명의 수량 표기가 실제 구성과 맞지 않아 단가가 수 배 낙게 계산되는 상품.
 # (예: `딸기타피오카 즉석컵펄 12개입, 720g, 2개` → 720g×24 = 17.28kg 로 읽혀 127원/100g.
@@ -196,6 +216,15 @@ EXCLUDE_KEYWORDS = [
 AMBIGUOUS_QUANTITY = [
     "딸기타피오카 즉석컵펄",
 ]
+
+
+def override_category(name: str, category: str) -> str:
+    """상품명 기준으로 카테고리를 바로잡는다(해당 없으면 그대로)."""
+    text = (name or "").replace(" ", "").lower()
+    for needle, target in PRODUCT_CATEGORY_OVERRIDES.items():
+        if needle.replace(" ", "").lower() in text:
+            return target
+    return category
 
 
 def is_excluded(name: str) -> bool:
@@ -756,6 +785,7 @@ def merge_deals(previous: list[dict], fresh: list[dict]) -> list[dict]:
             continue
         while d.get("category") in CATEGORY_ALIASES:
             d["category"] = CATEGORY_ALIASES[d["category"]]
+        d["category"] = override_category(d.get("productName", ""), d.get("category", ""))
         pid = str(d.get("productId") or "")
         if not pid:
             continue
@@ -766,6 +796,7 @@ def merge_deals(previous: list[dict], fresh: list[dict]) -> list[dict]:
         pid = str(d.get("productId") or "")
         if not pid or is_excluded(d.get("productName", "")) or not passes_listing_filter(d):
             continue
+        d["category"] = override_category(d.get("productName", ""), d.get("category", ""))
         if pid not in merged:
             order.append(pid)
         merged[pid] = d

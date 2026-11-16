@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16 20:04 KST",
+  "updatedAt": "2026-11-16 21:06 KST",
   "source": "git snapshots",
   "products": {
     "8436480488": {
@@ -1856,7 +1856,7 @@
       "uniqueDays": 1
     },
     "9267059189": {
-      "productName": "래빗커피 고소고소 블렌드 브라질, 콜롬비아, 인도 원두커피 원두콩, 가성비, 갓볶은 원두, 3개, 1kg, 홀빈(분쇄안함)",
+      "productName": "래빗커피 고소고소 블렌드 브라질, 콜롬비아, 인도 원두커피 원두콩, 가성비, 갓볶은 원두, 1개, 1kg, 홀빈(분쇄안함)",
       "category": "원두",
       "observations": [
         {
@@ -1873,22 +1873,27 @@
           "at": "2026-11-16 07:02 KST",
           "price": 71540,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-16 21:06 KST",
+          "price": 26860,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 3,
-      "avgPrice": 71540,
-      "minPrice": 71540,
+      "priceCount": 4,
+      "avgPrice": 60370,
+      "minPrice": 26860,
       "maxPrice": 71540,
-      "lastPrice": 71540,
-      "lastAt": "2026-11-16 07:02 KST",
+      "lastPrice": 26860,
+      "lastAt": "2026-11-16 21:06 KST",
       "dailyHistory": [
         [
           "2026-11-16",
+          26860,
           71540,
-          71540,
-          71540,
-          71540,
-          3
+          60370,
+          26860,
+          4
         ]
       ],
       "uniqueDays": 1
@@ -3625,14 +3630,19 @@
           "at": "2026-11-16 15:15 KST",
           "price": 29900,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-16 21:06 KST",
+          "price": 29900,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 3,
+      "priceCount": 4,
       "avgPrice": 29900,
       "minPrice": 29900,
       "maxPrice": 29900,
       "lastPrice": 29900,
-      "lastAt": "2026-11-16 15:15 KST",
+      "lastAt": "2026-11-16 21:06 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -3640,7 +3650,7 @@
           29900,
           29900,
           29900,
-          3
+          4
         ]
       ],
       "uniqueDays": 1
@@ -7249,14 +7259,19 @@
           "at": "2026-11-16 19:03 KST",
           "price": 15890,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-16 21:06 KST",
+          "price": 15890,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 15890,
       "minPrice": 15890,
       "maxPrice": 15890,
       "lastPrice": 15890,
-      "lastAt": "2026-11-16 19:03 KST",
+      "lastAt": "2026-11-16 21:06 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -7264,7 +7279,7 @@
           15890,
           15890,
           15890,
-          1
+          2
         ]
       ],
       "uniqueDays": 1
@@ -8053,6 +8068,314 @@
           51900,
           51900,
           51900,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7123864170": {
+      "productName": "네이쳐티 넘치는 딸기 베이스, 1kg, 1개",
+      "category": "파우더",
+      "observations": [
+        {
+          "at": "2026-11-16 21:06 KST",
+          "price": 12000,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 12000,
+      "minPrice": 12000,
+      "maxPrice": 12000,
+      "lastPrice": 12000,
+      "lastAt": "2026-11-16 21:06 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          12000,
+          12000,
+          12000,
+          12000,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9546241780": {
+      "productName": "엔칸토 제주녹차 파우더, 1개, 1개입, 1kg",
+      "category": "파우더",
+      "observations": [
+        {
+          "at": "2026-11-16 21:06 KST",
+          "price": 12500,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 12500,
+      "minPrice": 12500,
+      "maxPrice": 12500,
+      "lastPrice": 12500,
+      "lastAt": "2026-11-16 21:06 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          12500,
+          12500,
+          12500,
+          12500,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9699325436": {
+      "productName": "믹소 보성말차 파우더, 1kg, 1개, 1개입",
+      "category": "파우더",
+      "observations": [
+        {
+          "at": "2026-11-16 21:06 KST",
+          "price": 15850,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 15850,
+      "minPrice": 15850,
+      "maxPrice": 15850,
+      "lastPrice": 15850,
+      "lastAt": "2026-11-16 21:06 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          15850,
+          15850,
+          15850,
+          15850,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8243734142": {
+      "productName": "이노라이즈 이노미 그린티 파우더 1kg, 1kg, 1개, 1개입",
+      "category": "파우더",
+      "observations": [
+        {
+          "at": "2026-11-16 21:06 KST",
+          "price": 17100,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 17100,
+      "minPrice": 17100,
+      "maxPrice": 17100,
+      "lastPrice": 17100,
+      "lastAt": "2026-11-16 21:06 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          17100,
+          17100,
+          17100,
+          17100,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9539597830": {
+      "productName": "가루박사 보성 말차 파우더, 500g, 1개, 1개입",
+      "category": "파우더",
+      "observations": [
+        {
+          "at": "2026-11-16 21:06 KST",
+          "price": 9190,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 9190,
+      "minPrice": 9190,
+      "maxPrice": 9190,
+      "lastPrice": 9190,
+      "lastAt": "2026-11-16 21:06 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          9190,
+          9190,
+          9190,
+          9190,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7665162360": {
+      "productName": "아빠랑 과육 그대로 갈아만든 고흥 유자 1kg, 1kg, 1개",
+      "category": "과일·베이스",
+      "observations": [
+        {
+          "at": "2026-11-16 21:06 KST",
+          "price": 9900,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 9900,
+      "minPrice": 9900,
+      "maxPrice": 9900,
+      "lastPrice": 9900,
+      "lastAt": "2026-11-16 21:06 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          9900,
+          9900,
+          9900,
+          9900,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "6468198646": {
+      "productName": "[로켓프레시] 감미인영농조합법인 국내산 딸기 (냉동), 1kg, 1개",
+      "category": "과일·베이스",
+      "observations": [
+        {
+          "at": "2026-11-16 21:06 KST",
+          "price": 7990,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 7990,
+      "minPrice": 7990,
+      "maxPrice": 7990,
+      "lastPrice": 7990,
+      "lastAt": "2026-11-16 21:06 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          7990,
+          7990,
+          7990,
+          7990,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9749453255": {
+      "productName": "위크위크 부드러운 콜롬비아 싱글 오리진 원두 커피 홀빈, 1kg, 1개",
+      "category": "원두",
+      "observations": [
+        {
+          "at": "2026-11-16 21:06 KST",
+          "price": 22950,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 22950,
+      "minPrice": 22950,
+      "maxPrice": 22950,
+      "lastPrice": 22950,
+      "lastAt": "2026-11-16 21:06 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          22950,
+          22950,
+          22950,
+          22950,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9294379607": {
+      "productName": "초콜렛 블렌드 브라질 콜롬비아 원두커피 커피콩 맛있는 신선한 그라도스커피, 1개, 1kg, 홀빈(분쇄안함)",
+      "category": "원두",
+      "observations": [
+        {
+          "at": "2026-11-16 21:06 KST",
+          "price": 28300,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 28300,
+      "minPrice": 28300,
+      "maxPrice": 28300,
+      "lastPrice": 28300,
+      "lastAt": "2026-11-16 21:06 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          28300,
+          28300,
+          28300,
+          28300,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9430223106": {
+      "productName": "아이팩피앤디 92파이 돔리드 PET 컵뚜껑 국산 투명, 1박스, 1000개, 돔 뚜껑",
+      "category": "컵·뚜껑",
+      "observations": [
+        {
+          "at": "2026-11-16 21:06 KST",
+          "price": 17900,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 17900,
+      "minPrice": 17900,
+      "maxPrice": 17900,
+      "lastPrice": 17900,
+      "lastAt": "2026-11-16 21:06 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          17900,
+          17900,
+          17900,
+          17900,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9430223475": {
+      "productName": "아이팩피앤디 92파이 평리드 PET 컵뚜껑 국산 투명, 1박스, 1000개, 평평한 뚜껑",
+      "category": "컵·뚜껑",
+      "observations": [
+        {
+          "at": "2026-11-16 21:06 KST",
+          "price": 17900,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 17900,
+      "minPrice": 17900,
+      "maxPrice": 17900,
+      "lastPrice": 17900,
+      "lastAt": "2026-11-16 21:06 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          17900,
+          17900,
+          17900,
+          17900,
           1
         ]
       ],
