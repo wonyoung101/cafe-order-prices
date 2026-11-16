@@ -616,19 +616,28 @@
     return { day: day, points: out, days: keys.length };
   }
 
+  // 눈금 간격을 1·2·5 × 10^n 으로 맞춰 축 라벨이 21,172 같은 값 대신 둥근 숫자가 되게 한다.
+  function niceStep(v) {
+    if (!(v > 0)) return 1;
+    var p = Math.pow(10, Math.floor(Math.log(v) / Math.LN10));
+    var m = v / p;
+    var f = m <= 1 ? 1 : m <= 2 ? 2 : m <= 5 ? 5 : 10;
+    return Math.max(1, f * p);
+  }
+
   function svgIntraday(intra) {
     var pts = intra.points, n = pts.length;
     var W = 320, H = 176, L = 48, R = 16, T = 22, B = 30;
     var vals = pts.map(function (p) { return p.price; });
-    var lo = Math.min.apply(null, vals), hi = Math.max.apply(null, vals);
-    if (hi === lo) {
-      var pad = Math.max(Math.round(hi * 0.035), 120);
-      lo = Math.max(0, lo - pad); hi = hi + pad;
-    } else {
-      var sp = hi - lo;
-      lo = Math.max(0, lo - sp * 0.45); hi = hi + sp * 0.45;
-    }
-    lo = Math.floor(lo); hi = Math.ceil(hi);
+    var rawLo = Math.min.apply(null, vals), rawHi = Math.max.apply(null, vals);
+    var pad = rawHi === rawLo
+      ? Math.max(Math.round(rawHi * 0.035), 120)
+      : (rawHi - rawLo) * 0.30;
+    var step = niceStep(pad || 1);
+    var lo = Math.floor((rawLo - pad) / step) * step;
+    var hi = Math.ceil((rawHi + pad) / step) * step;
+    if (lo < 0) lo = 0;
+    if (hi === lo) hi = lo + step;
     var span = (hi - lo) || 1;
     var plotW = W - L - R, plotH = H - T - B;
     function yOf(v) { return T + (hi - v) / span * plotH; }
