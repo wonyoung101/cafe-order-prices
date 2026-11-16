@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17 04:15 KST",
+  "updatedAt": "2026-11-17 05:17 KST",
   "source": "git snapshots",
   "products": {
     "8436480488": {
@@ -293,14 +293,19 @@
           "at": "2026-11-17 02:12 KST",
           "price": 12570,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 05:17 KST",
+          "price": 12570,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 6,
+      "priceCount": 7,
       "avgPrice": 12570,
       "minPrice": 12570,
       "maxPrice": 12570,
       "lastPrice": 12570,
-      "lastAt": "2026-11-17 02:12 KST",
+      "lastAt": "2026-11-17 05:17 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -316,7 +321,7 @@
           12570,
           12570,
           12570,
-          1
+          2
         ]
       ],
       "uniqueDays": 2
@@ -479,7 +484,7 @@
       "uniqueDays": 1
     },
     "9422933215": {
-      "productName": "아이팩피앤디 98파이 14온스 PET 아이스컵 국산 투명, 1박스, 1000개, 430ml",
+      "productName": "아이팩피앤디 98파이 돔리드 PET 컵뚜껑 국산 투명, 1박스, 1000개",
       "category": "컵·뚜껑",
       "observations": [
         {
@@ -511,14 +516,19 @@
           "at": "2026-11-17 04:15 KST",
           "price": 44500,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 05:17 KST",
+          "price": 20300,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 6,
-      "avgPrice": 49000,
-      "minPrice": 44500,
+      "priceCount": 7,
+      "avgPrice": 44900,
+      "minPrice": 20300,
       "maxPrice": 49900,
-      "lastPrice": 44500,
-      "lastAt": "2026-11-17 04:15 KST",
+      "lastPrice": 20300,
+      "lastAt": "2026-11-17 05:17 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -530,11 +540,11 @@
         ],
         [
           "2026-11-17",
+          20300,
           44500,
-          44500,
-          44500,
-          44500,
-          1
+          32400,
+          20300,
+          2
         ]
       ],
       "uniqueDays": 2
@@ -7087,14 +7097,19 @@
           "at": "2026-11-17 04:15 KST",
           "price": 9230,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 05:17 KST",
+          "price": 9230,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 4,
+      "priceCount": 5,
       "avgPrice": 9230,
       "minPrice": 9230,
       "maxPrice": 9230,
       "lastPrice": 9230,
-      "lastAt": "2026-11-17 04:15 KST",
+      "lastAt": "2026-11-17 05:17 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -7110,7 +7125,7 @@
           9230,
           9230,
           9230,
-          1
+          2
         ]
       ],
       "uniqueDays": 2
@@ -8615,14 +8630,19 @@
           "at": "2026-11-16 22:07 KST",
           "price": 17900,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 05:17 KST",
+          "price": 17900,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 2,
+      "priceCount": 3,
       "avgPrice": 17900,
       "minPrice": 17900,
       "maxPrice": 17900,
       "lastPrice": 17900,
-      "lastAt": "2026-11-16 22:07 KST",
+      "lastAt": "2026-11-17 05:17 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -8631,9 +8651,17 @@
           17900,
           17900,
           2
+        ],
+        [
+          "2026-11-17",
+          17900,
+          17900,
+          17900,
+          17900,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "9430223475": {
       "productName": "아이팩피앤디 92파이 평리드 PET 컵뚜껑 국산 투명, 1박스, 1000개, 평평한 뚜껑",
@@ -8921,7 +8949,7 @@
       "uniqueDays": 1
     },
     "6451597933": {
-      "productName": "엠엔피 나무스틱, 500개, 1개",
+      "productName": "맘앤팩 나무스틱, 1개, 1000개",
       "category": "빨대·홀더",
       "observations": [
         {
@@ -9758,22 +9786,27 @@
           "at": "2026-11-17 04:15 KST",
           "price": 10000,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 05:17 KST",
+          "price": 8300,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 2,
-      "avgPrice": 10000,
-      "minPrice": 10000,
+      "priceCount": 3,
+      "avgPrice": 9433,
+      "minPrice": 8300,
       "maxPrice": 10000,
-      "lastPrice": 10000,
-      "lastAt": "2026-11-17 04:15 KST",
+      "lastPrice": 8300,
+      "lastAt": "2026-11-17 05:17 KST",
       "dailyHistory": [
         [
           "2026-11-17",
+          8300,
           10000,
-          10000,
-          10000,
-          10000,
-          2
+          9433,
+          8300,
+          3
         ]
       ],
       "uniqueDays": 1
@@ -9814,14 +9847,19 @@
           "at": "2026-11-17 02:12 KST",
           "price": 6480,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 05:17 KST",
+          "price": 6480,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 6480,
       "minPrice": 6480,
       "maxPrice": 6480,
       "lastPrice": 6480,
-      "lastAt": "2026-11-17 02:12 KST",
+      "lastAt": "2026-11-17 05:17 KST",
       "dailyHistory": [
         [
           "2026-11-17",
@@ -9829,7 +9867,7 @@
           6480,
           6480,
           6480,
-          1
+          2
         ]
       ],
       "uniqueDays": 1
@@ -9842,14 +9880,19 @@
           "at": "2026-11-17 02:12 KST",
           "price": 8000,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 05:17 KST",
+          "price": 8000,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 8000,
       "minPrice": 8000,
       "maxPrice": 8000,
       "lastPrice": 8000,
-      "lastAt": "2026-11-17 02:12 KST",
+      "lastAt": "2026-11-17 05:17 KST",
       "dailyHistory": [
         [
           "2026-11-17",
@@ -9857,7 +9900,7 @@
           8000,
           8000,
           8000,
-          1
+          2
         ]
       ],
       "uniqueDays": 1
@@ -10921,6 +10964,202 @@
           31700,
           31700,
           31700,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9724890424": {
+      "productName": "개별포장 일자빨대 블랙, 1개, 500개입",
+      "category": "빨대·홀더",
+      "observations": [
+        {
+          "at": "2026-11-17 05:17 KST",
+          "price": 6500,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 6500,
+      "minPrice": 6500,
+      "maxPrice": 6500,
+      "lastPrice": 6500,
+      "lastAt": "2026-11-17 05:17 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          6500,
+          6500,
+          6500,
+          6500,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8620395035": {
+      "productName": "제이디팩 일자 빨대 7*250mm 검정 개별포장 500개, 1세트, 500개입",
+      "category": "빨대·홀더",
+      "observations": [
+        {
+          "at": "2026-11-17 05:17 KST",
+          "price": 7600,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 7600,
+      "minPrice": 7600,
+      "maxPrice": 7600,
+      "lastPrice": 7600,
+      "lastAt": "2026-11-17 05:17 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          7600,
+          7600,
+          7600,
+          7600,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9318808229": {
+      "productName": "SOOM 100% 천연펄프 무형광 핸드타올 5000매 키친타올 페이퍼타올, 5000개입, 1개",
+      "category": "매장소모품",
+      "observations": [
+        {
+          "at": "2026-11-17 05:17 KST",
+          "price": 21970,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 21970,
+      "minPrice": 21970,
+      "maxPrice": 21970,
+      "lastPrice": 21970,
+      "lastAt": "2026-11-17 05:17 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          21970,
+          21970,
+          21970,
+          21970,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7706812047": {
+      "productName": "청수생약 계피 가루 분말, 1kg, 1개",
+      "category": "당류·토핑",
+      "observations": [
+        {
+          "at": "2026-11-17 05:17 KST",
+          "price": 10500,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 10500,
+      "minPrice": 10500,
+      "maxPrice": 10500,
+      "lastPrice": 10500,
+      "lastAt": "2026-11-17 05:17 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          10500,
+          10500,
+          10500,
+          10500,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "109006119": {
+      "productName": "푸른빈 계피 가루 분말, 200g, 1개",
+      "category": "당류·토핑",
+      "observations": [
+        {
+          "at": "2026-11-17 05:17 KST",
+          "price": 4900,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 4900,
+      "minPrice": 4900,
+      "maxPrice": 4900,
+      "lastPrice": 4900,
+      "lastAt": "2026-11-17 05:17 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          4900,
+          4900,
+          4900,
+          4900,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "6853093017": {
+      "productName": "헬로우그린 계피가루 (시나몬 가루), 1개, 300g",
+      "category": "당류·토핑",
+      "observations": [
+        {
+          "at": "2026-11-17 05:17 KST",
+          "price": 6100,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 6100,
+      "minPrice": 6100,
+      "maxPrice": 6100,
+      "lastPrice": 6100,
+      "lastAt": "2026-11-17 05:17 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          6100,
+          6100,
+          6100,
+          6100,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9585200135": {
+      "productName": "아이팩피앤디 92파이 20온스 PET 아이스컵 국산 투명, 1박스, 1000개입, 600ml",
+      "category": "컵·뚜껑",
+      "observations": [
+        {
+          "at": "2026-11-17 05:17 KST",
+          "price": 62500,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 62500,
+      "minPrice": 62500,
+      "maxPrice": 62500,
+      "lastPrice": 62500,
+      "lastAt": "2026-11-17 05:17 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          62500,
+          62500,
+          62500,
+          62500,
           1
         ]
       ],
