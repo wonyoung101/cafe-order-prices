@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16 22:08 KST",
+  "updatedAt": "2026-11-16 23:09 KST",
   "source": "git snapshots",
   "products": {
     "8436480488": {
@@ -3369,22 +3369,27 @@
           "at": "2026-11-16 15:15 KST",
           "price": 14480,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-16 23:08 KST",
+          "price": 7400,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 3,
-      "avgPrice": 9760,
+      "priceCount": 4,
+      "avgPrice": 9170,
       "minPrice": 7400,
       "maxPrice": 14480,
-      "lastPrice": 14480,
-      "lastAt": "2026-11-16 15:15 KST",
+      "lastPrice": 7400,
+      "lastAt": "2026-11-16 23:08 KST",
       "dailyHistory": [
         [
           "2026-11-16",
           7400,
           14480,
-          9760,
-          14480,
-          3
+          9170,
+          7400,
+          4
         ]
       ],
       "uniqueDays": 1
@@ -7284,14 +7289,19 @@
           "at": "2026-11-16 21:06 KST",
           "price": 15890,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-16 23:08 KST",
+          "price": 15890,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 2,
+      "priceCount": 3,
       "avgPrice": 15890,
       "minPrice": 15890,
       "maxPrice": 15890,
       "lastPrice": 15890,
-      "lastAt": "2026-11-16 21:06 KST",
+      "lastAt": "2026-11-16 23:08 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -7299,7 +7309,7 @@
           15890,
           15890,
           15890,
-          2
+          3
         ]
       ],
       "uniqueDays": 1
@@ -8658,6 +8668,146 @@
           37400,
           37400,
           37400,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "6451597933": {
+      "productName": "맘앤팩 나무스틱, 1개, 1000개",
+      "category": "빨대·홀더",
+      "observations": [
+        {
+          "at": "2026-11-16 23:08 KST",
+          "price": 17100,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 17100,
+      "minPrice": 17100,
+      "maxPrice": 17100,
+      "lastPrice": 17100,
+      "lastAt": "2026-11-16 23:08 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          17100,
+          17100,
+          17100,
+          17100,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9721134093": {
+      "productName": "카바나커피 케냐 키암부 AA 원두, 1kg, 1개, 홀빈(분쇄X)",
+      "category": "원두",
+      "observations": [
+        {
+          "at": "2026-11-16 23:08 KST",
+          "price": 40300,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 40300,
+      "minPrice": 40300,
+      "maxPrice": 40300,
+      "lastPrice": 40300,
+      "lastAt": "2026-11-16 23:08 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          40300,
+          40300,
+          40300,
+          40300,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9257744603": {
+      "productName": "케냐 AA 스페셜티 더클린 커피 곰팡이 독소 free 인증 산미있는 원두, 300g, 1개, 홀빈(분쇄안함)",
+      "category": "원두",
+      "observations": [
+        {
+          "at": "2026-11-16 23:08 KST",
+          "price": 38900,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 38900,
+      "minPrice": 38900,
+      "maxPrice": 38900,
+      "lastPrice": 38900,
+      "lastAt": "2026-11-16 23:08 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          38900,
+          38900,
+          38900,
+          38900,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8866206127": {
+      "productName": "[로켓프레시] 모센즈스위트 카이막, 84g, 1개",
+      "category": "베이킹 재료",
+      "observations": [
+        {
+          "at": "2026-11-16 23:08 KST",
+          "price": 10900,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 10900,
+      "minPrice": 10900,
+      "maxPrice": 10900,
+      "lastPrice": 10900,
+      "lastAt": "2026-11-16 23:08 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          10900,
+          10900,
+          10900,
+          10900,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "2446668": {
+      "productName": "카일스 망고 파우더, 1개입, 1개, 1kg",
+      "category": "과일·베이스",
+      "observations": [
+        {
+          "at": "2026-11-16 23:08 KST",
+          "price": 14460,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 14460,
+      "minPrice": 14460,
+      "maxPrice": 14460,
+      "lastPrice": 14460,
+      "lastAt": "2026-11-16 23:08 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          14460,
+          14460,
+          14460,
+          14460,
           1
         ]
       ],
