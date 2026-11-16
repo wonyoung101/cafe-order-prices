@@ -831,7 +831,10 @@ def main(argv: list[str]) -> int:
     updated_at = kst_str(datetime.now(timezone.utc))
     hist = load_history()
     reconcile_from_previous(hist, previous)
-    recorded = sum(1 for d in deals if add_observation(hist, d, updated_at, "수집 결과"))
+    # 가격 이력에는 **사이트에 실리는 상품(로켓+단가 확인)만** 기록한다.
+    # 검색 결과에 섞여 온 같은 productId 의 다른 옵션(비로켓 낱개 등) 가격이 이력에 섞이면
+    # 평균가·최저가·할인 배지가 실제 노출 상품과 다른 가격을 기준으로 계산된다.
+    recorded = sum(1 for d in deals if passes_listing_filter(d) and add_observation(hist, d, updated_at, "수집 결과"))
     finalize_history(hist)
     discounted = apply_price_stats(merged, hist)
     save_history(hist)

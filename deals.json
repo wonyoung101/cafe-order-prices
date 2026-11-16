@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "updatedAt": "2026-11-16 16:52 KST",
-  "statsAt": "2026-11-16 16:52 KST",
+  "statsAt": "2026-11-16 16:54 KST",
   "notice": "",
   "watchlist": [],
   "categories": [
@@ -20,7 +20,7 @@
   ],
   "count": 62,
   "priceStats": {
-    "products": 232,
+    "products": 188,
     "discounts": 0
   },
   "deals": [
@@ -561,30 +561,26 @@
       "unitPrice": 1500,
       "unitBasis": "100ml당",
       "packNote": "1,000ml×5",
-      "avgPrice": 44750,
-      "minPrice": 14500,
+      "avgPrice": 75000,
+      "minPrice": 75000,
       "maxPrice": 75000,
-      "priceCount": 2,
+      "priceCount": 1,
       "discountRate": null,
       "uniqueDays": 1,
       "dailyHistory": [
         [
           "2026-11-16",
-          14500,
           75000,
-          44750,
-          14500,
-          2
+          75000,
+          75000,
+          75000,
+          1
         ]
       ],
       "priceHistory": [
         [
           "2026-11-16 16:51 KST",
           75000
-        ],
-        [
-          "2026-11-16 16:52 KST",
-          14500
         ]
       ]
     },
