@@ -105,15 +105,21 @@
   .sheet { position: fixed; inset: 0; z-index: 80; display: flex; align-items: flex-end; justify-content: center; }
   .sheet[hidden] { display: none; }
   .sheet .backdrop { position: absolute; inset: 0; background: rgba(15,23,42,.48); }
-  .sheet .panel { position: relative; width: 100%; max-width: 520px; max-height: 92vh; display: flex; flex-direction: column; background: #fff; border-radius: 20px 20px 0 0; box-shadow: 0 -10px 40px rgba(15,23,42,.24); overflow: hidden; animation: sheet-up .2s ease-out; }
+  .sheet .panel { position: relative; width: 100%; max-width: 520px; max-height: 92vh; max-height: 92dvh; display: flex; flex-direction: column; background: #fff; border-radius: 20px 20px 0 0; box-shadow: 0 -10px 40px rgba(15,23,42,.24); overflow: hidden; animation: sheet-up .2s ease-out; }
   @keyframes sheet-up { from { transform: translateY(20px); opacity: .6; } to { transform: none; opacity: 1; } }
-  .sheet .head { position: relative; padding: 15px 16px 11px; border-bottom: 1px solid var(--line); background: #fff; }
+  /* 상단 헤더는 스크롤해도 사라지지 않는다(모바일 주소창 때문에 위로 잘리지 않도록 dvh 사용) */
+  .sheet .head { position: sticky; top: 0; z-index: 3; flex: 0 0 auto; padding: 8px 12px 11px; border-bottom: 1px solid var(--line); background: #fff; box-shadow: 0 1px 0 rgba(15,23,42,.04); }
+  .sheet .headbar { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 4px; }
+  .sheet .back { display: inline-flex; align-items: center; gap: 5px; min-height: 44px; min-width: 44px; padding: 0 14px 0 10px; border: 1px solid var(--line); border-radius: 12px; background: #fff; color: var(--accent); font: inherit; font-size: 13px; font-weight: 800; letter-spacing: -.01em; cursor: pointer; -webkit-tap-highlight-color: transparent; }
+  .sheet .back:active { background: #f0fdfa; }
+  .sheet .back .arw { font-size: 17px; line-height: 1; margin-top: -1px; }
   .sheet .head .cat { font-size: 11px; font-weight: 800; color: var(--accent); }
-  .sheet .head h2 { margin: 3px 34px 0 0; font-size: 15.5px; font-weight: 800; line-height: 1.35; letter-spacing: -.02em; }
+  .sheet .head h2 { margin: 3px 0 0; font-size: 15.5px; font-weight: 800; line-height: 1.35; letter-spacing: -.02em; }
   .sheet .head .now { margin-top: 6px; font-size: 19px; font-weight: 800; letter-spacing: -.02em; }
   .sheet .head .now small { font-size: 11px; font-weight: 600; color: var(--muted); margin-left: 4px; }
-  .sheet .close { position: absolute; top: 11px; right: 11px; width: 30px; height: 30px; border-radius: 50%; border: 1px solid var(--line); background: #fff; color: #64748b; font-size: 13px; line-height: 1; cursor: pointer; }
-  .sheet .body { overflow-y: auto; -webkit-overflow-scrolling: touch; padding: 14px 16px 16px; }
+  .sheet .close { position: static; display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; flex: 0 0 auto; border-radius: 50%; border: 1px solid var(--line); background: #fff; color: #64748b; font: inherit; font-size: 15px; line-height: 1; cursor: pointer; -webkit-tap-highlight-color: transparent; }
+  .sheet .close:active { background: #f1f5f9; }
+  .sheet .body { flex: 1 1 auto; min-height: 0; overflow-y: auto; overscroll-behavior: contain; -webkit-overflow-scrolling: touch; padding: 14px 16px 16px; }
   .sheet .foot { border-top: 1px solid var(--line); padding: 10px 16px calc(12px + env(safe-area-inset-bottom)); background: #fff; }
   .cta { display: block; text-align: center; background: var(--accent); color: #fff; font-size: 14px; font-weight: 800; padding: 13px; border-radius: 12px; text-decoration: none; letter-spacing: -.01em; }
   .cta:active { background: #115e59; }
@@ -263,10 +269,13 @@
   <div class="backdrop" data-close="1"></div>
   <div class="panel" role="dialog" aria-modal="true" aria-labelledby="sheetTitle">
     <div class="head">
+      <div class="headbar">
+        <button class="back" id="sheetBack" type="button" aria-label="목록으로 돌아가기"><span class="arw" aria-hidden="true">←</span> 목록으로</button>
+        <button class="close" id="sheetClose" type="button" aria-label="닫기">✕</button>
+      </div>
       <div class="cat" id="sheetCat"></div>
       <h2 id="sheetTitle"></h2>
       <div class="now" id="sheetNow"></div>
-      <button class="close" id="sheetClose" type="button" aria-label="닫기">✕</button>
     </div>
     <div class="body" id="sheetBody"></div>
     <div class="foot">
@@ -297,7 +306,8 @@
     sheetNow: document.getElementById("sheetNow"),
     sheetBody: document.getElementById("sheetBody"),
     sheetCta: document.getElementById("sheetCta"),
-    sheetClose: document.getElementById("sheetClose")
+    sheetClose: document.getElementById("sheetClose"),
+    sheetBack: document.getElementById("sheetBack")
   };
 
   var WEEK = ["일", "월", "화", "수", "목", "금", "토"];
@@ -832,23 +842,38 @@
     if (unit) html += '<div class="m-unit">단가 환산 · <b>' + esc(unit) + '</b><br>상품명에 적힌 박스 구성 수량·용량으로 나눈 값이며 배송비·쿠폰은 반영되지 않습니다.</div>';
 
     el.sheetBody.innerHTML = html;
-    el.sheetBody.scrollTop = 0;
   }
 
+  // 모달이 열려 있는 동안 히스토리 한 칸을 차지한다.
+  // 그래야 휴대폰·브라우저 뒤로가기가 페이지를 떠나지 않고 모달만 닫는다.
   function openSheet(deal) {
     if (!deal) return;
     state.lastFocus = document.activeElement;
     buildSheet(deal);
     el.sheet.hidden = false;
+    el.sheetBody.scrollTop = 0;   // 다시 열 때 항상 맨 위(요약·통계)부터 보이도록
     document.body.style.overflow = "hidden";
-    el.sheetClose.focus();
+    try {
+      if (!(history.state && history.state.modalOpen)) history.pushState({ modalOpen: true }, "");
+    } catch (err) { /* 파일 직접 열기 등 pushState가 막힌 환경에서는 그냥 동작 */ }
+    el.sheetBack.focus();
   }
 
-  function closeSheet() {
+  // fromHistory=true 는 뒤로가기(popstate)로 닫히는 경우 — 히스토리를 다시 건드리지 않는다.
+  function closeSheet(fromHistory) {
+    if (el.sheet.hidden) return;
     el.sheet.hidden = true;
     document.body.style.overflow = "";
     if (state.lastFocus && state.lastFocus.focus) state.lastFocus.focus();
+    if (!fromHistory && history.state && history.state.modalOpen) {
+      // 모달용으로 넣은 히스토리를 정리한다. 여기서 발생하는 popstate는 모달이 이미 닫혀 있어 무시된다.
+      history.back();
+    }
   }
+
+  window.addEventListener("popstate", function () {
+    if (!el.sheet.hidden) closeSheet(true);
+  });
 
   // 당일 추이 / 30일 추이 전환
   function switchTab(name) {
@@ -898,7 +923,8 @@
     e.preventDefault();
     openSheet(state.byId[card.dataset.id]);
   });
-  el.sheetClose.addEventListener("click", closeSheet);
+  el.sheetClose.addEventListener("click", function () { closeSheet(); });
+  el.sheetBack.addEventListener("click", function () { closeSheet(); });
   el.sheet.addEventListener("click", function (e) {
     if (e.target.getAttribute("data-close")) closeSheet();
   });
