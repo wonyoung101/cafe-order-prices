@@ -33,6 +33,14 @@
 - 현재 이력이 모두 **2026-11-16 한 날짜**뿐이라 모든 상품 차트가 1일치입니다. 1일치도 가격 수평선·점·평균 기준선으로 그리고 `매일 누적되어 최대 30일 추이가 그려집니다 (현재 1일치)` 안내를 넣었습니다. 매일 07:00 갱신이 쌓이면 자동으로 2일·3일… 로 늘어납니다.
 - XSS 방지용 `esc()` 유지, 배경 클릭·✕·Esc 로 닫기, 열린 동안 배경 스크롤 잠금.
 
+### 배포·검증 (2026-11-16 15:12 KST)
+
+- 커밋: `2d2697e`(기능) → `b650b65`(차트 라벨 정리) → `9b4ca9d`(1일치 안내 문구) · `main` push 완료.
+- 라이브: https://wonyoung101.github.io/cafe-order-prices/ 반영 확인. `deals.json` **156건 전부** `productUrl` 에 `lptag=AF1381574` ✓ · `productId` 중복 0 ✓ · `dailyHistory` 156/156 ✓.
+- 모달 CTA 실제 링크 확인: `https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=4975075206…` · `target="_blank"` · `rel="noopener noreferrer"` ✓ (카드 본문은 더 이상 쿠팡으로 바로 가지 않고 모달을 엽니다).
+- 스크린샷: `downloads/cafe-prices-badges-all.png`(전 상품 배지) · `downloads/cafe-prices-30d-modal.png`(30일 추이 모달).
+- API 호출 **0회** (`scripts/.api_usage.json` 마지막 기록 07:02 KST 그대로).
+
 ## 2026-11-16 14:35 KST — 가격 이력 기반 할인율 배지 추가 (API 호출 0회)
 
 - 목적: 상품별 **누적 평균가 대비 할인율(%)** 을 계산해 카드에 배지로 표시하고, 정렬에 `할인율 높은 순` 추가.
