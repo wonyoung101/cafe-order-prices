@@ -111,7 +111,6 @@ TARGETS = [
     {"label": "카페 시럽·설탕",       "category": "당류·토핑",    "query": "카페 시럽 설탕 사탕수수원당", "bases": ["100g", "100ml"]},
     {"label": "타피오카펄·토핑",       "category": "당류·토핑",    "query": "타피오카펄 휘핑크림 토핑", "bases": ["100g", "100ml", "개당"]},
     {"label": "연유 업소용",         "category": "크림·연유",    "query": "연유 업소용 대용량",    "bases": ["100g", "100ml"]},
-    {"label": "생크림·휘핑크림 1L",   "category": "크림·연유",    "query": "생크림 휘핑크림 1L",   "bases": ["100ml", "100g"]},
     {"label": "냉동 크루아상 생지",     "category": "베이킹 재료",  "query": "냉동 크루아상 생지",    "bases": ["개당", "100g"]},
     {"label": "베이킹 버터·박력분",    "category": "베이킹 재료",  "query": "베이킹 버터 박력분 대용량", "bases": ["100g", "개당"]},
 
@@ -134,12 +133,25 @@ TARGETS = [
     {"label": "설탕 3kg",            "category": "당류·토핑",  "query": "설탕 3kg",          "bases": ["100g"], "wave": 3},
     {"label": "마시멜로 토핑",         "category": "당류·토핑",  "query": "마시멜로 1kg",       "bases": ["100g"], "wave": 3},
     {"label": "올리고당 1.2kg",       "category": "당류·토핑",  "query": "올리고당 1.2kg",     "bases": ["100g"], "wave": 3},
-    {"label": "생크림 1L",           "category": "크림·연유",  "query": "생크림 1L",         "bases": ["100ml"], "wave": 3},
     {"label": "연유 500g",           "category": "크림·연유",  "query": "연유 500g",         "bases": ["100g", "100ml"], "wave": 3},
-    {"label": "생크림 500ml",        "category": "크림·연유",  "query": "생크림 500ml",      "bases": ["100ml"], "wave": 3},
     {"label": "박력분 1kg",           "category": "베이킹 재료", "query": "박력분 1kg",         "bases": ["100g"], "wave": 3},
     {"label": "버터 450g",           "category": "베이킹 재료", "query": "버터 450g",          "bases": ["100g"], "wave": 3},
     {"label": "드라이이스트",          "category": "베이킹 재료", "query": "드라이이스트 1kg",     "bases": ["100g"], "wave": 3},
+
+    # ---- 4차 보강 키워드 (wave=4) — `생크림 1L`·`생크림 500ml` 는 로켓 상품명에 용량이 없어 0건.
+    # 사용자 확정(2026-11-16 17:59 KST): 제목에 용량이 적힌 로켓 상품만 수집하므로, 크림·연유는
+    # 용량·규격이 상품명에 박혀 있는 아래 키워드로만 조회한다.
+    {"label": "식물성 휘핑크림 1000ml", "category": "크림·연유", "query": "식물성 휘핑크림 1000ml", "bases": ["100ml", "100g"], "wave": 4},
+    {"label": "연유 1kg",            "category": "크림·연유",  "query": "연유 1kg",          "bases": ["100g", "100ml"], "wave": 4},
+    {"label": "스프레이 휘핑크림",     "category": "크림·연유",  "query": "스프레이 휘핑크림",   "bases": ["100ml", "100g"], "wave": 4},
+    {"label": "에바밀크",            "category": "크림·연유",  "query": "에바밀크",          "bases": ["100ml", "100g"], "wave": 4},
+    {"label": "티백 100개입",        "category": "티·탄산수",  "query": "티백 100개입",      "bases": ["개당"], "wave": 4},
+
+    # ---- 5차 보강 후보 (wave=5) — 다음 회차에서 실행할 키워드(로켓·용량 표기 여부 미확인) ----
+    {"label": "브라질 원두 1kg",       "category": "원두",       "query": "브라질 원두 1kg",    "bases": ["100g"], "wave": 5},
+    {"label": "바닐라 시럽 1L",       "category": "시럽·소스",   "query": "바닐라 시럽 1L",    "bases": ["100ml"], "wave": 5},
+    {"label": "타피오카펄 1kg",       "category": "당류·토핑",   "query": "타피오카펄 1kg",    "bases": ["100g"], "wave": 5},
+    {"label": "위생장갑 1000매",      "category": "매장소모품",  "query": "위생장갑 1000매",   "bases": ["개당"], "wave": 5},
 ]
 
 BANNER_NOTICE = "쿠팡 API 연동 대기 중 (2026-11-16 00:00 이후 자동 업데이트 예정)"
@@ -824,7 +836,7 @@ def main(argv: list[str]) -> int:
     previous = load_previous()
     prev_deals = previous.get("deals") or []
     merged = sort_deals(merge_deals([] if replace else prev_deals, deals))
-    print(f"[filter] 수집 후보 {len(deals)}건 중 로켓배송+단가 확인 {len(merged)}건만 반영 "
+    print(f"[filter] 수집 후보 {len(deals)}건 중 로켓배송+단가 확인 {sum(1 for d in deals if passes_listing_filter(d))}건만 반영 "
           f"(비로켓·단가 미산출 {len(deals) - sum(1 for d in deals if passes_listing_filter(d))}건 제외)")
 
     # 수집 결과를 가격 이력에 기록하고, 누적 평균가·할인율을 계산해 함께 저장한다.

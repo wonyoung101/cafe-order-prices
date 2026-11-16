@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16 16:54 KST",
+  "updatedAt": "2026-11-16 18:02 KST",
   "source": "git snapshots",
   "products": {
     "8436480488": {
@@ -6796,6 +6796,370 @@
           46860,
           46860,
           46860,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8421621861": {
+      "productName": "누티푸드 크리머 스위텐드, 385g, 1개",
+      "category": "크림·연유",
+      "observations": [
+        {
+          "at": "2026-11-16 18:02 KST",
+          "price": 2490,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 2490,
+      "minPrice": 2490,
+      "maxPrice": 2490,
+      "lastPrice": 2490,
+      "lastAt": "2026-11-16 18:02 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          2490,
+          2490,
+          2490,
+          2490,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "5803499574": {
+      "productName": "서강 라미스 휘핑크림, 1L, 2개",
+      "category": "크림·연유",
+      "observations": [
+        {
+          "at": "2026-11-16 18:02 KST",
+          "price": 9230,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 9230,
+      "minPrice": 9230,
+      "maxPrice": 9230,
+      "lastPrice": 9230,
+      "lastAt": "2026-11-16 18:02 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          9230,
+          9230,
+          9230,
+          9230,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9265153304": {
+      "productName": "태국 무가당 카네이션 쿠킹 앤 베이커리 연유, 1kg",
+      "category": "크림·연유",
+      "observations": [
+        {
+          "at": "2026-11-16 18:02 KST",
+          "price": 7270,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 7270,
+      "minPrice": 7270,
+      "maxPrice": 7270,
+      "lastPrice": 7270,
+      "lastAt": "2026-11-16 18:02 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          7270,
+          7270,
+          7270,
+          7270,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "6346850048": {
+      "productName": "우리차 누룽지 둥굴레차, 1.5g, 100개입, 1개",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-16 18:02 KST",
+          "price": 7460,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 7460,
+      "minPrice": 7460,
+      "maxPrice": 7460,
+      "lastPrice": 7460,
+      "lastAt": "2026-11-16 18:02 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          7460,
+          7460,
+          7460,
+          7460,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "1894828334": {
+      "productName": "우리차 돼지감자차, 1g, 100개입, 1개",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-16 18:02 KST",
+          "price": 8050,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 8050,
+      "minPrice": 8050,
+      "maxPrice": 8050,
+      "lastPrice": 8050,
+      "lastAt": "2026-11-16 18:02 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          8050,
+          8050,
+          8050,
+          8050,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9264781647": {
+      "productName": "[본사직영] 다예 건강한 하루차 티타임 4종 32티백(쟈스민차+얼그레이+캐모마일+페퍼민트차), 1개, 32개입, 21.6g",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-16 18:02 KST",
+          "price": 13800,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 13800,
+      "minPrice": 13800,
+      "maxPrice": 13800,
+      "lastPrice": 13800,
+      "lastAt": "2026-11-16 18:02 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          13800,
+          13800,
+          13800,
+          13800,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8457111396": {
+      "productName": "국산 100% 미담식품 깊고 구수한 돼지감자차 티백, 1g, 1개, 100개입",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-16 18:02 KST",
+          "price": 24900,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 24900,
+      "minPrice": 24900,
+      "maxPrice": 24900,
+      "lastPrice": 24900,
+      "lastAt": "2026-11-16 18:02 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          24900,
+          24900,
+          24900,
+          24900,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8581213846": {
+      "productName": "대한다업 옥수수차, 1.5g, 1개, 100개입",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-16 18:02 KST",
+          "price": 6000,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 6000,
+      "minPrice": 6000,
+      "maxPrice": 6000,
+      "lastPrice": 6000,
+      "lastAt": "2026-11-16 18:02 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          6000,
+          6000,
+          6000,
+          6000,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "6145198364": {
+      "productName": "그란본따 버터 10개입, 125g, 2개",
+      "category": "베이킹 재료",
+      "observations": [
+        {
+          "at": "2026-11-16 18:02 KST",
+          "price": 12730,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 12730,
+      "minPrice": 12730,
+      "maxPrice": 12730,
+      "lastPrice": 12730,
+      "lastAt": "2026-11-16 18:02 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          12730,
+          12730,
+          12730,
+          12730,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "6138625780": {
+      "productName": "파오리 가염버터 10p, 125g, 2개",
+      "category": "베이킹 재료",
+      "observations": [
+        {
+          "at": "2026-11-16 18:02 KST",
+          "price": 12730,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 12730,
+      "minPrice": 12730,
+      "maxPrice": 12730,
+      "lastPrice": 12730,
+      "lastAt": "2026-11-16 18:02 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          12730,
+          12730,
+          12730,
+          12730,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8646184725": {
+      "productName": "[로켓프레시] 파오리 락토스프리 버터 10개입, 125g, 1개",
+      "category": "베이킹 재료",
+      "observations": [
+        {
+          "at": "2026-11-16 18:02 KST",
+          "price": 8900,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 8900,
+      "minPrice": 8900,
+      "maxPrice": 8900,
+      "lastPrice": 8900,
+      "lastAt": "2026-11-16 18:02 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          8900,
+          8900,
+          8900,
+          8900,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9486958624": {
+      "productName": "[로켓프레시] 파오리 기버터 바, 200g, 1개",
+      "category": "베이킹 재료",
+      "observations": [
+        {
+          "at": "2026-11-16 18:02 KST",
+          "price": 9980,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 9980,
+      "minPrice": 9980,
+      "maxPrice": 9980,
+      "lastPrice": 9980,
+      "lastAt": "2026-11-16 18:02 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          9980,
+          9980,
+          9980,
+          9980,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9192487825": {
+      "productName": "글로리판 인스턴트 드라이 이스트, 500g, 1개",
+      "category": "베이킹 재료",
+      "observations": [
+        {
+          "at": "2026-11-16 18:02 KST",
+          "price": 6000,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 6000,
+      "minPrice": 6000,
+      "maxPrice": 6000,
+      "lastPrice": 6000,
+      "lastAt": "2026-11-16 18:02 KST",
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          6000,
+          6000,
+          6000,
+          6000,
           1
         ]
       ],
