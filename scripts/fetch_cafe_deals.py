@@ -191,6 +191,9 @@ X_COUNT_RE = re.compile(
     r"(\d+(?:\.\d+)?)\s*(kg|킬로그램|g|그램|ml|mL|ML|Ml|미리리터|l|L|리터|개|입)?\s*[x×]\s*(\d+)\s*(개입|개|입|병|캔|팩|봉|포|세트)?"
 )
 VOL_RE = re.compile(r"(\d+(?:\.\d+)?)\s*(kg|킬로그램|g|그램|ml|mL|ML|Ml|미리리터|l|L|리터)")
+# "4팩 2000개입" 처럼 팩 수 뒤에 세트 전체 수량이 바로 적힌 경우: 4×2000 이 아니라 2000개가 총량이다.
+# (예: 개별포장 자바라빨대 "4팩 2000개입, 1세트, 2000개" → 실제 2,000개)
+PACK_TOTAL_RE = re.compile(r"(\d+)\s*팩\s*(\d+)\s*(개입|개)")
 MAX_PLAUSIBLE_UNITS = 20000
 
 
@@ -226,9 +229,11 @@ def _counts(name: str) -> list[int]:
             if 0 < v <= 100000:
                 vals.append(v)
                 used_spans.append((m.start(), m.end()))
+    for m in PACK_TOTAL_RE.finditer(text):
+        used_spans.append((m.start(1), m.start(2)))   # 'N팩' 은 포장 단위 표기 — 총량은 뒤 숫자
     for m in COUNT_RE.finditer(text):
         if any(s <= m.start() < e or s < m.end() <= e for s, e in used_spans):
-            continue                         # 곱셈으로 이미 센 수량
+            continue                         # 곱셈·팩 표기로 이미 처리한 수량
         v = int(m.group(1))
         if 0 < v <= 100000:
             vals.append(v)
