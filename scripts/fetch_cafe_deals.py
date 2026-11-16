@@ -220,6 +220,18 @@ TARGETS = [
     {"label": "블루베리 베이스 1kg",    "category": "과일·베이스", "query": "블루베리 베이스 1kg", "bases": ["100g", "100ml"], "wave": 11},
     {"label": "과테말라 원두 1kg",      "category": "원두",       "query": "과테말라 원두 1kg",  "bases": ["100g"], "wave": 11},
 
+    # ---- 12차 보강 키워드 (wave=12) — 2026-11-17 01시 회차 실행분(8회).
+    #      크림·연유는 4회 연속 0건(포화)이라 제외하고, 신규 적중률이 확인된 맛 변형(베이스·시럽·파우더)과
+    #      아직 시도하지 않은 취약 카테고리(티·탄산수·빨대·홀더·당류·토핑·우유·대체유) 키워드를 섞었다.
+    {"label": "레몬 베이스 1kg",       "category": "과일·베이스", "query": "레몬 베이스 1kg",    "bases": ["100g", "100ml"], "wave": 12},
+    {"label": "자몽 베이스 1kg",       "category": "과일·베이스", "query": "자몽 베이스 1kg",    "bases": ["100g", "100ml"], "wave": 12},
+    {"label": "헤이즐넛 시럽 1L",      "category": "시럽·소스",   "query": "헤이즐넛 시럽 1L",   "bases": ["100ml"], "wave": 12},
+    {"label": "고구마 파우더 1kg",     "category": "파우더",      "query": "고구마 파우더 1kg",   "bases": ["100g"], "wave": 12},
+    {"label": "아쌈 홍차 티백",        "category": "티·탄산수",   "query": "아쌈 홍차 티백",      "bases": ["개당"], "wave": 12},
+    {"label": "종이컵 홀더 1000개",    "category": "빨대·홀더",  "query": "종이컵 홀더 1000개",  "bases": ["개당"], "wave": 12},
+    {"label": "꿀 1kg",              "category": "당류·토핑",   "query": "꿀 1kg",            "bases": ["100g"], "wave": 12},
+    {"label": "아몬드밀크 1L",        "category": "우유·대체유", "query": "아몬드밀크 1L",      "bases": ["100ml"], "wave": 12},
+
 ]
 
 BANNER_NOTICE = "쿠팡 API 연동 대기 중 (2026-11-16 00:00 이후 자동 업데이트 예정)"

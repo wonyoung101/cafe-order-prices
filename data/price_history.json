@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17 00:10 KST",
+  "updatedAt": "2026-11-17 01:11 KST",
   "source": "git snapshots",
   "products": {
     "8436480488": {
@@ -3331,14 +3331,19 @@
           "at": "2026-11-16 22:07 KST",
           "price": 13440,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 01:11 KST",
+          "price": 13440,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 4,
+      "priceCount": 5,
       "avgPrice": 13440,
       "minPrice": 13440,
       "maxPrice": 13440,
       "lastPrice": 13440,
-      "lastAt": "2026-11-16 22:07 KST",
+      "lastAt": "2026-11-17 01:11 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -3347,9 +3352,17 @@
           13440,
           13440,
           4
+        ],
+        [
+          "2026-11-17",
+          13440,
+          13440,
+          13440,
+          13440,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "8832698072": {
       "productName": "얼터너티브데어리 호주 귀리 음료 바리스타 오트, 2개, 1L",
@@ -4132,14 +4145,19 @@
           "at": "2026-11-16 07:02 KST",
           "price": 33630,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-17 01:11 KST",
+          "price": 33630,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 2,
+      "priceCount": 3,
       "avgPrice": 33630,
       "minPrice": 33630,
       "maxPrice": 33630,
       "lastPrice": 33630,
-      "lastAt": "2026-11-16 07:02 KST",
+      "lastAt": "2026-11-17 01:11 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -4148,9 +4166,17 @@
           33630,
           33630,
           2
+        ],
+        [
+          "2026-11-17",
+          33630,
+          33630,
+          33630,
+          33630,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "7398456407": {
       "productName": "엔칸토 자몽 음료베이스, 2개, 1.8kg",
@@ -4231,14 +4257,19 @@
           "at": "2026-11-16 07:02 KST",
           "price": 13000,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-17 01:11 KST",
+          "price": 13000,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 2,
+      "priceCount": 3,
       "avgPrice": 13000,
       "minPrice": 13000,
       "maxPrice": 13000,
       "lastPrice": 13000,
-      "lastAt": "2026-11-16 07:02 KST",
+      "lastAt": "2026-11-17 01:11 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -4247,9 +4278,17 @@
           13000,
           13000,
           2
+        ],
+        [
+          "2026-11-17",
+          13000,
+          13000,
+          13000,
+          13000,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "7969070285": {
       "productName": "테일러 웰메이드 자몽 농축액, 1.8kg, 1개",
@@ -4264,14 +4303,19 @@
           "at": "2026-11-16 07:02 KST",
           "price": 20400,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-17 01:11 KST",
+          "price": 20400,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 2,
+      "priceCount": 3,
       "avgPrice": 20400,
       "minPrice": 20400,
       "maxPrice": 20400,
       "lastPrice": 20400,
-      "lastAt": "2026-11-16 07:02 KST",
+      "lastAt": "2026-11-17 01:11 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -4280,9 +4324,17 @@
           20400,
           20400,
           2
+        ],
+        [
+          "2026-11-17",
+          20400,
+          20400,
+          20400,
+          20400,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "9325794097": {
       "productName": "담아요 수제 자몽청(알갱이) 정백당, 1개, 자몽청 2kg",
@@ -5056,14 +5108,19 @@
           "at": "2026-11-16 07:02 KST",
           "price": 27000,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-17 01:11 KST",
+          "price": 27000,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 2,
+      "priceCount": 3,
       "avgPrice": 27000,
       "minPrice": 27000,
       "maxPrice": 27000,
       "lastPrice": 27000,
-      "lastAt": "2026-11-16 07:02 KST",
+      "lastAt": "2026-11-17 01:11 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -5072,9 +5129,17 @@
           27000,
           27000,
           2
+        ],
+        [
+          "2026-11-17",
+          27000,
+          27000,
+          27000,
+          27000,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "8420892270": {
       "productName": "포담팩 카페테이크아웃 종이컵홀더 16 20온스 레드 쿠키, 1개, 1000개",
@@ -5089,14 +5154,19 @@
           "at": "2026-11-16 07:02 KST",
           "price": 29700,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-17 01:11 KST",
+          "price": 29700,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 2,
+      "priceCount": 3,
       "avgPrice": 29700,
       "minPrice": 29700,
       "maxPrice": 29700,
       "lastPrice": 29700,
-      "lastAt": "2026-11-16 07:02 KST",
+      "lastAt": "2026-11-17 01:11 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -5105,9 +5175,17 @@
           29700,
           29700,
           2
+        ],
+        [
+          "2026-11-17",
+          29700,
+          29700,
+          29700,
+          29700,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "8605970169": {
       "productName": "탐사 일회용 컵홀더",
@@ -5869,14 +5947,19 @@
           "at": "2026-11-16 22:07 KST",
           "price": 27400,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 01:11 KST",
+          "price": 27400,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 3,
+      "priceCount": 4,
       "avgPrice": 27400,
       "minPrice": 27400,
       "maxPrice": 27400,
       "lastPrice": 27400,
-      "lastAt": "2026-11-16 22:07 KST",
+      "lastAt": "2026-11-17 01:11 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -5885,9 +5968,17 @@
           27400,
           27400,
           3
+        ],
+        [
+          "2026-11-17",
+          27400,
+          27400,
+          27400,
+          27400,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "8493592299": {
       "productName": "포담팩 카페테이크아웃 92파이용 종이컵홀더 10온스 13온스 레드 쿠키, RED, 1000개",
@@ -9101,6 +9192,398 @@
           23800,
           23800,
           23800,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "6026394": {
+      "productName": "다미즐 갈아만든 자몽, 500g, 1개",
+      "category": "과일·베이스",
+      "observations": [
+        {
+          "at": "2026-11-17 01:11 KST",
+          "price": 5500,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 5500,
+      "minPrice": 5500,
+      "maxPrice": 5500,
+      "lastPrice": 5500,
+      "lastAt": "2026-11-17 01:11 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          5500,
+          5500,
+          5500,
+          5500,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7689350970": {
+      "productName": "네이쳐티 헤이즐넛 시럽, 1L, 6개",
+      "category": "시럽·소스",
+      "observations": [
+        {
+          "at": "2026-11-17 01:11 KST",
+          "price": 77900,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 77900,
+      "minPrice": 77900,
+      "maxPrice": 77900,
+      "lastPrice": 77900,
+      "lastAt": "2026-11-17 01:11 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          77900,
+          77900,
+          77900,
+          77900,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8053930068": {
+      "productName": "네이쳐티 zero 헤이즐넛 시럽, 10개, 1L",
+      "category": "시럽·소스",
+      "observations": [
+        {
+          "at": "2026-11-17 01:11 KST",
+          "price": 118330,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 118330,
+      "minPrice": 118330,
+      "maxPrice": 118330,
+      "lastPrice": 118330,
+      "lastAt": "2026-11-17 01:11 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          118330,
+          118330,
+          118330,
+          118330,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7380505327": {
+      "productName": "이노라이즈 이노미 고구마 파우더 1kg, 1개, 옵션없음, 1개입, 1kg",
+      "category": "파우더",
+      "observations": [
+        {
+          "at": "2026-11-17 01:11 KST",
+          "price": 13000,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 13000,
+      "minPrice": 13000,
+      "maxPrice": 13000,
+      "lastPrice": 13000,
+      "lastAt": "2026-11-17 01:11 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          13000,
+          13000,
+          13000,
+          13000,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7796309815": {
+      "productName": "더블데이 리치 고구마 라떼 파우더, 1개, 800g, 1개입",
+      "category": "파우더",
+      "observations": [
+        {
+          "at": "2026-11-17 01:11 KST",
+          "price": 14500,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 14500,
+      "minPrice": 14500,
+      "maxPrice": 14500,
+      "lastPrice": 14500,
+      "lastAt": "2026-11-17 01:11 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          14500,
+          14500,
+          14500,
+          14500,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9466471126": {
+      "productName": "대한다업 데일리 고구마라떼 파우더, 450g, 1개, 1개입",
+      "category": "파우더",
+      "observations": [
+        {
+          "at": "2026-11-17 01:11 KST",
+          "price": 8400,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 8400,
+      "minPrice": 8400,
+      "maxPrice": 8400,
+      "lastPrice": 8400,
+      "lastAt": "2026-11-17 01:11 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          8400,
+          8400,
+          8400,
+          8400,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7136551215": {
+      "productName": "티칸 아쌈홍차, 1.75g, 20개입, 25개",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-17 01:11 KST",
+          "price": 160000,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 160000,
+      "minPrice": 160000,
+      "maxPrice": 160000,
+      "lastPrice": 160000,
+      "lastAt": "2026-11-17 01:11 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          160000,
+          160000,
+          160000,
+          160000,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8959933182": {
+      "productName": "티스트롱 아쌈홍차 CTC, 500g, 1개입, 1개",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-17 01:11 KST",
+          "price": 19900,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 19900,
+      "minPrice": 19900,
+      "maxPrice": 19900,
+      "lastPrice": 19900,
+      "lastAt": "2026-11-17 01:11 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          19900,
+          19900,
+          19900,
+          19900,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7299545923": {
+      "productName": "몬타냐 꿀홍차, 1.5g, 20개입, 3개",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-17 01:11 KST",
+          "price": 11850,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 11850,
+      "minPrice": 11850,
+      "maxPrice": 11850,
+      "lastPrice": 11850,
+      "lastAt": "2026-11-17 01:11 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          11850,
+          11850,
+          11850,
+          11850,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8243951010": {
+      "productName": "산내들농원 사양벌꿀, 1kg, 1개",
+      "category": "당류·토핑",
+      "observations": [
+        {
+          "at": "2026-11-17 01:11 KST",
+          "price": 10000,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 10000,
+      "minPrice": 10000,
+      "maxPrice": 10000,
+      "lastPrice": 10000,
+      "lastAt": "2026-11-17 01:11 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          10000,
+          10000,
+          10000,
+          10000,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8538114918": {
+      "productName": "달콤달콤 꿀 사양벌꿀, 1kg, 1개",
+      "category": "당류·토핑",
+      "observations": [
+        {
+          "at": "2026-11-17 01:11 KST",
+          "price": 9990,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 9990,
+      "minPrice": 9990,
+      "maxPrice": 9990,
+      "lastPrice": 9990,
+      "lastAt": "2026-11-17 01:11 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          9990,
+          9990,
+          9990,
+          9990,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8535145458": {
+      "productName": "온리비푸드 순수 사양벌꿀, 1개, 1kg",
+      "category": "당류·토핑",
+      "observations": [
+        {
+          "at": "2026-11-17 01:11 KST",
+          "price": 9250,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 9250,
+      "minPrice": 9250,
+      "maxPrice": 9250,
+      "lastPrice": 9250,
+      "lastAt": "2026-11-17 01:11 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          9250,
+          9250,
+          9250,
+          9250,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9728306212": {
+      "productName": "국내산 100% 순수 사양벌꿀, 2kg, 1개",
+      "category": "당류·토핑",
+      "observations": [
+        {
+          "at": "2026-11-17 01:11 KST",
+          "price": 15990,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 15990,
+      "minPrice": 15990,
+      "maxPrice": 15990,
+      "lastPrice": 15990,
+      "lastAt": "2026-11-17 01:11 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          15990,
+          15990,
+          15990,
+          15990,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9736307571": {
+      "productName": "얼터너티브데어리 호주 식물성 음료 바리스타 아몬드, 1개, 1L",
+      "category": "우유·대체유",
+      "observations": [
+        {
+          "at": "2026-11-17 01:11 KST",
+          "price": 7400,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 7400,
+      "minPrice": 7400,
+      "maxPrice": 7400,
+      "lastPrice": 7400,
+      "lastAt": "2026-11-17 01:11 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          7400,
+          7400,
+          7400,
+          7400,
           1
         ]
       ],
