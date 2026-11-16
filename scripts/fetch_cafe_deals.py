@@ -124,6 +124,22 @@ TARGETS = [
     {"label": "16oz 아이스컵 1000개",  "category": "컵·뚜껑",      "query": "16oz 아이스컵 1000개", "bases": ["개당"], "wave": 2},
     {"label": "테이크아웃 컵홀더",      "category": "빨대·홀더",    "query": "테이크아웃 컵홀더",    "bases": ["개당"], "wave": 2},
     {"label": "업소용 물티슈",         "category": "매장소모품",   "query": "업소용 물티슈",       "bases": ["개당"], "wave": 2},
+
+    # ---- 3차 보강 키워드 (wave=3) — 로켓배송·단가 확인 필터에서 0건이 된 4개 카테고리 전용 ----
+    # 로켓배송 상품은 상품명에 용량 표기가 없는 경우가 많아, 규격(1L/1kg/3kg 등)이 상품명에
+    # 들어가는 대표 원료 키워드로 조회한다.
+    {"label": "시럽 1L",             "category": "시럽·소스",  "query": "시럽 1L",           "bases": ["100ml"], "wave": 3},
+    {"label": "1883 시럽",           "category": "시럽·소스",  "query": "1883 시럽 1L",      "bases": ["100ml"], "wave": 3},
+    {"label": "토스키 시럽",          "category": "시럽·소스",  "query": "토스키 시럽",        "bases": ["100ml"], "wave": 3},
+    {"label": "설탕 3kg",            "category": "당류·토핑",  "query": "설탕 3kg",          "bases": ["100g"], "wave": 3},
+    {"label": "마시멜로 토핑",         "category": "당류·토핑",  "query": "마시멜로 1kg",       "bases": ["100g"], "wave": 3},
+    {"label": "올리고당 1.2kg",       "category": "당류·토핑",  "query": "올리고당 1.2kg",     "bases": ["100g"], "wave": 3},
+    {"label": "생크림 1L",           "category": "크림·연유",  "query": "생크림 1L",         "bases": ["100ml"], "wave": 3},
+    {"label": "연유 500g",           "category": "크림·연유",  "query": "연유 500g",         "bases": ["100g", "100ml"], "wave": 3},
+    {"label": "생크림 500ml",        "category": "크림·연유",  "query": "생크림 500ml",      "bases": ["100ml"], "wave": 3},
+    {"label": "박력분 1kg",           "category": "베이킹 재료", "query": "박력분 1kg",         "bases": ["100g"], "wave": 3},
+    {"label": "버터 450g",           "category": "베이킹 재료", "query": "버터 450g",          "bases": ["100g"], "wave": 3},
+    {"label": "드라이이스트",          "category": "베이킹 재료", "query": "드라이이스트 1kg",     "bases": ["100g"], "wave": 3},
 ]
 
 BANNER_NOTICE = "쿠팡 API 연동 대기 중 (2026-11-16 00:00 이후 자동 업데이트 예정)"
@@ -581,6 +597,11 @@ def rotate_targets(targets: list[dict], max_requests: int, now: datetime | None 
     return rotated[:max_requests]
 
 
+# `--show-candidates` 로 켜면 조회 결과의 개별 상품이 필터를 통과했는지 한 줄씩 보여준다.
+# (키워드 선정 근거를 남기기 위한 진단용 — 수집 결과 자체에는 영향이 없다.)
+VERBOSE_CANDIDATES = False
+
+
 def collect(access_key: str, secret_key: str, sub_id: str, targets: list[dict],
             max_requests: int, assume_used: int = 0) -> tuple[list[dict], list[str]]:
     deals: list[dict] = []
@@ -632,6 +653,11 @@ def collect(access_key: str, secret_key: str, sub_id: str, targets: list[dict],
             seen.add(pid)
             price = item.get("productPrice") or 0
             unit_price, basis, pack = calc_unit_price(item.get("productName", ""), price, target["bases"])
+            if VERBOSE_CANDIDATES:
+                ok = bool(item.get("isRocket")) and unit_price is not None
+                print(f"    {'✓' if ok else '✗'} rocket={str(bool(item.get('isRocket'))).lower():5} "
+                      f"unit={round(unit_price) if unit_price else '-':>6} {price:>7,}원 "
+                      f"{item.get('productName', '')[:64]}")
             deals.append({
                 "productId": pid,
                 "productName": item.get("productName", ""),
@@ -702,6 +728,8 @@ def write_json(payload: dict) -> None:
 
 
 def main(argv: list[str]) -> int:
+    global VERBOSE_CANDIDATES
+    VERBOSE_CANDIDATES = "--show-candidates" in argv
     dry_run = "--dry-run" in argv
     replace = "--replace" in argv
     now = datetime.now(timezone.utc)

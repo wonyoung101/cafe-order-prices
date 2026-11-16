@@ -36,7 +36,7 @@
 - 수집·병합(`merge_deals`)과 `--recompute` / `--prune-only` 모든 경로에서 같은 필터(`passes_listing_filter`)를 거칩니다.
 - 비로켓 상품과 상품명에 용량·수량이 없어 단가를 낼 수 없는 상품은 `deals.json` 에서 빠지지만, `data/price_history.json` 의 **기존 관측 이력은 지우지 않고 보존**합니다.
 - `index.html` 도 데이터를 한 번 더 확인해 조건 밖 품목은 그리지 않고, 숨긴 건수가 있으면 배지에 `조건 밖 N건 숨김`으로 표시합니다.
-- 카테고리는 `당류·토핑`, `크림·연유`, `베이킹 재료` 3개가 추가되어 총 12개이며, 수집 키워드는 `TARGETS` 에 있습니다. 새 카테고리는 수집 전까지 빈 탭으로 두고, 빈 상태 문구로 안내합니다.
+- 카테고리는 `당류·토핑`, `크림·연유`, `베이킹 재료` 3개가 추가되어 총 12개이며, 수집 키워드는 `TARGETS` 에 있습니다. `wave: 3` 키워드 묶음은 이 3개 카테고리와 `시럽·소스` 를 채우기 위한 규격형 키워드(`설탕 3kg` · `토스키 시럽` 등)입니다.
 
 ## 가격 이력 · 평균 대비 할인율
 
@@ -69,6 +69,8 @@
 python scripts/fetch_cafe_deals.py --dry-run      # 네트워크 없이 계획·안전장치만 확인
 python scripts/fetch_cafe_deals.py --batch 1      # 1~4번째 카테고리만 수집 (1회 4호출)
 python scripts/fetch_cafe_deals.py --wave 2 --max-requests 8  # 2차 보강 키워드 8개 수집
+python scripts/fetch_cafe_deals.py --wave 3 --max-requests 8  # 3차(규격형) 키워드 — 0건 카테고리 보강용
+python scripts/fetch_cafe_deals.py --only "설탕 3kg,토스키 시럽" --show-candidates  # 키워드별 필터 통과/탈락 상품을 한 줄씩 출력
 python scripts/fetch_cafe_deals.py --only 원두,파우더  # 카테고리 지정 수집
 python scripts/fetch_cafe_deals.py --prune-only    # API 없이 기존 데이터 정리(중복·무관 상품 제거)
 python scripts/fetch_cafe_deals.py --recompute     # API 없이 가격 이력만으로 평균가·할인율 재계산
