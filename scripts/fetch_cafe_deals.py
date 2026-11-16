@@ -27,6 +27,10 @@
   수집한 상품 가격을 `data/price_history.json` 에 상품별로 누적해 두고, 그 평균(avgPrice)과
   평균 대비 할인율(discountRate)을 `deals.json` 에 함께 저장합니다. 관측되지 않은 가격은
   절대 만들지 않습니다(보간·추정 없음). 관측이 2회 미만이면 할인율은 null 입니다.
+
+  보관량: 원시 관측은 최근 120건(그리고 최근 35일치)까지, 날짜별 집계(dailyHistory)는 최근 120일까지
+  남깁니다. `deals.json` 각 상품에는 최근 30일 일별 집계(`dailyHistory`)·최고가(maxPrice)·
+  기록 일수(uniqueDays)를 함께 실어 보내 사이트가 30일 추이 모달을 그릴 수 있게 합니다.
 """
 from __future__ import annotations
 
@@ -40,7 +44,7 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
-from datetime import datetime, timedelta, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 # ---------------------------------------------------------------- 설정
@@ -48,6 +52,9 @@ ROOT = Path(__file__).resolve().parent.parent
 OUT_PATH = ROOT / "deals.json"
 HISTORY_PATH = ROOT / "data" / "price_history.json"
 HISTORY_INLINE_MAX = 120     # deals.json 상품 안에 함께 남기는 관측 개수 상한
+HISTORY_RAW_MAX = 120        # data/price_history.json 에 남기는 원시 관측 개수 상한(최근 120건)
+HISTORY_DAILY_KEEP_DAYS = 120  # 이력 파일에 보관하는 일별 집계 일수 (원시 관측이 줄어도 일별 집계는 유지)
+DAILY_WINDOW_DAYS = 30       # 사이트 모달에 노출하는 일별 추이 일수(최근 30일)
 USAGE_PATH = Path(__file__).resolve().parent / ".api_usage.json"
 
 API_HOST = "https://api-gateway.coupang.com"
@@ -398,10 +405,57 @@ def reconcile_from_previous(hist: dict, prev_payload: dict) -> int:
     return restored
 
 
+def obs_date(at: str) -> str:
+    """관측 시각 문자열('YYYY-MM-DD HH:MM KST')에서 날짜(YYYY-MM-DD)만 뽑는다."""
+    s = str(at or "")
+    if len(s) >= 10 and s[4] == "-" and s[7] == "-":
+        return s[:10]
+    return ""
+
+
+def build_daily_history(obs: list[dict], days: int = DAILY_WINDOW_DAYS) -> list[list]:
+    """관측 목록을 날짜별로 묶어 [날짜, 최저, 최고, 평균, 마지막, 관측횟수] 를 오래된 순으로 돌려준다.
+
+    관측된 값만 사용한다(빠진 날짜를 보간하지 않음). 최근 `days` 일만 남긴다.
+    """
+    buckets: dict[str, list[int]] = {}
+    for o in obs:
+        d = obs_date(o.get("at"))
+        price = o.get("price")
+        if not d or not price:
+            continue
+        buckets.setdefault(d, []).append(int(price))
+    items: list[list] = []
+    for d in sorted(buckets)[-days:]:
+        prices = buckets[d]
+        items.append([d, min(prices), max(prices), round(sum(prices) / len(prices)), prices[-1], len(prices)])
+    return items
+
+
+def trim_observations(obs: list[dict]) -> list[dict]:
+    """원시 관측을 최근 120건까지 줄이되, 최근 35일치 관측은 남긴다.
+
+    하루에 여러 번 수집해 120건이 며칠치밖에 안 되는 경우에도 최소 한 달치
+    일별 추이가 유지되도록 하는 보호장치다. (합성·보간 없이 실제 관측만 유지)
+    """
+    if len(obs) <= HISTORY_RAW_MAX:
+        return obs
+    dates = [obs_date(o.get("at")) for o in obs]
+    valid = [d for d in dates if d]
+    if not valid:
+        return obs[-HISTORY_RAW_MAX:]
+    latest = date.fromisoformat(max(valid))
+    cutoff = (latest - timedelta(days=34)).isoformat()
+    recent = [o for o in obs if obs_date(o.get("at")) >= cutoff]
+    keep = obs[-HISTORY_RAW_MAX:]
+    return recent if len(recent) > len(keep) else keep
+
+
 def finalize_history(hist: dict) -> None:
-    """관측을 시각순으로 정렬하고 상품별 통계(평균·최저·최고·관측 횟수)를 계산한다."""
+    """관측을 시각순으로 정렬하고 상품별 통계(평균·최저·최고·관측 횟수·일별 집계)를 계산한다."""
     for entry in hist.get("products", {}).values():
         obs = sorted(entry.get("observations") or [], key=lambda o: o.get("at") or "")
+        obs = trim_observations(obs)
         entry["observations"] = obs
         prices = [o["price"] for o in obs if o.get("price")]
         entry["priceCount"] = len(prices)
@@ -410,6 +464,9 @@ def finalize_history(hist: dict) -> None:
         entry["maxPrice"] = max(prices) if prices else None
         entry["lastPrice"] = prices[-1] if prices else None
         entry["lastAt"] = obs[-1]["at"] if obs else None
+        daily = build_daily_history(obs, HISTORY_DAILY_KEEP_DAYS)
+        entry["dailyHistory"] = daily
+        entry["uniqueDays"] = len(daily)
 
 
 def apply_price_stats(deals: list[dict], hist: dict) -> int:
@@ -427,6 +484,7 @@ def apply_price_stats(deals: list[dict], hist: dict) -> int:
         price = d.get("productPrice")
         d["avgPrice"] = avg
         d["minPrice"] = entry.get("minPrice")
+        d["maxPrice"] = entry.get("maxPrice")
         d["priceCount"] = count
         if avg and count >= 2 and price and price < avg:
             d["discountRate"] = round((avg - price) / avg * 100)
@@ -434,6 +492,14 @@ def apply_price_stats(deals: list[dict], hist: dict) -> int:
                 discounted += 1
         else:
             d["discountRate"] = None
+        # 날짜별 집계(최근 30일) — 사이트의 30일 가격 추이 모달이 그대로 사용한다.
+        daily = entry.get("dailyHistory") or []
+        d["uniqueDays"] = len(daily)
+        daily30 = daily[-DAILY_WINDOW_DAYS:]
+        if daily30:
+            d["dailyHistory"] = daily30
+        else:
+            d.pop("dailyHistory", None)
         # 관측 목록을 상품 안에도 함께 남긴다 — 워크플로가 price_history.json 을
         # 커밋하지 못해도 이력이 deals.json 과 함께 누적되게 하는 안전장치.
         obs = entry.get("observations") or []
