@@ -464,7 +464,7 @@
   }
 
   function svgChart(days, avg) {
-    var W = 320, H = 178, L = 46, R = 13, T = 15, B = 27;
+    var W = 320, H = 178, L = 46, R = days.length === 1 ? 34 : 13, T = 15, B = 27;
     var vals = [];
     days.forEach(function (p) { vals.push(p.min, p.avg, p.max || p.avg); });
     if (avg) vals.push(avg);
@@ -503,7 +503,7 @@
     // 일별 최저~최고 범위 표시
     pts.forEach(function (pt) {
       if (pt.p.max != null && pt.p.max > pt.p.min) {
-        parts.push('<line x1="' + pt.x.toFixed(1) + '" y1="' + yOf(pt.p.min).toFixed(1) + '" x2="' + pt.x.toFixed(1) + '" y2="' + yOf(pt.p.max).toFixed(1) + '" stroke="#cbd5e1" stroke-width="3" stroke-linecap="round"/>');
+        parts.push('<line x1="' + pt.x.toFixed(1) + '" y1="' + yOf(pt.p.min).toFixed(1) + '" x2="' + pt.x.toFixed(1) + '" y2="' + yOf(pt.p.max).toFixed(1) + '" stroke="#d9e2e8" stroke-width="3.5" stroke-linecap="round"/>');
       }
     });
 
@@ -528,22 +528,23 @@
       parts.push('<circle cx="' + pt.x.toFixed(1) + '" cy="' + pt.y.toFixed(1) + '" r="3" fill="#fff" stroke="#0f766e" stroke-width="1.8"/>');
     });
 
-    // 마지막(현재) 점 가격 라벨
+    // 마지막(현재) 점 가격 라벨 — 점 왼쪽에 두고 흰 테두리로 기준선과 겹쳐도 읽히게 한다.
     var lp = pts[pts.length - 1];
-    var lx = Math.min(Math.max(lp.x, L + 24), W - R - 2);
-    parts.push('<text x="' + lx.toFixed(1) + '" y="' + (lp.y - 8).toFixed(1) + '" font-size="9.5" font-weight="700" fill="#0f766e" text-anchor="end">' + num(lp.p.avg) + '원</text>');
+    var labelY = Math.min(Math.max(lp.y - 9, T + 8), H - B - 4);
+    parts.push('<text x="' + (lp.x - 8).toFixed(1) + '" y="' + labelY.toFixed(1) + '" font-size="9.5" font-weight="700" fill="#0f766e" text-anchor="end" stroke="#fcfdfd" stroke-width="3" paint-order="stroke">' + num(lp.p.avg) + '원</text>');
 
     // x축 날짜 눈금 (시작·중간·마지막)
+    var todayIso = new Date().getFullYear() + '-' + ('0' + (new Date().getMonth() + 1)).slice(-2) + '-' + ('0' + new Date().getDate()).slice(-2);
     var ticks = [
       { t: t0, anchor: "start" },
       { t: t0 + (t1 - t0) / 2, anchor: "middle" },
-      { t: t1, anchor: "end" }
+      { t: t1, anchor: "end", today: last === todayIso }
     ];
     ticks.forEach(function (tk, i) {
       if (i === 1 && days.length < 3) return;
       var x = L + (tk.t - t0) / (t1 - t0) * (W - L - R);
       var d = new Date(tk.t);
-      var label = (d.getMonth() + 1) + "." + d.getDate();
+      var label = (d.getMonth() + 1) + "." + d.getDate() + (tk.today && i === 2 ? " 오늘" : "");
       parts.push('<text x="' + x.toFixed(1) + '" y="' + (H - 8) + '" font-size="8.5" fill="#94a3b8" text-anchor="' + tk.anchor + '">' + label + '</text>');
     });
 
