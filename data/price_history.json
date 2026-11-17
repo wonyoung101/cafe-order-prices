@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17 09:22 KST",
+  "updatedAt": "2026-11-17 11:06 KST",
   "source": "git snapshots",
   "products": {
     "8436480488": {
@@ -7122,14 +7122,19 @@
           "at": "2026-11-17 09:22 KST",
           "price": 9230,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 11:06 KST",
+          "price": 9230,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 7,
+      "priceCount": 8,
       "avgPrice": 9230,
       "minPrice": 9230,
       "maxPrice": 9230,
       "lastPrice": 9230,
-      "lastAt": "2026-11-17 09:22 KST",
+      "lastAt": "2026-11-17 11:06 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -7145,7 +7150,7 @@
           9230,
           9230,
           9230,
-          4
+          5
         ]
       ],
       "uniqueDays": 2
@@ -8037,14 +8042,19 @@
           "at": "2026-11-17 08:21 KST",
           "price": 10400,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 11:06 KST",
+          "price": 10400,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 3,
+      "priceCount": 4,
       "avgPrice": 10400,
       "minPrice": 10400,
       "maxPrice": 10400,
       "lastPrice": 10400,
-      "lastAt": "2026-11-17 08:21 KST",
+      "lastAt": "2026-11-17 11:06 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -8060,7 +8070,7 @@
           10400,
           10400,
           10400,
-          1
+          2
         ]
       ],
       "uniqueDays": 2
@@ -9638,29 +9648,34 @@
       "uniqueDays": 1
     },
     "9466471126": {
-      "productName": "대한다업 데일리 고구마라떼 파우더, 450g, 1개, 1개입",
+      "productName": "대한다업 데일리 고구마라떼 파우더, 450g, 25개, 1개입",
       "category": "파우더",
       "observations": [
         {
           "at": "2026-11-17 01:11 KST",
           "price": 8400,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 11:06 KST",
+          "price": 210000,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
-      "avgPrice": 8400,
+      "priceCount": 2,
+      "avgPrice": 109200,
       "minPrice": 8400,
-      "maxPrice": 8400,
-      "lastPrice": 8400,
-      "lastAt": "2026-11-17 01:11 KST",
+      "maxPrice": 210000,
+      "lastPrice": 210000,
+      "lastAt": "2026-11-17 11:06 KST",
       "dailyHistory": [
         [
           "2026-11-17",
           8400,
-          8400,
-          8400,
-          8400,
-          1
+          210000,
+          109200,
+          210000,
+          2
         ]
       ],
       "uniqueDays": 1
@@ -12177,6 +12192,174 @@
           9400,
           9400,
           9400,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7842499224": {
+      "productName": "토종마을 자색고구마분말, 1개, 250g",
+      "category": "파우더",
+      "observations": [
+        {
+          "at": "2026-11-17 11:06 KST",
+          "price": 10820,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 10820,
+      "minPrice": 10820,
+      "maxPrice": 10820,
+      "lastPrice": 10820,
+      "lastAt": "2026-11-17 11:06 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          10820,
+          10820,
+          10820,
+          10820,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9437713590": {
+      "productName": "카페57 상온 핑크리치 캐모마일 베이스 1.2kg, 1개, 1L",
+      "category": "과일·베이스",
+      "observations": [
+        {
+          "at": "2026-11-17 11:06 KST",
+          "price": 13000,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 13000,
+      "minPrice": 13000,
+      "maxPrice": 13000,
+      "lastPrice": 13000,
+      "lastAt": "2026-11-17 11:06 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          13000,
+          13000,
+          13000,
+          13000,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "6702278654": {
+      "productName": "토스키 스트로베리 시럽, 1L, 1개",
+      "category": "시럽·소스",
+      "observations": [
+        {
+          "at": "2026-11-17 11:06 KST",
+          "price": 16000,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 16000,
+      "minPrice": 16000,
+      "maxPrice": 16000,
+      "lastPrice": 16000,
+      "lastAt": "2026-11-17 11:06 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          16000,
+          16000,
+          16000,
+          16000,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7028169224": {
+      "productName": "8온스 종이컵 커피컵 무지 1000개 (290ml/뚜껑별도)",
+      "category": "컵·뚜껑",
+      "observations": [
+        {
+          "at": "2026-11-17 11:06 KST",
+          "price": 31300,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 31300,
+      "minPrice": 31300,
+      "maxPrice": 31300,
+      "lastPrice": 31300,
+      "lastAt": "2026-11-17 11:06 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          31300,
+          31300,
+          31300,
+          31300,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7263274840": {
+      "productName": "테이크아웃컵 290ml(8온스) 종이컵 커피컵 씨엘커피 1000개 1박스 (뚜껑별도)",
+      "category": "컵·뚜껑",
+      "observations": [
+        {
+          "at": "2026-11-17 11:06 KST",
+          "price": 34000,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 34000,
+      "minPrice": 34000,
+      "maxPrice": 34000,
+      "lastPrice": 34000,
+      "lastAt": "2026-11-17 11:06 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          34000,
+          34000,
+          34000,
+          34000,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9481382967": {
+      "productName": "구르메첼레비 피스타치오 페이스트, 1kg, 1개",
+      "category": "당류·토핑",
+      "observations": [
+        {
+          "at": "2026-11-17 11:06 KST",
+          "price": 131360,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 131360,
+      "minPrice": 131360,
+      "maxPrice": 131360,
+      "lastPrice": 131360,
+      "lastAt": "2026-11-17 11:06 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          131360,
+          131360,
+          131360,
+          131360,
           1
         ]
       ],
