@@ -1,7 +1,7 @@
 {
   "status": "ok",
-  "updatedAt": "2026-11-17 08:21 KST",
-  "statsAt": "2026-11-17 08:21 KST",
+  "updatedAt": "2026-11-17 09:22 KST",
+  "statsAt": "2026-11-17 09:22 KST",
   "notice": "",
   "watchlist": [],
   "categories": [
@@ -18,10 +18,10 @@
     "빨대·홀더",
     "매장소모품"
   ],
-  "count": 219,
+  "count": 222,
   "priceStats": {
-    "products": 356,
-    "discounts": 6
+    "products": 362,
+    "discounts": 7
   },
   "deals": [
     {
@@ -787,11 +787,11 @@
       "unitPrice": 1589,
       "unitBasis": "100g당",
       "packNote": "1,000g",
-      "avgPrice": 15890,
+      "avgPrice": 21218,
       "minPrice": 15890,
-      "maxPrice": 15890,
-      "priceCount": 4,
-      "discountRate": null,
+      "maxPrice": 42530,
+      "priceCount": 5,
+      "discountRate": 25,
       "uniqueDays": 2,
       "dailyHistory": [
         [
@@ -805,10 +805,10 @@
         [
           "2026-11-17",
           15890,
-          15890,
-          15890,
-          15890,
-          1
+          42530,
+          29210,
+          42530,
+          2
         ]
       ],
       "priceHistory": [
@@ -827,6 +827,10 @@
         [
           "2026-11-17 00:10 KST",
           15890
+        ],
+        [
+          "2026-11-17 09:22 KST",
+          42530
         ]
       ]
     },
@@ -2460,6 +2464,43 @@
       ]
     },
     {
+      "productId": "8837428117",
+      "vendorItemId": "",
+      "productName": "그대로푸드 흑임자 가루, 1개, 1kg",
+      "productPrice": 13610,
+      "productImage": "https://ads-partners.coupang.com/image1/zTmmdtMnsH-p1Y7CzbPgc73kU5NSKeymWUq_guuBkMcQGABROAt0rXI0g9j0w17_RI1ywvsfoOoHTO2d9GdE34T7s_IKvYsIl9ING12c2RrNIWwHAAjbv4t1Ohltzed5abYLOCf0BB2-zz2Umh2lo5r2qIVTjXZIsHCAouZ1TzptrDifjyotQs7uOwN44-z99A-O6Fg_lC5sW0D_GhCeUJ03keFmyZfDqlurUp2aN27AQNufWgFjc35oWT4T5JfTHhe6NjojhMb6qrOvCJJfFQoaNN1SmrMuboYg-p5gBKiIJFlF-zYAUWr1c5KJ7cebQ_7SWVW7x07rV-s_MiXIh0FDqNxgSOYKFjEwGsIqzF0ehUPnfgJposMA21iCxJR6ZhOqYBgCAjDWKmTt03BuhDw2sYYn8UbRQHjG1LnMGFnBQQLVi4ajmM4A4HZexCeogN_HvoQy77CB83Q59yEI2olKfgl-pxNGb8_1uSMrrpNHcU3ZGCZnsfmabALYoJ_gF9fzZmOU6bTDNh-BIP-KHWCMX79NKYby1kPyC8i4PtR1ktFQCNjI2wcW83pwHMO3nxFHjpBf-WRaeq4JTWu2ZBMr8crTQRBGGXuweao=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8837428117&itemId=21771510965&vendorItemId=95618826521&traceid=V0-153-98f0c71145126dc6&clickBeacon=e45b5af0-e21c-11f1-be2b-146969387b71%7E3&requestid=20261117092154268038323335&token=31850C%7CMIXED&pt=1&slot=1",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "파우더",
+      "query": "흑임자 파우더 1kg",
+      "unitPrice": 1361,
+      "unitBasis": "100g당",
+      "packNote": "1,000g",
+      "avgPrice": 13610,
+      "minPrice": 13610,
+      "maxPrice": 13610,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          13610,
+          13610,
+          13610,
+          13610,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-17 09:22 KST",
+          13610
+        ]
+      ]
+    },
+    {
       "productId": "7214066444",
       "productName": "카페57 프리미엄 코코아 파우더, 1kg, 1개입, 1개",
       "productPrice": 14000,
@@ -3544,6 +3585,43 @@
         [
           "2026-11-17 01:11 KST",
           5500
+        ]
+      ]
+    },
+    {
+      "productId": "7398448558",
+      "vendorItemId": "",
+      "productName": "엔칸토 골드키위 음료베이스, 1개, 1.8kg",
+      "productPrice": 20000,
+      "productImage": "https://ads-partners.coupang.com/image1/tLsLmIDWFAKbq-sHtOdZU7QGIvD6_-I44qKi05LqZaT2jI54ajoC3eqvYv4PEfKleGPF68A1FijQRrH7JO_ru6dsUstQmJDjT2E-XH21vVtQyUvL84AJH9QIsO1pJWPnhPnW-uaadIdFFTeMH7d8TR4xdVxoHPHO-erI5Om9zPnPpoKa__UWuVe0oxVy5jd9SiBWnd4VVaMUjU0JEIa2lmBM8nGg5We_iLhAuIEMoigui3JwyzufseuLk1M3a0MUt3-zOVKXPcV2EHSIrqO6BTioX5Zng-jFLmocfXPezUuz-ww0ex2MgSwFg9wdx3u62cqqw_Cmx8-FcTCnlGRD-O09wITT8UowqC8Pew1K8PVVwLTsqiamuWR3jOtiEVJA2R9ppEeu42WX3IPDzw6UXuLvqNHoqhBJY-xSFPivToJTojzbIKoLdI5FBd4yo5vaQD_vyjO9_MFhTBf5x7HbvvQt3L6hhPvtJyJF7_BiziIDsnpPowJ0xfGkEA02AkFyNMwtr2HMjROrHqNyLuJ5geJFpQdMFmFm3yBNxkYh8Ln0ayvFnMETNSqyCmV9XiWTNCBzYls=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7398448558&itemId=19143927185&vendorItemId=95076630035&traceid=V0-153-81f1b53de0092f0b&clickBeacon=e9630b60-e21c-11f1-93a6-60afa30f39a0%7E3&requestid=20261117092202721077098817&token=31850C%7CMIXED&pt=1&slot=1",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "과일·베이스",
+      "query": "키위 베이스 1kg",
+      "unitPrice": 1111,
+      "unitBasis": "100g당",
+      "packNote": "1,800g",
+      "avgPrice": 20000,
+      "minPrice": 20000,
+      "maxPrice": 20000,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          20000,
+          20000,
+          20000,
+          20000,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-17 09:22 KST",
+          20000
         ]
       ]
     },
@@ -4752,19 +4830,19 @@
       "vendorItemId": "",
       "productName": "서강 라미스 휘핑크림, 1L, 2개",
       "productPrice": 9230,
-      "productImage": "https://ads-partners.coupang.com/image1/_ao_hvQdFkvSKB2c_RsPrwolObsV4m6Fbjqk5uB3HtqiQCYMLmfwY1d4WLSaGovnxMAeXxi3n7EIWxXG-ppwnxeThCXc5MYu0HzU00FxdZOgjn32WuPJRR_1cAiZfnG9mdNEidr33FwXeRx3Lk0tdRMWKe07BBBqDCO3SX2wAqA7UoAQGGNsFig_DDZmHcBTWIGFMsGPqAJ9ZGA3k1aEeh2FOPt2MV--ZC2oqQgQLLsFjypEgcXcTJJXteIYnyP1cQOXnOvmathFSjGvgap4UUHNBzcr8xWG9P6IycPyGIzUvBVELTwncsC8LWGNx3MPZi796dTc888o7Yv7pCGgTyA0lhHJp4NlJvNyrSinlJJXQ_tLyZokC8a-KhheaIX9HzQxoitbxV4WS6ODYIrjyrqm8BPyuZuGzZ31HEtazK6CiwlGnULd9mbyyob1jRikE_SkXvFezQihd4hOUYW5UpPK2wkuBm97jv0CDPWSrorax7ssyZebeAvl8xP1bQiMbSG_VAonEA==",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=5803499574&itemId=9961390914&vendorItemId=77244524635&traceid=V0-153-f092caec55dfbd2c&clickBeacon=46f1a1a0-e214-11f1-90d3-be8a30c67a69%7E3&requestid=20261117082014217003648640&token=31850C%7CMIXED&pt=1&slot=1",
+      "productImage": "https://ads-partners.coupang.com/image1/-J7UXhTagdh_Aw1l-I76GSMPpn83OwqWEleiDJqewtTp84zat2VKY5HzBcVRXMZRiz2eK4Cb57kV_1zw88PamHZKDfeMYNJRc5pWwHpqvAqH1Ryw91v37zrDrhgcKhKjkT1lHdoUxPsHsOyNlqdMWeYtYA57MGEGNmGG6agwwhbYV_w1lLgp2ouLh3j3nYwuoulelVRTPyLBS0uWz03BkwJeLefptCjaeBquqwic5PcDj-tqwwWuOyZMF8UciMSnYwitxnfU4VQi8aKY05do4Cjh5K24zFh0oNZ_IVLFZxARNyJ8drP4Q6jl80dzbIRiwllhbgvcg1dBeznLCF8eMQFh0OT67aWFS3wouPXp6J_OBulltLkUBseVhqMS3TAls6uMUAl5Ei6wBcSKWOhRmh4EeBeCuXIuznibPHWEAFFTFzIvax_Qrqs7tvq-dYB5s6FEuDIYZKaOiPWgv8nooaUiNG24zPzhl6pQIKZeg7MRJNOHoPYyf5trbvUaBq8e6pN2smTVNQ==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=5803499574&itemId=9961390914&vendorItemId=77244524635&traceid=V0-153-f092caec55dfbd2c&clickBeacon=cfa6c1d0-e21c-11f1-baad-d73cf285d34a%7E3&requestid=20261117092119489269753455&token=31850C%7CMIXED&pt=1&slot=1",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "크림·연유",
-      "query": "생크림 1000ml",
+      "query": "휘핑크림 500g",
       "unitPrice": 462,
       "unitBasis": "100ml당",
       "packNote": "1,000ml×2",
       "avgPrice": 9230,
       "minPrice": 9230,
       "maxPrice": 9230,
-      "priceCount": 6,
+      "priceCount": 7,
       "discountRate": null,
       "uniqueDays": 2,
       "dailyHistory": [
@@ -4782,7 +4860,7 @@
           9230,
           9230,
           9230,
-          3
+          4
         ]
       ],
       "priceHistory": [
@@ -4808,6 +4886,10 @@
         ],
         [
           "2026-11-17 08:21 KST",
+          9230
+        ],
+        [
+          "2026-11-17 09:22 KST",
           9230
         ]
       ]
@@ -8638,6 +8720,43 @@
           15890,
           15890,
           2
+        ]
+      ]
+    },
+    {
+      "productId": "8797213503",
+      "vendorItemId": "",
+      "productName": "방수재질 소비기한 유통기한 라벨 스티커, 1000매, 1개",
+      "productPrice": 15700,
+      "productImage": "https://ads-partners.coupang.com/image1/O_gz2KKS4ALzVLaHO03N-6aVuwqUH7WN0xf0FiEKIQobEUwZAzw8gKv6F7RBau1Jmhwilk2Z-YinOljRqO2UkcO_-hKeXoy7z393KiOkbrZPFz-3mOOLurR15u-kWidk5p53zuKJ3HTfXP3DgH8ps-wtdTExOpPZomiktZcu6zqL-wa2c6YZwdiQiVLlhxdIhFvJAD4KVG5vahDTzLVs7iAeg9YPU8sZ16idZsJ8-rWP3DCp_2mmVjemey3Wg5ziSBB8wXRI3OQCFJxEKloSQqLiEM0fm1VOROC0Y7O2jU2LGyd_cJ3aM2U5-EXOTIyp6jtSRrpF4ueigTbY6dXWr5Ctk10vJ6LmXi5tw2xZ7qXhPkF0eNHSPoYpR6GyXmAH4spzW9IAHSSbIxVS7j8QD_dyd8jlbobEooiVeWEHf-ggpIi3G3dyfbjlSA1woNzvwD02tSwSSG9IaH7XMTh0oFBFsVajJ7xeL7DhnvHsXPLr_68Ir052cLx3RT1glkj0BPNXt-Nx_vK1TM2oZ55qpGEtgsb9krg=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8797213503&itemId=25612154687&vendorItemId=92602636092&traceid=V0-153-463e083b33dc4d82&clickBeacon=da07ec30-e21c-11f1-b40b-308fef9326d3%7E3&requestid=20261117092136909203349685&token=31850C%7CMIXED&pt=1&slot=5",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "매장소모품",
+      "query": "라벨 스티커 1000매",
+      "unitPrice": 16,
+      "unitBasis": "개당",
+      "packNote": "1,000개입",
+      "avgPrice": 15700,
+      "minPrice": 15700,
+      "maxPrice": 15700,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          15700,
+          15700,
+          15700,
+          15700,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-17 09:22 KST",
+          15700
         ]
       ]
     },

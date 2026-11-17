@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17 08:21 KST",
+  "updatedAt": "2026-11-17 09:22 KST",
   "source": "git snapshots",
   "products": {
     "8436480488": {
@@ -7117,14 +7117,19 @@
           "at": "2026-11-17 08:21 KST",
           "price": 9230,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 09:22 KST",
+          "price": 9230,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 6,
+      "priceCount": 7,
       "avgPrice": 9230,
       "minPrice": 9230,
       "maxPrice": 9230,
       "lastPrice": 9230,
-      "lastAt": "2026-11-17 08:21 KST",
+      "lastAt": "2026-11-17 09:22 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -7140,7 +7145,7 @@
           9230,
           9230,
           9230,
-          3
+          4
         ]
       ],
       "uniqueDays": 2
@@ -7550,14 +7555,19 @@
           "at": "2026-11-17 00:10 KST",
           "price": 15890,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 09:22 KST",
+          "price": 42530,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 4,
-      "avgPrice": 15890,
+      "priceCount": 5,
+      "avgPrice": 21218,
       "minPrice": 15890,
-      "maxPrice": 15890,
-      "lastPrice": 15890,
-      "lastAt": "2026-11-17 00:10 KST",
+      "maxPrice": 42530,
+      "lastPrice": 42530,
+      "lastAt": "2026-11-17 09:22 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -7570,10 +7580,10 @@
         [
           "2026-11-17",
           15890,
-          15890,
-          15890,
-          15890,
-          1
+          42530,
+          29210,
+          42530,
+          2
         ]
       ],
       "uniqueDays": 2
@@ -7887,8 +7897,8 @@
       "uniqueDays": 1
     },
     "7660088660": {
-      "productName": "파베글라스 루미에르 컴파운드 코인 코팅 다크초콜릿, 1kg, 7개",
-      "category": "베이킹 재료",
+      "productName": "파베글라스 루미에르 컴파운드 코인 코팅 다크초콜릿, 1kg, 1개",
+      "category": "당류·토핑",
       "observations": [
         {
           "at": "2026-11-16 19:03 KST",
@@ -8196,7 +8206,7 @@
       "uniqueDays": 1
     },
     "6669882649": {
-      "productName": "코코씸 코코넛 밀크 무설탕 무첨가, 1L, 1개",
+      "productName": "코코씸 코코넛 밀크 무설탕 무첨가, 1L, 2개",
       "category": "우유·대체유",
       "observations": [
         {
@@ -11999,6 +12009,174 @@
           19000,
           19000,
           19000,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9071369698": {
+      "productName": "KP 92파이 롱개폐형 뚜껑 국산형 투명 PET 1박스",
+      "category": "컵·뚜껑",
+      "observations": [
+        {
+          "at": "2026-11-17 09:22 KST",
+          "price": 22000,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 22000,
+      "minPrice": 22000,
+      "maxPrice": 22000,
+      "lastPrice": 22000,
+      "lastAt": "2026-11-17 09:22 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          22000,
+          22000,
+          22000,
+          22000,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7483914461": {
+      "productName": "정육스티커 미국산 스티커 C02 1000매, 1세트, 1000개입",
+      "category": "매장소모품",
+      "observations": [
+        {
+          "at": "2026-11-17 09:22 KST",
+          "price": 13640,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 13640,
+      "minPrice": 13640,
+      "maxPrice": 13640,
+      "lastPrice": 13640,
+      "lastAt": "2026-11-17 09:22 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          13640,
+          13640,
+          13640,
+          13640,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8797213503": {
+      "productName": "방수재질 소비기한 유통기한 라벨 스티커, 1000매, 1개",
+      "category": "매장소모품",
+      "observations": [
+        {
+          "at": "2026-11-17 09:22 KST",
+          "price": 15700,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 15700,
+      "minPrice": 15700,
+      "maxPrice": 15700,
+      "lastPrice": 15700,
+      "lastAt": "2026-11-17 09:22 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          15700,
+          15700,
+          15700,
+          15700,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8837428117": {
+      "productName": "그대로푸드 흑임자 가루, 1개, 1kg",
+      "category": "파우더",
+      "observations": [
+        {
+          "at": "2026-11-17 09:22 KST",
+          "price": 13610,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 13610,
+      "minPrice": 13610,
+      "maxPrice": 13610,
+      "lastPrice": 13610,
+      "lastAt": "2026-11-17 09:22 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          13610,
+          13610,
+          13610,
+          13610,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7398448558": {
+      "productName": "엔칸토 골드키위 음료베이스, 1개, 1.8kg",
+      "category": "과일·베이스",
+      "observations": [
+        {
+          "at": "2026-11-17 09:22 KST",
+          "price": 20000,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 20000,
+      "minPrice": 20000,
+      "maxPrice": 20000,
+      "lastPrice": 20000,
+      "lastAt": "2026-11-17 09:22 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          20000,
+          20000,
+          20000,
+          20000,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8209571769": {
+      "productName": "커피보니 카페클린 커피머신 클리너 1kg",
+      "category": "과일·베이스",
+      "observations": [
+        {
+          "at": "2026-11-17 09:22 KST",
+          "price": 9400,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 9400,
+      "minPrice": 9400,
+      "maxPrice": 9400,
+      "lastPrice": 9400,
+      "lastAt": "2026-11-17 09:22 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          9400,
+          9400,
+          9400,
+          9400,
           1
         ]
       ],
