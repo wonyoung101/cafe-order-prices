@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17 12:09 KST",
+  "updatedAt": "2026-11-17 13:10 KST",
   "source": "git snapshots",
   "products": {
     "8436480488": {
@@ -3480,14 +3480,19 @@
           "at": "2026-11-17 02:12 KST",
           "price": 7400,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 13:10 KST",
+          "price": 7400,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 5,
-      "avgPrice": 8816,
+      "priceCount": 6,
+      "avgPrice": 8580,
       "minPrice": 7400,
       "maxPrice": 14480,
       "lastPrice": 7400,
-      "lastAt": "2026-11-17 02:12 KST",
+      "lastAt": "2026-11-17 13:10 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -3503,7 +3508,7 @@
           7400,
           7400,
           7400,
-          1
+          2
         ]
       ],
       "uniqueDays": 2
@@ -6883,14 +6888,19 @@
           "at": "2026-11-16 16:52 KST",
           "price": 16000,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 13:10 KST",
+          "price": 45000,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
-      "avgPrice": 16000,
+      "priceCount": 2,
+      "avgPrice": 30500,
       "minPrice": 16000,
-      "maxPrice": 16000,
-      "lastPrice": 16000,
-      "lastAt": "2026-11-16 16:52 KST",
+      "maxPrice": 45000,
+      "lastPrice": 45000,
+      "lastAt": "2026-11-17 13:10 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -6899,9 +6909,17 @@
           16000,
           16000,
           1
+        ],
+        [
+          "2026-11-17",
+          45000,
+          45000,
+          45000,
+          45000,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "6523554795": {
       "productName": "토스키 블루 큐라소향 시럽, 1L, 1개",
@@ -7041,14 +7059,19 @@
           "at": "2026-11-17 02:12 KST",
           "price": 46860,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 13:10 KST",
+          "price": 6670,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 2,
-      "avgPrice": 46860,
-      "minPrice": 46860,
+      "priceCount": 3,
+      "avgPrice": 33463,
+      "minPrice": 6670,
       "maxPrice": 46860,
-      "lastPrice": 46860,
-      "lastAt": "2026-11-17 02:12 KST",
+      "lastPrice": 6670,
+      "lastAt": "2026-11-17 13:10 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -7060,11 +7083,11 @@
         ],
         [
           "2026-11-17",
+          6670,
           46860,
-          46860,
-          46860,
-          46860,
-          1
+          26765,
+          6670,
+          2
         ]
       ],
       "uniqueDays": 2
@@ -8858,14 +8881,19 @@
           "at": "2026-11-16 22:07 KST",
           "price": 7400,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 13:10 KST",
+          "price": 7400,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 7400,
       "minPrice": 7400,
       "maxPrice": 7400,
       "lastPrice": 7400,
-      "lastAt": "2026-11-16 22:07 KST",
+      "lastAt": "2026-11-17 13:10 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -8874,9 +8902,17 @@
           7400,
           7400,
           1
+        ],
+        [
+          "2026-11-17",
+          7400,
+          7400,
+          7400,
+          7400,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "9237186355": {
       "productName": "포담팩 종이컵홀더 아이스 92컵 98컵 멀티홀더 그린 클로버, 1개, 1000개",
@@ -9897,14 +9933,19 @@
           "at": "2026-11-17 01:11 KST",
           "price": 7400,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 13:10 KST",
+          "price": 7400,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 7400,
       "minPrice": 7400,
       "maxPrice": 7400,
       "lastPrice": 7400,
-      "lastAt": "2026-11-17 01:11 KST",
+      "lastAt": "2026-11-17 13:10 KST",
       "dailyHistory": [
         [
           "2026-11-17",
@@ -9912,7 +9953,7 @@
           7400,
           7400,
           7400,
-          1
+          2
         ]
       ],
       "uniqueDays": 1
@@ -12485,6 +12526,258 @@
           5900,
           5900,
           5900,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8829500195": {
+      "productName": "에스제이케미칼 원터치 투명 소스컵 소 1000개, 1000개, 1개",
+      "category": "컵·뚜껑",
+      "observations": [
+        {
+          "at": "2026-11-17 13:10 KST",
+          "price": 34540,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 34540,
+      "minPrice": 34540,
+      "maxPrice": 34540,
+      "lastPrice": 34540,
+      "lastAt": "2026-11-17 13:10 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          34540,
+          34540,
+          34540,
+          34540,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8338301459": {
+      "productName": "에스제이케미칼 105파이 국용기 중 화이트 1000개 세트, 1개",
+      "category": "컵·뚜껑",
+      "observations": [
+        {
+          "at": "2026-11-17 13:10 KST",
+          "price": 62100,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 62100,
+      "minPrice": 62100,
+      "maxPrice": 62100,
+      "lastPrice": 62100,
+      "lastAt": "2026-11-17 13:10 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          62100,
+          62100,
+          62100,
+          62100,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7194400668": {
+      "productName": "워너빈 온두라스 코판 SHG 원두커피, 1kg, 1개",
+      "category": "원두",
+      "observations": [
+        {
+          "at": "2026-11-17 13:10 KST",
+          "price": 31300,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 31300,
+      "minPrice": 31300,
+      "maxPrice": 31300,
+      "lastPrice": 31300,
+      "lastAt": "2026-11-17 13:10 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          31300,
+          31300,
+          31300,
+          31300,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9568006265": {
+      "productName": "TYP 배달봉투 배달비닐 정성 소 15L 1000장, 1000개, 15L",
+      "category": "매장소모품",
+      "observations": [
+        {
+          "at": "2026-11-17 13:10 KST",
+          "price": 46000,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 46000,
+      "minPrice": 46000,
+      "maxPrice": 46000,
+      "lastPrice": 46000,
+      "lastAt": "2026-11-17 13:10 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          46000,
+          46000,
+          46000,
+          46000,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9568013605": {
+      "productName": "TYP 배달봉투 배달비닐 고객 중 20L 1000장, 1000개, 20L",
+      "category": "매장소모품",
+      "observations": [
+        {
+          "at": "2026-11-17 13:10 KST",
+          "price": 51700,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 51700,
+      "minPrice": 51700,
+      "maxPrice": 51700,
+      "lastPrice": 51700,
+      "lastAt": "2026-11-17 13:10 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          51700,
+          51700,
+          51700,
+          51700,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9637013331": {
+      "productName": "[OPP] 일회용 쌈비닐 포장 봉투 1000장 (소), 190X200+40 (1000장), 1개, 1000개, FREE(one size)",
+      "category": "매장소모품",
+      "observations": [
+        {
+          "at": "2026-11-17 13:10 KST",
+          "price": 34900,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 34900,
+      "minPrice": 34900,
+      "maxPrice": 34900,
+      "lastPrice": 34900,
+      "lastAt": "2026-11-17 13:10 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          34900,
+          34900,
+          34900,
+          34900,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8901753615": {
+      "productName": "씨앤몰 [JE] 정성을담아 배달봉투 비닐봉투 대 4호 100매",
+      "category": "매장소모품",
+      "observations": [
+        {
+          "at": "2026-11-17 13:10 KST",
+          "price": 9900,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 9900,
+      "minPrice": 9900,
+      "maxPrice": 9900,
+      "lastPrice": 9900,
+      "lastAt": "2026-11-17 13:10 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          9900,
+          9900,
+          9900,
+          9900,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8308532704": {
+      "productName": "줄줄이 일회용 숟가락 개별포장 투명 1박스 1500개, 1개, 1500개입",
+      "category": "매장소모품",
+      "observations": [
+        {
+          "at": "2026-11-17 13:10 KST",
+          "price": 32500,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 32500,
+      "minPrice": 32500,
+      "maxPrice": 32500,
+      "lastPrice": 32500,
+      "lastAt": "2026-11-17 13:10 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          32500,
+          32500,
+          32500,
+          32500,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "6346773861": {
+      "productName": "토스키 바닐라 시럽, 1L, 2개",
+      "category": "시럽·소스",
+      "observations": [
+        {
+          "at": "2026-11-17 13:10 KST",
+          "price": 27800,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 27800,
+      "minPrice": 27800,
+      "maxPrice": 27800,
+      "lastPrice": 27800,
+      "lastAt": "2026-11-17 13:10 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          27800,
+          27800,
+          27800,
+          27800,
           1
         ]
       ],
