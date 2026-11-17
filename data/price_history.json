@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17 13:10 KST",
+  "updatedAt": "2026-11-17 14:12 KST",
   "source": "git snapshots",
   "products": {
     "8436480488": {
@@ -1940,14 +1940,19 @@
           "at": "2026-11-16 21:06 KST",
           "price": 26860,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 14:11 KST",
+          "price": 71540,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 4,
-      "avgPrice": 60370,
+      "priceCount": 5,
+      "avgPrice": 62604,
       "minPrice": 26860,
       "maxPrice": 71540,
-      "lastPrice": 26860,
-      "lastAt": "2026-11-16 21:06 KST",
+      "lastPrice": 71540,
+      "lastAt": "2026-11-17 14:11 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -1956,9 +1961,17 @@
           60370,
           26860,
           4
+        ],
+        [
+          "2026-11-17",
+          71540,
+          71540,
+          71540,
+          71540,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "9595365819": {
       "productName": "세일즈카페 고소한 다크초콜릿 시그니쳐 블렌드 에스프레소 분쇄, 1kg, 5개",
@@ -12561,7 +12574,7 @@
     },
     "8338301459": {
       "productName": "에스제이케미칼 105파이 국용기 중 화이트 1000개 세트, 1개",
-      "category": "컵·뚜껑",
+      "category": "매장소모품",
       "observations": [
         {
           "at": "2026-11-17 13:10 KST",
@@ -12778,6 +12791,230 @@
           27800,
           27800,
           27800,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8769009663": {
+      "productName": "리꼬흔 4온스 135ml 에스프레소잔 무지 종이컵 에스프레소잔 일회용컵 포장 무료배송, 3세트, 1000개",
+      "category": "컵·뚜껑",
+      "observations": [
+        {
+          "at": "2026-11-17 14:11 KST",
+          "price": 61400,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 61400,
+      "minPrice": 61400,
+      "maxPrice": 61400,
+      "lastPrice": 61400,
+      "lastAt": "2026-11-17 14:11 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          61400,
+          61400,
+          61400,
+          61400,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9307955806": {
+      "productName": "HD 배달 비닐쇼핑백 카페 커피 종이캐리어4구 음료 컵 포장 테이크아웃 비닐봉투, 100개, 15L",
+      "category": "빨대·홀더",
+      "observations": [
+        {
+          "at": "2026-11-17 14:11 KST",
+          "price": 14850,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 14850,
+      "minPrice": 14850,
+      "maxPrice": 14850,
+      "lastPrice": 14850,
+      "lastAt": "2026-11-17 14:11 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          14850,
+          14850,
+          14850,
+          14850,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9212679642": {
+      "productName": "고소한 블렌드 브라질 콜롬비아 인도 원두커피 커피콩 맛있는 신선한 그라도스커피, 1개, 1kg, 홀빈(분쇄안함)",
+      "category": "원두",
+      "observations": [
+        {
+          "at": "2026-11-17 14:11 KST",
+          "price": 28300,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 28300,
+      "minPrice": 28300,
+      "maxPrice": 28300,
+      "lastPrice": 28300,
+      "lastAt": "2026-11-17 14:11 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          28300,
+          28300,
+          28300,
+          28300,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9574414060": {
+      "productName": "콜롬비아 엑셀소 디카페인 마운틴 워터, 500g, 1개",
+      "category": "원두",
+      "observations": [
+        {
+          "at": "2026-11-17 14:11 KST",
+          "price": 20000,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 20000,
+      "minPrice": 20000,
+      "maxPrice": 20000,
+      "lastPrice": 20000,
+      "lastAt": "2026-11-17 14:11 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          20000,
+          20000,
+          20000,
+          20000,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9614761753": {
+      "productName": "[베렉스커피] 디카페인 콜롬비아 수프리모 슈가케인 너티초코 원두, 1개, 500g",
+      "category": "원두",
+      "observations": [
+        {
+          "at": "2026-11-17 14:11 KST",
+          "price": 24800,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 24800,
+      "minPrice": 24800,
+      "maxPrice": 24800,
+      "lastPrice": 24800,
+      "lastAt": "2026-11-17 14:11 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          24800,
+          24800,
+          24800,
+          24800,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "6571003107": {
+      "productName": "천운패키지 크라프트 종이쇼핑백(별중), 1묶음, 100개, 1개",
+      "category": "매장소모품",
+      "observations": [
+        {
+          "at": "2026-11-17 14:11 KST",
+          "price": 21900,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 21900,
+      "minPrice": 21900,
+      "maxPrice": 21900,
+      "lastPrice": 21900,
+      "lastAt": "2026-11-17 14:11 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          21900,
+          21900,
+          21900,
+          21900,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7986606161": {
+      "productName": "KP 종이쇼핑백 중, 1개입, 100개",
+      "category": "매장소모품",
+      "observations": [
+        {
+          "at": "2026-11-17 14:11 KST",
+          "price": 25730,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 25730,
+      "minPrice": 25730,
+      "maxPrice": 25730,
+      "lastPrice": 25730,
+      "lastAt": "2026-11-17 14:11 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          25730,
+          25730,
+          25730,
+          25730,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7630993549": {
+      "productName": "백색 종이쇼핑백 화이트 무지 종이가방 답례품 선물포장 행사용 고급 매트지 140g 두꺼운 튼튼한 쇼핑백 50매, 백색, 50개",
+      "category": "매장소모품",
+      "observations": [
+        {
+          "at": "2026-11-17 14:11 KST",
+          "price": 18280,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 18280,
+      "minPrice": 18280,
+      "maxPrice": 18280,
+      "lastPrice": 18280,
+      "lastAt": "2026-11-17 14:11 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          18280,
+          18280,
+          18280,
+          18280,
           1
         ]
       ],

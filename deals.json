@@ -1,7 +1,7 @@
 {
   "status": "ok",
-  "updatedAt": "2026-11-17 13:10 KST",
-  "statsAt": "2026-11-17 13:10 KST",
+  "updatedAt": "2026-11-17 14:11 KST",
+  "statsAt": "2026-11-17 14:12 KST",
   "notice": "",
   "watchlist": [],
   "categories": [
@@ -18,9 +18,9 @@
     "빨대·홀더",
     "매장소모품"
   ],
-  "count": 240,
+  "count": 248,
   "priceStats": {
-    "products": 381,
+    "products": 389,
     "discounts": 10
   },
   "deals": [
@@ -1058,12 +1058,12 @@
       "unitPrice": 2686,
       "unitBasis": "100g당",
       "packNote": "1,000g",
-      "avgPrice": 60370,
+      "avgPrice": 62604,
       "minPrice": 26860,
       "maxPrice": 71540,
-      "priceCount": 4,
-      "discountRate": 56,
-      "uniqueDays": 1,
+      "priceCount": 5,
+      "discountRate": 57,
+      "uniqueDays": 2,
       "dailyHistory": [
         [
           "2026-11-16",
@@ -1072,6 +1072,14 @@
           60370,
           26860,
           4
+        ],
+        [
+          "2026-11-17",
+          71540,
+          71540,
+          71540,
+          71540,
+          1
         ]
       ],
       "priceHistory": [
@@ -1090,6 +1098,10 @@
         [
           "2026-11-16 21:06 KST",
           26860
+        ],
+        [
+          "2026-11-17 14:11 KST",
+          71540
         ]
       ]
     },
@@ -1125,6 +1137,43 @@
       "priceHistory": [
         [
           "2026-11-16 21:06 KST",
+          28300
+        ]
+      ]
+    },
+    {
+      "productId": "9212679642",
+      "vendorItemId": "",
+      "productName": "고소한 블렌드 브라질 콜롬비아 인도 원두커피 커피콩 맛있는 신선한 그라도스커피, 1개, 1kg, 홀빈(분쇄안함)",
+      "productPrice": 28300,
+      "productImage": "https://ads-partners.coupang.com/image1/U22QTW269usPXW6uU4HReAaLJM03Z2CGwcgeRIcN-t0rFHmK-3w3WNVpnTzb5DTJg38swPhzTYZwXARwiAHY8HcG2ov3byd2JFWA1grKaxt1Amj5fH8CqaZlxhuqNUCIDsrjQycoQ8r2H6DDAIc9hYuHl_YmpPHUygnshHgy0Q2v9_koy8OvwYOmkbqfaVJhAIi9mZ2PMK443wV9x6UcHOC40N9351jl_fKc45YLb57IyyFtO4KQKOjjWUJiPrfAoYYERBAk1XkvPvYRBkRrpuvqlDLgl8TlQUwI5ww0rxZRAQu-v8Irs7qNy3xYKz_KQmAxlti5oFOWHOZxDTzgzpXd0WXHCME1alSYDMCvjGovZItEZtVM_roeDQxTcX0e_X6e4S4pIek_9t-W1YDmogvAVHCn3wIp2HB910Th09gaQ6-WK0zvEc4SjjUnN_JsIQ-TYxFuOTZ8oScYQS4gSqUZ2w_dTL9_KDfURBWMT3r5izTp3tMN5fOL_3pdPAeoxbcBvZwgvx_H14e_bKpogcSUv4Es07H7",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9212679642&itemId=26850543606&vendorItemId=94120243755&traceid=V0-153-44694438392efca3&clickBeacon=41361440-e245-11f1-bf39-f0e5f8441d24%7E3&requestid=20261117141049922257460418&token=31850C%7CMIXED&pt=1&slot=1",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "원두",
+      "query": "인도 원두 1kg",
+      "unitPrice": 2830,
+      "unitBasis": "100g당",
+      "packNote": "1,000g",
+      "avgPrice": 28300,
+      "minPrice": 28300,
+      "maxPrice": 28300,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          28300,
+          28300,
+          28300,
+          28300,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-17 14:11 KST",
           28300
         ]
       ]
@@ -1416,6 +1465,43 @@
       ]
     },
     {
+      "productId": "9574414060",
+      "vendorItemId": "",
+      "productName": "콜롬비아 엑셀소 디카페인 마운틴 워터, 500g, 1개",
+      "productPrice": 20000,
+      "productImage": "https://ads-partners.coupang.com/image1/3_ZCmVaiXrEXB1Tv3_nEO-RrFVN2HHRvqyMlK45-3iXc5aYLL6vwC5zXwJJr0hxjsZv-upwAazFuKJ1cbU9m1ZQKYnNXykG4DNqBSJF-4DsBf-FBaFEj4liyzaA_JWKJEVPELNJANDWigw44S5bTuQZzQ3sPPDL4i6ZRNz2tp_joMvt6WT80DKtk-z-e7C4F7EsNqTOTDx8Khz2GAovhSNOxjQGlY_3xhWAj5Wpek7qIOYbWe8chwCLvEtGhGpyS3Dvirvreq1dtFeD9yltr1RIzh-c2iAkaqdzBJ6PZ3lu1zKS7rUbs1xh3trh_oXQdrVOiHCpt8TcTC8PevCs9iH_hlawPdUnmtB4iRoBSa4wcDIrQlGK59Ct4YaEJH4U_oHgEPjTl5dF00tmKBjYRdus1UkmqJQwvbO4hF8oNtIS9C83M3xwJkGTuPFLKEoH08nFgDKin65pco-opP3sxv1GSizhP0qne0-5mL5w554YrBN3aMM5UkSPfJ5L7JUVIPMNX3bvzAhoWDJXq9DyR5cqf3pXoFWbxfid-12WSnluweCMkQQT3I4v3AzRFm19sp5hSpmppfbBfxlO7shFsjkpKmdIaUa-H4UoMtYsSSI6FEdg28-5wdvY=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9574414060&itemId=28578483436&vendorItemId=96009740389&traceid=V0-153-bfdf3d7956bb96dc&clickBeacon=46548100-e245-11f1-9758-6556b3e4ec97%7E3&requestid=20261117141058493324088084&token=31850C%7CMIXED&pt=1&slot=2",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "원두",
+      "query": "디카페인 원두 500g",
+      "unitPrice": 4000,
+      "unitBasis": "100g당",
+      "packNote": "500g",
+      "avgPrice": 20000,
+      "minPrice": 20000,
+      "maxPrice": 20000,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          20000,
+          20000,
+          20000,
+          20000,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-17 14:11 KST",
+          20000
+        ]
+      ]
+    },
+    {
       "productId": "9721134093",
       "vendorItemId": "",
       "productName": "카바나커피 케냐 키암부 AA 원두, 1kg, 1개, 홀빈(분쇄X)",
@@ -1449,6 +1535,43 @@
         [
           "2026-11-16 23:08 KST",
           40300
+        ]
+      ]
+    },
+    {
+      "productId": "9614761753",
+      "vendorItemId": "",
+      "productName": "[베렉스커피] 디카페인 콜롬비아 수프리모 슈가케인 너티초코 원두, 1개, 500g",
+      "productPrice": 24800,
+      "productImage": "https://ads-partners.coupang.com/image1/CERLTvc3FAFgd75DCAXe0LXprnT2e2GKqyaj_sWUYaNkxloYDwMz5C0fOR85oJw2KqoXg55BqNbepU4QwxcLLixIuKEpfuHrigChmxKSszC74QDeO0EBMDNHWIOZNowMabViH4qI7eoCtHZtEoHXVHq0m_IPPCTLZyyLGr8X3zHzZ_WKoMO9edZp2bQvKloM0gYKGzZ--B_X95aAAa-n1dpWil8ywmPFJBL6M7sWmUZLD4Sc3MAy0N5Lwlm5EbK2kg0LOmI6sudWTgaLvCaYfoa1ynhvS4XF5Y5scram7YlQSVGtJgQio1i8oq8xYgxWOdjZ4GYS9tx1ZoTwbwYj7R8fvsi9HkI3UL9ArocdvVAbGCZKNY3P6tPhjEcx0cFJbSRwOvWoShEZPemyUF0I56jkQNRG74uOjWtqDW5-xIHV1bCOLetfFMypQpVc2gbQgp7H90XACvwDGptYkp4dzT5a26Y3N35wMPxpBlCLfNgNpkXDcgpyGaz4yjpljgtSdQoD1qtxKSh0poXj3_HYaP3fKvUHNq1SGg2zEqEaPuzsHb1xZqirIQ4oVg_fVeWuDrDsTLOTt74k6J8J353v2cSKIA==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9614761753&itemId=28707807392&vendorItemId=95658508515&traceid=V0-153-bc491b5c9bb858ab&clickBeacon=46548100-e245-11f1-ba5d-645cc42ad968%7E3&requestid=20261117141058493324088084&token=31850C%7CMIXED&pt=1&slot=5",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "원두",
+      "query": "디카페인 원두 500g",
+      "unitPrice": 4960,
+      "unitBasis": "100g당",
+      "packNote": "500g",
+      "avgPrice": 24800,
+      "minPrice": 24800,
+      "maxPrice": 24800,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          24800,
+          24800,
+          24800,
+          24800,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-17 14:11 KST",
+          24800
         ]
       ]
     },
@@ -7427,6 +7550,43 @@
       ]
     },
     {
+      "productId": "8769009663",
+      "vendorItemId": "",
+      "productName": "리꼬흔 4온스 135ml 에스프레소잔 무지 종이컵 에스프레소잔 일회용컵 포장 무료배송, 3세트, 1000개",
+      "productPrice": 61400,
+      "productImage": "https://ads-partners.coupang.com/image1/JlzyTz3tl6_eb1YBJqGc73sM10Nt8VNYt5RI6XK_zWrWAfWaqPVx4ZlGgs7Eedt2H79xvfwPUJQgbt5JuhnXSPXp1CmCFADCOcdmg62xKuCRFGcra3oPO-qtkX_WCLQ5M_cCFPSRhnIBv4Bi9yHTVoEwMAsGyi_ybnsHNef1J1wPXsqmI1JpZW4yn8L4cn1wynEddPOq1f9OgA89OxP-ngp9VmfbeYgdrZR1mNKaYHimBJ4pwZ3J8cluG6G4LyMeWj5VWNh6P32iXRyJglyXMQ5Y0v9UFrFEaLIVuAvF7V4RUZ3wAVnaxzIEVj2Brz7IDo2rftuAd6HID1dlt-16xfRKPc35_FAMcbupm9NNqvBWtmVg8f3eb_RK7zERKr2vL-ps_DzEcVlc0rbrRnglGnOlImwyCMeBcSsnqTCSqFVPCIm9MBdi46BSs6CtEzleeEUogGh3Gfj7WwuPeo6sB8jszRldDKzKJv_kMW41hteQ8-Ay_Yh3VCiLXVzySoG1nWQCCJqYa8Zkt90FpCbyhG8NnJ-qdSBabbs1LpKlhQ==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8769009663&itemId=28066446981&vendorItemId=95023135715&traceid=V0-153-8083b01648bb8dcc&clickBeacon=372ec9b0-e245-11f1-b384-3414c930767a%7E3&requestid=20261117141033060257463394&token=31850C%7CMIXED&pt=1&slot=2",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "컵·뚜껑",
+      "query": "종이컵 3온스 1000개",
+      "unitPrice": 20,
+      "unitBasis": "개당",
+      "packNote": "3개×1,000개",
+      "avgPrice": 61400,
+      "minPrice": 61400,
+      "maxPrice": 61400,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          61400,
+          61400,
+          61400,
+          61400,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-17 14:11 KST",
+          61400
+        ]
+      ]
+    },
+    {
       "productId": "7028169224",
       "vendorItemId": "",
       "productName": "8온스 종이컵 커피컵 무지 1000개 (290ml/뚜껑별도)",
@@ -9667,6 +9827,154 @@
         [
           "2026-11-17 04:15 KST",
           26060
+        ]
+      ]
+    },
+    {
+      "productId": "9307955806",
+      "vendorItemId": "",
+      "productName": "HD 배달 비닐쇼핑백 카페 커피 종이캐리어4구 음료 컵 포장 테이크아웃 비닐봉투, 100개, 15L",
+      "productPrice": 14850,
+      "productImage": "https://ads-partners.coupang.com/image1/MZCx4sP_u1mwKIZoMR_hcGc1ue3DF6qc_01Hgz9jSCFEW6L1RsWshyiiowBoHME7BZEWQXDTOaXgqdNKRHhyF-Ilo-l8e55kUCAHZPumjYww7qjJSDJfU1Up32xxyY_QXzKtVSvAiM_YJKN25NlWiNGwhQgRI0ZOJMX6mHuoO0C-q-QNWlrLSRBhBzJ5X3rsxcWyh2V7nLoG7F4YN6Luij_XoskFl_ils31Cv5518IalUBV3YuFSSZZqr3IvA9_0BiWe2XTnj69ja904IuAFv5tlNycfhZZVksSk9kTHg-w9CREX4eNaCkCB6JZ-IEq2yOYmQ0NiRGUYrb8Myw-pErlxlzw9XG7q_6eORKRCkbjdUJfGPeiqch0lmZ0npwYSw7MwJK2lxMy5n70YFsq0gj5eKlmohLdCVgzZ5O8QTsLXPzEECCjXpk3MHW2Sf6sVtcTmYQZWymOVq49QBqBE8BzyCijlMrGkxuwFWg3mCbsHUVw_76hUk0ExnsL4HqeyP6sJOkC25RoS-X7MWT4HvyaEUGuUCaAW5pCP29UR9Yr-",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9307955806&itemId=27578479329&vendorItemId=94542200929&traceid=V0-153-99ca4577bb9de6a2&clickBeacon=3c2ae160-e245-11f1-a8d8-aaf482e85340%7E3&requestid=20261117141041465219832057&token=31850C%7CMIXED&pt=1&slot=2",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "매장소모품",
+      "query": "컵캐리어 4구 100개",
+      "unitPrice": 148,
+      "unitBasis": "개당",
+      "packNote": "100개입",
+      "avgPrice": 14850,
+      "minPrice": 14850,
+      "maxPrice": 14850,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          14850,
+          14850,
+          14850,
+          14850,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-17 14:11 KST",
+          14850
+        ]
+      ]
+    },
+    {
+      "productId": "6571003107",
+      "vendorItemId": "",
+      "productName": "천운패키지 크라프트 종이쇼핑백(별중), 1묶음, 100개, 1개",
+      "productPrice": 21900,
+      "productImage": "https://ads-partners.coupang.com/image1/e4hcW80ssY_Jjw4Peyi64MAbwspCmoiBCgFXPa7tUC911Z-9_Zt4_Qu1YrIsJzyd-2WsIw6PKkkvxnWS1CS3IMB5_dJvEqywbS0FynG10PJRW2VMvu4xF_X4XCKXaxkTqPfeOkb3W87RcRH7NwgZCySZo1HxBqyaXGtr-JSr4d3751EObANuhb4YiO9kFOAO85DsFO0eFOemoGxOACVvPoH3yPSCAB3gzgbRV8tR0Eo8hYheCQh8Z8j4ca3IbuUVsrbo00EncECnNstLrNsrVNKH_gAXo0kzO20UpyFZ6A5DjQeH_ijBCsEAR0LRvN1PcodSm9UvIGizDt5hz7Kjp59e02B_krhH7EFX4x1nTm20PYeosKy0sl_YeEIeyiBMG8t-Bj8U8e2sADOrPYn2X6h2ldSmvihumYaDd8WLtfcM4ViKKAmT0hQbcdVFJG1McIFndFhyzyIE8Ujqa40w13eJoX_6H_GA0ybq9Ho6iEnc1D93dlq9Y6V41nlQ-bpLk13d3GCbTQ==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=6571003107&itemId=14749771777&vendorItemId=91089035031&traceid=V0-153-b693e85186e59f39&clickBeacon=506b0dd0-e245-11f1-9e3c-682dae0c8912%7E3&requestid=20261117141115408269758752&token=31850C%7CMIXED&pt=1&slot=1",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "매장소모품",
+      "query": "종이 쇼핑백 100개",
+      "unitPrice": 219,
+      "unitBasis": "개당",
+      "packNote": "100개입",
+      "avgPrice": 21900,
+      "minPrice": 21900,
+      "maxPrice": 21900,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          21900,
+          21900,
+          21900,
+          21900,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-17 14:11 KST",
+          21900
+        ]
+      ]
+    },
+    {
+      "productId": "7986606161",
+      "vendorItemId": "",
+      "productName": "KP 종이쇼핑백 중, 1개입, 100개",
+      "productPrice": 25730,
+      "productImage": "https://ads-partners.coupang.com/image1/hGbyIzPch4QIBoAxhM3TMfQP-WajxSGl3lF9zeAhaO3SK9za32VrO4H2YsRrMyU1TPUeC3xqiAP5bmNCTslOK5dXSUOlLxlEhbGSwy_7hliBDWseUgNY6Cnol91Qrl3NR7uZrqpRVXrjvmUkzHBXjJSrQNsG2iA7XlC-4vbNJcHyQ3NZsWTFJLDzCil0dHLB6oWYvDbl8HN3d6haC48dQVZGaqeqlCTzDymY3Wxmb5EUSIrEm2yReoZv_37IeAxL_FUX0c8-aliJKgcjO3WNyDOfcHicG6lcUG_32BzApVxy0cIlFlqH475qBFCA06ghvvnk4kz0BHk8-JOfPyARBd4Id8MOvBVFOFxN0T76vczL0mAtqyrtKRTEM_cBa9oWJB817EnWyMDs4ru90Drd8zkBKIRvNNHf-Df7zimq9NfRXUeBs5YYuyClifcFzfxKSwKmHulRKyj9L4m8K6ZZ5mhbw64ugLwxnK1Fwk04sWLxoEm3qEt_wIzvvn8yUqWipltjXL9zyZY=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7986606161&itemId=22186260457&vendorItemId=89232537463&traceid=V0-153-b551e9763d0120dd&clickBeacon=506b34e0-e245-11f1-8fec-925481388beb%7E3&requestid=20261117141115408269758752&token=31850C%7CMIXED&pt=1&slot=3",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "매장소모품",
+      "query": "종이 쇼핑백 100개",
+      "unitPrice": 257,
+      "unitBasis": "개당",
+      "packNote": "100개입",
+      "avgPrice": 25730,
+      "minPrice": 25730,
+      "maxPrice": 25730,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          25730,
+          25730,
+          25730,
+          25730,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-17 14:11 KST",
+          25730
+        ]
+      ]
+    },
+    {
+      "productId": "7630993549",
+      "vendorItemId": "",
+      "productName": "백색 종이쇼핑백 화이트 무지 종이가방 답례품 선물포장 행사용 고급 매트지 140g 두꺼운 튼튼한 쇼핑백 50매, 백색, 50개",
+      "productPrice": 18280,
+      "productImage": "https://ads-partners.coupang.com/image1/nOB_p9k8dRolvTfAnH1MVbcHi5P0fs1JFlpd8e4kNol0InsYLPF2D53uWkr3gKtWbv0BnvFrimJ45CvMH7Vj05yVXU4RSCxSAu9dvJmM3CL-PBrvID59sq6oIBqSdPo_4-QInQcG17C_8aW6bSHQkrpYIC_OGXVGEHfan2dAbBm_RLq3IjUnG--_J4nqSNT_KGVwOC4Dfx5nHHN-vwn2T9RZ5bnS529hJP7FKHPrKmB0UQdOyDmhQBe_UBqk_SesEKNOXNGwC4_HoAAnEibKg-XJnUjd-zQpadhMImS42gwBIdm1eXnUUROwE3Vhk6hqBZmU5x6OBvZrcZPmIwzCglf0PrsSsHZe-kyoJtAe8sfaJJ6l7TOebXIgjxHYmPVZrv8Q_8EoNgZSQp3Oz9O-1Av2byw4FcVVg2sY1QYFiEge4iH1-fwQtJPO2Y_L47kWTAe9NhwxekVvSIO-QGsbti5pkqkW1JaEyr7ujxao3hKC_56eXdd-xhgzl1Pog335miBwiUkz7Uk3ox6AS3oKZzE2W3SabZI=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7630993549&itemId=20253160826&vendorItemId=87341079287&traceid=V0-153-5678542b233ddf7a&clickBeacon=506b34e0-e245-11f1-bc39-2175e832a9a9%7E3&requestid=20261117141115408269758752&token=31850C%7CMIXED&pt=1&slot=5",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "매장소모품",
+      "query": "종이 쇼핑백 100개",
+      "unitPrice": 366,
+      "unitBasis": "개당",
+      "packNote": "50개입",
+      "avgPrice": 18280,
+      "minPrice": 18280,
+      "maxPrice": 18280,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          18280,
+          18280,
+          18280,
+          18280,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-17 14:11 KST",
+          18280
         ]
       ]
     }
