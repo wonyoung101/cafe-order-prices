@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<meta name="theme-color" content="#f6efe7">
+<title>부산 카페 DM 도우미 · 최원영</title>
+<style>
+  :root{
+    --bg:#f6efe7; --card:#fffdfa; --ink:#2c2119; --sub:#6f6156; --line:#e7dccf;
+    --accent:#7a4b2a; --accent-ink:#fff; --accent-soft:#f1e2d3;
+    --sent:#2f6fb0; --sent-soft:#e7f0fa; --reply:#2f7d5b; --reply-soft:#e6f4ee;
+    --warn:#a8591f;
+    --radius:16px;
+  }
+  *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  html,body{margin:0;padding:0}
+  body{
+    background:var(--bg); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR",system-ui,sans-serif;
+    font-size:15px; line-height:1.5;
+    padding-bottom:calc(28px + env(safe-area-inset-bottom));
+    -webkit-text-size-adjust:100%;
+  }
+  .wrap{max-width:600px;margin:0 auto;padding:0 14px}
+  button{font-family:inherit;font-size:inherit;color:inherit;cursor:pointer}
+  a{color:inherit}
+
+  /* ── sticky progress bar ── */
+  .top{position:sticky;top:0;z-index:30;background:rgba(246,239,231,.94);
+    -webkit-backdrop-filter:saturate(180%) blur(12px);backdrop-filter:saturate(180%) blur(12px);
+    border-bottom:1px solid var(--line);padding:10px 0 9px}
+  .top-row{display:flex;align-items:baseline;justify-content:space-between;gap:10px}
+  .brand{font-size:15px;font-weight:800;letter-spacing:-.02em;display:flex;align-items:center;gap:6px}
+  .brand .dot{width:7px;height:7px;border-radius:50%;background:var(--accent)}
+  .counts{font-size:13px;color:var(--sub);font-variant-numeric:tabular-nums;white-space:nowrap}
+  .counts b{color:var(--ink);font-weight:800;font-size:15px}
+  .counts .rp{color:var(--reply);font-weight:800}
+  .bar{height:6px;border-radius:99px;background:#e8dbcb;margin-top:8px;overflow:hidden}
+  .bar i{display:block;height:100%;width:0;border-radius:99px;
+    background:linear-gradient(90deg,#9a6a42,#7a4b2a);transition:width .35s ease}
+  .pace{margin:6px 0 0;font-size:12px;color:var(--sub);display:flex;gap:6px;align-items:center}
+  .pace .pill{padding:2px 8px;border-radius:99px;background:#ece1d4;font-weight:700;color:#6a5442;font-variant-numeric:tabular-nums}
+  .pace .pill.warn{background:#fbe7d5;color:var(--warn)}
+  .pace .pill.over{background:#fadbd8;color:#a12f22}
+
+  /* ── blocks ── */
+  section{margin-top:14px}
+  .panel{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:12px}
+  .panel h2{font-size:12px;margin:0 0 8px;color:var(--sub);font-weight:800;letter-spacing:.04em}
+
+  .seg{display:flex;background:#efe5d9;border-radius:12px;padding:3px;gap:3px}
+  .seg button{flex:1;border:0;background:transparent;border-radius:9px;padding:8px 4px;font-weight:700;
+    font-size:13.5px;color:#7a6a5b;transition:.15s}
+  .seg button.on{background:var(--card);color:var(--ink);box-shadow:0 1px 3px rgba(80,50,20,.14)}
+
+  details.editor{margin-top:10px;border-top:1px dashed var(--line);padding-top:10px}
+  details.editor summary{cursor:pointer;font-size:13px;font-weight:700;color:var(--accent);list-style:none}
+  details.editor summary::-webkit-details-marker{display:none}
+  details.editor summary::before{content:"✎ "}
+  details.editor label{display:block;margin-top:10px;font-size:12px;font-weight:800;color:var(--sub)}
+  details.editor textarea{width:100%;margin-top:5px;min-height:120px;resize:vertical;
+    border:1px solid var(--line);border-radius:10px;padding:10px;background:#fffdf9;color:var(--ink);
+    font-family:inherit;font-size:12.5px;line-height:1.55}
+  details.editor textarea:focus{outline:2px solid var(--accent-soft);border-color:#cbb49c}
+  .editor-foot{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:8px}
+  .tiny{font-size:11.5px;color:var(--sub);line-height:1.45}
+  .tiny code{background:#efe5d9;border-radius:5px;padding:1px 5px;font-size:11px;font-family:inherit;font-weight:700}
+
+  .search{position:relative}
+  .search input{width:100%;border:1px solid var(--line);background:var(--card);border-radius:12px;
+    padding:11px 38px 11px 13px;font-size:15px;font-family:inherit;color:var(--ink)}
+  .search input:focus{outline:2px solid var(--accent-soft);border-color:#cbb49c}
+  .search input::-webkit-search-cancel-button{-webkit-appearance:none}
+  .search .clear{position:absolute;right:6px;top:50%;transform:translateY(-50%);border:0;background:#efe5d9;
+    width:26px;height:26px;border-radius:50%;font-size:14px;line-height:1;display:none;align-items:center;justify-content:center;color:#7a6a5b}
+  .search.has .clear{display:flex}
+
+  .chips{display:flex;gap:6px;overflow-x:auto;padding:2px 0 4px;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+  .chips::-webkit-scrollbar{display:none}
+  .chips button{flex:0 0 auto;border:1px solid var(--line);background:var(--card);border-radius:99px;
+    padding:7px 11px;font-size:12.5px;font-weight:700;color:#6a5a4c;white-space:nowrap}
+  .chips button.on{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+  .chips button .n{opacity:.6;font-weight:600;margin-left:3px;font-variant-numeric:tabular-nums}
+
+  .shown{margin:10px 2px 0;font-size:12.5px;color:var(--sub);display:flex;justify-content:space-between;gap:8px}
+  .shown button{border:0;background:none;color:var(--accent);font-weight:700;font-size:12.5px;padding:0}
+
+  /* ── card ── */
+  .list{display:flex;flex-direction:column;gap:9px;margin-top:8px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:12px 12px 11px;
+    border-left:4px solid #e2d5c7;transition:border-color .2s}
+  .card[data-status="sent"]{border-left-color:var(--sent)}
+  .card[data-status="replied"]{border-left-color:var(--reply)}
+  .card.hide{display:none}
+  .c-head{display:flex;align-items:flex-start;justify-content:space-between;gap:8px}
+  .c-name{font-size:16.5px;font-weight:800;letter-spacing:-.02em;margin:0;line-height:1.3;word-break:keep-all}
+  .c-name .no{font-size:11px;font-weight:700;color:#b6a390;margin-right:4px;font-variant-numeric:tabular-nums}
+  .badge{flex:0 0 auto;font-size:11px;font-weight:800;padding:3px 8px;border-radius:99px;
+    background:#efe5d9;color:#7a6a5b;margin-top:1px}
+  .card[data-status="sent"] .badge{background:var(--sent-soft);color:var(--sent)}
+  .card[data-status="replied"] .badge{background:var(--reply-soft);color:var(--reply)}
+  .c-meta{display:flex;flex-wrap:wrap;align-items:center;gap:4px 8px;margin-top:4px;font-size:12.5px;color:var(--sub)}
+  .area-tag{background:var(--accent-soft);color:#7a4b2a;font-weight:700;border-radius:6px;padding:1px 6px;font-size:11.5px}
+  .handle{font-weight:600;color:#5c4a3b}
+  .c-meta a.tel{color:var(--sub);text-decoration:none;border-bottom:1px dotted #c9b9a8}
+
+  .msg{margin:9px 0 0;padding:10px 11px;border-radius:11px;background:#fbf6f0;border:1px dashed #e3d6c8;
+    font-family:inherit;font-size:12.5px;line-height:1.62;white-space:pre-wrap;word-break:break-word;color:#4a3b2f;display:none}
+  .msg.open{display:block}
+  .msg .lnk{color:var(--accent);font-weight:700}
+
+  .acts{display:flex;gap:7px;margin-top:10px}
+  .btn{border:1px solid var(--line);background:#fff;border-radius:11px;padding:11px 10px;font-weight:800;
+    font-size:14px;display:flex;align-items:center;justify-content:center;gap:5px;text-decoration:none;
+    transition:transform .08s,background .15s}
+  .btn:active{transform:scale(.98)}
+  .btn.primary{flex:1.35;background:var(--accent);border-color:var(--accent);color:#fff}
+  .btn.ghost{flex:1;background:#fff;color:#5c4a3b}
+
+  .toggles{display:flex;gap:6px;margin-top:7px;align-items:center}
+  .tg{border:1px solid var(--line);background:#fff;border-radius:9px;padding:7px 10px;font-size:12.5px;font-weight:700;color:#7a6a5b}
+  .tg::before{content:"○ ";font-size:11px}
+  .tg[aria-pressed="true"]{background:var(--sent-soft);border-color:#b7d2ea;color:var(--sent)}
+  .tg[aria-pressed="true"]::before{content:"● "}
+  .tg.reply[aria-pressed="true"]{background:var(--reply-soft);border-color:#aed9c6;color:var(--reply)}
+  .tg-view{margin-left:auto;border:0;background:none;color:#9c8875;font-size:12px;font-weight:700;padding:6px 2px}
+
+  .empty{text-align:center;color:var(--sub);padding:40px 10px;font-size:14px}
+
+  .foot{margin-top:18px;display:grid;grid-template-columns:1fr 1fr;gap:8px}
+  .foot .btn{padding:12px 8px;font-size:13.5px;border-radius:12px}
+  .foot .btn.danger{color:#a12f22;border-color:#eccfc9;background:#fff8f7}
+  .notice{margin-top:16px;font-size:11.5px;line-height:1.6;color:#8a7a6b;background:#f1e8dd;
+    border-radius:12px;padding:10px 12px}
+  .notice b{color:#6a5442}
+
+  /* ── toast ── */
+  #toast{position:fixed;left:50%;bottom:calc(18px + env(safe-area-inset-bottom));transform:translate(-50%,24px);
+    background:#2c2119;color:#fff;border-radius:13px;padding:11px 14px;font-size:13.5px;font-weight:700;
+    display:flex;align-items:center;gap:10px;box-shadow:0 8px 24px rgba(44,33,25,.28);
+    opacity:0;pointer-events:none;transition:.22s ease;z-index:60;max-width:calc(100% - 28px)}
+  #toast.show{opacity:1;transform:translate(-50%,0);pointer-events:auto}
+  #toast button{border:0;background:rgba(255,255,255,.16);color:#fff;font-weight:800;font-size:12.5px;
+    padding:5px 9px;border-radius:8px;white-space:nowrap}
+  @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+
+<div class="top">
+  <div class="wrap">
+    <div class="top-row">
+      <div class="brand"><span class="dot"></span>부산 카페 DM 도우미</div>
+      <div class="counts">보냄 <b id="cSent">0</b> / <span id="cTotal">95</span> · 답장 <span class="rp" id="cReply">0</span></div>
+    </div>
+    <div class="bar"><i id="barFill"></i></div>
+    <p class="pace"><span class="pill" id="todayPill">오늘 0건</span><span id="paceText">하루 20~30건 권장</span></p>
+  </div>
+</div>
+
+<div class="wrap">
+
+  <section class="panel">
+    <h2>멘트 톤</h2>
+    <div class="seg" id="toneSeg" role="group" aria-label="멘트 종류 선택">
+      <button type="button" data-tone="default" aria-pressed="true">기본 멘트</button>
+      <button type="button" data-tone="short" aria-pressed="false">짧은 버전</button>
+    </div>
+    <p class="tiny" id="toneNote" style="margin:7px 2px 0"></p>
+    <details class="editor" id="editor">
+      <summary>멘트 직접 수정하기</summary>
+      <label for="tplDefault">기본 멘트</label>
+      <textarea id="tplDefault" spellcheck="false"></textarea>
+      <label for="tplShort">짧은 버전</label>
+      <textarea id="tplShort" spellcheck="false"></textarea>
+      <div class="editor-foot">
+        <span class="tiny"><code>{상호}</code> <code>{상권}</code> 자리에 카페 이름·상권이 자동으로 들어갑니다.</span>
+        <button type="button" class="tg" id="tplReset" style="flex:0 0 auto">기본값</button>
+      </div>
+    </details>
+  </section>
+
+  <section>
+    <div class="search" id="searchBox">
+      <input id="search" type="search" placeholder="상호·인스타 아이디 검색" autocomplete="off" enterkeyhint="search">
+      <button type="button" class="clear" id="searchClear" aria-label="검색어 지우기">✕</button>
+    </div>
+    <div class="seg" id="statusSeg" role="group" aria-label="상태 필터" style="margin-top:8px">
+      <button type="button" data-status="all" aria-pressed="true">전체</button>
+      <button type="button" data-status="todo" aria-pressed="false">미발송</button>
+      <button type="button" data-status="sent" aria-pressed="false">보냄</button>
+      <button type="button" data-status="replied" aria-pressed="false">답장옴</button>
+    </div>
+    <div class="chips" id="areaChips"></div>
+  </section>
+
+  <p class="shown"><span id="shownText">95곳</span><button type="button" id="collapseAll">멘트 모두 접기</button></p>
+
+  <div class="list" id="list"></div>
+
+  <div class="foot">
+    <button type="button" class="btn" id="exportBtn">진행 상태 내보내기</button>
+    <button type="button" class="btn danger" id="resetBtn">기록 초기화</button>
+  </div>
+
+  <p class="notice">
+    <b>보내기 전에</b> 계정의 최근 게시물로 영업 중인지·상호가 맞는지 한 번만 확인하세요.
+    같은 문구를 짧은 시간에 반복 발송하면 인스타그램이 스팸으로 볼 수 있어 <b>하루 20~30건</b>이 안전합니다.
+    서로 팔로우 상태가 아니면 DM이 ‘요청’함으로 들어가 알림이 가지 않을 수 있습니다.
+  </p>
+</div>
+
+<div id="toast" role="status" aria-live="polite"></div>
+
+<script type="application/json" id="cafe-data">[{"no":1,"area":"전포","name":"나이브브류어스","addr":"부산 부산진구 전포대로186번길 37","phone":"010-3856-5309","handle":"naive_brewers","insta":"https://www.instagram.com/naive_brewers/"},{"no":2,"area":"전포","name":"뱅커","addr":"부산 부산진구 전포대로 200","phone":"","handle":"banker_jeonpo","insta":"https://www.instagram.com/banker_jeonpo/"},{"no":3,"area":"전포","name":"비콩피","addr":"부산 부산진구 전포대로 234","phone":"010-2480-3960","handle":"beconfi.kr","insta":"https://www.instagram.com/beconfi.kr/"},{"no":4,"area":"전포","name":"압트커피","addr":"부산 부산진구 전포대로 226-8","phone":"0507-1495-9926","handle":"aptcoffee.busan","insta":"https://www.instagram.com/aptcoffee.busan/"},{"no":5,"area":"전포","name":"얼룩","addr":"부산 부산진구 전포대로210번길 48","phone":"","handle":"awluk","insta":"https://www.instagram.com/awluk/"},{"no":6,"area":"전포·동성로","name":"넉아웃","addr":"부산 부산진구 동천로 91-4","phone":"010-6804-7897","handle":"knockout_village","insta":"https://www.instagram.com/knockout_village/"},{"no":7,"area":"전포·동성로","name":"연의양과","addr":"부산 부산진구 동천로 56","phone":"051-804-0923","handle":"dessert_of_yeon","insta":"https://www.instagram.com/dessert_of_yeon/"},{"no":8,"area":"전포·동성로","name":"프랭클린 커피로스터스","addr":"부산 부산진구 동성로 29","phone":"051-756-0002","handle":"froasters","insta":"https://www.instagram.com/froasters/"},{"no":9,"area":"전리단길","name":"묵묵로스터리커피","addr":"부산 부산진구 서전로58번길 104","phone":"0507-1351-7744","handle":"mukmuk.roastery.coffee","insta":"https://www.instagram.com/mukmuk.roastery.coffee/"},{"no":10,"area":"전리단길","name":"바이스벌사로스터리","addr":"부산 부산진구 서전로57번길 27","phone":"070-8691-0889","handle":"vice_versa_espresso","insta":"https://www.instagram.com/vice_versa_espresso/"},{"no":11,"area":"전리단길","name":"브룩스","addr":"부산 부산진구 서전로10번길 28","phone":"051-809-5679","handle":"brookscoffee_busan","insta":"https://www.instagram.com/brookscoffee_busan/"},{"no":12,"area":"전리단길","name":"쉽커피","addr":"부산 부산진구 서전로47번길 51","phone":"070-4042-9377","handle":"_sheepcoffee","insta":"https://www.instagram.com/_sheepcoffee/"},{"no":13,"area":"전리단길","name":"이터널선샤인","addr":"부산 부산진구 서전로47번길 27","phone":"070-4042-2940","handle":"browneyedsub","insta":"https://www.instagram.com/browneyedsub/"},{"no":14,"area":"서면","name":"옵포드","addr":"부산 부산진구 중앙대로680번가길 38","phone":"051-804-1181","handle":"oppodd.coffee","insta":"https://www.instagram.com/oppodd.coffee/"},{"no":15,"area":"서면","name":"하마정","addr":"부산 부산진구 거제대로74번길 16","phone":"010-4549-2651","handle":"hamajung","insta":"https://www.instagram.com/hamajung/"},{"no":16,"area":"양정","name":"카페계란조심","addr":"부산 부산진구 연수로11번길 46","phone":"070-7355-0478","handle":"be_careful__eggs","insta":"https://www.instagram.com/be_careful__eggs/"},{"no":17,"area":"범천","name":"엘리스2046","addr":"부산 부산진구 범일로142번길 34-14","phone":"051-761-2046","handle":"ellispapa_busan","insta":"https://www.instagram.com/ellispapa_busan/"},{"no":18,"area":"광안리","name":"에타리 광안점","addr":"부산 수영구 광안해변로279번길 25","phone":"","handle":"_etalee","insta":"https://www.instagram.com/_etalee/"},{"no":19,"area":"광안리","name":"차선책 카페","addr":"부산 수영구 광안해변로 237","phone":"","handle":"cafe_cha.sun.cheak","insta":"https://www.instagram.com/cafe_cha.sun.cheak/"},{"no":20,"area":"광안리","name":"코펜하겐","addr":"부산 수영구 남천바다로21번길 47","phone":"0502-5551-4078","handle":"cph.cb","insta":"https://www.instagram.com/cph.cb/"},{"no":21,"area":"광안리","name":"파도당","addr":"부산 수영구 광안해변로 165","phone":"","handle":"padodang_gwangalli","insta":"https://www.instagram.com/padodang_gwangalli/"},{"no":23,"area":"수영·망미","name":"베르크로스터스","addr":"부산 수영구 수영로 566","phone":"051-817-2111","handle":"werk.roasters","insta":"https://www.instagram.com/werk.roasters/"},{"no":24,"area":"수영·망미","name":"언더커피","addr":"부산 수영구 광남로 52","phone":"070-7777-2151","handle":"under_coffee_official","insta":"https://www.instagram.com/under_coffee_official/"},{"no":26,"area":"수영·망미","name":"파슈어커피로스터스","addr":"부산 수영구 구락로 80-1","phone":"0507-1387-2359","handle":"fasho_coffee_roasters","insta":"https://www.instagram.com/fasho_coffee_roasters/"},{"no":27,"area":"수영·망미","name":"포에마커피","addr":"부산 수영구 수영로540번길 24-3","phone":"051-755-2509","handle":"_poem.a","insta":"https://www.instagram.com/_poem.a/"},{"no":28,"area":"수영·망미","name":"호박가게","addr":"부산 수영구 광남로48번길 21","phone":"051-611-1061","handle":"pumpkin___store","insta":"https://www.instagram.com/pumpkin___store/"},{"no":29,"area":"해운대·해리단길","name":"로우앤스윗 로스터리","addr":"부산 해운대구 우동1로20번길 19","phone":"051-921-2019","handle":"rawandsweet.coffee","insta":"https://www.instagram.com/rawandsweet.coffee/"},{"no":30,"area":"해운대·해리단길","name":"비비비당","addr":"부산 해운대구 달맞이길 239-16","phone":"051-746-0705","handle":"bibibidang_official","insta":"https://www.instagram.com/bibibidang_official/"},{"no":32,"area":"해운대·해리단길","name":"오프온","addr":"부산 해운대구 우동1로38번길 12","phone":"051-731-6058","handle":"offon.busan","insta":"https://www.instagram.com/offon.busan/"},{"no":33,"area":"해운대·해리단길","name":"온더힐","addr":"부산 해운대구 달맞이길117번길 11","phone":"0507-1387-2913","handle":"official_onthehill","insta":"https://www.instagram.com/official_onthehill/"},{"no":34,"area":"해운대·해리단길","name":"은쏨","addr":"부산 해운대구 우동1로38번길 2","phone":"0507-1339-5057","handle":"eun.ssom","insta":"https://www.instagram.com/eun.ssom/"},{"no":35,"area":"해운대·해리단길","name":"코오리마찌","addr":"부산 해운대구 우동1로20번가길 31","phone":"010-5744-6043","handle":"koorimachi","insta":"https://www.instagram.com/koorimachi/"},{"no":36,"area":"해운대·좌동","name":"워킹홀리데이 해운대","addr":"부산 해운대구 해운대해변로 277","phone":"051-747-6220","handle":"workingholiday_busan","insta":"https://www.instagram.com/workingholiday_busan/"},{"no":37,"area":"송정·청사포","name":"디아트커피","addr":"부산 해운대구 청사포로128번길 12","phone":"","handle":"cafediart","insta":"https://www.instagram.com/cafediart/"},{"no":38,"area":"송정·청사포","name":"루아앤티그리","addr":"부산 해운대구 청사포로67번길 99","phone":"","handle":"lua_tigre_","insta":"https://www.instagram.com/lua_tigre_/"},{"no":39,"area":"송정·청사포","name":"오션브리즈","addr":"부산 해운대구 청사포로58번길 66","phone":"0503-7152-8242","handle":"oceanbreeze_cafe","insta":"https://www.instagram.com/oceanbreeze_cafe/"},{"no":40,"area":"송정·청사포","name":"청사포 바다라면 카페","addr":"부산 해운대구 청사포로 125-1","phone":"010-2693-5680","handle":"badaramyun","insta":"https://www.instagram.com/badaramyun/"},{"no":41,"area":"송정·청사포","name":"청사포역","addr":"부산 해운대구 청사포로58번길 121","phone":"010-4560-4402","handle":"cheongsapo__station","insta":"https://www.instagram.com/cheongsapo__station/"},{"no":42,"area":"남포동·중앙동","name":"그리다부부","addr":"부산 중구 광복중앙로 35-1","phone":"010-7516-0484","handle":"bubucoffee.kr","insta":"https://www.instagram.com/bubucoffee.kr/"},{"no":43,"area":"남포동·중앙동","name":"류이즈커피바","addr":"부산 중구 남포길 6","phone":"0507-1444-3656","handle":"ryuis_coffeebar","insta":"https://www.instagram.com/ryuis_coffeebar/"},{"no":44,"area":"남포동·중앙동","name":"매일이 다르다","addr":"부산 중구 대청로126번길 26-1","phone":"010-2058-3989","handle":"Differentoday","insta":"https://www.instagram.com/Differentoday/"},{"no":45,"area":"남포동·중앙동","name":"미트큐트","addr":"부산 중구 남포길 43","phone":"010-4458-0408","handle":"meetcute_coffee_s2","insta":"https://www.instagram.com/meetcute_coffee_s2/"},{"no":46,"area":"남포동·중앙동","name":"바우노바커피","addr":"부산 중구 광복로97번길 6","phone":"051-253-3757","handle":"baunovacoffee","insta":"https://www.instagram.com/baunovacoffee/"},{"no":47,"area":"남포동·중앙동","name":"카페이네이티드","addr":"부산 중구 백산길 20","phone":"051-250-6119","handle":"caffeinated_busan","insta":"https://www.instagram.com/caffeinated_busan/"},{"no":48,"area":"남포동·중앙동","name":"쿠오리노","addr":"부산 중구 대청로126번길 35","phone":"0502-5552-8116","handle":"cuorino_busan","insta":"https://www.instagram.com/cuorino_busan/"},{"no":49,"area":"남포동·중앙동","name":"클라우드밤","addr":"부산 중구 비프광장로 12-1","phone":"051-245-2369","handle":"cafecloudbam","insta":"https://www.instagram.com/cafecloudbam/"},{"no":50,"area":"남포동·중앙동","name":"탑플로어","addr":"부산 중구 구덕로48번길 4-1","phone":"051-242-7002","handle":"topfloor_5","insta":"https://www.instagram.com/topfloor_5/"},{"no":51,"area":"초량·부산역","name":"딥커피스트릿","addr":"부산 동구 중앙대로214번길 3-2","phone":"","handle":"deep_coffee_street","insta":"https://www.instagram.com/deep_coffee_street/"},{"no":52,"area":"초량·부산역","name":"리센테","addr":"부산 동구 충장대로 160","phone":"070-8711-6478","handle":"recente_coffee","insta":"https://www.instagram.com/recente_coffee/"},{"no":53,"area":"초량·부산역","name":"메종드루아","addr":"부산 동구 충장대로 160","phone":"070-4077-3333","handle":"maisonde_roi","insta":"https://www.instagram.com/maisonde_roi/"},{"no":54,"area":"초량·부산역","name":"카페편안","addr":"부산 동구 증산북로13번길 6","phone":"051-633-5250","handle":"cafe_pyeonan","insta":"https://www.instagram.com/cafe_pyeonan/"},{"no":55,"area":"초량·부산역","name":"히얼이즈커피 하버시티점","addr":"부산 동구 범일로 21","phone":"","handle":"hereiscoffee","insta":"https://www.instagram.com/hereiscoffee/"},{"no":56,"area":"영도","name":"미피카페 부산점","addr":"부산 영도구 와치로51번길 2","phone":"070-8230-1116","handle":"miffy_cafe_busan_","insta":"https://www.instagram.com/miffy_cafe_busan_/"},{"no":57,"area":"영도","name":"카페385","addr":"부산 영도구 태종로 539","phone":"051-403-0385","handle":"cafe385_official","insta":"https://www.instagram.com/cafe385_official/"},{"no":58,"area":"영도","name":"카페마렌 흰여울점","addr":"부산 영도구 해안산책길 52","phone":"051-417-4595","handle":"cafe_maren2","insta":"https://www.instagram.com/cafe_maren2/"},{"no":59,"area":"영도","name":"흰여울비치","addr":"부산 영도구 절영로 236","phone":"","handle":"huinnyeoul_beach","insta":"https://www.instagram.com/huinnyeoul_beach/"},{"no":60,"area":"동래·온천장","name":"마우스노우 커피","addr":"부산 동래구 명륜로 127-1","phone":"051-552-5529","handle":"mousnow_coffee","insta":"https://www.instagram.com/mousnow_coffee/"},{"no":61,"area":"동래·온천장","name":"스페이스움","addr":"부산 동래구 명륜로 106","phone":"051-557-3369","handle":"space_um","insta":"https://www.instagram.com/space_um/"},{"no":62,"area":"동래·온천장","name":"칠드아웃커피","addr":"부산 동래구 동래로 94-5","phone":"051-555-1662","handle":"chilledout.coffee","insta":"https://www.instagram.com/chilledout.coffee/"},{"no":63,"area":"동래·온천장","name":"카페유니","addr":"부산 동래구 동래로 67-2","phone":"051-555-8399","handle":"cafe_yuni","insta":"https://www.instagram.com/cafe_yuni/"},{"no":64,"area":"부산대·장전","name":"라이크댓커피","addr":"부산 금정구 수림로91번길 51","phone":"051-963-1212","handle":"likethatcoffee","insta":"https://www.instagram.com/likethatcoffee/"},{"no":65,"area":"부산대·장전","name":"로베오네","addr":"부산 금정구 금강로321번길 15","phone":"010-2182-7293","handle":"lo.veone","insta":"https://www.instagram.com/lo.veone/"},{"no":66,"area":"부산대·장전","name":"블루그로토","addr":"부산 금정구 장전온천천로73번길 14","phone":"0503-7153-8631","handle":"blue__grotto","insta":"https://www.instagram.com/blue__grotto/"},{"no":67,"area":"부산대·장전","name":"셀라스","addr":"부산 금정구 금샘로 538","phone":"051-516-0055","handle":"selahs.official","insta":"https://www.instagram.com/selahs.official/"},{"no":69,"area":"부산대·장전","name":"콘드168","addr":"부산 금정구 금강로 277","phone":"0502-5550-2629","handle":"corned168","insta":"https://www.instagram.com/corned168/"},{"no":70,"area":"기장·일광","name":"JM커피로스터즈 본점","addr":"부산 기장군 기장읍 대변3길 8","phone":"1899-0820","handle":"jmcoffee_daily","insta":"https://www.instagram.com/jmcoffee_daily/"},{"no":71,"area":"기장·일광","name":"더 가마","addr":"부산 기장군 기장읍 당사로5길 6","phone":"051-746-6181","handle":"gamabusan","insta":"https://www.instagram.com/gamabusan/"},{"no":72,"area":"기장·일광","name":"두루미베이커리카페","addr":"부산 기장군 정관읍 곰내길 654-77","phone":"","handle":"durum_22","insta":"https://www.instagram.com/durum_22/"},{"no":73,"area":"기장·일광","name":"아데초이","addr":"부산 기장군 일광읍 문오성길 162-1","phone":"070-8804-1355","handle":"adechoi_sdt","insta":"https://www.instagram.com/adechoi_sdt/"},{"no":74,"area":"기장·일광","name":"웨이브온커피","addr":"부산 기장군 장안읍 해맞이로 286","phone":"0507-1343-1664","handle":"waveoncoffee_official","insta":"https://www.instagram.com/waveoncoffee_official/"},{"no":75,"area":"기장·일광","name":"일광숲카페","addr":"부산 기장군 일광읍 학리등대로 45","phone":"","handle":"_soop_cafe","insta":"https://www.instagram.com/_soop_cafe/"},{"no":76,"area":"기장·일광","name":"카페824","addr":"부산 기장군 기장읍 기장해안로 824","phone":"0502-5554-7940","handle":"cafe_824","insta":"https://www.instagram.com/cafe_824/"},{"no":77,"area":"기장·일광","name":"카페마리솔","addr":"부산 기장군 일광읍 일광로 290","phone":"051-724-1106","handle":"cafe_marysol","insta":"https://www.instagram.com/cafe_marysol/"},{"no":78,"area":"기장·일광","name":"카페윤","addr":"부산 기장군 기장읍 기장해안로 34-16","phone":"010-4944-0631","handle":"cafeyoon_631","insta":"https://www.instagram.com/cafeyoon_631/"},{"no":79,"area":"기장·일광","name":"풀하우스카페","addr":"부산 기장군 일광읍 일광로 582-32","phone":"051-728-2121","handle":"petitpoolhouse","insta":"https://www.instagram.com/petitpoolhouse/"},{"no":80,"area":"사상·모라","name":"블라썸티","addr":"부산 사상구 백양대로 943-25","phone":"051-313-9777","handle":"blossomt1","insta":"https://www.instagram.com/blossomt1/"},{"no":81,"area":"사상·모라","name":"오르디","addr":"부산 사상구 대동로107번길 17","phone":"010-5661-5683","handle":"orrd_busan","insta":"https://www.instagram.com/orrd_busan/"},{"no":82,"area":"사상·모라","name":"파니니브런치","addr":"부산 사상구 엄궁남로 15","phone":"0507-1332-2292","handle":"panini_brunch","insta":"https://www.instagram.com/panini_brunch/"},{"no":83,"area":"덕천·화명","name":"느루","addr":"부산 북구 산성로67번길 23","phone":"","handle":"nru_official_","insta":"https://www.instagram.com/nru_official_/"},{"no":84,"area":"덕천·화명","name":"마비스커피","addr":"부산 북구 만덕대로 42","phone":"051-343-1116","handle":"maviscoffee","insta":"https://www.instagram.com/maviscoffee/"},{"no":85,"area":"덕천·화명","name":"무사이","addr":"부산 북구 산성로12번길 21","phone":"051-362-7004","handle":"mousai.official","insta":"https://www.instagram.com/mousai.official/"},{"no":86,"area":"송도·서구","name":"뿌드망","addr":"부산 서구 구덕로 274","phone":"","handle":"pour__demain","insta":"https://www.instagram.com/pour__demain/"},{"no":87,"area":"송도·서구","name":"카페플루어","addr":"부산 서구 송도해변로 192","phone":"070-8840-8800","handle":"fluor.cafe","insta":"https://www.instagram.com/fluor.cafe/"},{"no":88,"area":"송도·서구","name":"커피, 발을 딛다","addr":"부산 서구 대영로 94","phone":"","handle":"baleul_didda","insta":"https://www.instagram.com/baleul_didda/"},{"no":89,"area":"연산·시청","name":"두살차이","addr":"부산 연제구 안연로 12","phone":"010-4156-4798","handle":"doosal_cha2","insta":"https://www.instagram.com/doosal_cha2/"},{"no":90,"area":"연산·시청","name":"리슨페이지","addr":"부산 연제구 중앙천로73번길 4","phone":"051-938-3803","handle":"_listenpage","insta":"https://www.instagram.com/_listenpage/"},{"no":91,"area":"연산·시청","name":"오얏꽃상점","addr":"부산 연제구 거제대로108번길 29","phone":"0502-5550-8422","handle":"cafe_oyat","insta":"https://www.instagram.com/cafe_oyat/"},{"no":92,"area":"연산·시청","name":"카페고온","addr":"부산 연제구 명륜로2번길 23","phone":"010-4420-4139","handle":"cafe_go_on","insta":"https://www.instagram.com/cafe_go_on/"},{"no":93,"area":"연산·시청","name":"카페칵터스","addr":"부산 연제구 고분로13번길 68","phone":"051-863-8900","handle":"cactus.busan.cafe","insta":"https://www.instagram.com/cactus.busan.cafe/"},{"no":95,"area":"대연·경성대","name":"장고개 1987","addr":"부산 남구 우암로362번길 17","phone":"051-646-4861","handle":"janggogae1987","insta":"https://www.instagram.com/janggogae1987/"},{"no":96,"area":"대연·경성대","name":"지밀레니얼","addr":"부산 남구 진남로 135","phone":"051-635-5005","handle":"zmillennial_cafe","insta":"https://www.instagram.com/zmillennial_cafe/"},{"no":97,"area":"대연·경성대","name":"카페그리다","addr":"부산 남구 유엔로 219-4","phone":"010-2448-8535","handle":"gri_da_1","insta":"https://www.instagram.com/gri_da_1/"},{"no":98,"area":"대연·경성대","name":"쿠모네스트","addr":"부산 남구 지게골로 101-4","phone":"070-4647-2273","handle":"kumonest_coffee","insta":"https://www.instagram.com/kumonest_coffee/"},{"no":99,"area":"대연·경성대","name":"파베","addr":"부산 남구 고동골로 86-38","phone":"010-7647-3427","handle":"pave_busan","insta":"https://www.instagram.com/pave_busan/"},{"no":100,"area":"강서","name":"세븐아일랜드","addr":"부산 강서구 가덕해안로 560","phone":"010-9733-3390","handle":"7island_coffee","insta":"https://www.instagram.com/7island_coffee/"}]</script>
+<script>
+(function(){
+  "use strict";
+
+  var CAFES = JSON.parse(document.getElementById('cafe-data').textContent);
+  var TOTAL = CAFES.length;
+  var KEY = 'busan-cafe-dm-v1';
+  var LINK = 'https://wonyoung101.github.io/cafe-order-prices/';
+  var DAILY_MIN = 20, DAILY_MAX = 30;
+
+  var DEFAULT_TPL = {
+    default: `안녕하세요 사장님. 부산에서 ai와 sns를 다루는 채널인 '백수로 살아남기'입니다. 갑작스러운 연락 드려 죄송합니다.
+
+다름이 아니라 제가 카페 사장님들 대상으로 카페에서 자주 사용하시는 재료들의 가격 변동을 알려주는 사이트를 만들었어요. 괜찮으시다면 무료로 써보시고 피드백을 한번 요청드리고 싶어서 연락드렸어요.
+
+✅️ 사이트의 장점
+👉 쿠팡 로켓배송 상품만 취급(당일 배송 가능)
+👉 개당·100g당·100ml당 단가 표시(원단위 확인 가능)
+👉 매일 4회 각 상품의 가격 변동 확인
+👉 당일, 최근 30일간 가격 변동 그래프 확인 가능
+👉 현재 제품 200개 정도 반영 (3~4일 내 1200개까지 반영 예정)
+👉 최종적으로 원가 절감 가능
+
+아직 품목이 많지 않아 부족한 점이 많은데, 현장에서 발주하시는 입장에서 "이런 품목이 있었으면 좋겠다", "이 계산 방식이 헷갈린다" 같은 의견을 한두 줄만 주시면 큰 도움이 됩니다.
+
+바쁘신 중에 답장을 강요드리는 건 아니고, 시간 되실 때 한 번만 봐주셔도 충분합니다. 관심 있으시다면 사이트 링크 한번 보내드리도록 하겠습니다!!`,
+    short: `안녕하세요 {상호} 사장님, 갑자기 DM 드려 죄송합니다.
+부산 카페 발주 단가를 정리하다가 답답해서, 쿠팡 로켓배송 기준으로 원두·우유·컵·시럽 같은 품목의 개당 단가를 자동 계산해 보여주는 사이트를 만들어 운영하고 있어요.
+${LINK}
+발주 전에 가격만 훑어보시는 용도로 편하게 보셔도 되고, 보시다가 "이 품목은 왜 없냐" 같은 한마디만 주셔도 다음 업데이트에 반영하겠습니다. 감사합니다!`
+  };
+  var TONE_NOTE = {
+    default: '링크 없이 보내고, 관심 있다고 답한 곳에만 링크를 보내는 버전이에요.',
+    short: '사이트 링크까지 바로 넣어 보내는 짧은 버전이에요. {상호} 자리에 상호가 들어갑니다.'
+  };
+
+  var AREA_ALIAS = { '전포·동성로':'전포·동성로' };
+
+  /* ── state ── */
+  var state = { tone:'default', sent:{}, replied:{}, tpl:{ default:null, short:null } };
+  function load(){
+    try{
+      var raw = localStorage.getItem(KEY);
+      if(!raw) return;
+      var s = JSON.parse(raw);
+      if(!s || typeof s!=='object') return;
+      if(s.tone==='short'||s.tone==='default') state.tone = s.tone;
+      if(s.sent && typeof s.sent==='object') state.sent = s.sent;
+      if(s.replied && typeof s.replied==='object') state.replied = s.replied;
+      if(s.tpl && typeof s.tpl==='object'){
+        state.tpl.default = typeof s.tpl.default==='string' ? s.tpl.default : null;
+        state.tpl.short = typeof s.tpl.short==='string' ? s.tpl.short : null;
+      }
+    }catch(e){ /* private mode / corrupt */ }
+  }
+  var saveTimer = null;
+  function save(){
+    try{ localStorage.setItem(KEY, JSON.stringify(state)); }
+    catch(e){ /* storage full or blocked */ }
+  }
+  function saveSoon(){ clearTimeout(saveTimer); saveTimer = setTimeout(save, 120); }
+
+  /* ── helpers ── */
+  function tpl(tone){
+    var t = state.tpl[tone];
+    return (typeof t==='string' && t.trim()) ? t : (DEFAULT_TPL[tone] || DEFAULT_TPL.default);
+  }
+  function msgFor(cafe){
+    return tpl(state.tone)
+      .replace(/\{상호\}/g, cafe.name)
+      .replace(/\{상권\}/g, AREA_ALIAS[cafe.area] || cafe.area);
+  }
+  function pad(n){ return n<10 ? '0'+n : ''+n; }
+  function todayKey(d){
+    d = d || new Date();
+    return d.getFullYear()+'-'+pad(d.getMonth()+1)+'-'+pad(d.getDate());
+  }
+  function statusOf(cafe){
+    if(state.replied[cafe.no]) return 'replied';
+    if(state.sent[cafe.no]) return 'sent';
+    return 'todo';
+  }
+  function isToday(v){
+    if(!v) return false;
+    return String(v).slice(0,10) === todayKey();
+  }
+
+  /* ── elements ── */
+  var $ = function(id){ return document.getElementById(id); };
+  var listEl = $('list'), chipsEl = $('areaChips'), toastEl = $('toast');
+  var searchEl = $('search'), searchBox = $('searchBox');
+
+  /* ── area chips ── */
+  var areas = (function(){
+    var map = {};
+    CAFES.forEach(function(c){ map[c.area] = (map[c.area]||0)+1; });
+    return Object.keys(map).map(function(a){ return { name:a, n:map[a] }; })
+      .sort(function(x,y){ return y.n-x.n || x.name.localeCompare(y.name,'ko'); });
+  })();
+
+  var filter = { q:'', status:'all', area:'all' };
+
+  (function renderChips(){
+    var html = '<button type="button" data-area="all" class="on" aria-pressed="true">전체<span class="n">'+TOTAL+'</span></button>';
+    areas.forEach(function(a){
+      html += '<button type="button" data-area="'+esc(a.name)+'" aria-pressed="false">'+esc(a.name)+'<span class="n">'+a.n+'</span></button>';
+    });
+    chipsEl.innerHTML = html;
+  })();
+
+  /* ── cards ── */
+  function esc(s){
+    return String(s).replace(/[&<>"']/g, function(m){
+      return ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[m];
+    });
+  }
+
+  function cardHTML(c){
+    var st = statusOf(c);
+    var badge = st==='replied' ? '답장옴' : (st==='sent' ? '보냄' : '미발송');
+    var phone = c.phone ? '<a class="tel" href="tel:'+esc(c.phone.replace(/[^0-9+]/g,''))+'">'+esc(c.phone)+'</a>' : '<span style="color:#b6a390">번호 없음</span>';
+    return ''+
+    '<article class="card" data-no="'+c.no+'" data-status="'+st+'" data-area="'+esc(c.area)+'" data-search="'+esc((c.name+' '+c.handle+' '+c.area).toLowerCase())+'">'+
+      '<div class="c-head">'+
+        '<h3 class="c-name"><span class="no">'+pad(c.no)+'</span>'+esc(c.name)+'</h3>'+
+        '<span class="badge">'+badge+'</span>'+
+      '</div>'+
+      '<div class="c-meta"><span class="area-tag">'+esc(c.area)+'</span><span class="handle">@'+esc(c.handle)+'</span>'+phone+'</div>'+
+      '<pre class="msg" data-msg="'+c.no+'"></pre>'+
+      '<div class="acts">'+
+        '<button type="button" class="btn primary" data-act="copy">멘트 복사</button>'+
+        '<a class="btn ghost" href="'+esc(c.insta)+'" target="_blank" rel="noopener noreferrer">인스타 열기 ↗</a>'+
+      '</div>'+
+      '<div class="toggles">'+
+        '<button type="button" class="tg" data-act="sent" aria-pressed="'+(!!state.sent[c.no])+'">보냄</button>'+
+        '<button type="button" class="tg reply" data-act="replied" aria-pressed="'+(!!state.replied[c.no])+'">답장옴</button>'+
+        '<button type="button" class="tg-view" data-act="view">멘트 보기</button>'+
+      '</div>'+
+    '</article>';
+  }
+
+  $('cTotal').textContent = TOTAL;
+  listEl.innerHTML = CAFES.map(cardHTML).join('');
+
+  var cards = Array.prototype.slice.call(listEl.querySelectorAll('.card'));
+  var byNo = {};
+  cards.forEach(function(el){ byNo[el.getAttribute('data-no')] = el; });
+
+  /* ── messages ── */
+  function paintMessages(){
+    cards.forEach(function(el){
+      var no = el.getAttribute('data-no');
+      var cafe = CAFES.filter(function(c){ return String(c.no)===no; })[0];
+      var pre = el.querySelector('.msg');
+      pre.textContent = msgFor(cafe);
+      el.querySelector('[data-act="copy"]').setAttribute('data-ready','1');
+    });
+  }
+
+  /* ── progress ── */
+  function paintProgress(){
+    var sentN = 0, replyN = 0, todayN = 0;
+    CAFES.forEach(function(c){
+      if(state.sent[c.no]){ sentN++; if(isToday(state.sent[c.no])) todayN++; }
+      if(state.replied[c.no]) replyN++;
+    });
+    $('cSent').textContent = sentN;
+    $('cReply').textContent = replyN;
+    $('barFill').style.width = (TOTAL ? (sentN/TOTAL*100) : 0).toFixed(1)+'%';
+
+    var pill = $('todayPill'), txt = $('paceText');
+    pill.textContent = '오늘 '+todayN+'건';
+    pill.className = 'pill' + (todayN>DAILY_MAX ? ' over' : (todayN>=DAILY_MIN ? ' warn' : ''));
+    if(todayN>DAILY_MAX) txt.textContent = '오늘은 충분해요. 내일 이어서 하세요.';
+    else if(todayN>=DAILY_MIN) txt.textContent = '권장량(20~30건) 근처예요.';
+    else txt.textContent = '하루 20~30건 권장 · '+(DAILY_MAX-todayN)+'건 더 가능';
+  }
+
+  function paintCard(el){
+    var no = el.getAttribute('data-no');
+    var cafe = CAFES.filter(function(c){ return String(c.no)===no; })[0];
+    var st = statusOf(cafe);
+    el.setAttribute('data-status', st);
+    el.querySelector('.badge').textContent = st==='replied' ? '답장옴' : (st==='sent' ? '보냄' : '미발송');
+    var sBtn = el.querySelector('[data-act="sent"]');
+    var rBtn = el.querySelector('[data-act="replied"]');
+    sBtn.setAttribute('aria-pressed', String(!!state.sent[no]));
+    rBtn.setAttribute('aria-pressed', String(!!state.replied[no]));
+    return st;
+  }
+
+  /* ── filtering ── */
+  function applyFilters(){
+    var q = filter.q.trim().toLowerCase();
+    var shown = 0;
+    cards.forEach(function(el){
+      var okQ = !q || el.getAttribute('data-search').indexOf(q) > -1 || el.getAttribute('data-no') === q.replace(/^0+/,'');
+      var okA = filter.area==='all' || el.getAttribute('data-area')===filter.area;
+      var okS = filter.status==='all' || el.getAttribute('data-status')===filter.status;
+      var ok = okQ && okA && okS;
+      el.classList.toggle('hide', !ok);
+      if(ok) shown++;
+    });
+    var label = shown===TOTAL ? TOTAL+'곳 전체' : shown+'곳 표시 / '+TOTAL+'곳';
+    if(filter.area!=='all') label += ' · '+filter.area;
+    $('shownText').textContent = label;
+    var list = listEl;
+    var empty = document.getElementById('emptyMsg');
+    if(!shown){
+      if(!empty){
+        empty = document.createElement('div');
+        empty.id = 'emptyMsg';
+        empty.className = 'empty';
+        empty.textContent = '조건에 맞는 카페가 없어요.';
+        list.appendChild(empty);
+      }
+    } else if(empty){ empty.remove(); }
+  }
+
+  /* ── toast ── */
+  var toastTimer = null;
+  function toast(text, actionLabel, actionFn){
+    toastEl.innerHTML = '';
+    var span = document.createElement('span');
+    span.textContent = text;
+    toastEl.appendChild(span);
+    if(actionLabel){
+      var b = document.createElement('button');
+      b.type = 'button';
+      b.textContent = actionLabel;
+      b.addEventListener('click', function(){ hideToast(); actionFn && actionFn(); });
+      toastEl.appendChild(b);
+    }
+    toastEl.classList.add('show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(hideToast, actionLabel ? 5200 : 1900);
+  }
+  function hideToast(){ toastEl.classList.remove('show'); }
+
+  /* ── copy ── */
+  function copyText(text){
+    if(navigator.clipboard && window.isSecureContext){
+      return navigator.clipboard.writeText(text).then(function(){ return true; })
+        .catch(function(){ return legacyCopy(text); });
+    }
+    return Promise.resolve(legacyCopy(text));
+  }
+  function legacyCopy(text){
+    var ta = document.createElement('textarea');
+    ta.value = text;
+    ta.setAttribute('readonly','');
+    ta.style.position = 'fixed';
+    ta.style.top = '0';
+    ta.style.left = '-9999px';
+    document.body.appendChild(ta);
+    var ok = false;
+    try{
+      ta.select();
+      ta.setSelectionRange(0, text.length);
+      ok = document.execCommand('copy');
+    }catch(e){ ok = false; }
+    document.body.removeChild(ta);
+    return ok;
+  }
+
+  /* ── actions ── */
+  listEl.addEventListener('click', function(ev){
+    var btn = ev.target.closest('button');
+    if(!btn) return;
+    var card = btn.closest('.card');
+    if(!card) return;
+    var no = card.getAttribute('data-no');
+    var cafe = CAFES.filter(function(c){ return String(c.no)===no; })[0];
+    var act = btn.getAttribute('data-act');
+
+    if(act==='view'){
+      var pre = card.querySelector('.msg');
+      var open = pre.classList.toggle('open');
+      btn.textContent = open ? '멘트 접기' : '멘트 보기';
+      return;
+    }
+
+    if(act==='copy'){
+      var text = msgFor(cafe);
+      copyText(text).then(function(ok){
+        if(!ok){
+          card.querySelector('.msg').classList.add('open');
+          btn.textContent = '멘트 접기';
+          toast('자동 복사가 안 됐어요. 길게 눌러 복사하세요');
+          return;
+        }
+        var wasSent = state.sent[no];
+        var prevStamp = wasSent;
+        if(!wasSent){
+          state.sent[no] = new Date().toISOString();
+          saveSoon();
+          paintCard(card);
+          paintProgress();
+          applyFilters();
+        }
+        toast('복사됨! 인스타에 붙여넣으세요', wasSent ? null : '되돌리기', function(){
+          if(!prevStamp){
+            delete state.sent[no];
+            saveSoon();
+            paintCard(card);
+            paintProgress();
+            applyFilters();
+            toast('보냄 표시를 되돌렸어요');
+          }
+        });
+      });
+      return;
+    }
+
+    if(act==='sent'){
+      if(state.sent[no]) delete state.sent[no];
+      else state.sent[no] = new Date().toISOString();
+      if(!state.sent[no] && state.replied[no]) { /* replied 유지 */ }
+      saveSoon();
+      paintCard(card); paintProgress(); applyFilters();
+      return;
+    }
+
+    if(act==='replied'){
+      if(state.replied[no]){
+        delete state.replied[no];
+      }else{
+        state.replied[no] = new Date().toISOString();
+        if(!state.sent[no]) state.sent[no] = state.replied[no];
+      }
+      saveSoon();
+      paintCard(card); paintProgress(); applyFilters();
+      return;
+    }
+  });
+
+  /* ── tone ── */
+  $('toneSeg').addEventListener('click', function(ev){
+    var b = ev.target.closest('button[data-tone]');
+    if(!b) return;
+    state.tone = b.getAttribute('data-tone');
+    save();
+    paintTone();
+    paintMessages();
+    // 접혀 있던 미리보기는 새 톤으로 다시 그대로 둔다
+  });
+  function paintTone(){
+    Array.prototype.forEach.call($('toneSeg').children, function(b){
+      var on = b.getAttribute('data-tone')===state.tone;
+      b.classList.toggle('on', on);
+      b.setAttribute('aria-pressed', String(on));
+    });
+    $('toneNote').textContent = TONE_NOTE[state.tone] || '';
+  }
+
+  /* ── template editor ── */
+  var taDefault = $('tplDefault'), taShort = $('tplShort');
+  function fillEditor(){
+    taDefault.value = tpl('default');
+    taShort.value = tpl('short');
+  }
+  function onEdit(){
+    state.tpl.default = taDefault.value === DEFAULT_TPL.default ? null : taDefault.value;
+    state.tpl.short = taShort.value === DEFAULT_TPL.short ? null : taShort.value;
+    saveSoon();
+    paintMessages();
+  }
+  taDefault.addEventListener('input', onEdit);
+  taShort.addEventListener('input', onEdit);
+  $('tplReset').addEventListener('click', function(){
+    state.tpl.default = null; state.tpl.short = null;
+    save();
+    fillEditor();
+    paintMessages();
+    toast('기본 멘트로 되돌렸어요');
+  });
+
+  /* ── search ── */
+  searchEl.addEventListener('input', function(){
+    filter.q = searchEl.value;
+    searchBox.classList.toggle('has', !!searchEl.value);
+    applyFilters();
+  });
+  $('searchClear').addEventListener('click', function(){
+    searchEl.value = '';
+    filter.q = '';
+    searchBox.classList.remove('has');
+    applyFilters();
+    searchEl.focus();
+  });
+
+  /* ── status seg ── */
+  $('statusSeg').addEventListener('click', function(ev){
+    var b = ev.target.closest('button[data-status]');
+    if(!b) return;
+    filter.status = b.getAttribute('data-status');
+    Array.prototype.forEach.call($('statusSeg').children, function(x){
+      var on = x===b;
+      x.classList.toggle('on', on);
+      x.setAttribute('aria-pressed', String(on));
+    });
+    applyFilters();
+  });
+
+  /* ── area chips ── */
+  chipsEl.addEventListener('click', function(ev){
+    var b = ev.target.closest('button[data-area]');
+    if(!b) return;
+    filter.area = b.getAttribute('data-area');
+    Array.prototype.forEach.call(chipsEl.children, function(x){
+      var on = x===b;
+      x.classList.toggle('on', on);
+      x.setAttribute('aria-pressed', String(on));
+    });
+    applyFilters();
+    window.scrollTo({ top: Math.max(0, chipsEl.getBoundingClientRect().top + window.scrollY - 118), behavior:'smooth' });
+    b.scrollIntoView({ block:'nearest', inline:'center', behavior:'smooth' });
+  });
+
+  /* ── collapse all ── */
+  $('collapseAll').addEventListener('click', function(){
+    var anyOpen = cards.some(function(el){ return el.querySelector('.msg').classList.contains('open'); });
+    cards.forEach(function(el){
+      el.querySelector('.msg').classList.toggle('open', false);
+      el.querySelector('[data-act="view"]').textContent = '멘트 보기';
+    });
+    if(!anyOpen){ toast('멘트를 모두 접었어요'); }
+    this.textContent = '멘트 모두 접기';
+  });
+
+  /* ── export / reset ── */
+  $('exportBtn').addEventListener('click', function(){
+    var items = CAFES.map(function(c){
+      return {
+        no:c.no, name:c.name, area:c.area, handle:c.handle,
+        status: statusOf(c),
+        sentAt: state.sent[c.no] || null,
+        repliedAt: state.replied[c.no] || null
+      };
+    });
+    var sentN = items.filter(function(i){ return i.sentAt; }).length;
+    var replyN = items.filter(function(i){ return i.repliedAt; }).length;
+    var data = {
+      exportedAt: new Date().toISOString(),
+      total: TOTAL, sent: sentN, replied: replyN,
+      tone: state.tone, items: items
+    };
+    var name = 'busan-dm-progress-'+todayKey()+'.json';
+    var blob = new Blob([JSON.stringify(data, null, 2)], { type:'application/json' });
+    var url = URL.createObjectURL(blob);
+    var a = document.createElement('a');
+    a.href = url; a.download = name;
+    document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(function(){ URL.revokeObjectURL(url); }, 4000);
+    toast('진행 상태를 '+name+' 로 저장했어요');
+  });
+
+  $('resetBtn').addEventListener('click', function(){
+    if(!window.confirm('보냄·답장 기록을 모두 지울까요?\n(멘트 수정 내용은 그대로 남습니다. 되돌릴 수 없어요.)')) return;
+    state.sent = {}; state.replied = {};
+    save();
+    cards.forEach(paintCard);
+    paintProgress();
+    applyFilters();
+    toast('기록을 초기화했어요');
+  });
+
+  /* ── boot ── */
+  load();
+  paintTone();
+  fillEditor();
+  paintMessages();
+  paintProgress();
+  cards.forEach(paintCard);
+  applyFilters();
+  window.scrollTo(0,0);
+})();
+</script>
+</body>
+</html>
