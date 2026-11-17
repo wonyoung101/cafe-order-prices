@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17 11:06 KST",
+  "updatedAt": "2026-11-17 12:09 KST",
   "source": "git snapshots",
   "products": {
     "8436480488": {
@@ -6939,14 +6939,19 @@
           "at": "2026-11-16 16:52 KST",
           "price": 16000,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 12:08 KST",
+          "price": 30000,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
-      "avgPrice": 16000,
+      "priceCount": 2,
+      "avgPrice": 23000,
       "minPrice": 16000,
-      "maxPrice": 16000,
-      "lastPrice": 16000,
-      "lastAt": "2026-11-16 16:52 KST",
+      "maxPrice": 30000,
+      "lastPrice": 30000,
+      "lastAt": "2026-11-17 12:08 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -6955,9 +6960,17 @@
           16000,
           16000,
           1
+        ],
+        [
+          "2026-11-17",
+          30000,
+          30000,
+          30000,
+          30000,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "9399924245": {
       "productName": "기가 마시멜로우 마일드 스모어절편모양, 1kg, 2개",
@@ -9648,7 +9661,7 @@
       "uniqueDays": 1
     },
     "9466471126": {
-      "productName": "대한다업 데일리 고구마라떼 파우더, 450g, 25개, 1개입",
+      "productName": "대한다업 데일리 고구마라떼 파우더, 450g, 1개, 1개입",
       "category": "파우더",
       "observations": [
         {
@@ -12360,6 +12373,118 @@
           131360,
           131360,
           131360,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "1356341622": {
+      "productName": "성진 인절미 콩가루, 2kg, 1개",
+      "category": "파우더",
+      "observations": [
+        {
+          "at": "2026-11-17 12:08 KST",
+          "price": 13900,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 13900,
+      "minPrice": 13900,
+      "maxPrice": 13900,
+      "lastPrice": 13900,
+      "lastAt": "2026-11-17 12:08 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          13900,
+          13900,
+          13900,
+          13900,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7939740323": {
+      "productName": "오곡형제 쪄서 볶은 국산 콩가루 콩고물 떡고물 인절미가루, 1개, 500g",
+      "category": "파우더",
+      "observations": [
+        {
+          "at": "2026-11-17 12:08 KST",
+          "price": 11300,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 11300,
+      "minPrice": 11300,
+      "maxPrice": 11300,
+      "lastPrice": 11300,
+      "lastAt": "2026-11-17 12:08 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          11300,
+          11300,
+          11300,
+          11300,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "45646": {
+      "productName": "배대감 국산 볶음콩가루, 500g, 1개",
+      "category": "파우더",
+      "observations": [
+        {
+          "at": "2026-11-17 12:08 KST",
+          "price": 10990,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 10990,
+      "minPrice": 10990,
+      "maxPrice": 10990,
+      "lastPrice": 10990,
+      "lastAt": "2026-11-17 12:08 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          10990,
+          10990,
+          10990,
+          10990,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7868187770": {
+      "productName": "라라스윗 바닐라빈 아이스밀크 (냉동), 474ml, 1개입, 1개",
+      "category": "크림·연유",
+      "observations": [
+        {
+          "at": "2026-11-17 12:08 KST",
+          "price": 5900,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 5900,
+      "minPrice": 5900,
+      "maxPrice": 5900,
+      "lastPrice": 5900,
+      "lastAt": "2026-11-17 12:08 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          5900,
+          5900,
+          5900,
+          5900,
           1
         ]
       ],

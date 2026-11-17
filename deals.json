@@ -1,7 +1,7 @@
 {
   "status": "ok",
-  "updatedAt": "2026-11-17 11:06 KST",
-  "statsAt": "2026-11-17 11:06 KST",
+  "updatedAt": "2026-11-17 12:08 KST",
+  "statsAt": "2026-11-17 12:09 KST",
   "notice": "",
   "watchlist": [],
   "categories": [
@@ -18,10 +18,10 @@
     "빨대·홀더",
     "매장소모품"
   ],
-  "count": 228,
+  "count": 231,
   "priceStats": {
-    "products": 368,
-    "discounts": 8
+    "products": 372,
+    "discounts": 9
   },
   "deals": [
     {
@@ -2174,12 +2174,12 @@
       "unitPrice": 1600,
       "unitBasis": "100ml당",
       "packNote": "1,000ml",
-      "avgPrice": 16000,
+      "avgPrice": 23000,
       "minPrice": 16000,
-      "maxPrice": 16000,
-      "priceCount": 1,
-      "discountRate": null,
-      "uniqueDays": 1,
+      "maxPrice": 30000,
+      "priceCount": 2,
+      "discountRate": 30,
+      "uniqueDays": 2,
       "dailyHistory": [
         [
           "2026-11-16",
@@ -2188,12 +2188,24 @@
           16000,
           16000,
           1
+        ],
+        [
+          "2026-11-17",
+          30000,
+          30000,
+          30000,
+          30000,
+          1
         ]
       ],
       "priceHistory": [
         [
           "2026-11-16 16:52 KST",
           16000
+        ],
+        [
+          "2026-11-17 12:08 KST",
+          30000
         ]
       ]
     },
@@ -2231,6 +2243,43 @@
         [
           "2026-11-17 11:06 KST",
           16000
+        ]
+      ]
+    },
+    {
+      "productId": "1356341622",
+      "vendorItemId": "",
+      "productName": "성진 인절미 콩가루, 2kg, 1개",
+      "productPrice": 13900,
+      "productImage": "https://ads-partners.coupang.com/image1/wk6jxWXBBxJWWe67wuN1VOYbq3fBmAQWD9N1YW1M7VovXh8fi9EtEjePcGTJSdgC8zEolMufuyBS71L_K-sofslztnXD2HsGcLoGIw4Fi8ds8uBbMjVr18KTIiFbuxpi1xbzB3Ka3N8qKFZDu7vEZSbKE7rAV71U-y0cbDjQQNG2J_gnTc_z45K_Oz3ABtB90-PgjhUrp-PMks_BuWyjHIppFRzsxeedZY8CNawlzqzGULqWFkGr0dnaoKp9nETNgUskSYLnXLfjVM0hPX_aaaTZOQDYqd7T4Hm5UZT86bhSDLTcZEXYKEfcxITyqz15w9Ru6RyEQ1N3U7cu1sEIE63DfDHnU7bEAAznjeHuE02Oc8A5xxDVGoSNCGmYrOSnLAnueEn8n48KreCr_tofeglYHmP-930OT0uoCg5CQi8nb-qQw4ib5JkW2LEJetzJ30sCHjrvDI5lO97wet8CRnUCClxRdP60zeLt_6kVfAUXkuVM4owlB9IatG9Ll1BEw5vzxQmPgZR97-skv_I94CnWpJS3TAvyCkUvnpJrkoUw5XrqPmiQvBcC0T5W7FSPcWBnTQ==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=1356341622&itemId=2386209165&vendorItemId=70381672393&traceid=V0-153-5b2331274b9bed8d&clickBeacon=1224bb90-e234-11f1-845f-2e1dc22e745f%7E3&requestid=20261117120749492067613807&token=31850C%7CMIXED&pt=1&slot=1",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "파우더",
+      "query": "인절미 파우더 1kg",
+      "unitPrice": 695,
+      "unitBasis": "100g당",
+      "packNote": "2,000g",
+      "avgPrice": 13900,
+      "minPrice": 13900,
+      "maxPrice": 13900,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          13900,
+          13900,
+          13900,
+          13900,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-17 12:08 KST",
+          13900
         ]
       ]
     },
@@ -3062,6 +3111,80 @@
         [
           "2026-11-17 11:06 KST",
           210000
+        ]
+      ]
+    },
+    {
+      "productId": "45646",
+      "vendorItemId": "",
+      "productName": "배대감 국산 볶음콩가루, 500g, 1개",
+      "productPrice": 10990,
+      "productImage": "https://ads-partners.coupang.com/image1/P7Q29H7-roi9RSyKPzwyvlt8YW4coaTnQm_UOECDxppM_EqiEHsLX2Z-BI6Mcebm2OiYtYxA0BKnCflO8N1lyjn7ZQ-ivwPMasEBqmJsemYDX3BwOFuOAnkwClcGHnR14E7wV7SojMC6koljIE7TM7dIXMAfoLYzfOgwQ3gJGkUJ5caPu6aR_l8w51ZdM4YVg-akRgNbOmkg-nBj8MebwxFYY0EKZUYXe3EackXsfdjoc7E6kGoAeDNzHeZ4-7a__AvDa2dRzd-GgSf5_GCQYx-OmIHtsWpuwt4XXM1-ZHPJx7X-QELAF-3t1WZ_zwx6C3mKnUw-esVL3z26mAzwWkX6UbnWh4tyvR4xNcrntX2BAL-vEsWJLz76ck0pxdreOanhkzS5PZz0WxUXZ_MjZz9pT3LzqpK7d1sQH2Zl1aA4qB70Pn_72-ImoIkjTc2APxJACYPKp1AL2DrNK6qGVBf5kfu_kfuQN05C2sQ1KHTXnMQ2KezEWHUYFe2P_XIDUdmI4rhNhQKrVEg_JFBFYcfAEGssZEH3q06Rk3BwokDAeLDCV3S9sLMnFDMAug==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=45646&itemId=114312&vendorItemId=3000085699&traceid=V0-153-a8bdbd7dd3699832&clickBeacon=1224bb90-e234-11f1-affa-c23e076d912c%7E3&requestid=20261117120749492067613807&token=31850C%7CMIXED&pt=1&slot=5",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "파우더",
+      "query": "인절미 파우더 1kg",
+      "unitPrice": 2198,
+      "unitBasis": "100g당",
+      "packNote": "500g",
+      "avgPrice": 10990,
+      "minPrice": 10990,
+      "maxPrice": 10990,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          10990,
+          10990,
+          10990,
+          10990,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-17 12:08 KST",
+          10990
+        ]
+      ]
+    },
+    {
+      "productId": "7939740323",
+      "vendorItemId": "",
+      "productName": "오곡형제 쪄서 볶은 국산 콩가루 콩고물 떡고물 인절미가루, 1개, 500g",
+      "productPrice": 11300,
+      "productImage": "https://ads-partners.coupang.com/image1/X5HWZ2hUI-e4wo9ZX6pb0eVSiu_V1lM6g-_5fYUoBr9P2xgsiNRLbKho-QZJCcNIO9nNEkclK_swCgBru4SBDWDFS7yd8_XsIiovs1-PsfybgXW_kXvG4gt-GVamdgK8Tj8PnhxYmmuzosmvzSlZYQDkfz6ClEOulFlY_cMLb4CU8VfspF9leBQG5wZXGY1YjJRlG42D0mPg41YpazLSrcltgT8Z3LLhBqY0BwPqzZmDwRgfDn-rOyXiDrgnes-foFHjktu7RGwobTW9aK2q7Q3tZWCkehcew22nJ88wnxSJnkOmzY_cMCGDV8bz35S6EQ1fWwN5RPnYhEiWHMlDd-0-C3ZSVrNx2SelT-TN-1_27XuQpbMuWNaK5VltyAESMZWQPgObw6DI3BCVSbNLdPPxMu69XxkqnEC7qmUUTdUToUlKdP2LAPEwBp17823zInL3yY_6EgtuntLcXmrXGEJ06upsXXh4BAEw-QEmCQhuU7uxxsrzQfapylB7aeragbLPbEOr1eUEFRG1trkO4XOJpoihIXd_yzuqrUDiLFpWNqckEs1NPbx_NH-QH8_NG3VPA5OSAoA-NIQZITYswE0x",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7939740323&itemId=21864861256&vendorItemId=95593454033&traceid=V0-153-0da20fd9f217bf33&clickBeacon=1224bb90-e234-11f1-bd18-992c2115d076%7E3&requestid=20261117120749492067613807&token=31850C%7CMIXED&pt=1&slot=3",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "파우더",
+      "query": "인절미 파우더 1kg",
+      "unitPrice": 2260,
+      "unitBasis": "100g당",
+      "packNote": "500g",
+      "avgPrice": 11300,
+      "minPrice": 11300,
+      "maxPrice": 11300,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          11300,
+          11300,
+          11300,
+          11300,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-17 12:08 KST",
+          11300
         ]
       ]
     },
